@@ -45,7 +45,7 @@
 		{
 			"id": "Enchanter",
 			"name": "Enchanteur",
-			"description": "<p>Quand vous passez du temps en s&eacute;curit&eacute; avec un objet magique, vous pouvez demander au&middot;&agrave; la MJ ce que fait cet objet et iel vous r&eacute;pondra sinc&egrave;rement.</p>"
+			"description": "<p>Quand vous passez du temps en s&eacute;curit&eacute; avec un objet magique, vous pouvez demander au&middot;&agrave; lae MJ ce que fait cet objet et iel vous r&eacute;pondra sinc&egrave;rement.</p>"
 		},
 		{
 			"id": "Enchanter's Soul",
@@ -115,17 +115,17 @@
 		{
 			"id": "Quick Study",
 			"name": "Étude rapide",
-			"description": "<p>Quand vous observez les effets d&rsquo;un sort arcanique, demandez au&middot;&agrave; la MJ le nom et les effets de ce sort. Vous avez <strong>+1</strong> si vous agissez en fonction de la r&eacute;ponse.</p>"
+			"description": "<p>Quand vous observez les effets d&rsquo;un sort arcanique, demandez au&middot;&agrave; lae MJ le nom et les effets de ce sort. Vous avez <strong>+1</strong> si vous agissez en fonction de la r&eacute;ponse.</p>"
 		},
 		{
 			"id": "Ritual",
 			"name": "Rituel",
-			"description": "<p>Quand vous cr&eacute;ez un effet magique &agrave; partir d&rsquo;un lieu de pouvoir, indiquez au&middot;&agrave; la MJ votre objectif. Les effets du rituel sont toujours possibles mais lae MJ&nbsp;<br>posera une &agrave; quatre des conditions suivantes :</p><ul><li>&Ccedil;a va prendre des jours/semaines/mois,</li><li>D&rsquo;abord, il te faudra ________,</li><li>Tu auras besoin de l&rsquo;aide de ________,</li><li>Cela va co&ucirc;ter beaucoup d&rsquo;argent,</li><li>Tu parviens &agrave; un effet moindre, peu fiable et limit&eacute;,</li><li>Tes alli&eacute;s et toi-m&ecirc;me encourez un risque venant de ________,</li><li>Tu vas devoir d&eacute;senchanter ________ pour le faire.</li></ul>"
+			"description": "<p>Quand vous cr&eacute;ez un effet magique &agrave; partir d&rsquo;un lieu de pouvoir, indiquez au&middot;&agrave; lae MJ votre objectif. Les effets du rituel sont toujours possibles mais lae MJ&nbsp;<br>posera une &agrave; quatre des conditions suivantes :</p><ul><li>&Ccedil;a va prendre des jours/semaines/mois,</li><li>D&rsquo;abord, il te faudra ________,</li><li>Tu auras besoin de l&rsquo;aide de ________,</li><li>Cela va co&ucirc;ter beaucoup d&rsquo;argent,</li><li>Tu parviens &agrave; un effet moindre, peu fiable et limit&eacute;,</li><li>Tes alli&eacute;s et toi-m&ecirc;me encourez un risque venant de ________,</li><li>Tu vas devoir d&eacute;senchanter ________ pour le faire.</li></ul>"
 		},
 		{
 			"id": "Self-Powered",
 			"name": "Pouvoir personnel",
-			"description": "<p>Quand vous avez le temps, les mat&eacute;riaux arcaniques et un endroit s&ucirc;r, vous pouvez cr&eacute;er votre propre lieu de pouvoir. D&eacute;crivez au&middot;&agrave; la MJ de quel pouvoir il s&rsquo;agit et comment vous le liez &agrave; cet endroit. Lae MJ vous indiquera une cr&eacute;ature int&eacute;ress&eacute;e par vos travaux.</p>"
+			"description": "<p>Quand vous avez le temps, les mat&eacute;riaux arcaniques et un endroit s&ucirc;r, vous pouvez cr&eacute;er votre propre lieu de pouvoir. D&eacute;crivez au&middot;&agrave; lae MJ de quel pouvoir il s&rsquo;agit et comment vous le liez &agrave; cet endroit. Lae MJ vous indiquera une cr&eacute;ature int&eacute;ress&eacute;e par vos travaux.</p>"
 		},
 		{
 			"id": "Spell Augmentation",

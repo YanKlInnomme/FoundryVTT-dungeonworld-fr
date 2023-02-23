@@ -43,7 +43,7 @@
 		{
 			"id": "Contact Spirits",
 			"name": "Contacter les esprits (Invocation)",
-			"description": "<p>Nommez l&rsquo;esprit que vous voulez contacter (ou laissez le choix au&middot;&agrave; la MJ). Vous amenez cette cr&eacute;ature &agrave; travers les plans suffisamment pr&egrave;s pour qu&rsquo;elle puisse vous parler. Elle doit r&eacute;pondre &agrave; une question du mieux qu&rsquo;elle peut.</p>"
+			"description": "<p>Nommez l&rsquo;esprit que vous voulez contacter (ou laissez le choix au&middot;&agrave; lae MJ). Vous amenez cette cr&eacute;ature &agrave; travers les plans suffisamment pr&egrave;s pour qu&rsquo;elle puisse vous parler. Elle doit r&eacute;pondre &agrave; une question du mieux qu&rsquo;elle peut.</p>"
 		},
 		{
 			"id": "Contingency",
@@ -122,7 +122,7 @@
 		{
 			"id": "Sleep",
 			"name": "Sommeil (Enchantement)",
-			"description": "<p><strong>1d4</strong> ennemi&middot;e&middot;s parmi celleux que vous voyez s&rsquo;endorment (au choix du&middot;de la MJ). Seules les cr&eacute;atures capables de sommeil sont affect&eacute;es. Iels se r&eacute;veillent normalement en cas de bruit fort, de secousses ou de douleur.</p>"
+			"description": "<p><strong>1d4</strong> ennemi&middot;e&middot;s parmi celleux que vous voyez s&rsquo;endorment (au choix du&middot;de lae MJ). Seules les cr&eacute;atures capables de sommeil sont affect&eacute;es. Iels se r&eacute;veillent normalement en cas de bruit fort, de secousses ou de douleur.</p>"
 		},
 		{
 			"id": "Soul Gem",

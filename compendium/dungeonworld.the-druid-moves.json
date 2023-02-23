@@ -1,0 +1,142 @@
+{
+    "label": "Actions du·de la Druide·sse",
+    "mapping": {
+        "name": "name",
+		"description": "system.description",
+		"failure": "system.moveResults.failure.value",
+		"partial": "system.moveResults.partial.value",
+		"success": "system.moveResults.success.value",
+		"choices": "system.choices"
+    },
+    "entries": [{
+            "id": "Balance",
+            "name": "Equilibre",
+            "description": "<p>Quand vous faites des dégâts retenez 1 point d’équilibre. Quand vous touchez quelqu’un et canalisez les esprits de la vie, vous pouvez dépenser des points d’équilibre et soigner 1d4 dégâts par point dépensé.</p>"
+        },
+        {
+            "id": "Barkskin",
+            "name": "Peau d’écorce",
+            "description": "<p>Tant que vos pieds touchent le sol, vous avez +1 armure.</p>"
+        },
+        {
+            "id": "Blood and Thunder",
+            "name": "Sang et tonnerre",
+            "description": "<p><em>Remplace : Nature Impitoyable</em></p>\n<p>Quand vous avez une forme animale appropriée (c’est à dire dangereuse), utilisez 1d10 comme dé de dégâts.</p>"
+        },
+        {
+            "id": "Born of the Soil",
+            "name": "Enfant du pays",
+            "description": "<p>Vous avez appris votre magie dans un lieu où les esprits sont forts et anciens. Ils vous ont marqué comme l’un·e des leurs. Où que vous alliez, ils vivent en vous et vous permettent de prendre leur forme. Choisissez une région ci-dessous ; c’est celle avec laquelle vous êtes en harmonie. Lorsque vous changez de forme, vous pouvez prendre celle d’un animal qui pourrait vivre dans votre région.</p>\n<ul>\n<li>La Grande Forêt</li>\n<li>Les Plaines Murmurantes</li>\n<li>Le Vaste Désert</li>\n<li>Le Marais Puant</li>\n<li>Le Delta de la Rivière</li>\n<li>Les Profondeurs de la Terre</li>\n<li>Les Iles de Saphir</li>\n<li>La Pleine Mer</li>\n<li>Les Hautes Montagnes</li>\n<li>Le Nord Gelé</li>\n<li>Les Terres Flétries</li></ul>\n<p>Choisissez un aspect - un attribut physique qui vous identifie comme enfant du pays - qui reflète l’esprit de votre région. Ce peut être une caractéristique animale comme des bois ou des taches de léopard ou quelque chose de plus général : une chevelure de feuilles, des yeux de cristal brillant. Votre aspect demeure quelle que soit votre forme.</p>"
+        },
+        {
+            "id": "By Nature Sustained",
+            "name": "Nourri par la nature",
+            "description": "<p>Vous n’avez pas besoin de boire ou de manger. Si une action vous demande de consommer une ration, ignorez cette consigne.</p>"
+        },
+        {
+            "id": "Chimera",
+            "name": "Chimère",
+            "description": "<p>Quand vous changez de forme, vous pouvez créer une forme composite de 3 différentes formes maximum. Vous pouvez être un ours avec les ailes d’un aigle et une tête de bélier par exemple. Chaque particularité vous permettra d’effectuer une action. Votre chimère suit les mêmes règles que Changeforme pour le reste.</p>"
+        },
+        {
+            "id": "Communion of Whispers",
+            "name": "Communion des murmures",
+            "description": "<p>Quand vous passez du temps quelque part en observant les esprits qui y demeurent et en faisant appel aux esprits de la région, lancez 2d6+SAG. Vous recevrez une vision significative pour vous, vos alliés et les esprits des alentours.</p>.",
+            "failure": "<p>La vision est bouleversante, effrayante ou traumatisante. Lae MJ la décrira. Vous avez -1 à votre prochaine action.</p>",
+			"partial": "<p>La vision est brouillée et sa signification obscure.<p>",
+			"success": "<p>La vision est claire et utile pour vous.</p>"
+        },
+        {
+            "id": "Doppleganger's Dance",
+            "name": "Danse du doppleganger",
+            "description": "<p>Vous pouvez étudier l’essence d’individus pour prendre leur forme exacte, y compris des humains, des elfes ou autres. Vous pouvez supprimer votre aspect, mais alors vous avez -1 continu jusqu’au retour à votre forme normale.</p>"
+        },
+        {
+            "id": "Elemental Mastery",
+            "name": "Maîtrise élémentaire",
+            "description": "<p>Quand vous faites appel aux esprits primitifs du feu, de l’eau, de l’air et de la terre afin qu’ils exécutent une tâche pour vous, lancez 2d6+SAG.</p>",
+            "failure": "<p>Votre appel entraîne une catastrophe.</p>",
+			"partial": "<p>Choisissez un résultat.<p>",
+			"success": "<p>Choisissez deux résultats.</p>",
+			"choices": "<ul><li>L’effet souhaité survient.</li><li>La nature ne demande pas de contrepartie.</li><li>Vous gardez le contrôle.</li></ul>"
+        },
+        {
+            "id": "Embracing No Form",
+            "name": "Informe",
+            "description": "<p>Quand vous changez de forme, ajoutez 1d4 à votre retenue.</p>"
+        },
+        {
+            "id": "Eyes of the Tiger",
+            "name": "L’œil du tigre",
+            "description": "<p>Quand vous marquez un animal (avec de la boue, de la saleté ou du sang), vous pouvez voir à travers ses yeux comme s’il s’agissait des vôtres, quelle que soit la distance qui vous sépare. Vous ne pouvez marquer qu’un animal à la fois.</p>"
+        },
+        {
+            "id": "Formcrafter",
+            "name": "Modeleur",
+            "description": "<p>Lorsque vous changez de forme, choisissez une caractéristique. Les jets avec cette caractéristique sont à +1 continu tant que vous êtes sous cette forme. Lae MJ en choisit une autre pour laquelle les jets sont à -1 continu tant que dure la forme.</p>"
+        },
+        {
+            "id": "Formshaper",
+            "name": "Sculpteur",
+            "description": "<p><em>Requiert : Modeleur</em></p>\n<p>Vous pouvez augmenter votre armure de 1 ou infliger +1d4 dégâts pendant que vous êtes en forme animale. Choisissez l’un ou l’autre quand vous changez de forme.</p>"
+        },
+        {
+            "id": "Hunter's Brother",
+            "name": "Le frère du chasseur",
+            "description": "<p>Choisissez une action de la liste de l’éclaireur"
+        },
+        {
+            "id": "Red of Tooth and Claw",
+            "name": "Nature impitoyable",
+            "description": "<p>Quand vous avez une forme animale appropriée (c’est à dire dangereuse), utilisez 1d8 comme dé de dégâts.</p>"
+        },
+        {
+            "id": "Shapeshifter",
+            "name": "Changeforme",
+            "description": "<p>Quand vous faites appel aux esprits pour changer votre forme, lancez 2d6+SAG. </p>\n<p>Vous pouvez prendre la forme de toute espèce dont vous avez contemplé l’essence ou qui vit dans votre région ; vous et vos possessions se fondent en une parfaite copie de la forme de cette espèce. Vous avez toutes les capacités et faiblesses innées de cette forme : griffes, ailes, branchies vous permettant de respirer sous l’eau. Vous utilisez vos caractéristiques normales, mais certaines actions peuvent être plus difficiles à mettre en œuvre (un chat aura plus de mal à se battre contre un ogre). Lae MJ vous indiquera une ou plusieurs actions associées à votre nouvelle forme. Utilisez 1 pour accomplir cette action. Quand vous n’avez plus de retenue, vous revenez à votre forme normale. A tout moment, vous pouvez dépenser toutes vos retenues pour revenir à votre forme normale.</p>\n\n<p><em>Les actions de forme indiquent simplement ce que l’animal fait naturellement, comme « appeler la meute », « piétiner un ennemi » ou « s’envoler dans les airs ». Lorsque vous dépensez votre retenue, votre instinct animal prend le contrôle et cette action se déroule. Si vous dépensez une retenue pour vous échapper dans les airs, ça y est, vous y êtes.</em></p>",
+            "failure": "<p>Retenez 1 en plus de ce que dira lae MJ.</p>",
+			"partial": "<p>Retenez 2.<p>",
+			"success": "<p>Retenez 3.</p>"
+        },
+        {
+            "id": "Shed",
+            "name": "Mue",
+            "description": "<p>Quand vous subissez des dégâts en changeforme,vous pouvez choisir de revenir à votre forme normale pour les annuler.</p>"
+        },
+        {
+            "id": "Spirit Tongue",
+            "name": "Langue des esprits",
+            "description": "<p>Les grognements, aboiements, pépiements et appels des créatures de la nature sont un langage pour vous. Vous pouvez comprendre tout animal de votre région ou apparenté à une espèce dont vous avez contemplé l’essence.</p>"
+        },
+        {
+            "id": "Stalker's Sister",
+            "name": "La sœur du traqueur",
+            "description": "<p>Choisissez une action de la liste de l’éclaireur.</p>"
+        },
+        {
+            "id": "Studied Essence",
+            "name": "Contemplation de l’essence",
+            "description": "<p>Quand vous passez du temps en contemplation d’un esprit animal, vous pouvez en ajouter l’espèce à celles dont vous pouvez prendre la forme.</p>"
+        },
+        {
+            "id": "The Druid Sleep",
+            "name": "Le repos du druide",
+            "description": "<p>Quand vous prenez cette action, vous pouvez entrer en harmonie avec une nouvelle région la prochaine fois que vous pouvez passer du temps en sécurité dans le lieu approprié. Cet effet n’a lieu qu’une fois et lae MJ vous dira combien de temps cela prend et quel en est le coût. A partir de cet instant vous êtes considéré comme l’enfant du pays dans ces deux régions.</p>"
+        },
+        {
+            "id": "Thing-talker",
+            "name": "Métamorphe",
+            "description": "<p>Vous voyez les esprits du sable, de la mer et de la pierre. Vous pouvez dorénavant utiliser Langue des Esprits, Contemplation de l’Essence et Changeforme avec des objets naturels inanimés (plantes et rochers) ou des créatures qui en sont faits, comme vous le feriez avec des animaux. La forme peut en être l’exacte copie ou celles d’entités mobiles d’aspect vaguement humanoïde.</p>"
+        },
+        {
+            "id": "Weather Weaver",
+            "name": "Tisseur du temps",
+            "description": "<p>Quand vous êtes à l’extérieur au lever du soleil, lae MJ vous demandera le temps qu’il fera ce jour. Dites-lui ce que vous voulez, cela se passera ainsi.</p>"
+        },
+        {
+            "id": "World-talker",
+            "name": "Multimorphe",
+            "description": "<p><em>Requiert : Métamorphe</em></p>\n<p>Vous discernez les motifs dont est fait le tissu du monde. Vous pouvez dorénavant utiliser Langue des Esprits, Contemplation de l’Essence et Changeforme avec les éléments : Feu, Eau, Air et Terre.</p>"
+        }
+    ]
+}

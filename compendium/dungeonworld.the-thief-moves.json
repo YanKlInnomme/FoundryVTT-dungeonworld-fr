@@ -12,7 +12,7 @@
 		{
 			"id": "Alchemist",
 			"name": "Chimiste",
-			"description": "<p><em>Requiert : Distillateur</em></p><p>Vous pouvez cr&eacute;er de nouveaux poisons. D&eacute;crivez en l&rsquo;effet recherch&eacute; au&middot;&agrave; la MJ. Cellui-ci peut ajouter une ou plusieurs limites de son choix parmi les suivantes :</p><ul><li>Il ne marche que dans certaines conditions.</li><li>Il est moins puissant que pr&eacute;vu.</li><li>Il prend un certain temps &agrave; agir.</li><li>Il y a des effets secondaires perceptibles.</li></ul>"
+			"description": "<p><em>Requiert : Distillateur</em></p><p>Vous pouvez cr&eacute;er de nouveaux poisons. D&eacute;crivez en l&rsquo;effet recherch&eacute; au&middot;&agrave; lae MJ. Cellui-ci peut ajouter une ou plusieurs limites de son choix parmi les suivantes :</p><ul><li>Il ne marche que dans certaines conditions.</li><li>Il est moins puissant que pr&eacute;vu.</li><li>Il prend un certain temps &agrave; agir.</li><li>Il y a des effets secondaires perceptibles.</li></ul>"
 		},
 		{
 			"id": "Backstab",
@@ -87,7 +87,7 @@
 		{
 			"id": "Heist",
 			"name": "Le casse du siècle",
-			"description": "<p>Quand vous prenez le temps de planifier un casse, d&eacute;crivez l&rsquo;objet de votre convoitise et posez ces questions au&middot;&agrave; la MJ. Quand vous tenez compte des r&eacute;ponses pour agir, vous et vos alli&eacute;&middot;e&middot;s b&eacute;n&eacute;ficiez d&rsquo;un <strong>+1 &agrave; suivre</strong>.</p><ul><li>Qui va remarquer son absence ?</li><li>Quelle est sa meilleure protection ?</li><li>Qui va chercher &agrave; le r&eacute;cup&eacute;rer ?</li><li>Qui d&rsquo;autre le veut ?</li></ul>"
+			"description": "<p>Quand vous prenez le temps de planifier un casse, d&eacute;crivez l&rsquo;objet de votre convoitise et posez ces questions au&middot;&agrave; lae MJ. Quand vous tenez compte des r&eacute;ponses pour agir, vous et vos alli&eacute;&middot;e&middot;s b&eacute;n&eacute;ficiez d&rsquo;un <strong>+1 &agrave; suivre</strong>.</p><ul><li>Qui va remarquer son absence ?</li><li>Quelle est sa meilleure protection ?</li><li>Qui va chercher &agrave; le r&eacute;cup&eacute;rer ?</li><li>Qui d&rsquo;autre le veut ?</li></ul>"
 		},
 		{
 			"id": "Poison Master",

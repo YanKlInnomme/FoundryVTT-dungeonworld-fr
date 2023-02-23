@@ -65,7 +65,7 @@
 		{
 			"id": "End of Session",
 			"name": "Fin de Session",
-			"description": "<p>Quand vous <em>finissez une session</em> (soir&eacute;e) de jeu, si vous pensez qu&rsquo;un de vos liens est r&eacute;solu (vous en avez fait le tour, il n&rsquo;est plus pertinent, ou autre), demandez au joueur du PJ li&eacute; au v&ocirc;tre s&rsquo;il pense de m&ecirc;me. Si c&rsquo;est le cas, marquez 1 PX et cr&eacute;ez un nouveau lien avec qui vous voulez, si vous le voulez. Une fois tous vos liens pass&eacute;s en revue, v&eacute;rifiez si vous avez agi en fonction de votre alignement au moins une fois dans la session. Si c&rsquo;est le cas, marquez 1 PX.</p><p>Ensuite, le groupe doit r&eacute;pondre &agrave; ces trois questions :</p><ul><li>Avons-nous appris quelque chose de nouveau et d&rsquo;important sur le monde ?</li><li>Avons-nous vaincu un ennemi ou un monstre remarquable ?</li><li>Avons-nous trouv&eacute; un tr&eacute;sor m&eacute;morable ?</li></ul><p>Pour chaque oui, chaque PJ marque 1 PX.</p>"
+			"description": "<p>Quand vous <em>finissez une session</em> (soir&eacute;e) de jeu, si vous pensez qu&rsquo;un de vos liens est r&eacute;solu (vous en avez fait le tour, il n&rsquo;est plus pertinent, ou autre), demandez au·à la joueur·euse du PJ li&eacute; au v&ocirc;tre s&rsquo;il pense de m&ecirc;me. Si c&rsquo;est le cas, marquez 1 PX et cr&eacute;ez un nouveau lien avec qui vous voulez, si vous le voulez. Une fois tous vos liens pass&eacute;s en revue, v&eacute;rifiez si vous avez agi en fonction de votre alignement au moins une fois dans la session. Si c&rsquo;est le cas, marquez 1 PX.</p><p>Ensuite, le groupe doit r&eacute;pondre &agrave; ces trois questions :</p><ul><li>Avons-nous appris quelque chose de nouveau et d&rsquo;important sur le monde ?</li><li>Avons-nous vaincu un ennemi ou un monstre remarquable ?</li><li>Avons-nous trouv&eacute; un tr&eacute;sor m&eacute;morable ?</li></ul><p>Pour chaque oui, chaque PJ marque 1 PX.</p>"
 		},
 		{
 			"id": "Hack & Slash",
@@ -159,7 +159,7 @@
 			"name": "Salve",
 			"description": "<p>Quand vous <em>visez et tirez sur un ennemi &agrave; distance</em>, lancez <strong>2d6+DEX</strong>.</p>",
 			"failure": "<p>Vous n'atteignez pas la cible escompt&eacute;e.</p>",
-			"partial": "<p>Infligez vos d&eacute;g&acirc;ts et choisissez une option :</p><ul><li>Vous vous <em>exposez au danger</em> pour tirer (au choix du&middot;de la MJ).</li><li>Vous tirez au jug&eacute; : <strong>-1d6</strong> d&eacute;g&acirc;ts.</li><li>Vous devez vous y reprendre &agrave; plusieurs fois : <em>&eacute;puisez 1 munition.</em></li></ul>",
+			"partial": "<p>Infligez vos d&eacute;g&acirc;ts et choisissez une option :</p><ul><li>Vous vous <em>exposez au danger</em> pour tirer (au choix du&middot;de lae MJ).</li><li>Vous tirez au jug&eacute; : <strong>-1d6</strong> d&eacute;g&acirc;ts.</li><li>Vous devez vous y reprendre &agrave; plusieurs fois : <em>&eacute;puisez 1 munition.</em></li></ul>",
 			"success": "<p>C&rsquo;est un coup au but, infligez vos d&eacute;g&acirc;ts.</p>"
 		}
 	]

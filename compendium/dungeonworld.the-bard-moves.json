@@ -29,7 +29,7 @@
 			"name": "Arts arcaniques",
 			"description": "<p>Quand la magie de votre spectacle se mat&eacute;rialise, choisissez un alli&eacute; et un effet list&eacute; ci-dessous. Puis, lancez <strong>2d6+CHA</strong>.</p>",
 			"failure": "<p>Votre repr&eacute;sentation manque clairement de magie.</p>",
-			"partial": "<p>Votre magie fonctionne mais vous attirez une attention malvenue ou votre sort se propage &agrave; d&rsquo;autres cibles (au choix du&middot;de la MJ) et les affecte &eacute;galement.</p>",
+			"partial": "<p>Votre magie fonctionne mais vous attirez une attention malvenue ou votre sort se propage &agrave; d&rsquo;autres cibles (au choix du&middot;de lae MJ) et les affecte &eacute;galement.</p>",
 			"success": "<p>L&rsquo;alli&eacute; b&eacute;n&eacute;ficie de l&rsquo;effet choisi.</p>",
 			"choices": "<ul><li>Soignez <strong>1d8 </strong>d&eacute;g&acirc;ts.</li><li>Ajoutez <strong>1d4 </strong>aux prochains d&eacute;g&acirc;ts qu&rsquo;il inflige.</li><li>Son esprit est lib&eacute;r&eacute; d&rsquo;un enchantement.</li><li>La prochaine fois qu&rsquo;on l&rsquo;<em>aide</em>, il re&ccedil;oit <strong>+2 au lieu de +1</strong>.</li></ul>"
 		},
@@ -41,7 +41,7 @@
 		{
 			"id": "Bardic Lore",
 			"name": "Légendes des bardes",
-			"description": "<p>Choisissez un domaine de connaissance :</p><ul><li>Sorts &amp; magie</li><li>Morts et morts-vivants</li><li>Grands &eacute;v&egrave;nements du monde connu</li><li>Bestiaire des cr&eacute;atures inhabituelles</li><li>Sph&egrave;res planaires</li><li>L&eacute;gendes des h&eacute;ros du pass&eacute;</li><li>Les dieux et leurs serviteurs</li></ul><p>Lorsque vous d&eacute;couvrez ou rencontrez pour la premi&egrave;re fois un objet, un lieu ou une cr&eacute;ature importants de votre domaine de connaissance, vous pouvez poser une question &agrave; son sujet au&middot;&agrave; la MJ. Lae MJ r&eacute;pondra sinc&egrave;rement. Il peut alors vous demander dans quel r&eacute;cit, quelle chanson ou l&eacute;gende, vous avez trouv&eacute; cette information.</p>"
+			"description": "<p>Choisissez un domaine de connaissance :</p><ul><li>Sorts &amp; magie</li><li>Morts et morts-vivants</li><li>Grands &eacute;v&egrave;nements du monde connu</li><li>Bestiaire des cr&eacute;atures inhabituelles</li><li>Sph&egrave;res planaires</li><li>L&eacute;gendes des h&eacute;ros du pass&eacute;</li><li>Les dieux et leurs serviteurs</li></ul><p>Lorsque vous d&eacute;couvrez ou rencontrez pour la premi&egrave;re fois un objet, un lieu ou une cr&eacute;ature importants de votre domaine de connaissance, vous pouvez poser une question &agrave; son sujet au&middot;&agrave; lae MJ. Lae MJ r&eacute;pondra sinc&egrave;rement. Il peut alors vous demander dans quel r&eacute;cit, quelle chanson ou l&eacute;gende, vous avez trouv&eacute; cette information.</p>"
 		},
 		{
 			"id": "Charming & Open",
@@ -124,8 +124,8 @@
 			"name": "Réputation",
 			"description": "<p>Quand vous rencontrez pour la premi&egrave;re fois une personne qui a entendu des chansons &agrave; votre sujet, lancez <strong>2d6+CHA</strong>.</p>",
 			"failure": "<p>Votre r&eacute;putation ne vous pr&eacute;c&egrave;de pas.</p>",
-			"partial": "<p>R&eacute;v&eacute;lez une chose au&middot;&agrave; la MJ et iel vous en r&eacute;v&egrave;lera une.</p>",
-			"success": "<p>R&eacute;v&eacute;lez au&middot;&agrave; la MJ deux choses que la personne sait &agrave; votre propos.</p>"
+			"partial": "<p>R&eacute;v&eacute;lez une chose au&middot;&agrave; lae MJ et iel vous en r&eacute;v&egrave;lera une.</p>",
+			"success": "<p>R&eacute;v&eacute;lez au&middot;&agrave; lae MJ deux choses que la personne sait &agrave; votre propos.</p>"
 		},
 		{
 			"id": "Unforgettable Face",
