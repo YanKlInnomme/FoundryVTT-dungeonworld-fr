@@ -2,7 +2,7 @@
     "name": "dungeonworld-fr",
     "title": "Dungeon World Traduction Française Intégrale - Dungeon World Complete French Translation",
     "description": "Module de traduction en langue française pour la version Dungeon World d'astarte-horns sur Foundry VTT<br>French translation module for the Kult Divinity Lost 4th Edition of astarte-horns on Foundry VTT",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "minimumCoreVersion" : "10",
     "compatibleCoreVersion":"10.287",
     "dependencies":
@@ -18,7 +18,14 @@
 		"type": "system"
 		}
 	],
-    "author": "YanK (YanK#8683)",
+  "authors": [
+    {
+      "name": "YanK",
+      "url": "https://fr.tipeee.com/yank",
+      "email": "yanklinnomme@gmail.com",
+      "discord": "YanK#8683"
+    }
+  ],
     "esmodules": ["babele-register.js"],
     "scripts": [],
     "styles": [
