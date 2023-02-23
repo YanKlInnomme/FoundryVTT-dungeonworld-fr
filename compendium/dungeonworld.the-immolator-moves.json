@@ -1,0 +1,133 @@
+{
+    "label": "Actions du·de la Immolateur·rice",
+    "mapping": {
+        "name": "name",
+		"description": "system.description",
+		"failure": "system.moveResults.failure.value",
+		"partial": "system.moveResults.partial.value",
+		"success": "system.moveResults.success.value",
+		"choices": "system.choices"
+    },
+    "entries": [{
+            "id": "Burning Brand",
+            "name": "Tison ardent",
+            "description": "<p>Lorsque vous invoquez une arme de feu, lancez 2d6+CON. Vous pouvez remplacer votre FOR ou votre DEX par INT pour vos attaques avec cette arme. L’arme démarre toujours avec les marqueurs <em>enflammé</em>, <em>toucher</em>, <em>dangereux</em> et <em>3 utilisations</em>. Chaque attaque avec cette arme dépense une utilisation.</p>",
+            "failure": "<p></p>",
+			"partial": "<p>Choisissez un des marqueurs suivants.<p>",
+			"success": "<p>Choisissez deux des marqueurs suivants.</p>",
+			"choices": "<ul><li><em>Contact</em></li><li><em>Lancé</em>, <em>Courte</em></li><li>+1 dégâts</li><li> Retirez le marqueur <em>dangereux</em></li></ul>"
+        },
+        {
+            "id": "Burning Bridges",
+            "name": "Brûler les ponts",
+            "description": "<p>Alors que vous devriez rendre votre <em>dernier souffle</em>, vous pouvez l’éviter en supprimant l’un de vos liens. Cela diminue votre maximum de liens disponibles de façon permanente. Vous restez vivant avec 1d6 PV. Si vous n’avez plus de liens, rendez votre <em>dernier soupir</em> comme prévu.</p>"
+        },
+        {
+            "id": "Burning Ring Of Fire",
+            "name": "Chaînon de feu",
+            "description": "<p>Quand vous fusionnez avec l’âme d’une personne consentante, lancez 2d6+CHA.</p>",
+            "failure": "<p>La liaison ne tient pas et vous devez effacer tout lien en commun. Vous pourrez en recréer d’autres ensuite lors d’une <em>fin de session</em>.</p>",
+			"partial": "<p>La connexion est instable et dangereuse : lorsque l’un de vous subit un handicap, l’autre le subit également. Une fois réalisée, la fusion ne peut être rompue par un mortel.<p>",
+			"success": "<p>Vous êtes lié·e·s, capables de partager vos émotions et de sentir vos présences réciproques quelle que soit la distance. Une fois réalisée, la fusion ne peut être rompue par un mortel.</p>"
+        },
+        {
+            "id": "Burns Half As Long",
+            "name": "Faire long feu",
+            "description": "<p>Vous obtenez cette action en même temps que <em>Brûler la chandelle par les deux bouts</em>.</p>\n<p>Lorsque vous sacrifiez un succès aux flammes du destin, traitez un jet de 10+ comme un échec.</p>"
+        },
+        {
+            "id": "Burns Twice As Bright",
+            "name": "Brûler la chandelle par les deux bouts",
+            "description": "<p>Lorsque vous canalisez les flammes du destin, vous pouvez traiter un jet manqué comme un 7-9 ou un 7-9 comme un 10+. Ce peut être votre jet ou celui de quelqu’un d’autre. Dites à lae MJ ce que vous avez perdu : une émotion, un souvenir ou une part innée de votre être. Vous ne pouvez utiliser cette action une nouvelle fois tant que vous n’avez pas utilisé <em>Faire long feu</em>.</p>"
+        },
+        {
+            "id": "Fanning The Flames",
+            "name": "Raviver les flammes",
+            "description": "<p><em>Requiert : Brûlot</em></p>\n<p>Vous pouvez appliquer simultanément les effets de votre Brûlot à un groupe d’une douzaine de personnes environ.</p>"
+        },
+        {
+            "id": "Fighting Fire with Fire",
+            "name": "Combattre le feu par le feu",
+            "description": "<p>Lorsque vous encaissez des dégâts (malgré l’armure) et que leur nombre est impair, votre feu intérieur vous vient en aide. Lancez 1d4 et utilisez le résultat pour augmenter le nombre d’utilisations de votre <em>tison ardent</em> s’il est actif, ou l’ajouter à votre prochain jet d’invocation de <em>tison ardent</em> ou encore réduire les dégâts de ce montant.</p>"
+        },
+        {
+            "id": "Firebrand",
+            "name": "Brûlot",
+            "description": "<p>Lorsque vous présentez une idée nouvelle à un·e PNJ, lancez 2d6+CHA.</p>",
+            "failure": "<p>Iel réagit négativement et fait connaître son désaccord.</p>",
+			"partial": "<p>Sa passion disparaît au bout d’un jour ou deux.</p>",
+			"success": "<p>Iel s’empare de votre idée pour la faire sienne avec ardeur.</p>"		
+        },
+        {
+            "id": "From Hell’s Heart",  
+            "name": "Flammes de l'Enfer",
+            "description": "<p>Chaque fois que vous invoquez du feu avec l'une de vos actions, vous pouvez le remplacer par les flammes noires de l'enfer. Ce feu n'émet pas de chaleur mais brûle l'âme elle-même, ignorant les armures. Les créatures sans âme ne peuvent être blessées par ce type de flamme.</p>"
+        },
+        {
+            "id": "Give Me Fuel, Give Me Fire",
+            "name": "Allumeeeeer le feu !",
+            "description": "<p>Quand vous fixez intensément le regard d’une personne, vous pouvez demander à son·sa joueur·euse (MJ compris·e) ce qui attise les flammes de son désir. Iel vous répondra sincèrement, même si le personnage ne le sait pas ou le garde pour iel habituellement.</p>"
+        },
+        {
+            "id": "Hand Crafted",
+            "name": "Fait main",
+            "description": "<p>Vous pouvez utiliser vos mains à la place des outils et du feu pour créer des objets métalliques. Les matériaux bruts peuvent être changés en armes, armures, bijoux métalliques… Vous pouvez défaire ces objets, mais il faudra <em>défier le danger</em> si vous souhaitez que ce soit instantané ou sûr.</p>"
+        },
+        {
+            "id": "Lore Of Flame",
+            "name": "Légendes du feu",
+            "description": "<p>Lorsque vous fixez du regard une source de feu à la recherche de réponses, lancez 2d6+SAG. En cas de succès, lae MJ vous dira quelque chose de nouveau et de profitable sur la situation en cours. Si vous savez déjà tout ce qu’il y a à savoir, lae MJ vous le dira.</p>",
+			"partial": "<p>Lae MJ vous donnera une impression.<p>",
+			"success": "<p>Lae MJ vous donnera des détails intéressants.</p>"
+        },
+        {
+            "id": "Moth To The Flame",
+            "name": "Un papillon dans la flamme",
+            "description": "<p>Lorsque vous tentez un esprit faible à l’aide de votre feu intérieur, lancez 2d6+SAG.</p>",
+            "failure": "<p>Iel devient agité·e et contrarié·e car votre feu intérieur a allumé ses désirs secrets.</p>",
+			"partial": "<p>Iel est juste distrait·e ou confus·e.<p>",
+			"success": "<p>Sa volonté est abolie. Iel vous suivra et obéira tant qu’iel ne sera pas surpris·e ou effrayé·e.</p>"
+        },
+        {
+            "id": "Ogdru Jahad",
+            "name": "Ogdru Jahad",
+            "description": "<p>Vous obtenez l’action <em>Rituel</em> du magicien. Le MJ vous dira toujours ce que vous devez sacrifier pour obtenir l’effet que vous désirez.</p>"
+        },
+        {
+            "id": "Sick Burn",
+            "name": "Cramé",
+            "description": "<p>Lorsque vous insultez un·e PNJ, lancez 2d6+CHA.</p>",
+            "failure": "<p>Vous êtes allé trop loin. Iel explose sur le champ.</p>",
+			"partial": "<p>Vous avez franchi la limite et iel prendra sa revanche, un jour.<p>",
+			"success": "<p>Iel est incapable de vous répondre et se prend de plein fouet votre insulte et le mépris de l’auditoire.</p>"
+        },
+        {
+            "id": "The Enkindler",
+            "name": "Enflammer les esprits",
+            "description": "<p>Lorsque vous soutenez le courage des autres, lancez 2d6+CHA.</p>",
+            "failure": "<p>Iels sont intimidé·e·s voire terrifié·e·s en votre présence.</p>",
+			"partial": "<p>Cet effet est passager et iels réalisent vite son inconsistance. Leur lâcheté refait surface au bout d’un moment.<p>",
+			"success": "<p>Iels deviennent soudainement courageux·ses, oubliant leurs peurs ou leurs doutes.</p>"
+        },
+        {
+            "id": "This Killing Fire",
+            "name": "Feu dévorant",
+            "description": "<p>Ajoutez les marqueurs suivants à la liste des options de votre Tison ardent : <em>dévastateur</em>, <em>puissant</em>, <em>allonge</em>, <em>courte</em>, <em>longue.</em></p>"
+        },
+        {
+            "id": "Watch The World Burn",
+            "name": "Voir le monde s’embraser",
+            "description": "<p>Lorsque vous ouvrez un passage vers les plans du feu pour invoquer une tempête de flammes, dites au MJ ce que vous sacrifiez et lancez 2d6+SAG. Les cieux s’ouvrent pour déverser une pluie de feu sur une zone équivalente à celle d’un petit village. Tout ce qui se trouve là prend les dégâts appropriés.</p>",
+            "failure": "<p>Quelque chose de cruel, d’intelligent et d’affamé vient avec la tempête.</p>",
+			"partial": "<p>Le feu échappe à votre contrôle, s’étend et se répand au gré des vents.<p>",
+			"success": "<p>Vous pouvez étouffer la tempête sans trop d’efforts.</p>"
+        },
+        {
+            "id": "Zuko Style",
+            "name": "La marque de Zuko",
+            "description": "<p>Lorsque vous pliez une flamme à votre volonté, lancez 2d6+SAG.</p>",
+			"partial": "<p>L’effet ne dure qu’un moment.<p>",
+			"success": "<p>Elle agit selon vos ordres et adopte la forme et le mouvement que vous souhaitez tant qu’elle a assez de combustible à brûler.</p>"
+        }
+    ]
+}

@@ -1,10 +1,30 @@
 {
-	"label": "Rollable Tables",
+	"label": "Tables Aleatoires (bis)",
 	"entries": [
 		{
 			"id": "Treasure",
-			"name": "Treasure",
-			"description": "When the players search the belongings of a monster (be they on their person or tucked away somewhere) describe them honestly. If the monster has accumulated some wealth you can roll that randomly. Start with the monster’s damage die, modified if the monster is:\r\n• Hoarder: roll damage die twice, take higher result\r\n• Far from home: add at least one ration (usable by anyone with similar taste)\r\n• Magical: some strange item, possibly magical\r\n• Divine: a sign of a deity (or deities)\r\n• Planar: something not of this earth\r\n• Lord over others: +1d4 to the roll\r\n• Ancient and noteworthy: +1d4 to the roll\r\nRoll the monster’s damage die plus any added dice to find the monster’s treasure:"
+			"name": "Trésor",
+			"description": "Quand les joueur·e·s cherchent les biens d’un monstre (qu’ils soient sur son corps ou planqués quelque part) décrivez honnêtement ce qu’iels découvrent. Si le monstre a accumulé une certaine richesse, vous pouvez la déterminer au hasard. Commencez par le dé de dégâts du monstre, modifié si le monstre est :\r\n• Thésauriseur·euse : lancez le dé de dégâts deux fois et gardez le plus élevé.\r\n• Loin de chez ellui : ajoutez au moins une ration dans le trésor (utilisable par toute personne ayant des goûts similaires).\r\n• Magique : un objet étrange, peut-être magique.\r\n• Divin·e : le symbole d’une divinité (ou de plusieurs dieux).\r\n• Planaire : quelque chose d’étranger à cette terre.\r\n• Seigneur parmi les siens : +1d4 au jet de dé.\r\n• Ancien·ne et remarquable : +1d4 au jet de dé.\r\nLancez le dé de dégâts du monstre ainsi que tous les dés supplémentaires afin de déterminer son trésor :",
+			"results": {
+				"1-1": "Quelques pièces d’or, [[/r 2d8]] ou à peu près.",
+				"2-2": "Un objet utile dans la situation actuelle.",
+				"3-3": "Plusieurs pièces d’or, autour de [[/r 4d10]].",
+				"4-4": "Un petit objet (bijou, objet d’art) d’une valeur considérable, valant [[/r 2d10]]x 10 po, 0 poids.",
+				"5-5": "Un objet magique mineur.",
+				"6-6": "Informations pratiques (sous la forme d’indices, de notes, etc.).",
+				"7-7": "Un sac de pièces d’or, [[/r 1d4]]× 100 ou à peu près. 1 poids par tranche de 100 pièces.",
+				"8-8": "Un petit objet de très grande valeur (bijou, objet d’art) valant [[/r 2d6]]× 100 po, 0 poids.",
+				"9-9": "Un coffre de pièces de monnaie et autres petits objets de valeur. 1 poids, mais vaut 3d6 × 100 po.",
+				"10-10": "Un objet magique ou un effet magique.",
+				"11-11": "Plusieurs sacs de pièces pour un total de [[/r 2d4]]× 100 po ou plus.",
+				"12-12": "Le symbole d’une charge (couronne, bannière) valant au moins [[/r 3d4]]× 100 po.",
+				"13-13": "Un gros objet d’art valant [[/r 4d4]]× 100 po, 1 poids.",
+				"14-14": "Un objet unique valant au moins [[/r 5d4]]x 100 pièces.",
+				"15-15": "Toutes les informations nécessaires pour apprendre un nouveau sort. Faites un nouveau tirage sur cette table.",
+				"16-16": "Un portail ou un chemin secret (ou le moyen d’y accéder). Faites un nouveau tirage sur cette table.",
+				"17-17": "Quelque chose en rapport avec l’un des personnages. Faites un nouveau tirage sur cette table.",
+				"18-18": ". Une véritable fortune : [[/r 1d10]]× 1000 po et [[/r 1d10]]× 10 gemmes pour une valeur de [[/r 2d6]]× 100 po chacune."
+			}
 		}
 	]
 }
