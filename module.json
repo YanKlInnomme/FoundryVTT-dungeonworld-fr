@@ -1,44 +1,46 @@
 {
-    "name": "dungeonworld-fr",
-    "title": "Dungeon World Traduction Française Intégrale - Dungeon World Complete French Translation",
-    "description": "Module de traduction en langue française pour la version Dungeon World d'astarte-horns sur Foundry VTT<br>French translation module for the Kult Divinity Lost 4th Edition of astarte-horns on Foundry VTT",
-    "version": "2.0.0",
-    "minimumCoreVersion" : "10",
-    "compatibleCoreVersion":"10.287",
-    "dependencies":
-	[
-		{
-		"name": "babele"
-		},
-		{
-		"name": "lib-wrapper"
-		},
-		{
-		"name": "dungeonworld",
-		"type": "system"
-		}
-	],
+  "id": "dungeonworld-fr",
+  "title": "Dungeon World Traduction Française Intégrale - Dungeon World Complete French Translation",
+  "description": "Module de traduction en langue française pour la version Dungeon World d'astarte-horns sur Foundry VTT<br>French translation module for the Kult Divinity Lost 4th Edition of astarte-horns on Foundry VTT",
+  "version": "2.0.0",
+  "license": "LICENSE",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291",
+    "maximum": "11"
+  },
   "authors": [
     {
       "name": "YanK",
       "url": "https://fr.tipeee.com/yank",
       "email": "yanklinnomme@gmail.com",
       "discord": "YanK#8683"
+    },
+    {
+      "name": "Matisse",
+      "url": "https://github.com/tissema",
+      "discord": "Matisse#8751"
     }
   ],
-    "esmodules": ["babele-register.js"],
-    "scripts": [],
-    "styles": [
-        "css/dungeonworld.css"
-      ],
-    "packs": [],
-	"system": ["dungeonworld"],
-    "languages": [{
-      "lang": "fr",
-      "name": "French",
-      "path": "fr.json"
-    }],
-    "url": "https://github.com/YanKlInnomme/FoundryVTT-dungeonworld-fr",
-    "manifest": "https://github.com/YanKlInnomme/FoundryVTT-dungeonworld-fr/releases/latest/download/module.json",
-    "download": "https://github.com/YanKlInnomme/FoundryVTT-dungeonworld-fr/releases/download/v1.0.0/module.zip"
+  "relationships.systems": ["dungeonworld"],
+  "relationships.requires":	[
+		{"name": "babele"},
+		{"name": "lib-wrapper"},
+		{
+      "name": "dungeonworld",
+      "type": "system"
+		}
+	],
+  "esmodules": ["babele-register.js"],
+  "styles": ["css/dungeonworld.css"],
+  "languages": [
+    {
+    "lang": "fr",
+    "name": "French",
+    "path": "fr.json"
+    }
+  ],
+  "url": "https://github.com/YanKlInnomme/FoundryVTT-dungeonworld-fr",
+  "manifest": "",
+  "download": ""
 }
