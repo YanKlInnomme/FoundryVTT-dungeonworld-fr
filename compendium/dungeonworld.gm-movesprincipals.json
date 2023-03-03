@@ -1,5 +1,5 @@
 {
-    "label": "Actions et Principes de MJ",
+    "label": "Actions et Principes du·de la MJ",
     "mapping": {
         "description": "content"
     },
@@ -10,7 +10,7 @@
         },
         {
             "id": "GM Moves",
-            "name": "Actions de MJ",
+            "name": "Actions du·de la MJ",
             "description": "<ul>\n<li>Montrez des signes d’une menace à venir.</li>\n<li>Révélez une vérité indésirable.</li>\n<li>Indiquez aux PJ les conditions ou les conséquences de leurs actions.</li>\n<li>Offrez une opportunité aux PJ, avec ou sans coût.</li>\n<li>Créez une situation dans laquelle excelle une classe.</li>\n<li>Déclenchez l’action d’un lieu, d’un danger ou d’un monstre.</li>\n<li>Épuisez les ressources des PJ.</li>\n<li>Mettez quelqu’un dans une situation difficile.</li>\n<li>Utilisez les inconvénients de la classe, du peuple ou de l’équipement des PJ.</li>\n<li>Retournez les actions des PJ contre eux.</li>\n<li>Séparez les PJ.</li>\n<li>Infligez des dégâts.</li>\n</ul>"
         },
         {

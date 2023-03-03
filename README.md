@@ -13,6 +13,19 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
 
+## Version 2.0.0
+ * Traduction des compendiums "Item" (21/21 soit 100%) réalisée par Matisse :
+    - Actions du·de la Druide·sse (dungeonworld.the-druid-moves.json)
+    - Actions du·de la Immolateur·rice (dungeonworld.the-immolator-moves.json)
+    - Actions du·de la Paladin·e (dungeonworld.the-paladin-moves.json)
+ * Traduction des compendiums "JournalEntry" (3/3 soit 100%) réalisée par Matisse :
+    - Actions et Principes du·de la MJ (dungeonworld.gm-movesprincipals.json)
+    - Écran du·de la MJ (dungeonworld.gm-screen.json)
+    - Services et biens (dungeonworld.charts.json)
+ * Traduction des compendiums "RollTable" (2/2 soit 100%) réalisée par Matisse :
+    - Tables Aléatoires (dungeonworld.tables.json)
+    - Tables Aléatoires II (dungeonworld.rollable-tables.json)
+
 ## Version 1.0.0
 
  * Ajout de Logo et Modification de la Pause
@@ -39,10 +52,7 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
 
 ## À venir...
 
- * Traduction des compendiums "Item" restants (Actions de Druide, Immolateur et Paladin)
  * Traduction des compendiums "Actor" (Monstres 1 à 9)
- * Traduction des compendiums "JournalEntry" (Aides et écrans de MJ)
- * Traduction des compendiums "RollTable" (Tables Aléatoires: Trésors et cie)
 
 ---------------------------------------------------------------------
 
@@ -56,6 +66,20 @@ In order to work this module requires the following prerequisites:
  * The Dungeon World system from Asacolips
  * The Babele module (essential for translation)
  * The Lib-wrapper module (Required by Babele)
+
+ ## Version 2.0.0
+
+ * Translation of the "Item" compendiums (21/21 or 100%) made by Matisse :
+    - Actions of the Druid (dungeonworld.the-druid-moves.json)
+    - Actions of the Immolator (dungeonworld.the-immolator-moves.json)
+    - Actions of the Paladin (dungeonworld.the-paladin-moves.json)
+ * Translation of the "JournalEntry" compendiums (3/3 or 100%) by Matisse :
+    - Actions and Principles of the GM (dungeonworld.gm-movesprincipals.json)
+    - The GM's screen (dungeonworld.gm-screen.json)
+    - Services and goods (dungeonworld.charts.json)
+ * Translation of the "RollTable" compendiums (2/2 or 100%) made by Matisse :
+    - Random Tables (dungeonworld.tables.json)
+    - Random Tables II (dungeonworld.rollable-tables.json)
 
 ## Version 1.0.0
 
@@ -83,7 +107,4 @@ In order to work this module requires the following prerequisites:
 
 ## Coming soon...
 
- * Translation of the remaining "Item" compendiums (Druid, Immolator and Paladin actions)
  * Translation of the "Actor" compendiums (Monsters 1 to 9)
- * Translation of the "JournalEntry" compendiums (GM's aids and screens)
- * Translation of the "RollTable" compendiums (Random Tables: Treasures and Co.)
