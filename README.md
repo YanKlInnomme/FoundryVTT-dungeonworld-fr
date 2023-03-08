@@ -13,6 +13,10 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
 
+## Version 2.0.1
+
+ * Mise à jour du manifeste pour une activation correcte des modules requis
+
 ## Version 2.0.0
  * Traduction des compendiums "Item" (21/21 soit 100%) réalisée par Matisse :
     - Actions du·de la Druide·sse (dungeonworld.the-druid-moves.json)
@@ -66,6 +70,10 @@ In order to work this module requires the following prerequisites:
  * The Dungeon World system from Asacolips
  * The Babele module (essential for translation)
  * The Lib-wrapper module (Required by Babele)
+
+ ## Version 2.0.1
+
+ * Updated the manifest for proper activation of required modules
 
  ## Version 2.0.0
 

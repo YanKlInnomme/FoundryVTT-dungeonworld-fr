@@ -22,15 +22,21 @@
       "discord": "Matisse#8751"
     }
   ],
-  "relationships.systems": ["dungeonworld"],
-  "relationships.requires":	[
-		{"name": "babele"},
-		{"name": "lib-wrapper"},
-		{
-      "name": "dungeonworld",
-      "type": "system"
-		}
-	],
+  "relationships": {
+    "systems": [
+      {"id": "dungeonworld"}
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module"
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      }
+    ]
+  },
   "esmodules": ["babele-register.js"],
   "styles": ["css/dungeonworld.css"],
   "languages": [
