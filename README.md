@@ -18,6 +18,7 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Mise à jour du manifeste pour une activation correcte des modules requis
 
 ## Version 2.0.0
+
  * Traduction des compendiums "Item" (21/21 soit 100%) réalisée par Matisse :
     - Actions du·de la Druide·sse (dungeonworld.the-druid-moves.json)
     - Actions du·de la Immolateur·rice (dungeonworld.the-immolator-moves.json)
