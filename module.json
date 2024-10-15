@@ -1,7 +1,7 @@
 {
   "id": "dungeonworld-fr",
-  "title": "Dungeon World Traduction Française Intégrale - Dungeon World Complete French Translation",
-  "description": "Module de traduction en langue française pour la version Dungeon World d'astarte-horns sur Foundry VTT<br>French translation module for the Kult Divinity Lost 4th Edition of astarte-horns on Foundry VTT",
+  "title": "Dungeon World Complete French Translation",
+  "description": "Full VF translation module for Asacolips' system Dungeon World",
   "version": "2.1.0",
   "license": "LICENSE",
   "compatibility": {
