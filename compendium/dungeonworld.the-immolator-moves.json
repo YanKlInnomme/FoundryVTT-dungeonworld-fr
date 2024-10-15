@@ -12,7 +12,7 @@
             "id": "Burning Brand",
             "name": "Tison ardent",
             "description": "<p>Lorsque vous invoquez une arme de feu, lancez 2d6+CON. Vous pouvez remplacer votre FOR ou votre DEX par INT pour vos attaques avec cette arme. L’arme démarre toujours avec les marqueurs <em>enflammé</em>, <em>toucher</em>, <em>dangereux</em> et <em>3 utilisations</em>. Chaque attaque avec cette arme dépense une utilisation.</p>",
-            "failure": "<p></p>",
+            "failure": "",
 			"partial": "<p>Choisissez un des marqueurs suivants.<p>",
 			"success": "<p>Choisissez deux des marqueurs suivants.</p>",
 			"choices": "<ul><li><em>Contact</em></li><li><em>Lancé</em>, <em>Courte</em></li><li>+1 dégâts</li><li> Retirez le marqueur <em>dangereux</em></li></ul>"

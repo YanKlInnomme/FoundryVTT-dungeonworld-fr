@@ -87,7 +87,23 @@
 		{
 			"id": "The Druid",
 			"name": "Lae Druide·sse",
-			"description": "<p>Observe-les autour du feu. Pourquoi fr&eacute;quentes-tu ces gens qui puent la sueur et la poussi&egrave;re des villes ? Est-ce ta bont&eacute; ? Tu les prot&egrave;ges comme une m&egrave;re ourse prot&egrave;ge ses oursons. Sont-ils de ta meute &agrave; pr&eacute;sent ? Curieux fr&egrave;res et s&oelig;urs en v&eacute;rit&eacute;. Malgr&eacute; ton exemple, ils &eacute;choueront sans tes griffes et tes sens aff&ucirc;t&eacute;s. Tu appartiens aux espaces sacr&eacute;s. Tu es l&rsquo;enfant de la terre, tu portes les marques des esprits sur ta peau. Peut-&ecirc;tre as-tu eu une vie avant, peut-&ecirc;tre &eacute;tais-tu l&rsquo;un d&rsquo;entre eux ? Plus maintenant. Tu as abandonn&eacute; cette enveloppe immuable. Ecoute tes compagnons prier leurs dieux de pierre et polir leurs carapaces d&rsquo;argent. Ils te parlent de la gloire qui les attend lorsqu&rsquo;ils reviendront dans la ville purulente que tu as quitt&eacute;e. Leurs dieux sont des enfants et leur acier une pi&egrave;tre protection. Tu connais les anciennes coutumes et tu portes les fourrures de la terre elle-m&ecirc;me. Tu auras ta part du tr&eacute;sor, mais seras-tu jamais l&rsquo;un&middot;e des leurs ? Seul le temps le dira.</p>"
+			"description": "<p>Observe-les autour du feu. Pourquoi fr&eacute;quentes-tu ces gens qui puent la sueur et la poussi&egrave;re des villes ? Est-ce ta bont&eacute; ? Tu les prot&egrave;ges comme une m&egrave;re ourse prot&egrave;ge ses oursons. Sont-ils de ta meute &agrave; pr&eacute;sent ? Curieux fr&egrave;res et s&oelig;urs en v&eacute;rit&eacute;. Malgr&eacute; ton exemple, ils &eacute;choueront sans tes griffes et tes sens aff&ucirc;t&eacute;s. Tu appartiens aux espaces sacr&eacute;s. Tu es l&rsquo;enfant de la terre, tu portes les marques des esprits sur ta peau. Peut-&ecirc;tre as-tu eu une vie avant, peut-&ecirc;tre &eacute;tais-tu l&rsquo;un d&rsquo;entre eux ? Plus maintenant. Tu as abandonn&eacute; cette enveloppe immuable. Ecoute tes compagnons prier leurs dieux de pierre et polir leurs carapaces d&rsquo;argent. Ils te parlent de la gloire qui les attend lorsqu&rsquo;ils reviendront dans la ville purulente que tu as quitt&eacute;e. Leurs dieux sont des enfants et leur acier une pi&egrave;tre protection. Tu connais les anciennes coutumes et tu portes les fourrures de la terre elle-m&ecirc;me. Tu auras ta part du tr&eacute;sor, mais seras-tu jamais l&rsquo;un&middot;e des leurs ? Seul le temps le dira.</p>",
+			"equipment0": "Vous débutez avec",
+			"equipment1": "Choisissez une protection",
+			"equipment2": "Choisissez une arme",
+			"equipment3": "Prenez un lot au choix",
+			"races1": "Elfe",
+			"races-description1": "La sève des Arbres Vénérables circule en vous. La Grande Forêt est toujours considérée comme votre région en plus de tout autre choix.",
+			"races2": "Humain",
+			"races-description2": "Votre peuple a appris à domestiquer des animaux et vous leur êtes lié ; vous êtes capable de prendre la forme de tout animal domestique en plus de vos options habituelles.",
+			"races3": "Halfelin",
+			"races-description3": "Vous chantez les chansons bienfaisantes du printemps et du ruisseau. Quand vous montez un camp, vous et vos alliés récupérez +1d6 dégâts.",
+			"alignments1": "Chaotique",
+			"alignments-description1": "Détruire un symbole de civilisation.",
+			"alignments2": "Neutre",
+			"alignments-description2": "Éliminer une menace non naturelle.",
+			"alignments3": "Bon",
+			"alignments-description3": "Aider quelque chose ou quelqu’un à grandir, pousser, prospérer."
 		},
 		{
 			"id": "The Fighter",
@@ -114,12 +130,33 @@
 		{
 			"id": "The Immolator",
 			"name": "L'Immolateur·rice",
-			"description": "<p>Vos compagnons vous craignent &agrave; juste titre. Le guerrier peut bien passer &agrave; la torche un terrier de gobelins, le magicien en appeler aux &eacute;l&eacute;mentaires et le chaman aux esprits du feu mais ils ne vous arrivent pas &agrave; la cheville. Et pour cause : vous &ecirc;tes le feu. Le feu qui embrasse les esprits et conduit &agrave; la r&eacute;volte, le feu qui consume les c&oelig;urs de passion, le feu auquel vous sacrifiez biens et victimes pour acqu&eacute;rir plus de puissance.</p><p>Vos compagnons vous craignent, mais ils savent aussi qu&rsquo;il vaut mieux vous avoir comme alli&eacute;&middot;e que comme ennemi&middot;e.</p>"
+			"description": "<p>Vos compagnons vous craignent &agrave; juste titre. Le guerrier peut bien passer &agrave; la torche un terrier de gobelins, le magicien en appeler aux &eacute;l&eacute;mentaires et le chaman aux esprits du feu mais ils ne vous arrivent pas &agrave; la cheville. Et pour cause : vous &ecirc;tes le feu. Le feu qui embrasse les esprits et conduit &agrave; la r&eacute;volte, le feu qui consume les c&oelig;urs de passion, le feu auquel vous sacrifiez biens et victimes pour acqu&eacute;rir plus de puissance.</p><p>Vos compagnons vous craignent, mais ils savent aussi qu&rsquo;il vaut mieux vous avoir comme alli&eacute;&middot;e que comme ennemi&middot;e.</p>",
+			"equipment0": "Vous débutez avec",
+			"equipment1": "Prenez deux lots au choix",
+			"races1": "Humain",
+			"races-description1": "Lorsque vous montez un camp à proximité d’un grand brasier, regagnez tous vos PV.",
+			"races2": "Salamandre",
+			"races-description2": "La chaleur et le feu non-magiques ne peuvent vous nuire.",
+			"alignments1": "Mauvais",
+			"alignments-description1": "Sacrifier une victime non consentante aux flammes.",
+			"alignments2": "Chaotique",
+			"alignments-description2": "Répandre une nouvelle idée dangereuse.",
+			"alignments3": "Neutre",
+			"alignments-description3": "Sacrifiez volontairement quelque chose en échange d’un service rendu."
 		},
 		{
 			"id": "The Paladin",
 			"name": "Lae Paladin·e",
-			"description": "<p>L&rsquo;enfer guette : une &eacute;ternit&eacute; de tourments dans le feu, la glace ou ce qui ch&acirc;tiera au mieux les p&eacute;ch&eacute;s des foules damn&eacute;es de Dungeon World. Vous seul&middot;e vous dressez entre ces sinistres tortures et le salut des &acirc;mes. N&rsquo;&ecirc;tes-vous pas une sainte machine de guerre cuirass&eacute;e, un&middot;e templier&middot;&egrave;re du Bien et de la Lumi&egrave;re ? Le clerc peut bien faire ses pri&egrave;res le soir aux dieux qui s&eacute;journent au paradis. Le guerrier peut bien se pr&eacute;valoir du &laquo; bien &raquo; lorsqu&rsquo;il brandit son &eacute;p&eacute;e affut&eacute;e, mais vous seul savez. Seulement vous.</p><p>Vous &ecirc;tes les yeux, les mains et l'ex&eacute;cuteur&middot;rice des dieux. Vous &ecirc;tes un parangon de droiture, de vertu et de justice. Vous avez le don de vision aussi. Une puret&eacute; des intentions qu&rsquo;ignorent vos compagnons. Alors, guidez ces simples d&rsquo;esprit, paladin&middot;e. Embrassez votre juste cause et apportez le salut &agrave; ce monde perdu. Vae victis ! (Malheur aux vaincu&middot;es)</p>"
+			"description": "<p>L&rsquo;enfer guette : une &eacute;ternit&eacute; de tourments dans le feu, la glace ou ce qui ch&acirc;tiera au mieux les p&eacute;ch&eacute;s des foules damn&eacute;es de Dungeon World. Vous seul&middot;e vous dressez entre ces sinistres tortures et le salut des &acirc;mes. N&rsquo;&ecirc;tes-vous pas une sainte machine de guerre cuirass&eacute;e, un&middot;e templier&middot;&egrave;re du Bien et de la Lumi&egrave;re ? Le clerc peut bien faire ses pri&egrave;res le soir aux dieux qui s&eacute;journent au paradis. Le guerrier peut bien se pr&eacute;valoir du &laquo; bien &raquo; lorsqu&rsquo;il brandit son &eacute;p&eacute;e affut&eacute;e, mais vous seul savez. Seulement vous.</p><p>Vous &ecirc;tes les yeux, les mains et l'ex&eacute;cuteur&middot;rice des dieux. Vous &ecirc;tes un parangon de droiture, de vertu et de justice. Vous avez le don de vision aussi. Une puret&eacute; des intentions qu&rsquo;ignorent vos compagnons. Alors, guidez ces simples d&rsquo;esprit, paladin&middot;e. Embrassez votre juste cause et apportez le salut &agrave; ce monde perdu. Vae victis ! (Malheur aux vaincu&middot;es)</p>",
+			"equipment0": "Vous débutez avec",
+			"equipment1": "Choisissez une arme",
+			"equipment2": "Prenez un lot au choix",
+			"races1": "Humain",
+			"races-description1": "Quand vous priez même brièvement, pour obtenir un conseil et que vous demandez : « Où est le mal ici ? », le MJ vous répondra sincèrement.",
+			"alignments1": "Loyal",
+			"alignments-description1": "Pas de pitié pour les mécréants et les criminels !",
+			"alignments2": "Bon",
+			"alignments-description2": "Se mettre en danger pour protéger les plus faibles que vous."
 		},
 		{
 			"id": "The Ranger",
@@ -133,7 +170,7 @@
 			"races2": "Humain",
 			"races-description2": "Quand vous montez un camp dans un donjon ou une ville, vous n’avez pas besoin de consommer une ration.",
 			"alignments1": "Chaotique",
-			"alignments-description1": "Libérer quelqu’un de ses liens (au propre ou au figuré)",
+			"alignments-description1": "Libérer quelqu’un de ses liens (au propre ou au figuré).",
 			"alignments2": "Bon",
 			"alignments-description2": "Se mettre en danger pour combattre un péril contre nature.",
 			"alignments3": "Neutre",
