@@ -8,7 +8,7 @@ Améliorer votre expérience de jeu avec ce module de traduction intégrale VF p
 ![Capture d’écran 2022-11-20 125446](https://user-images.githubusercontent.com/100078854/202900602-9292b8a9-f61c-4114-bbb3-273fd731de8d.jpg)
 ![Capture d’écran 2022-11-20 125713](https://user-images.githubusercontent.com/100078854/202900603-889e9b72-d747-46da-8bd6-15a93cfdf2dd.jpg)
 
-Si vous aimez utiliser mes modules et si vous en avez les moyens, vous pouvez m'aider à poursuivre l'aventure en me soutenant via Tipeee (https://fr.tipeee.com/yank/news). Dans tous les cas, amusez-vous bien et n'hésitez pas me contacter pour me donner votre avis ou m'informer d'un problème.
+Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir en m'offrant un café sur Buy Me a Coffee (https://www.buymeacoffee.com/yank). Votre geste sera grandement apprécié et contribuera à soutenir le développement continu. Quoi qu'il en soit, je vous souhaite une expérience enrichissante et divertissante. N'hésitez pas à me contacter pour partager vos commentaires ou signaler tout problème éventuel.
 
 ## Prérequis
 
@@ -70,7 +70,7 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
 
 Enhance your gaming experience with this full VF translation module for the Dungeon World version of Asacolips for Foundry VTT.
 
-If you like using my modules and if you have the means, you can help me to continue the adventure by supporting me via Tipeee (https://fr.tipeee.com/yank/news). In any case, have fun and don't hesitate to contact me to give me your opinion or to inform me of a problem.
+If you enjoy the module and have the means to do so, you can support me by buying me a coffee on Buy Me a Coffee (https://www.buymeacoffee.com/yank). Your gesture will be greatly appreciated and will help support ongoing development. In any case, I wish you a rewarding and entertaining experience. Feel free to contact me to share your feedback or report any issues.
 
 ## Prerequisites
 
