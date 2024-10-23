@@ -2,7 +2,7 @@
   "id": "dungeonworld-fr",
   "title": "Dungeon World Complete French Translation",
   "description": "Full VF translation module for Asacolips' system Dungeon World",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "license": "LICENSE",
   "compatibility": {
     "minimum": "12",

@@ -17,6 +17,9 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
 
+## Version 2.1.1
+ * Correction mineure de l'archive
+
 ## Version 2.1.0
  * Mise à jour suite au passage à la version 12 du système Dungeon World d'Asacolips
  * Mise à jour du compendium "Item" : Classes (dungeonworld.classes.json)
@@ -78,6 +81,9 @@ In order to work this module requires the following prerequisites:
  * The Dungeon World system from Asacolips
  * The Babele module (essential for translation)
  * The Lib-wrapper module (Required by Babele)
+
+## Version 2.1.1
+   * Minor correction of the archive
 
 ## Version 2.1.0
  * Update following the switch to version 12 of the Dungeon World system from Asacolips
