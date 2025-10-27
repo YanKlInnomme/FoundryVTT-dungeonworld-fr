@@ -114,6 +114,32 @@ In order to work this module requires the following prerequisites:
  * The Babele module (essential for translation)
  * The Lib-wrapper module (Required by Babele)
 
+## Version 3.0.0
+ * Update following the switch to version 13 of the Dungeon World system from Asacolips
+ * Translation of the "Actor" compendiums (9/9 or 100%) :
+    - E1 - Cavern Dwellers (dungeonworld.monsters-01-cavern-dwellers.json)
+    - E2 - Swamp Denizens (dungeonworld.monsters-02-swamp-denizens.json)
+    - E3 - Undead Legions (dungeonworld.monsters-03-undead-legions.json)
+    - E4 - Dark Woods (dungeonworld.the-barbarian-moves.json)
+    - E5 - Ravenous Hordes (dungeonworld.monsters-05-ravenous-hordes.json)
+    - E6 - Twisted Experiments (dungeonworld.monsters-06-twisted-experiments.json)
+    - E7 - Lower Depths (dungeonworld.monsters-07-lower-depths.json)
+    - E8 - Planar Powers (dungeonworld.monsters-08-planar-powers.json)
+    - E9 - Folk of the Realm (dungeonworld.monsters-09-folk-of-the-realm.json)
+ * Update of the "JournalEntry" compendiums (3/3 or 100%) :
+    - Actions and Principles of the GM (dungeonworld.gm-movesprincipals.json)
+    - The GM's screen (dungeonworld.gm-screen.json)
+    - Services and goods (dungeonworld.charts.json)
+ * Implementation of the "Dungeon World" logo selective according to the theme (dark/light)
+ * Automatic management of token images based on the presence of the word "Token" in the image file name
+ * Addition of a function to display the active actor's portrait with a simple right click on the image to facilitate sharing
+ * Addition of tooltips on tags to facilitate understanding, including highlighting of combat-related tags
+ * Addition of an automatic empty damage correction function for certain imported monsters (post-Babele)
+ * Addition of AI illustrations to the "Actor" compendiums for better visual immersion:
+    - Disabled by default (can be enabled/disabled in the module settings)
+    - Progress 24/154 or ~16%
+ * Update of the translation file (fr.json) with the new variables added in version 13
+
 ## Version 2.1.1
    * Minor correction of the archive
 
