@@ -1,145 +1,145 @@
 {
-	"label": "Actions du·de la Voleur·euse",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "Alchemist",
-			"name": "Chimiste",
-			"description": "<p><em>Requiert : Distillateur</em></p><p>Vous pouvez cr&eacute;er de nouveaux poisons. D&eacute;crivez en l&rsquo;effet recherch&eacute; au&middot;&agrave; lae MJ. Cellui-ci peut ajouter une ou plusieurs limites de son choix parmi les suivantes :</p><ul><li>Il ne marche que dans certaines conditions.</li><li>Il est moins puissant que pr&eacute;vu.</li><li>Il prend un certain temps &agrave; agir.</li><li>Il y a des effets secondaires perceptibles.</li></ul>"
-		},
-		{
-			"id": "Backstab",
-			"name": "Attaque sournoise",
-			"description": "<p>Quand vous attaquez un&middot;e ennemi&middot;e sans d&eacute;fense ou par surprise avec une arme de m&ecirc;l&eacute;e, vous pouvez choisir d&rsquo;infliger vos d&eacute;g&acirc;ts ou de lancer <strong>2d6+DEX</strong>.</p>",
-			"failure": "<p>Oups, quelque chose ne s'est pas pass&eacute; comme pr&eacute;vu.</p>",
-			"partial": "<p>Choisissez 1 option.</p>",
-			"success": "<p>Choisissez 2 options.</p>",
-			"choices": "<ul><li>Vous &eacute;vitez le corps &agrave; corps avec votre adversaire.</li><li>Vous infligez vos d&eacute;g&acirc;ts <strong>+1d6</strong>.</li><li>Vous obtenez un avantage de <strong>+1 &agrave; suivre</strong> pour un alli&eacute; ou vous-m&ecirc;me si vous en profitez.</li><li>Vous r&eacute;duisez son armure de 1 jusqu&rsquo;&agrave; ce qu&rsquo;il la r&eacute;pare.</li></ul>"
-		},
-		{
-			"id": "Brewer",
-			"name": "Distillateur·rice",
-			"description": "<p>Quand vous avez le temps de r&eacute;unir les ingr&eacute;dients n&eacute;cessaires et un endroit calme o&ugrave; concocter vos m&eacute;langes, vous pouvez pr&eacute;parer 3 doses d&rsquo;un poison que vous avez d&eacute;j&agrave; utilis&eacute;.</p>"
-		},
-		{
-			"id": "Cautious",
-			"name": "Prudent·e",
-			"description": "<p>M&ecirc;me sur un 6-, vous prenez 1 avec votre <strong>Expertise des Pi&egrave;ges</strong>.</p>"
-		},
-		{
-			"id": "Cheap Shot",
-			"name": "Coup bas",
-			"description": "<p>Quand vous maniez une arme dont les marqueurs sont &laquo; <em>pr&eacute;cis </em>&raquo; ou &laquo; <em>contact </em>&raquo;, votre <strong>Attaque Sournoise</strong> fait <strong>+1d6</strong> d&eacute;g&acirc;ts suppl&eacute;mentaires.</p>"
-		},
-		{
-			"id": "Connections",
-			"name": "Mauvaises fréquentations",
-			"description": "<p>Quand vous faites savoir au milieu local que vous cherchez quelque chose dont vous avez besoin, lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "<p>Oups, quelque chose ne s'est pas pass&eacute; comme pr&eacute;vu.</p>",
-			"partial": "<p>Vous devez vous contenter de quelque chose d&rsquo;approchant ou vous allez devoir rendre la pareille plus tard, au choix.</p>",
-			"success": "<p>Quelqu&rsquo;un&middot;e vous l&rsquo;a trouv&eacute;.</p>"
-		},
-		{
-			"id": "Dirty Fighter",
-			"name": "Coup vicieux",
-			"description": "<p><em>Remplace : Coup bas</em></p><p>Quand vous maniez une arme dont les marqueurs sont &laquo; <em>pr&eacute;cis</em> &raquo; ou &laquo; <em>contact</em> &raquo;, votre <em>Attaque Sournoise</em> fait <strong>+1d8 d&eacute;g&acirc;ts</strong> suppl&eacute;mentaires et vos autres attaques <strong>+1d4</strong>.</p>"
-		},
-		{
-			"id": "Disguise",
-			"name": "Déguisement",
-			"description": "<p>Quand vous avez du temps et de quoi fabriquer un <strong>d&eacute;guisement</strong>, vous pouvez prendre l&rsquo;apparence de n&rsquo;importe quelle cr&eacute;ature humano&iuml;de de vos taille et corpulence et tromper n&rsquo;importe qui sur votre identit&eacute;. Vos actions peuvent vous trahir, mais pas votre apparence.</p>"
-		},
-		{
-			"id": "Envenom",
-			"name": "Envenimer",
-			"description": "<p>Vous pouvez appliquer les poisons les plus complexes d&rsquo;une simple piq&ucirc;re d&rsquo;&eacute;pingle. Quand vous appliquez sur votre arme un poison qui n&rsquo;est pas dangereux pour vous, remplacez &laquo; <em>appliqu&eacute;</em> &raquo; par &laquo; <em>toucher</em> &raquo;.</p>"
-		},
-		{
-			"id": "Escape Route",
-			"name": "Issue de secours",
-			"description": "<p>Quand vous y &ecirc;tes jusqu&rsquo;au cou et voulez prendre la poudre d&rsquo;escampette, d&eacute;crivez votre &eacute;chappatoire et lancez <strong>2d6+DEX</strong>.</p>",
-			"failure": "<p>Vous ne parvenez pas &agrave; trouver d'&eacute;chappatoire.</p>",
-			"partial": "<p>Vous pouvez rester ou vous en aller mais, si vous partez, il vous en co&ucirc;te : laissez quelque chose derri&egrave;re vous ou prenez quelque chose avec vous. Lae MJ vous dira quoi.</p>",
-			"success": "<p>Vous disparaissez.</p>"
-		},
-		{
-			"id": "Evasion",
-			"name": "Dérobade",
-			"description": "<p>Quand vous <em>d&eacute;fiez le danger</em> avec <strong>12+</strong>, vous transcendez le danger. Non seulement vous atteignez votre objectif, mais en plus lae MJ vous proposera un meilleur r&eacute;sultat, voire un moment de pure gr&acirc;ce.</p>"
-		},
-		{
-			"id": "Extremely Cautious",
-			"name": "Très prudent·e",
-			"description": "<p><em>Requiert : Prudent&middot;e</em></p><p>Quand vous utilisez votre <em>expertise des pi&egrave;ges</em> et obtenez <strong>12+</strong>, prenez 3 et quand vous passerez non loin du prochain pi&egrave;ge, lae MJ vous dira ce qu&rsquo;il fait, comment il s&rsquo;active, qui l&rsquo;a pos&eacute; et comment l&rsquo;utiliser &agrave; votre avantage.</p>"
-		},
-		{
-			"id": "Flexible Morals",
-			"name": "Morale souple",
-			"description": "<p>Quand quelqu&rsquo;un&middot;e essaie de d&eacute;terminer votre alignement, vous pouvez r&eacute;pondre par l&rsquo;alignement qui vous chante.</p>"
-		},
-		{
-			"id": "Heist",
-			"name": "Le casse du siècle",
-			"description": "<p>Quand vous prenez le temps de planifier un casse, d&eacute;crivez l&rsquo;objet de votre convoitise et posez ces questions au&middot;&agrave; lae MJ. Quand vous tenez compte des r&eacute;ponses pour agir, vous et vos alli&eacute;&middot;e&middot;s b&eacute;n&eacute;ficiez d&rsquo;un <strong>+1 &agrave; suivre</strong>.</p><ul><li>Qui va remarquer son absence ?</li><li>Quelle est sa meilleure protection ?</li><li>Qui va chercher &agrave; le r&eacute;cup&eacute;rer ?</li><li>Qui d&rsquo;autre le veut ?</li></ul>"
-		},
-		{
-			"id": "Poison Master",
-			"name": "Maître·sse empoisonneur·euse",
-			"description": "<p>Lorsque vous avez utilis&eacute; un poison une fois avec succ&egrave;s, il n&rsquo;est plus jamais dangereux pour vous.</p>"
-		},
-		{
-			"id": "Poisoner",
-			"name": "Empoisonneur·euse",
-			"description": "<p>Vous ma&icirc;trisez l&rsquo;usage d&rsquo;un poison. Choisissez un poison dans la liste suivante : ce poison n&rsquo;est d&eacute;sormais plus dangereux pour vous. Vous commencez le jeu avec 3 doses de ce poison. Si vous avez le temps et les composants, vous pouvez distiller librement 3 nouvelles doses de ce poison.</p><p>Notez que certains poisons sont <em>appliqu&eacute;s</em>, ce qui requiert de les administrer pr&eacute;cautionneusement &agrave; la cible ou dans une nourriture ou boisson qu&rsquo;elle absorbera. D&rsquo;autres poisons n&eacute;cessiteront simplement de <em>toucher</em> la victime, ce qui peut notamment se faire en enduisant une lame.</p><ul><li><strong>Huile de Tagit</strong> (<em>appliquer</em>) : la cible s&rsquo;endort d&rsquo;un sommeil l&eacute;ger.</li><li><strong>Herbe sanglante</strong> (<em>toucher</em>) : la cible, tant qu&rsquo;elle n&rsquo;est pas soign&eacute;e, soustrait <strong>1d4 </strong>des d&eacute;g&acirc;ts qu&rsquo;elle inflige.</li><li><strong>Racine d&rsquo;or</strong> (<em>appliquer</em>) : la cible consid&egrave;re la prochaine cr&eacute;ature qu&rsquo;elle voit comme un&middot;e alli&eacute;&middot;e fiable, jusqu&rsquo;&agrave; preuve du contraire.</li><li><strong>Larmes de serpent</strong> (<em>toucher</em>) : quiconque inflige des d&eacute;g&acirc;ts &agrave; la cible tire deux d&eacute;s au lieu d&rsquo;un et prend le meilleur r&eacute;sultat.</li></ul>"
-		},
-		{
-			"id": "Serious Underdog",
-			"name": "Dos au mur",
-			"description": "<p><em>Remplace : Aux abois</em></p><p>Vous avez <strong>+1 armure</strong>. Quand vous &ecirc;tes en sous-nombre, vous avez <strong>+2 armure</strong>.</p>"
-		},
-		{
-			"id": "Shoot First",
-			"name": "Sixième sens",
-			"description": "<p>On ne vous prend jamais par surprise. Quand l&rsquo;ennemi&middot;e devrait vous prendre de vitesse, vous pouvez quand m&ecirc;me r&eacute;agir avant ellui.</p>"
-		},
-		{
-			"id": "Strong Arm, True Aim",
-			"name": "Bras ferme, œil vif",
-			"description": "<p>Vous pouvez <em>tirer une salve</em> avec n&rsquo;importe quelle arme de m&ecirc;l&eacute;e. Une arme lanc&eacute;e est perdue : vous ne pouvez pas choisir de r&eacute;duire vos munitions sur un 7-9.</p>"
-		},
-		{
-			"id": "Trap Expert",
-			"name": "Expertise des pièges",
-			"description": "<p>Quand vous prenez le temps d&rsquo;&eacute;tudier une zone dangereuse, lancez <strong>2d6+DEX</strong>.&nbsp;</p>",
-			"failure": "<p>Il semble n'y avoir rien de signifiant.</p>",
-			"partial": "<p>Prenez 1 option.</p>",
-			"success": "<p>Prenez 3 options.</p>",
-			"choices": "<p>D&eacute;pensez 1 pour poser une des questions suivantes pendant que vous vous d&eacute;placez dans cette zone :</p><ul><li>Y a-t-il un pi&egrave;ge ici et si oui, comment se d&eacute;clenche-t-il ?</li><li>Que fait ce pi&egrave;ge quand il se d&eacute;clenche ?</li><li>Qu&rsquo;y a-t-il d&rsquo;autre cach&eacute; ici ?</li></ul>"
-		},
-		{
-			"id": "Tricks Of The Trade",
-			"name": "Ficelles du métier",
-			"description": "<p>Quand vous crochetez une serrure, faites les poches de quelqu&rsquo;un&middot;e ou d&eacute;sactivez un pi&egrave;ge, lancez <strong>2d6+DEX</strong>.</p>",
-			"failure": "<p>Oups, quelque chose ne s'est pas pass&eacute; comme pr&eacute;vu.</p>",
-			"partial": "<p>Vous y parvenez mais lae MJ vous laisse choisir deux options parmi suspicion, danger ou co&ucirc;t.</p>",
-			"success": "<p>Vous y parvenez sans probl&egrave;me.</p>"
-		},
-		{
-			"id": "Underdog",
-			"name": "Aux abois",
-			"description": "<p>Quand vous combattez en sous-nombre, vous avez +1 armure.</p>"
-		},
-		{
-			"id": "Wealth And Taste",
-			"name": "Richesse et bon goût",
-			"description": "<p>Quand vous exhibez votre plus pr&eacute;cieuse possession sous le nez de tout le monde,&nbsp;<br>d&eacute;signez quelqu&rsquo;un&middot;e de pr&eacute;sent. Iel fera tout pour obtenir cet objet ou quelque chose qui s&rsquo;en approche.</p>"
-		}
-	]
+  "label": "Actions du·de la Voleur·euse",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Alchemist",
+      "name": "Chimiste",
+      "description": "<p><em>Requiert : Distillateur</em></p><p>Vous pouvez créer de nouveaux poisons. Décrivez en l’effet recherché au·à lae MJ. Cellui-ci peut ajouter une ou plusieurs limites de son choix parmi les suivantes :</p><ul><li>Il ne marche que dans certaines conditions.</li><li>Il est moins puissant que prévu.</li><li>Il prend un certain temps à agir.</li><li>Il y a des effets secondaires perceptibles.</li></ul>"
+    },
+    {
+      "id": "Backstab",
+      "name": "Attaque sournoise",
+      "description": "<p>Quand vous attaquez un·e ennemi·e sans défense ou par surprise avec une arme de mêlée, vous pouvez choisir d’infliger vos dégâts ou de lancer <strong>2d6+DEX</strong>.</p>",
+      "failure": "<p>Oups, quelque chose ne s'est pas passé comme prévu.</p>",
+      "partial": "<p>Choisissez 1 option.</p>",
+      "success": "<p>Choisissez 2 options.</p>",
+      "choices": "<ul><li>Vous évitez le corps à corps avec votre adversaire.</li><li>Vous infligez vos dégâts <strong>+1d6</strong>.</li><li>Vous obtenez un avantage de <strong>+1 à suivre</strong> pour un allié ou vous-même si vous en profitez.</li><li>Vous réduisez son armure de 1 jusqu’à ce qu’il la répare.</li></ul>"
+    },
+    {
+      "id": "Brewer",
+      "name": "Distillateur·rice",
+      "description": "<p>Quand vous avez le temps de réunir les ingrédients nécessaires et un endroit calme où concocter vos mélanges, vous pouvez préparer 3 doses d’un poison que vous avez déjà utilisé.</p>"
+    },
+    {
+      "id": "Cautious",
+      "name": "Prudent·e",
+      "description": "<p>Même sur un 6-, vous prenez 1 avec votre <strong>Expertise des Pièges</strong>.</p>"
+    },
+    {
+      "id": "Cheap Shot",
+      "name": "Coup bas",
+      "description": "<p>Quand vous maniez une arme dont les marqueurs sont « <em>précis </em>» ou « <em>contact </em>», votre <strong>Attaque Sournoise</strong> fait <strong>+1d6</strong> dégâts supplémentaires.</p>"
+    },
+    {
+      "id": "Connections",
+      "name": "Mauvaises fréquentations",
+      "description": "<p>Quand vous faites savoir au milieu local que vous cherchez quelque chose dont vous avez besoin, lancez <strong>2d6+CHA</strong>.</p>",
+      "failure": "<p>Oups, quelque chose ne s'est pas passé comme prévu.</p>",
+      "partial": "<p>Vous devez vous contenter de quelque chose d’approchant ou vous allez devoir rendre la pareille plus tard, au choix.</p>",
+      "success": "<p>Quelqu’un·e vous l’a trouvé.</p>"
+    },
+    {
+      "id": "Dirty Fighter",
+      "name": "Coup vicieux",
+      "description": "<p><em>Remplace : Coup bas</em></p><p>Quand vous maniez une arme dont les marqueurs sont « <em>précis</em> » ou « <em>contact</em> », votre <em>Attaque Sournoise</em> fait <strong>+1d8 dégâts</strong> supplémentaires et vos autres attaques <strong>+1d4</strong>.</p>"
+    },
+    {
+      "id": "Disguise",
+      "name": "Déguisement",
+      "description": "<p>Quand vous avez du temps et de quoi fabriquer un <strong>déguisement</strong>, vous pouvez prendre l’apparence de n’importe quelle créature humanoïde de vos taille et corpulence et tromper n’importe qui sur votre identité. Vos actions peuvent vous trahir, mais pas votre apparence.</p>"
+    },
+    {
+      "id": "Envenom",
+      "name": "Envenimer",
+      "description": "<p>Vous pouvez appliquer les poisons les plus complexes d’une simple piqûre d’épingle. Quand vous appliquez sur votre arme un poison qui n’est pas dangereux pour vous, remplacez « <em>appliqué</em> » par « <em>toucher</em> ».</p>"
+    },
+    {
+      "id": "Escape Route",
+      "name": "Issue de secours",
+      "description": "<p>Quand vous y êtes jusqu’au cou et voulez prendre la poudre d’escampette, décrivez votre échappatoire et lancez <strong>2d6+DEX</strong>.</p>",
+      "failure": "<p>Vous ne parvenez pas à trouver d'échappatoire.</p>",
+      "partial": "<p>Vous pouvez rester ou vous en aller mais, si vous partez, il vous en coûte : laissez quelque chose derrière vous ou prenez quelque chose avec vous. Lae MJ vous dira quoi.</p>",
+      "success": "<p>Vous disparaissez.</p>"
+    },
+    {
+      "id": "Evasion",
+      "name": "Dérobade",
+      "description": "<p>Quand vous <em>défiez le danger</em> avec <strong>12+</strong>, vous transcendez le danger. Non seulement vous atteignez votre objectif, mais en plus lae MJ vous proposera un meilleur résultat, voire un moment de pure grâce.</p>"
+    },
+    {
+      "id": "Extremely Cautious",
+      "name": "Très prudent·e",
+      "description": "<p><em>Requiert : Prudent·e</em></p><p>Quand vous utilisez votre <em>expertise des pièges</em> et obtenez <strong>12+</strong>, prenez 3 et quand vous passerez non loin du prochain piège, lae MJ vous dira ce qu’il fait, comment il s’active, qui l’a posé et comment l’utiliser à votre avantage.</p>"
+    },
+    {
+      "id": "Flexible Morals",
+      "name": "Morale souple",
+      "description": "<p>Quand quelqu’un·e essaie de déterminer votre alignement, vous pouvez répondre par l’alignement qui vous chante.</p>"
+    },
+    {
+      "id": "Heist",
+      "name": "Le casse du siècle",
+      "description": "<p>Quand vous prenez le temps de planifier un casse, décrivez l’objet de votre convoitise et posez ces questions au·à lae MJ. Quand vous tenez compte des réponses pour agir, vous et vos allié·e·s bénéficiez d’un <strong>+1 à suivre</strong>.</p><ul><li>Qui va remarquer son absence ?</li><li>Quelle est sa meilleure protection ?</li><li>Qui va chercher à le récupérer ?</li><li>Qui d’autre le veut ?</li></ul>"
+    },
+    {
+      "id": "Poison Master",
+      "name": "Maître·sse empoisonneur·euse",
+      "description": "<p>Lorsque vous avez utilisé un poison une fois avec succès, il n’est plus jamais dangereux pour vous.</p>"
+    },
+    {
+      "id": "Poisoner",
+      "name": "Empoisonneur·euse",
+      "description": "<p>Vous maîtrisez l’usage d’un poison. Choisissez un poison dans la liste suivante : ce poison n’est désormais plus dangereux pour vous. Vous commencez le jeu avec 3 doses de ce poison. Si vous avez le temps et les composants, vous pouvez distiller librement 3 nouvelles doses de ce poison.</p><p>Notez que certains poisons sont <em>appliqués</em>, ce qui requiert de les administrer précautionneusement à la cible ou dans une nourriture ou boisson qu’elle absorbera. D’autres poisons nécessiteront simplement de <em>toucher</em> la victime, ce qui peut notamment se faire en enduisant une lame.</p><ul><li><strong>Huile de Tagit</strong> (<em>appliquer</em>) : la cible s’endort d’un sommeil léger.</li><li><strong>Herbe sanglante</strong> (<em>toucher</em>) : la cible, tant qu’elle n’est pas soignée, soustrait <strong>1d4 </strong>des dégâts qu’elle inflige.</li><li><strong>Racine d’or</strong> (<em>appliquer</em>) : la cible considère la prochaine créature qu’elle voit comme un·e allié·e fiable, jusqu’à preuve du contraire.</li><li><strong>Larmes de serpent</strong> (<em>toucher</em>) : quiconque inflige des dégâts à la cible tire deux dés au lieu d’un et prend le meilleur résultat.</li></ul>"
+    },
+    {
+      "id": "Serious Underdog",
+      "name": "Dos au mur",
+      "description": "<p><em>Remplace : Aux abois</em></p><p>Vous avez <strong>+1 armure</strong>. Quand vous êtes en sous-nombre, vous avez <strong>+2 armure</strong>.</p>"
+    },
+    {
+      "id": "Shoot First",
+      "name": "Sixième sens",
+      "description": "<p>On ne vous prend jamais par surprise. Quand l’ennemi·e devrait vous prendre de vitesse, vous pouvez quand même réagir avant ellui.</p>"
+    },
+    {
+      "id": "Strong Arm, True Aim",
+      "name": "Bras ferme, œil vif",
+      "description": "<p>Vous pouvez <em>tirer une salve</em> avec n’importe quelle arme de mêlée. Une arme lancée est perdue : vous ne pouvez pas choisir de réduire vos munitions sur un 7-9.</p>"
+    },
+    {
+      "id": "Trap Expert",
+      "name": "Expertise des pièges",
+      "description": "<p>Quand vous prenez le temps d’étudier une zone dangereuse, lancez <strong>2d6+DEX</strong>. </p>",
+      "failure": "<p>Il semble n'y avoir rien de signifiant.</p>",
+      "partial": "<p>Prenez 1 option.</p>",
+      "success": "<p>Prenez 3 options.</p>",
+      "choices": "<p>Dépensez 1 pour poser une des questions suivantes pendant que vous vous déplacez dans cette zone :</p><ul><li>Y a-t-il un piège ici et si oui, comment se déclenche-t-il ?</li><li>Que fait ce piège quand il se déclenche ?</li><li>Qu’y a-t-il d’autre caché ici ?</li></ul>"
+    },
+    {
+      "id": "Tricks Of The Trade",
+      "name": "Ficelles du métier",
+      "description": "<p>Quand vous crochetez une serrure, faites les poches de quelqu’un·e ou désactivez un piège, lancez <strong>2d6+DEX</strong>.</p>",
+      "failure": "<p>Oups, quelque chose ne s'est pas passé comme prévu.</p>",
+      "partial": "<p>Vous y parvenez mais lae MJ vous laisse choisir deux options parmi suspicion, danger ou coût.</p>",
+      "success": "<p>Vous y parvenez sans problème.</p>"
+    },
+    {
+      "id": "Underdog",
+      "name": "Aux abois",
+      "description": "<p>Quand vous combattez en sous-nombre, vous avez +1 armure.</p>"
+    },
+    {
+      "id": "Wealth And Taste",
+      "name": "Richesse et bon goût",
+      "description": "<p>Quand vous exhibez votre plus précieuse possession sous le nez de tout le monde, <br>désignez quelqu’un·e de présent. Iel fera tout pour obtenir cet objet ou quelque chose qui s’en approche.</p>"
+    }
+  ]
 }

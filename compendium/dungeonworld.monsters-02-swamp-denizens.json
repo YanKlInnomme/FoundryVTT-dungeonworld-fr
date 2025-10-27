@@ -1,0 +1,215 @@
+{
+  "label": "E2 - Habitants des Marais",
+  "mapping": {
+    "imagePath": "img",
+    "tokenPath": "prototypeToken.texture.src",
+    "name": "name",
+    "damageModifier": "system.attributes.damage.piercing",
+    "tags": "system.tags",
+    "specialQualities": "system.attributes.specialQualities.value",
+    "description": "system.details.biography"
+  },
+  "folders": {},
+  "entries": {
+    "Will-o-wisp": {
+      "name": "Feu Follet",
+      "tokenName": "Feu Follet",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/will-o-wisp.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/will-o-wisp%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Minuscule\"},{\"value\":\"Magique\"},{\"value\":\"Courte\"}]",
+      "specialQualities": "Corps lumineux",
+      "description": "<p>Voyageur perdu dans le marais, vous repérez une lumière flottant dans les ténèbres, une lueur scintillante. L’espoir ! Vous tentez de lui faire signe, mais il n’y a aucune réponse. La lumière commence à s’évanouir, et vous tentez de la rejoindre, pataugeant péniblement dans la vase dans l’espoir d’être guidé vers un havre de paix, vous épuisant dans cette vaine poursuite. Ces tristes histoires finissent toujours mal.</p>\n<p>Ces créatures sont un véritable mystère : certains disent qu’elles sont les esprits des morts, d’autres des incarnations de pure lumière féerique. Personne ne connaît la vérité. Elles sont cruelles, ça c’est sûr. Tout le monde s’accorde sur ce point.</p>\n<p>Penchant : Égarer</p>\n<ul>\n<li>Guider quelqu’un sur le mauvais chemin</li>\n<li>Emmener quelqu’un au pire endroit possible</li>\n</ul>"
+    },
+    "Ekek": {
+      "name": "Ekek",
+      "tokenName": "Ekek",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/ekek.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/ekek%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Horde\"}]",
+      "specialQualities": "Bras ailés",
+      "description": "<p>Ceux-là sont d’affreux hommes-oiseaux tout fripés. Jadis, ils furent, peut-être, un peuple d’anges venu d’en haut, mais ils se nourrissent désormais de rats qu’ils pêchent dans la boue des marécages avec leurs serres acérées et dévorent de leurs dents pointues. Ils comprennent les langues des hommes et des nains, mais la leur n’est qu’un charabia lorsqu’ils répètent les mots qu’ils entendent en ricanant.</p>\n<p>C’est un spectacle glaçant de voir une bête si proche à la fois de l’homme et de l’oiseau, sans être toutefois complètement l’un ou l’autre.</p>\n<p>Penchant : Agresser quelqu’un</p>\n<ul>\n<li>Attaquer depuis les airs</li>\n<li>Exécuter les ordres d’une créature plus puissante</li>\n</ul>"
+    },
+    "Swamp Shambler": {
+      "name": "Tertre Errant",
+      "tokenName": "Tertre Errant",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/swamp-shambler.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/swamp-shambler%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Magique\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Ne faire qu’un avec le marais",
+      "description": "<p>Certains élémentaires sont invoqués dans des cercles magiques tracés à la craie. La plupart, en fait. On en a même fait une science. D’autres, par contre, ne sont pas vraiment classables car ils ne tombent dans aucune de ces catégories soigneusement ordonnées comme le feu, l’air, l’eau ou la terre. Ceux-là sont des amalgames naturels de racines, de tourbe et de moisissure. Ils ne réfléchissent pas comme nous. On ne peut pas les comprendre comme quiconque comprend un elfe. Ils ne font qu’exister. Esprits du marais, errant dans la boue.</p>\n<p>Penchant : Créer et préserver les marais</p>\n<ul>\n<li>Invoquer le marais lui-même à son aide</li>\n<li>Fusionner et se fondre dans le marais</li>\n<li>Se reformer en prenant un nouvel aspect</li>\n</ul>"
+    },
+    "Medusa": {
+      "name": "Méduse",
+      "tokenName": "Méduse",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/medusa.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/medusa%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Fourbe\"},{\"value\":\"Intelligent\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Son regard transforme la chair en pierre",
+      "description": "<p>Les méduses sont les descendants d’une créature aux cheveux serpentins qui les enfante depuis la nuit des temps pour perpétuer sa légende à travers les âges. Les méduses se terrent non loin des endroits civilisés, attirant les pauvres gens avec des promesses de beauté et de richesses infinies. Grandes amatrices d’art, les méduses conservent d’étranges collections de leurs victimes, figées pour l’éternité dans des expressions d’agonie ou d’extase. Savoir qu’elles auront été la dernière vision de si nombreuses personnes satisfait leur vanité.</p>\n<p>Arrogantes, fières et mauvaises, elles recherchent, comme beaucoup d’autres, mais à leur façon, un entourage permanent.</p>\n<p>Penchant : Collectionner</p>\n<ul>\n<li>Pétrifier une partie d’un corps d’un seul regard</li>\n<li>Attirer le regard d’une personne</li>\n<li>Un spectacle d’une beauté terrifiante</li>\n</ul>"
+    },
+    "Fire Eels": {
+      "name": "Anguille Inflammable",
+      "tokenName": "Anguille Inflammable",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/fire-eels.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/fire-eels%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Minuscule\"},{\"value\":\"Contact\"}]",
+      "specialQualities": "Huile inflammable, Aquatique",
+      "description": "<p>Ces étranges créatures ne sont pas plus grosses ni particulièrement plus malines que leurs cousines ordinaires. Elles partagent la même nature vicieuse. Leur seul avantage par rapport à ces dernières est le liquide huileux qui suinte de leur peau. Non seulement cela les rend plus dures à attraper, mais d’une seule torsion de leur corps oblong elles peuvent embraser cette substance, laissant des flaques d’huile enflammée à la surface de l’eau, carbonisant sans distinction prédateurs et proies. J’ai entendu dire que ces anguilles font une bonne base pour créer du matériel ignifugé, mais il faut d’abord réussir à mettre la main sur une de ces bêtes.</p>\n<p>Penchant : Embraser</p>\n<ul>\n<li>Capturer quelque chose ou quelqu’un en train de brûler (même sous l’eau)</li>\n<li>Dévorer une proie enflammée</li>\n</ul>"
+    },
+    "Hydra": {
+      "name": "Hydre",
+      "tokenName": "Hydre",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/hydra.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/hydra%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Nombreuses têtes, ne peut être tuée que par un coup porté au cœur",
+      "description": "<p>Bien que dépourvue d’ailes, l’Hydre ressemble à un dragon. Ses têtes, au nombre de neuf à sa naissance, émergent d’un torse musculeux en un enchevêtrement serpentin. Une hydre est une vision terrifiante dans les marais. Les plus vieilles d’entre elles ont toutefois généralement plus de neuf têtes, chaque tentative échouée visant à les détruire les rendant plus puissantes.</p>\n<p>Ce qui ne vous tue pas vous rend plus fort. Dans le cas des hydres, tranchez-leur une tête et deux repoussent aussitôt.</p>\n<p>Seul un coup puissant et précis au cœur de la bête peut achever une hydre. Ni le temps, ni la violence, ni la maladie, seul ce coup précis.</p>\n<p>Penchant : Croître en puissance</p>\n<ul>\n<li>Attaquer plusieurs adversaires à la fois</li>\n<li>Régénérer une partie de son anatomie (plus particulièrement une tête)</li>\n</ul>"
+    },
+    "Dragon Turtle": {
+      "name": "Dragon-Tortue",
+      "tokenName": "Dragon-Tortue",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/dragon-turtle.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/dragon-turtle%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Allonge\"},{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"},{\"value\":\"Prudent\"}]",
+      "specialQualities": "Carapace, Amphibie",
+      "description": "<p>Bakunawa a un frère. Alors qu’elle est irascible et vénale, lui est calme et inébranlable. Elle est une lame, lui un bouclier. Une tortue énorme, vautrée dans un bourbier durant des siècles, de la boue sur sa carapace, voire même des arbres et des arbustes. Parfois, un clan de gobelins paumés s’y installe, y construit ses huttes et y prépare ses repas minables. La mâchoire du Dragon-Tortue a peut-être la lenteur d’un glacier mais elle peut éventrer les remparts d’un château. Attention où vous mettez les pieds.</p>\n<p>Penchant : Résister au changement</p>\n<ul>\n<li>Marcher droit devant implacablement</li>\n<li>User de tout son poids sur quelque chose ou quelqu’un</li>\n<li>Pulvériser infrastructures et bâtiments</li>\n</ul>"
+    },
+    "Crocodilian": {
+      "name": "Crocodilien",
+      "tokenName": "Crocodilien",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/crocodilian.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/crocodilian%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Groupe\"},{\"value\":\"Grand\"}]",
+      "specialQualities": "Amphibie, Camouflage",
+      "description": "<p>C’est un énorme crocodile. Vraiment énorme.</p>\n<p>Penchant : Manger</p>\n<ul>\n<li>Attaquer une proie au dépourvu</li>\n<li>Disparaître dans l’eau</li>\n<li>Serrer quelque chose ou quelqu’un entre ses mâchoires puissantes</li>\n</ul>"
+    },
+    "Dragon Whelp": {
+      "name": "Dragonnet",
+      "tokenName": "Dragonnet",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/dragon-whelp.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/dragon-whelp%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Courte\"},{\"value\":\"Solitaire\"},{\"value\":\"Petit\"},{\"value\":\"Intelligent\"},{\"value\":\"Prudent\"},{\"value\":\"Thésauriseur\"}]",
+      "specialQualities": "Ailé, Origine élémentaire",
+      "description": "<p>Comment ? Vous pensiez qu’ils faisaient tous des kilomètres de long ? Vous n’aviez pas idée qu’on puisse en trouver d’aussi petits que ça ? C’est vrai, ils ne sont pas plus grands qu’un chiot, et pas plus intelligents qu’un singe, mais un dragonnet peut toujours cracher une boule d'un feu d'enfer, capable de vous rôtir dans votre armure et vous laisser hurlant dans la boue. Leurs écailles aussi sont moins résistantes que celles des espèces plus larges, mais peuvent tout de même dévier un coup d’épée ou une flèche mal ajustée. Rappelez-vous : La taille ne fait pas la puissance.</p>\n<p>Penchant : Gagner en puissance</p>\n<ul>\n<li>Construire un repaire, base de son pouvoir</li>\n<li>Faire jouer les relations familiales</li>\n<li>Exiger des serments d'allégeance</li>\n</ul>"
+    },
+    "Troll": {
+      "name": "Troll",
+      "tokenName": "Troll",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/troll.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/troll%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Régénération",
+      "description": "<p>Grands. Vraiment grands. 2 à 3 mètres, lorsqu’ils sont jeunes ou faibles. Ils ont une peau épaisse et couverte de bubons, de grandes dents jaunâtres, des cheveux gras puant le moisi et de longs ongles crasseux. Certains sont verts, d’autres grisâtres, d’autres encore noirs. Ils sont organisés en petits clans, et peuvent rarement supporter la présence de leurs congénères, encore moins celle du reste d’entre nous. Impossible à tuer, à moins d’avoir du feu ou de l’acide sous la main. Tranchez-leur un membre et observez si vous ne me croyez pas. Quelques jours après, vous aurez deux trolls là où vous n’en aviez qu’un. Vous vous en doutez, là est le problème.</p>\n<p>Penchant : Écrabouiller</p>\n<ul>\n<li>Annuler les effets d’une attaque (à moins que les dégâts ne soient causés par le feu ou l’acide, au choix du MJ)</li>\n<li>Balancer quelque chose ou quelqu’un</li>\n</ul>"
+    },
+    "Doppelgänger": {
+      "name": "Doppelgänger",
+      "tokenName": "Doppelgänger",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/doppelganger.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/doppelganger%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Solitaire\"},{\"value\":\"Fourbe\"},{\"value\":\"Intelligent\"}]",
+      "specialQualities": "Métamorphose",
+      "description": "<p>L’aspect normal de ces créatures, s’il vous arrive de le voir un jour, est hideux. Un peu comme si elles avaient arrêté de prendre forme en cours de route, sans avoir choisi d’être elfes, humaines, ou naines. Mais peut-être est-ce leur manière d’être, sans forme ni visage qui leur soit propre, simplement à la recherche d’un endroit où s’intégrer.</p>\n<p>Lorsque vous rentrez d’un périple, assurez-vous que vos amis sont bien ceux qu’ils prétendent être. L’un d’eux pourrait être un Doppelgänger, et votre ami un cadavre quelque part au fond d’un puits.</p>\n<p>Cela dit parfois, à voir certains de vos « amis », ce n’est peut-être pas plus mal.</p>\n<p>Penchant : S’infiltrer</p>\n<ul>\n<li>Prendre la forme de ceux dont il a goûté la chair</li>\n<li>Tirer un avantage de l’apparence de quelqu’un</li>\n<li>Ruiner la réputation de quelqu’un</li>\n</ul>"
+    },
+    "Lizardman": {
+      "name": "Homme-Lézard",
+      "tokenName": "Homme-Lézard",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/lizardman.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/lizardman%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Furtif\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Amphibie",
+      "description": "<p>Un mage itinérant m’a dit une fois que les hommes-lézards étaient déjà présents avant que les humains n’existent. Qu’une race de fiers Rois-Lézards parcourait la terre avant que les elfes, les nains et les hommes aient même construit leur première hutte en torchis. Qu’ils vivaient dans des palais d’or et de cristal et vénéraient leurs propres dieux reptiliens.</p>\n<p>Peut-être est-ce la vérité, peut-être pas. À présent, ils demeurent dans des endroits depuis longtemps abandonnés et oubliés des hommes, fabriquent leur équipement dans l’obsidienne volcanique et attaquent les créations du monde civilisé. Peut-être veulent-ils seulement récupérer ce qu’ils ont perdu.</p>\n<p>Penchant : Détruire la civilisation</p>\n<ul>\n<li>Tendre des embuscades</li>\n<li>Lancer un assaut amphibie</li>\n</ul>"
+    },
+    "Frogman": {
+      "name": "Homme-Grenouille",
+      "tokenName": "Homme-Grenouille",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/frogman.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/frogman%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Petit\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Amphibie",
+      "description": "<p>Croââ, croââ, croââ. De petits nabots couverts de verrues. Sûrement la blague douteuse d’un quelconque sorcier ou d’une divinité mineure. Ils tiennent sur deux jambes, vêtus d’habits dépareillés, volés quelque part, et se réunissent en conseil dans leurs petits villages grenouillesques. Ils parlent un patois rocailleux semblable au langage des hommes et sont toujours en guerre avec leurs voisins. Ils sont avares, cupides et stupides, mais toutefois suffisamment malins pour savoir se défendre correctement. Certains disent aussi que leurs prêtres sont remarquablement doués dans l’art de la guérison. Ou peut-être sont-ils juste vraiment, vraiment, durs au mal.</p>\n<p>Penchant : Faire la guerre</p>\n<ul>\n<li>Lancer un assaut amphibie</li>\n<li>Guérir à une vitesse prodigieuse</li>\n</ul>"
+    },
+    "Basilisk": {
+      "name": "Basilic",
+      "tokenName": "Basilic",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/basilisk.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/basilisk%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Solitaire\"},{\"value\":\"Thésauriseur\"}]",
+      "specialQualities": " ",
+      "description": "<p>« Peu ont vu un basilic et ont eu l’occasion de partager cette expérience. Vous comprenez ? Voir un basilic ? Ha, ha, un brin d’humour basilic. Désolé, je sais bien que vous êtes à la recherche d’un peu d’aide, messeigneurs, d’informations plus sérieuses que ça, je comprends bien. Le basilic, voyez-vous, même sans parler de sa capacité à vous transformer en bloc de granit, est une créature dangereuse. Ça tient du crapaud, avec des yeux globuleux et six pattes musclées pour bondir. Ça tient aussi de l’alligator, avec des dents aiguisées et une mâchoire puissante. C’est recouvert d’écailles en pierre et extrêmement coriace. Si vous voulez mon avis, évitez de vous y frotter. »</p>\n<p>Penchant : Créer de nouvelles statues</p>\n<ul>\n<li>Transformer la chair en pierre d’un regard</li>\n<li>Se cacher dans un labyrinthe de roche</li>\n</ul>"
+    },
+    "Sauropod": {
+      "name": "Sauropode",
+      "tokenName": "Sauropode",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/sauropod.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/sauropod%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Allonge\"},{\"value\":\"Groupe\"},{\"value\":\"Énorme\"},{\"value\":\"Prudent\"}]",
+      "specialQualities": "Corps recouvert d’une armure naturelle",
+      "description": "<p>Ces grandes créatures au pas lourd vivent dans des lieux oubliés depuis longtemps par les races intelligentes de ce monde. Paisibles si on les laisse tranquilles, elles peuvent piétiner ceux qui provoquent leur colère avec le même intérêt que l’on peut porter aux fourmis que l’on écrase sous ses bottes. Si vous voyez un de ces mastodontes, approchez-vous et observez-le avec émerveillement, mais n’attirez surtout pas son attention.</p>\n<p>Penchant : Encaisser</p>\n<ul>\n<li>Ruer et charger</li>\n<li>Renverser quelque chose</li>\n<li>Émettre un rugissement assourdissant</li>\n</ul>"
+    },
+    "Coutal": {
+      "name": "Coutal",
+      "tokenName": "Coutal",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/coutal.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/coutal%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Solitaire\"},{\"value\":\"Intelligent\"},{\"value\":\"Fourbe\"}]",
+      "specialQualities": "Ailé, Halo",
+      "description": "<p>Comme un défi lancé au visage du déclin et de la noirceur de ce monde, les Dieux ont créé le Coutal. Comme pour déclarer : « Voyez, même dans ce monde sinistre, la beauté existe. »</p>\n<p>Tels des serpents suspendus dans les airs par de fines ailes serties de diamants, ces magnifiques créatures luisent d’une douce clarté, semblable aux rayons du soleil à travers un vitrail. Intelligent, sage et calme, un Coutal sait de nombreuses choses, et en discerne d’autant plus. Vous pourriez peut-être marchander avec l’un d’eux, en échange d’une faveur particulière. Ils cherchent à assainir et purifier ces ténèbres pour faire de notre monde un endroit meilleur.</p>\n<p>Ils sont hélas peu nombreux. Les Dieux sont cruels.</p>\n<p>Penchant : Purifier</p>\n<ul>\n<li>Juger la valeur d’une personne ou d’un lieu</li>\n<li>Invoquer la puissance divine pour purifier</li>\n<li>Marchander des informations en échange d’une faveur</li>\n</ul>"
+    },
+    "Black Pudding": {
+      "name": "Pudding Noir",
+      "tokenName": "Pudding Noir",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/black-pudding.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/black-pudding%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Solitaire\"},{\"value\":\"Informe\"}]",
+      "specialQualities": "Informe",
+      "description": "<p>Comment tuer un tas de gelée ? Une immense pile de matière gluante et spongieuse qui n’a apparemment pour seul but que de vous dissoudre et vous digérer lentement ? C’est une très bonne question. Une question à laquelle je n’ai pas de réponse. Prévenez-moi quand vous trouverez.</p>\n<p>Penchant : Dissoudre</p>\n<ul>\n<li>Ronger le bois, le métal ou les chairs</li>\n<li>Suinter et dégouliner dans un endroit incommodant (nourriture, armure, estomac…)</li>\n</ul>"
+    },
+    "Sahuagin": {
+      "name": "Sahuagin",
+      "tokenName": "Sahuagin",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/sahuagin.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/sahuagin%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"},{\"value\":\"Puissant\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": "Amphibie",
+      "description": "<p>La stature et l’ingéniosité d’un être humain, la voracité et les dents d’un requin. Éternellement affamées et emplies de haine, ces créatures ne s’arrêteront que lorsque toute forme de vie aura été dévorée. Impossible de les raisonner, encore moins de les contrôler ou de les rassasier. Elles sont pure faim et rage meurtrière, venues des profondeurs marines pour ravager les villes côtières et submerger les villages insulaires.</p>\n<p>Penchant : Répandre le sang</p>\n<ul>\n<li>Arracher un membre d’une morsure</li>\n<li>Lancer un javelot empoisonné</li>\n<li>Devenir enragé à la vue du sang</li>\n</ul>"
+    },
+    "Bakunawa": {
+      "name": "Bakunawa",
+      "tokenName": "Bakunawa",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/bakunawa.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/bakunawa%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Intelligent\"},{\"value\":\"Dévastateur\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Amphibious",
+      "description": "<p>La gigantesque Reine-Serpent est la sœur du Dragon-Tortue : six mètres d’écailles et de muscles sinueux. On dit qu’elle s’éveille affamée lorsque les derniers rayons de soleil disparaissent à l’horizon. Les fortes lueurs dans la pénombre l’attirent et, comme tout serpent, la Bakunawa est perfide. Elle cherche tout d’abord à séduire et tromper, n’ayant recours à la violence que lorsqu’elle y est acculée.</p>\n<p>Mais quand elle s’y résout, sa morsure puissante peut briser en deux la coque de n’importe quel esquif voire même une ou deux cuirasses. Donnez vos trésors à ce serpent avide et, peut-être, vous épargnera-t-il.</p>\n<p>Penchant : Dévorer</p>\n<ul>\n<li>Attirer ses proies par des mensonges et des illusions</li>\n<li>Attaquer les sources lumineuses</li>\n<li>Dévorer</li>\n</ul>"
+    },
+    "Kobold": {
+      "name": "Kobold",
+      "tokenName": "Kobold",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e2/kobold.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e2/kobold%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Petit\"},{\"value\":\"Furtif\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Lien avec les dragons",
+      "description": "<p>Certains n’hésiteront pas à faire l’amalgame entre ces petits hommes-dragon au faciès de rongeur et les gobelins, orcs, gobelours et autres hobgobelins. En vérité ils sont plus malins que leurs cousins éloignés. Les kobolds sont assujettis aux dragons. Ils étaient, dans des temps plus anciens, leurs gardiens du savoir ou serviteurs-sorciers. Leurs clans, avec des noms comme « Écailles d’acier », « Griffe Noire », gravitent autour d’un dragon qu’ils servent et dont ils accomplissent le moindre souhait. Apercevoir un kobold signifie que d’autres ne sont pas loin ; et si un groupe de kobolds est présent, vous pouvez être sûr qu’un puissant dragon se trouve là lui aussi.</p>\n<p>Penchant : Servir les dragons</p>\n<ul>\n<li>Préparer un piège</li>\n<li>Faire appel aux dragons ou à des alliés draconiens</li>\n<li>Battre en retraite et se regrouper</li>\n</ul>"
+    }
+  }
+}

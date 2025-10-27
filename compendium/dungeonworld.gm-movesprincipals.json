@@ -1,22 +1,33 @@
 {
-    "label": "Actions et Principes du·de la MJ",
-    "mapping": {
-        "description": "content"
-    },
-    "entries": [{
-            "id": "Dungeon Moves",
-            "name": "Actions de donjon",
-            "description": "<ul>\n<li>Changez l’environnement.</li>\n<li>Montrez des signes d’une menace imminente.</li>\n<li>Utilisez une menace propre à une faction ou à une créature.</li>\n<li>Faites intervenir une nouvelle faction ou un nouveau type de créature.</li>\n<li>Faites rebrousser chemin aux PJ.</li>\n<li>Révélez de coûteuses richesses.</li>\n<li>Offrez un défi à l’un·e des personnages.</li>\n</ul>"
-        },
-        {
-            "id": "GM Moves",
-            "name": "Actions du·de la MJ",
-            "description": "<ul>\n<li>Montrez des signes d’une menace à venir.</li>\n<li>Révélez une vérité indésirable.</li>\n<li>Indiquez aux PJ les conditions ou les conséquences de leurs actions.</li>\n<li>Offrez une opportunité aux PJ, avec ou sans coût.</li>\n<li>Créez une situation dans laquelle excelle une classe.</li>\n<li>Déclenchez l’action d’un lieu, d’un danger ou d’un monstre.</li>\n<li>Épuisez les ressources des PJ.</li>\n<li>Mettez quelqu’un dans une situation difficile.</li>\n<li>Utilisez les inconvénients de la classe, du peuple ou de l’équipement des PJ.</li>\n<li>Retournez les actions des PJ contre eux.</li>\n<li>Séparez les PJ.</li>\n<li>Infligez des dégâts.</li>\n</ul>"
-        },
-        {
-            "id": "Principals",
-            "name": "Vos principes",
-            "description": "<ul>\n<li>Posez des questions, utilisez les réponses.</li>\n<li>Agissez selon la fiction.</li>\n<li>Commencez et terminez avec la fiction.</li>\n<li>Soyez fan des personnages.</li>\n<li>Immergez-vous dans le fantastique.</li>\n<li>Dessinez des plans et des cartes, laissez des vides.</li>\n<li>Adressez-vous aux personnages, pas aux joueur·euse·s.</li>\n<li>Ne désignez pas vos actions par leur nom.</li>\n<li>Donnez vie à chaque monstre.</li>\n<li>Nommez chaque personne.</li>\n<li>Pensez « danger ».</li>\n<li>Pensez aussi hors-champ.</li>\n</ul>"
+  "label": "Actions et Principes du·de la MJ",
+  "folders": {},
+  "entries": {
+    "GM Moves": {
+      "name": "Actions du·de la MJ",
+      "pages": {
+        "GM Moves": {
+          "name": "Actions du·de la MJ",
+          "text": "<ul>\n<li>Montrez des signes d’une menace à venir.</li>\n<li>Révélez une vérité indésirable.</li>\n<li>Indiquez aux PJ les conditions ou les conséquences de leurs actions.</li>\n<li>Offrez une opportunité aux PJ, avec ou sans coût.</li>\n<li>Créez une situation dans laquelle excelle une classe.</li>\n<li>Déclenchez l’action d’un lieu, d’un danger ou d’un monstre.</li>\n<li>Épuisez les ressources des PJ.</li>\n<li>Mettez quelqu’un dans une situation difficile.</li>\n<li>Utilisez les inconvénients de la classe, du peuple ou de l’équipement des PJ.</li>\n<li>Retournez les actions des PJ contre eux.</li>\n<li>Séparez les PJ.</li>\n<li>Infligez des dégâts.</li>\n</ul>"
         }
-    ]
+      }
+    },
+    "Principals": {
+      "name": "Vos principes",
+      "pages": {
+        "Principals": {
+          "name": "Vos principes",
+          "text": "<ul>\n<li>Posez des questions, utilisez les réponses.</li>\n<li>Agissez selon la fiction.</li>\n<li>Commencez et terminez avec la fiction.</li>\n<li>Soyez fan des personnages.</li>\n<li>Immergez-vous dans le fantastique.</li>\n<li>Dessinez des plans et des cartes, laissez des vides.</li>\n<li>Adressez-vous aux personnages, pas aux joueur·euse·s.</li>\n<li>Ne désignez pas vos actions par leur nom.</li>\n<li>Donnez vie à chaque monstre.</li>\n<li>Nommez chaque personne.</li>\n<li>Pensez « danger ».</li>\n<li>Pensez aussi hors-champ.</li>\n</ul>"
+        }
+      }
+    },
+    "Dungeon Moves": {
+      "name": "Actions de donjon",
+      "pages": {
+        "Dungeon Moves": {
+          "name": "Actions de donjon",
+          "text": "<ul>\n<li>Changez l’environnement.</li>\n<li>Montrez des signes d’une menace imminente.</li>\n<li>Utilisez une menace propre à une faction ou à une créature.</li>\n<li>Faites intervenir une nouvelle faction ou un nouveau type de créature.</li>\n<li>Faites rebrousser chemin aux PJ.</li>\n<li>Révélez de coûteuses richesses.</li>\n<li>Offrez un défi à l’un·e des personnages.</li>\n</ul>"
+        }
+      }
+    }
+  }
 }

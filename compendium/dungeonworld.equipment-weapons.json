@@ -1,123 +1,123 @@
 {
-	"label": "Équipement (Armes)",
-	"mapping": {
-		"name": "name",
-		"description": "system.description"
-	},
-	"entries": [
-		{
-			"id": "Axe",
-			"name": "Hache",
-			"description": "<p>La hache est un instrument form&eacute; d'un fer tranchant fix&eacute; &agrave; l'extr&eacute;mit&eacute; d'un manche, qui sert &agrave; couper, &agrave; fendre.</p>"
-		},
-		{
-			"id": "Battle Axe",
-			"name": "Hache de Bataille",
-			"description": "<p>La hache de bataille est une arme de guerre &agrave; deux mains form&eacute; d'un fer &agrave; double&nbsp; tranchant fix&eacute; &agrave; l'extr&eacute;mit&eacute; d'un long manche.</p>"
-		},
-		{
-			"id": "Bundle of Arrows",
-			"name": "Carquois",
-			"description": "<p>Un carquois rempli de fl&egrave;ches (ou de carreaux).</p>"
-		},
-		{
-			"id": "Club",
-			"name": "Massue",
-			"description": "<p>La massue est un b&acirc;ton noueux qui sert d'arme contondante, peut-&ecirc;tre clout&eacute;e pour une meilleure efficacit&eacute;.</p>"
-		},
-		{
-			"id": "Crossbow",
-			"name": "Arbalète",
-			"description": "<p>L'arbal&egrave;te est une arme form&eacute;e d'un arc d'acier mont&eacute; sur un f&ucirc;t et qui se bande avec un ressort. Elle utilise comme munition des carreaux.</p>"
-		},
-		{
-			"id": "Dagger",
-			"name": "Dague",
-			"description": "<p>La dague est une &eacute;p&eacute;e &agrave; lame large et courte.</p>"
-		},
-		{
-			"id": "Dueling Rapier",
-			"name": "Rapière de duel",
-			"description": "<p>La rapi&egrave;re est une &eacute;p&eacute;e &agrave; lame longue et fine, pour frapper d'estoc et dont on se sert principalement dans les duels.</p>"
-		},
-		{
-			"id": "Elven Arrows",
-			"name": "Flèches Elfiques"
-		},
-		{
-			"id": "Fine Bow",
-			"name": "Arc Fin",
-			"description": "<p>L'arc est une arme form&eacute;e d'une verge de bois, que l'on courbe au moyen d'une corde tendue avec effort, et servant &agrave; lancer des fl&egrave;ches. Dans cette version, l'arc est un arc finement ajust&eacute; pour garantir puissance et pr&eacute;cision.</p>"
-		},
-		{
-			"id": "Flail",
-			"name": "Fléau"
-		},
-		{
-			"id": "Halberd",
-			"name": "Arme d’Hast"
-		},
-		{
-			"id": "Hunter's Bow",
-			"name": "Arc de Chasse",
-			"description": "<p>L'arc est une arme form&eacute;e d'une verge de bois, que l'on courbe au moyen d'une corde tendue avec effort, et servant &agrave; lancer des fl&egrave;ches. Dans sa version de chasse, l'arc est un arc finement ajust&eacute; pour garantir vitesse et pr&eacute;cision.</p>"
-		},
-		{
-			"id": "Knife",
-			"name": "Couteau"
-		},
-		{
-			"id": "Long Sword",
-			"name": "Épée Longue",
-			"description": "<p>L'&eacute;p&eacute;e longue est une &eacute;p&eacute;e tenue &agrave; une main, pourvue d'une bonne garde et avec une longueur de lame plus importante que l'&eacute;p&eacute;e courte mais moins que l'&eacute;p&eacute;e &agrave; deux mains.</p>"
-		},
-		{
-			"id": "Mace",
-			"name": "Marteau"
-		},
-		{
-			"id": "Ragged Bow",
-			"name": "Arc Rudimentaire"
-		},
-		{
-			"id": "Rapier",
-			"name": "Rapière"
-		},
-		{
-			"id": "Shillelagh",
-			"name": "Matraque"
-		},
-		{
-			"id": "Shiv",
-			"name": "Pointe"
-		},
-		{
-			"id": "Short Sword",
-			"name": "Épée Courte",
-			"description": "<p>L'&eacute;p&eacute;e courte est une &eacute;p&eacute;e tenue &agrave; une main, pourvue d'une garde simple et avec une longueur de lame plus importante que la dague mais moins que l'&eacute;p&eacute;e longue.</p>"
-		},
-		{
-			"id": "Spear",
-			"name": "Épieu",
-			"description": "<p>L'&eacute;pieu est un gros et long b&acirc;ton garni de fer qui sert &agrave; chasser et qui est aussi une arme de guerre.</p>"
-		},
-		{
-			"id": "Staff",
-			"name": "Bâton",
-			"description": "<p>Le b&acirc;ton est un morceau de bois rond, allong&eacute;. Il peut servir d'appui, d'arme, d'instrument de punition ou d'autre chose.&nbsp;</p>"
-		},
-		{
-			"id": "Throwing Dagger",
-			"name": "Dague/couteau de lancer"
-		},
-		{
-			"id": "Two-handed sword",
-			"name": "Épée à deux mains",
-			"description": "<p>L'&eacute;p&eacute;e &agrave; deux mains est une &eacute;p&eacute;e longue et pesante qu'on saisit avec les deux mains, tel l'espadon.</p>"
-		},
-		{
-			"id": "War hammer",
-			"name": "Masse"
-		}
-	]
+  "label": "Équipement (Armes)",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Axe",
+      "name": "Hache",
+      "description": "<p>La hache est un instrument formé d'un fer tranchant fixé à l'extrémité d'un manche, qui sert à couper, à fendre.</p>"
+    },
+    {
+      "id": "Battle Axe",
+      "name": "Hache de Bataille",
+      "description": "<p>La hache de bataille est une arme de guerre à deux mains formé d'un fer à double  tranchant fixé à l'extrémité d'un long manche.</p>"
+    },
+    {
+      "id": "Bundle of Arrows",
+      "name": "Carquois",
+      "description": "<p>Un carquois rempli de flèches (ou de carreaux).</p>"
+    },
+    {
+      "id": "Club",
+      "name": "Massue",
+      "description": "<p>La massue est un bâton noueux qui sert d'arme contondante, peut-être cloutée pour une meilleure efficacité.</p>"
+    },
+    {
+      "id": "Crossbow",
+      "name": "Arbalète",
+      "description": "<p>L'arbalète est une arme formée d'un arc d'acier monté sur un fût et qui se bande avec un ressort. Elle utilise comme munition des carreaux.</p>"
+    },
+    {
+      "id": "Dagger",
+      "name": "Dague",
+      "description": "<p>La dague est une épée à lame large et courte.</p>"
+    },
+    {
+      "id": "Dueling Rapier",
+      "name": "Rapière de duel",
+      "description": "<p>La rapière est une épée à lame longue et fine, pour frapper d'estoc et dont on se sert principalement dans les duels.</p>"
+    },
+    {
+      "id": "Elven Arrows",
+      "name": "Flèches Elfiques"
+    },
+    {
+      "id": "Fine Bow",
+      "name": "Arc Fin",
+      "description": "<p>L'arc est une arme formée d'une verge de bois, que l'on courbe au moyen d'une corde tendue avec effort, et servant à lancer des flèches. Dans cette version, l'arc est un arc finement ajusté pour garantir puissance et précision.</p>"
+    },
+    {
+      "id": "Flail",
+      "name": "Fléau"
+    },
+    {
+      "id": "Halberd",
+      "name": "Arme d’Hast"
+    },
+    {
+      "id": "Hunter's Bow",
+      "name": "Arc de Chasse",
+      "description": "<p>L'arc est une arme formée d'une verge de bois, que l'on courbe au moyen d'une corde tendue avec effort, et servant à lancer des flèches. Dans sa version de chasse, l'arc est un arc finement ajusté pour garantir vitesse et précision.</p>"
+    },
+    {
+      "id": "Knife",
+      "name": "Couteau"
+    },
+    {
+      "id": "Long Sword",
+      "name": "Épée Longue",
+      "description": "<p>L'épée longue est une épée tenue à une main, pourvue d'une bonne garde et avec une longueur de lame plus importante que l'épée courte mais moins que l'épée à deux mains.</p>"
+    },
+    {
+      "id": "Mace",
+      "name": "Marteau"
+    },
+    {
+      "id": "Ragged Bow",
+      "name": "Arc Rudimentaire"
+    },
+    {
+      "id": "Rapier",
+      "name": "Rapière"
+    },
+    {
+      "id": "Shillelagh",
+      "name": "Matraque"
+    },
+    {
+      "id": "Shiv",
+      "name": "Pointe"
+    },
+    {
+      "id": "Short Sword",
+      "name": "Épée Courte",
+      "description": "<p>L'épée courte est une épée tenue à une main, pourvue d'une garde simple et avec une longueur de lame plus importante que la dague mais moins que l'épée longue.</p>"
+    },
+    {
+      "id": "Spear",
+      "name": "Épieu",
+      "description": "<p>L'épieu est un gros et long bâton garni de fer qui sert à chasser et qui est aussi une arme de guerre.</p>"
+    },
+    {
+      "id": "Staff",
+      "name": "Bâton",
+      "description": "<p>Le bâton est un morceau de bois rond, allongé. Il peut servir d'appui, d'arme, d'instrument de punition ou d'autre chose. </p>"
+    },
+    {
+      "id": "Throwing Dagger",
+      "name": "Dague/couteau de lancer"
+    },
+    {
+      "id": "Two-handed sword",
+      "name": "Épée à deux mains",
+      "description": "<p>L'épée à deux mains est une épée longue et pesante qu'on saisit avec les deux mains, tel l'espadon.</p>"
+    },
+    {
+      "id": "War hammer",
+      "name": "Masse"
+    }
+  ]
 }

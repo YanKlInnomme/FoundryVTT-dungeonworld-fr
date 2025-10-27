@@ -1,0 +1,195 @@
+{
+  "label": "E4 - Bois sombres",
+  "mapping": {
+    "imagePath": "img",
+    "tokenPath": "prototypeToken.texture.src",
+    "name": "name",
+    "damageModifier": "system.attributes.damage.piercing",
+    "tags": "system.tags",
+    "specialQualities": "system.attributes.specialQualities.value",
+    "description": "system.details.biography"
+  },
+  "folders": {},
+  "entries": {
+    "Hill Giant": {
+      "name": "Géant des Collines",
+      "tokenName": "Géant des Collines",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/hill-giant.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/hill-giant%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Énorme\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Allonge\"},{\"value\":\"Courte\"},{\"value\":\"Longue\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": " ",
+      "description": "<p>« Tu as déjà vu un ogre ? C’est plus gros que ça. Plus bête et plus méchant, aussi. J’espère que tu aimes qu’on te balance des vaches. »</p>\n<p>Penchant : Tout détruire</p>\n<ul>\n<li>Jeter quelque chose</li>\n<li>Faire une chose stupide</li>\n<li>Faire trembler la terre</li>\n</ul>"
+    },
+    "Blink Dog": {
+      "name": "Chien Esquiveur",
+      "tokenName": "Chien Esquiveur",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/blink-dog.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/blink-dog%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Petit\"},{\"value\":\"Magique\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Illusion",
+      "description": "<p>Vous les voyez, vous ne les voyez plus. Ces chiens appartenaient jadis à un seigneur sorcier qui leur a conféré un voile d’illusion, mais ils se sont échappés dans les bois alentours et ont commencé à se reproduire avec les loups et les chiens sauvages de la forêt. Vous pouvez les repérer, si vous êtes chanceux, grâce au scintillement argenté de leur voile et à leurs étranges jappements. Ils ont un talent remarquable à ne pas être exactement là où ils semblent, et ils l’utilisent pour chasser des proies plus fortes qu’eux. Si vous faites face à une meute de chiens esquiveurs, vous feriez aussi bien de fermer les yeux pour combattre, ainsi votre vue ne vous trahira pas. C’est avec de tels sortilèges que les endroits naturels sont pollués par le surnaturel.</p>\n<p>Penchant : Chasser</p>\n<ul>\n<li>Prendre une autre apparence</li>\n<li>Invoquer la meute</li>\n<li>Se déplacer à une vitesse incroyable</li>\n</ul>"
+    },
+    "Werewolf": {
+      "name": "Loup-Garou",
+      "tokenName": "Loup-Garou",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/werewolf.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/werewolf%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": "Vulnérable à l’argent",
+      "description": "<p>« Elle est belle, n’est-ce pas ? Je parle de la lune. Elle nous surveille, tu sais ? Ses jolis yeux d’argent nous contemplent dans notre sommeil. Elle est folle, comme toutes les beautés. Si c’était une femme, je m’agenouillerais et en ferais mon épouse sur l’instant. Non, je ne t’ai pas demandé de venir ici juste pour parler d’elle. Les chaînes ? C’est pour ta sécurité, pas la mienne. Je suis maudit, vois-tu, tu devais t’en douter. Les Rois Sorciers, à leur époque, appelaient cela la « lycanthropie ». Il suffit d’une morsure pour rejoindre notre espèce. Non, je n’ai pas trouvé de remède. Je t’en prie, ne sois pas effrayée. Tu as les flèches que je t’ai confiées ? En argent, en effet. Ah, tu commences à comprendre. Ne pleure pas, ma sœur. Tu dois faire cela pour moi. Je ne peux pas supporter davantage de sang sur mes mains. Tu dois mettre fin à cela. Pour moi. »</p>\n<p>Penchant : Perdre toute apparence de civilisation</p>\n<ul>\n<li>Se transformer pour passer inaperçu en tant que bête ou en tant qu’homme</li>\n<li>Frapper de l’intérieur</li>\n<li>Chasser comme un homme et une bête</li>\n</ul>"
+    },
+    "Sprite": {
+      "name": "Farfadet",
+      "tokenName": "Farfadet",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/sprite.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/sprite%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Minuscule\"},{\"value\":\"Furtif\"},{\"value\":\"Magique\"},{\"value\":\"Fourbe\"},{\"value\":\"Intelligent\"},{\"value\":\"Contact\"}]",
+      "specialQualities": "Ailé, Magie des fées",
+      "description": "<p>Je les classerais plutôt parmi les élémentaires, sauf que « être pénible » n’est pas un élément.</p>\n<p>Penchant : Jouer des tours</p>\n<ul>\n<li>Tromper les sens</li>\n<li>Tisser une illusion</li>\n<li>Jouer un tour pour exposer la véritable nature de quelqu’un</li>\n</ul>"
+    },
+    "Griffin": {
+      "name": "Griffon",
+      "tokenName": "Griffon",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/griffin.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/griffin%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Grand\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Ailé",
+      "description": "<p>À première vue, on pourrait assimiler le griffon aux autres erreurs magiques, comme la Manticore ou la Chimère. Il en a l’aspect, n’est-ce pas ? Ces créatures ont le mépris régalien du lion et le port arrogant de l’aigle, mais ils tempèrent cela par la loyauté inaltérable de ces deux animaux. Gagner l’amitié d’un griffon, c’est avoir un allié pour la vie. C’est un vrai cadeau.</p>\n<p>Si vous êtes assez chanceux pour en rencontrer un, soyez respectueux et déférent par-dessus tout. L’air de rien, ils sont capables de percevoir le plus subtil des affronts et y répondront avec leurs serres et leur bec tranchant.</p>\n<p>Penchant : Servir ses alliés</p>\n<ul>\n<li>Juger le mérite de quelqu’un</li>\n<li>Transporter un allié dans les airs</li>\n<li>Frapper d’en haut</li>\n</ul>"
+    },
+    "Chaos Ooze": {
+      "name": "Gelée Du Chaos",
+      "tokenName": "Gelée Du Chaos",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/chaos-ooze.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/chaos-ooze%20-%20token.webp",
+      "damageModifier": "ignore armure",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Planaire\"},{\"value\":\"Terrifiant\"},{\"value\":\"Informe\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Vase, Intègre des fragments d’autres plans",
+      "description": "<p>La barrière entre le monde et les plans élémentaires n’est pas, comme vous pourriez le penser, un mur de pierre. Elle est bien plus poreuse. Les endroits que les races civilisées foulent rarement peuvent parfois - comment dire - avoir des fuites. Comme une digue qui cède peu à peu.</p>\n<p>Des bouts, des morceaux de chaos se déversent et parfois, ils coagulent comme un œuf dans une poêle. C’est de cela que l’on tire le matériau pour de nombreuses babioles magiques de la Guilde. Utile, n’est-ce pas ?</p>\n<p>Parfois, cependant, ils se tortillent, ils gargouillent mais demeurent tel quel, changeant tout ce que ça touche en une autre forme étrange. Le chaos engendre le chaos, et cela s’accroît.</p>\n<p>Penchant : Changer</p>\n<ol>\n<li>Provoquer un changement en apparence ou en substance</li>\n<li>Connecter brièvement les plans</li>\n</ol>"
+    },
+    "Elvish Warrior": {
+      "name": "Guerrier Elfe",
+      "tokenName": "Guerrier Elfe",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/elvish-warrior.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/elvish-warrior%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Sens aiguisés",
+      "description": "<p>« Comme tout ce qu’ils entreprennent, les elfes abordent la guerre comme un art. J’en ai vu combattre une fois, à la Bataille du Voile d’Astrid. Oui, gamin, je suis aussi vieux que ça, maintenant tais-toi. Une vierge guerrière, vêtue d’une armure de plaques qui brillait comme un ciel d’hiver. Une blanche chevelure ruisselante, un fanion bleu océan attaché à sa lance. Elle semblait glisser entre les arbres, tel un ange, et alors qu’elle frappait, sa lame, trempée de sang, fumait dans l’air glacé. Je ne m’étais jamais senti si petit. Tu sais, j’ai été entraîné par un maître d’arme de Bastelande, je tenais une épée bien avant ta naissance, gamin, mais, à ce moment-là, j’ai su que mes compétences ne signifiaient rien. Les dieux soient loués, les Elfes étaient à nos côtés ce jour-là. Je n’avais rien vu de si beau et de si terrible. »</p>\n<p>Penchant : Chercher la perfection</p>\n<ul>\n<li>Frapper un point faible</li>\n<li>Mettre en œuvre d’anciens plans</li>\n<li>Utiliser les bois à son avantage</li>\n</ul>"
+    },
+    "Elvish High Arcanist": {
+      "name": "Grand Arcaniste Elfe",
+      "tokenName": "Grand Arcaniste Elfe",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/elvish-high-arcanist.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/elvish-high-arcanist%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Magique\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Courte\"},{\"value\":\"Longue\"}]",
+      "specialQualities": "Sens aiguisés",
+      "description": "<p>La véritable magie elfique ne ressemble pas à celle des hommes. La sorcellerie humaine est faite de formules et de recettes. Les hommes trichent pour découvrir les secrets ésotériques qui résonnent partout autour d’eux. Ils n’entendent pas la symphonie des arcanes qui chante dans les bois. La magie elfique requiert à la fois une oreille attentive pour percevoir cette symphonie et aussi une voix pour la rejoindre et s’harmoniser à ce qui résonne déjà. Les hommes plient les forces magiques à leur volonté, les elfes pincent simplement leurs cordes et fredonnent. Les Grands Arcanistes, en un sens, sont devenus à la fois plus et moins que tout elfe. Le rythme de leur sang est la palpitation de toute magie en ce monde.</p>\n<p>Penchant : Libérer le pouvoir</p>\n<ul>\n<li>Accomplir la magie que la nature demande.</li>\n<li>Projeter les éléments</li>\n</ul>"
+    },
+    "Ogre": {
+      "name": "Ogre",
+      "tokenName": "Ogre",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/ogre.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/ogre%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Grand\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": " ",
+      "description": "<p>Voilà l’histoire. Jadis, à un moment de la brève histoire des hommes, il y eut une scission. Dans les temps où les hommes vivaient dans la boue, sans maîtriser aucune magie, ceux-ci se partagèrent en deux groupes. Une partie d’entre eux quitta les cavernes et les sombres forêts et bâtit la première cité pour honorer les dieux. Les autres, un groupe sauvage et brutal, se réfugièrent dans l’obscurité. Là, ils grandirent. Dans les bois profonds, un sombre ressentiment pour leurs doux cousins leur donna de la force. Dans ces forêts et ces collines, ils se trouvèrent de sombres dieux. Les Âges passèrent, et ils devinrent grands, forts et pleins de haine. Nous avons de l’acier forgé auquel ils répondent par leur sauvagerie. Peut-être avons-nous oublié nos racines communes, mais, quelque part, dans les profondeurs, les ogres s’en souviennent.</p>\n<p>Penchant : Ramener le monde à des jours plus sombres</p>\n<ul>\n<li>Détruire quelque chose</li>\n<li>Entrer en rage</li>\n<li>Prendre quelque chose par la force</li>\n</ul>"
+    },
+    "Satyr": {
+      "name": "Satyre",
+      "tokenName": "Satyre",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/satyr.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/satyr%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Fourbe\"},{\"value\":\"Magique\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Enchantement",
+      "description": "<p>L’une des très rares créatures des bois anciens qui ne cherche pas aussitôt à vous mutiler, vous tuer ou vous manger. Ils résident dans les clairières ensoleillées et, avec leurs curieuses jambes de bouc, dansent sur les musiques enchanteresses de fifres d’os et d’argent. Ils sourient facilement, et, aussi longtemps que vous les distrayez de vos plaisanteries et de vos acrobaties, ils vous traiteront amicalement. Ils ont un mauvais côté cependant. Aussi, lorsque vous les croisez, hâtez-vous de quitter l’endroit. Il n’y a rien de plus rancunier qu’un satyre borné.</p>\n<p>Penchant : S’amuser</p>\n<ul>\n<li>Forcer magiquement autrui à faire la fête</li>\n<li>Contraindre autrui à faire des cadeaux</li>\n<li>Jouer des tours avec des illusions</li>\n</ul>"
+    },
+    "Treant": {
+      "name": "Sylvanien",
+      "tokenName": "Sylvanien",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/treant.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/treant%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Énorme\"},{\"value\":\"Intelligent\"},{\"value\":\"Informe\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Fait de bois",
+      "description": "<p>« Peau d’écorce, grands et âgés,<br>\nIls arpentent les sombres futaies.<br>\nForts, lents, en toutes saisons,<br>\nDes Sylvaniens nous te prévenons.<br>\nSi tu apportes ta cognée,<br>\nPour sûr, ils vont te castagner. »</p>\n<p>Penchant : Protéger la nature</p>\n<ul>\n<li>Se déplacer avec une force implacable</li>\n<li>S’enraciner</li>\n<li>Répandre une magie ancienne</li>\n</ul>"
+    },
+    "Dryad": {
+      "name": "Dryade",
+      "tokenName": "Dryade",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/dryad.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/dryad%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Magique\"},{\"value\":\"Intelligent\"},{\"value\":\"Fourbe\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Plante",
+      "description": "<p>Bien plus belles qu’aucun être humain né dans les royaumes civilisés. Un seul regard suffit à en tomber amoureux. Mais ce sentiment puissant est aussi une punition. Le problème est que, de toute façon, elles ne tombent pas amoureuses des êtres de chair qui peuvent les trouver. Leur amour est primordial, lié aux bois, à un chêne majestueux qui leur sert de demeure, de matrice et d’endroit sacré. En apercevoir une est une malédiction, elles n’aimeront jamais en retour, quoique vous fassiez. Peu importe votre engagement auprès d’elles, elles vous rejetteront avec mépris. Si jamais leur chêne vient à être blessé, vous n’aurez pas seulement à composer avec la colère des dryades car dans chaque village voisin il y aura une vingtaine d’hommes avec un secret désir dans leurs cœurs, prêts à vous tuer dans votre sommeil pour le sourire d’une telle créature.</p>\n<p>Penchant : Aimer passionnément la nature</p>\n<ul>\n<li>Se fondre dans un arbre</li>\n<li>Charmer un mortel</li>\n<li>Retourner la nature contre lui</li>\n</ul>"
+    },
+    "Razor Boar": {
+      "name": "Razorback",
+      "tokenName": "Razorback",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/razor-boar.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/razor-boar%20-%20token.webp",
+      "damageModifier": "3 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Proche\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": " ",
+      "description": "<p>Les défenses du sanglier Razorback déchiquettent les armures en métal comme si c’était du tissu. Vorace, sauvage, impossible à arrêter, il surpasse largement le sanglier commun. En tuer un ? Difficile de trouver une tâche qui demande plus de courage et d’habileté que celle-là, car il paraît qu’un Razorback a tué le Roi Ivrogne d’un simple coup. Vous pensez être meilleur chasseur que lui ?</p>\n<p>Penchant : Déchiqueter</p>\n<ul>\n<li>Mettre en lambeau</li>\n<li>Détruire armes et armures</li>\n</ul>"
+    },
+    "Centaur": {
+      "name": "Centaure",
+      "tokenName": "Centaure",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/centaur.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/centaur%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Grand\"},{\"value\":\"Organisés\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Courte\"}]",
+      "specialQualities": "Mi-homme, Mi-cheval",
+      "description": "<p>« Ce sera un rassemblement de clans comme on en n’a pas vu depuis longtemps. Appelez Sabot Tempête et Lance Claire, invoquez Blanche Crinière et Flanc d’Acier, sonnez le cor et nous débuterons l’assemblée, nous prononcerons les mots et lierons nos peuples. Depuis trop longtemps, les hommes coupent les anciens arbres pour leurs bateaux. Les elfes sont faibles et couards, ils sont les alliés de la fange humaine. Ce sera un feu purificateur venu des bois les plus sombres. Brandissez la rouge bannière de guerre ! Aujourd’hui nous lançons la contre-attaque sur ces singes et nous reprenons ce qui nous appartient ! »</p>\n<p>Penchant : Se mettre en rage</p>\n<ul>\n<li>Envahir</li>\n<li>Tirer dans le mille</li>\n<li>Se déplacer à une vitesse implacable</li>\n</ul>"
+    },
+    "Worg": {
+      "name": "Worg",
+      "tokenName": "Worg",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/worg.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/worg%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Ce que les chevaux sont pour les races civilisées, les Worgs le sont pour les gobelins. Ces montures féroces, que seuls les plus braves montent, sont élevées dans les forêts primitives pour servir les gobelins dans leurs guerres contre les hommes. Les seuls Worgs inoffensifs sont les chiots, séparés de leur mère.</p>\n<p>Que vous en ayez trouvé un ou que vous ayez créé une portée d’orphelins avec votre épée aiguisée, vous pouvez en faire, à terme, un protecteur loyal ou un bon limier. Pensez à bien le dresser, car le Worg est futé et il n’est jamais complètement débarrassé de ses instincts primitifs.</p>\n<p>Penchant : Servir</p>\n<ul>\n<li>Être chevauché en bataille</li>\n<li>Donner un avantage à son cavalier</li>\n</ul>"
+    },
+    "Eagle Lord": {
+      "name": "Aigle Géant",
+      "tokenName": "Aigle Géant",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/eagle-lord.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/eagle-lord%20-%20token.webp",
+      "damageModifier": "1 piercing",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Grand\"},{\"value\":\"Organisés\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Ailes puissantes",
+      "description": "<p>Certains ont la taille de chevaux, voire plus grand. Ce sont les rois et les reines des aigles. Leurs cris percent le ciel des montagnes et malheur à ceux qui se retrouvent dans l’ombre de leurs puissantes ailes. Les anciens sorciers ont conclu un pacte avec eux dans les temps primordiaux. Les hommes prendraient les plaines et les vallées et laisseraient les sommets aux seigneurs aigles. Ce pacte sacré doit être honoré, ou ils vous déchireront de leurs serres. Chanceux sont les elfes, car ceux parmi eux qui conclurent l’alliance vivent encore, et quand le danger menace les terres elfiques, les aigles géants leur servent souvent d’espions et de montures. Âgés et fiers, certains pourraient bien échanger leurs anciens secrets contre un juste prix.</p>\n<p>Penchant : Régner sur les hauteurs</p>\n<ul>\n<li>Attaquer du ciel</li>\n<li>Entraîner quelqu’un dans les airs</li>\n<li>Rappeler les anciens serments</li>\n</ul>"
+    },
+    "Cockatrice": {
+      "name": "Cockatrice",
+      "tokenName": "Cockatrice",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/cockatrice.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/cockatrice%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Petit\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Toucher pétrifiant",
+      "description": "<p>« J’avions jamais rien vu de tel, m’sire ! Rodrick pensait que c’était p’têt un poulet. Pauv’ Rodrick, j’pensais plutôt à un genre de lézard, mais il avait raison, ç’avait un bec et des plumes grises comme un poulet. Bon, donc, voyez, on l’a trouvé dans l’bois, dans un nid au pied d’un arbre quand on s’baladait avec la truie. On cherchait des champignons, m’sire. J’avais dit à Rodrick qu’on était… oui, m’sire, bien sûr, l’oiseau… vous voyez, y r’gardait Rodrick, alors l’a essayé de l’effrayer avec un bâton pour prendre les œufs mais la chose l’y a piqué la main. Rapide, la bestiole. J’ai essayé de l’emmener mais l’était de plus en plus lent, et… oui, comme vous l’voyez maintenant, m’sire. Tout gelé, comme quand on a laissé le chien dehors toute la nuit, y’a deux ans. Pauv’ stupide Rodrick. C’tait pas un oiseau ou un lézard, hein, m’sire ? »</p>\n<p>Penchant : Défendre le nid</p>\n<ul>\n<li>Déclencher une lente transformation en pierre</li>\n</ul>"
+    },
+    "Assassin Vine": {
+      "name": "Liane Chasseresse",
+      "tokenName": "Liane Chasseresse",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e4/assassin-vine.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e4/assassin-vine%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Furtif\"},{\"value\":\"Informe\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": "Plante",
+      "description": "<p>Parmi les animaux, il existe une nette division entre les prédateurs et les proies. D’un regard, on remarque les crocs, les yeux luisants, les griffes ou le dard venimeux qui différencient ceux qui tuent de ceux qui se font tuer. Pour un regard averti, il existe une division similaire dans le monde des feuilles et des fleurs. Dans leur cercle forestier, les druides le savent. Les éclaireurs peuvent également remarquer une telle plante avant qu’il ne soit trop tard. Mais les gens du commun continuent d’aller là où ils ne devraient pas, sur des chemins au plus profond des bois, recouverts de lianes inquiétantes. Soudain, ces cordes affamées les enserrent, puis traînent leur proie juteuse dans les sous-bois. Prends garde où tu mets les pieds, voyageur.</p>\n<p>Penchant : Croître</p>\n<ul>\n<li>S’étendre</li>\n<li>Attaquer ceux qui ne se méfient pas</li>\n</ul>"
+    }
+  }
+}

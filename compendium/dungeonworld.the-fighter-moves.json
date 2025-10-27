@@ -1,138 +1,138 @@
 {
-	"label": "Actions du·de la Guerrier·ère",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "Armor Mastery",
-			"name": "Maîtrise des armures",
-			"description": "<p>Lorsque vous laissez votre armure encaisser l&rsquo;essentiel des d&eacute;g&acirc;ts qui vous sont inflig&eacute;s, ceux-ci sont absorb&eacute;s mais la valeur de votre armure (ou de votre bouclier au choix) est r&eacute;duite de 1. La valeur est r&eacute;duite chaque fois que vous faites ce choix. A 0, la protection est d&eacute;truite.</p>"
-		},
-		{
-			"id": "Armored",
-			"name": "Cuirassé",
-			"description": "<p>Ignorez l&rsquo;encombrement des armures que vous portez.</p>"
-		},
-		{
-			"id": "Armored Perfection",
-			"name": "Maîtrise parfaite des armures",
-			"description": "<p><em>Remplace : Ma&icirc;trise des armures</em></p><p>Lorsque vous laissez votre armure encaisser l&rsquo;essentiel des d&eacute;g&acirc;ts qui vous sont inflig&eacute;s, ceux-ci sont absorb&eacute;s et vous gagnez +1 continu contre l&rsquo;attaquant, mais la valeur de votre armure (ou votre bouclier au choix) est r&eacute;duite de 1. La valeur est r&eacute;duite chaque fois que vous faites ce choix. A 0, la protection est d&eacute;truite.</p>"
-		},
-		{
-			"id": "Bend Bars, Lift Gates",
-			"name": "Forcer portes et herses",
-			"description": "<p>Quand vous utilisez la force brute pour d&eacute;truire un obstacle inanim&eacute;, lancez <strong>2d6+FOR</strong>.</p>",
-			"failure": "<p>Parfois la force brute ne suffit pas !</p>",
-			"partial": "<p>Choisissez 2.</p>",
-			"success": "<p>Choisissez 3.</p>",
-			"choices": "<ul><li>&Ccedil;a ne prend pas longtemps.</li><li>Rien de valeur n&rsquo;est endommag&eacute;.</li><li>Cela ne fait pas un bruit &eacute;norme.</li><li>Vous pouvez r&eacute;parer &ccedil;a sans trop d&rsquo;effort.</li></ul>"
-		},
-		{
-			"id": "Blacksmith",
-			"name": "Forgeron",
-			"description": "<p>Si vous avez acc&egrave;s &agrave; une forge, vous pouvez conf&eacute;rer les propri&eacute;t&eacute;s magiques d&rsquo;un objet &agrave; votre arme f&eacute;tiche. Cela d&eacute;truit l&rsquo;objet magique. Votre arme f&eacute;tiche re&ccedil;oit les propri&eacute;t&eacute;s magiques de l&rsquo;objet d&eacute;truit.</p>"
-		},
-		{
-			"id": "Bloodthirsty",
-			"name": "Sanguinaire",
-			"description": "<p><em>Remplace : Sans piti&eacute;</em></p><p>Quand vous infligez des d&eacute;g&acirc;ts, ajoutez <strong>+1d8</strong> d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Evil Eye",
-			"name": "Regard meurtrier",
-			"description": "<p>Quand vous engagez le combat, lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "Vos ennemis vous consid&egrave;rent imm&eacute;diatement comme la plus grande menace.</p>",
-			"partial": "Retenez 1.</p>",
-			"success": "Retenez 2.</p>",
-			"choices": "<p><strong>D&eacute;pensez 1</strong> pour accrocher le regard d&rsquo;un <em>PNJ pr&eacute;sent</em>, qui <em>se fige ou flanche</em> et ne peut agir tant que vous le fixez.</p>"
-		},
-		{
-			"id": "Eye For Weaponry",
-			"name": "Jauger l’adversaire",
-			"description": "<p>Lorsque vous examinez l&rsquo;armement d&rsquo;un adversaire, demandez à lae MJ les d&eacute;g&acirc;ts qu&rsquo;il inflige.</p>"
-		},
-		{
-			"id": "Heirloom",
-			"name": "Mânes",
-			"description": "<p>Quand vous <em>consultez les esprits qui habitent votre arme f&eacute;tiche</em>, ceux-ci vous donneront un aper&ccedil;u de la situation actuelle et pourront vous poser des questions en retour. Lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "<p>Aucun esprit ne se manifeste.</p>",
-			"partial": "<p>Vous n&rsquo;aurez qu&rsquo;une impression.</p>",
-			"success": "<p>Lae MJ vous donnera des d&eacute;tails pr&eacute;cis.</p>"
-		},
-		{
-			"id": "Improved Weapon",
-			"name": "Armes améliorées",
-			"description": "<p>Ajoutez une option &agrave; votre arme f&eacute;tiche.</p>"
-		},
-		{
-			"id": "Interrogator",
-			"name": "Interrogatoire",
-			"description": "<p>Quand vous faites usage de menaces physiques alors que vous n&eacute;gociez, lancez<strong> </strong>avec <strong>FOR au lieu de CHA</strong>.</p>"
-		},
-		{
-			"id": "Iron Hide",
-			"name": "Cuir tanné",
-			"description": "<p>Vous b&eacute;n&eacute;ficiez de +1 armure.</p>"
-		},
-		{
-			"id": "Merciless",
-			"name": "Sans pitié",
-			"description": "<p>Quand vous infligez des d&eacute;g&acirc;ts, ajoutez <strong>+1d4</strong> d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Multiclass Dabbler",
-			"name": "Multiclasse - Dilettante",
-			"description": "<p>Choisissez une action d&rsquo;une autre classe. Vous &ecirc;tes consid&eacute;r&eacute;&middot;e comme d&rsquo;un niveau inf&eacute;rieur lors de votre choix.</p>"
-		},
-		{
-			"id": "Multiclass Initiate",
-			"name": "Multiclasse - Initié",
-			"description": "<p><em>Requiert : Multiclasse - Dilettante</em></p><p>Recevez une action d&rsquo;une autre classe, suivant les m&ecirc;mes conditions que Multiclasse - Dilettante.</p>"
-		},
-		{
-			"id": "Scent Of Blood",
-			"name": "Odeur du sang",
-			"description": "<p>Apr&egrave;s avoir <em>taill&eacute; en pi&egrave;ces</em> un ennemi, votre prochaine attaque contre cet adversaire inflige <strong>+1d4</strong> d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Seeing Red",
-			"name": "Voir rouge",
-			"description": "<p>Vous avez <strong>+1</strong> quand vous <em>discernez la r&eacute;alit&eacute;</em> en plein combat.</p>"
-		},
-		{
-			"id": "Signature Weapon",
-			"name": "Arme fétiche",
-			"description": "<p>C&rsquo;est votre arme. Beaucoup lui ressemblent, mais celle-l&agrave;, c&rsquo;est la v&ocirc;tre. Votre arme est votre meilleure amie. Votre vie en d&eacute;pend. Vous en &ecirc;tes ma&icirc;tre au m&ecirc;me titre que votre vie. Sans vous, elle est inutile et r&eacute;ciproquement. Vous devez la brandir pour de bon.</p><p>Choisissez une arme - elles p&egrave;sent toutes 2 poids :</p><ul><li>&Eacute;p&eacute;e</li><li>Hache</li><li>Marteau</li><li>Fl&eacute;au</li><li>&Eacute;pieu</li><li>Poings</li></ul><p>Choisissez une port&eacute;e qui corresponde le mieux :</p><ul><li>Contact</li><li>Proche</li><li>Allonge</li></ul><p>Choisissez deux am&eacute;liorations :</p><ul><li>Crochets et pointes. <strong>+1 d&eacute;g&acirc;ts</strong>, mais +1 poids.</li><li>Ac&eacute;r&eacute;e. <em>+2 perforant</em>.</li><li>Parfaitement &eacute;quilibr&eacute;e. Ajouter <em>pr&eacute;cis</em>.</li><li>Dentel&eacute;e. <strong>+1 d&eacute;g&acirc;ts</strong>.</li><li>Brille en pr&eacute;sence d&rsquo;un type de cr&eacute;ature de votre choix.</li><li>&Eacute;norme. Ajouter d&eacute;vastateur et puissant.</li><li>Tous usages. Choisissez une port&eacute;e suppl&eacute;mentaire.</li><li>Excellente facture. -1 Poids</li></ul><p>Choisissez une apparence :</p><ul><li>Ancienne</li><li>Immacul&eacute;e</li><li>Ouvrag&eacute;e</li><li>Sinistre</li><li>Tach&eacute;e de sang</li></ul><p>Votre arme f&eacute;tiche est sp&eacute;ciale. Ce n&rsquo;est pas un objet ordinaire. A moins que vous n&rsquo;entrepreniez quelque chose qui lui fasse courir un risque, elle ne vous quittera jamais de fa&ccedil;on permanente m&ecirc;me si parfois il vous faudra vous &eacute;carcasser pour la retrouver.</p>"
-		},
-		{
-			"id": "Steel Hide",
-			"name": "Carapace",
-			"description": "<p><em>Remplace : Cuir tann&eacute;</em></p><p>Vous b&eacute;n&eacute;ficiez de <strong>+2 armure</strong>.</p>"
-		},
-		{
-			"id": "Superior Warrior",
-			"name": "Vétéran",
-			"description": "<p>Lorsque vous <em>taillez en pi&egrave;ces et</em> que vous obtenez 12+, infligez vos d&eacute;g&acirc;ts, esquivez les attaques et impressionnez, d&eacute;moralisez ou effrayez vos ennemis.</p>"
-		},
-		{
-			"id": "Taste Of Blood",
-			"name": "Sanguinaire",
-			"description": "<p><em>Remplace : Sans piti&eacute;</em></p><p>Quand vous infligez des d&eacute;g&acirc;ts, ajoutez <strong>+1d8</strong> d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Through Death’s Eyes",
-			"name": "Fatale prémonition",
-			"description": "<p>Lorsque vous participez &agrave; une bataille, lancez <strong>2d6+SAG</strong>.</p>",
-			"failure": "<p>Vous pr&eacute;voyez votre propre mort ; agissez &agrave; <strong>-1 continu</strong> durant toute la bataille.</p>",
-			"partial": "<p>Nommez quelqu&rsquo;un qui vivra <strong>ou</strong> quelqu&rsquo;un qui mourra.</p>",
-			"success": "<p>Nommez quelqu&rsquo;un qui vivra <strong>et</strong> quelqu&rsquo;un qui mourra.</p>",
-			"choices": "<p>Nommez des PNJ, pas des PJ. Lae MJ exaucera votre vision si elle est un tant soit peu plausible.</p>"
-		}
-	]
+  "label": "Actions du·de la Guerrier·ère",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Armor Mastery",
+      "name": "Maîtrise des armures",
+      "description": "<p>Lorsque vous laissez votre armure encaisser l’essentiel des dégâts qui vous sont infligés, ceux-ci sont absorbés mais la valeur de votre armure (ou de votre bouclier au choix) est réduite de 1. La valeur est réduite chaque fois que vous faites ce choix. A 0, la protection est détruite.</p>"
+    },
+    {
+      "id": "Armored",
+      "name": "Cuirassé",
+      "description": "<p>Ignorez l’encombrement des armures que vous portez.</p>"
+    },
+    {
+      "id": "Armored Perfection",
+      "name": "Maîtrise parfaite des armures",
+      "description": "<p><em>Remplace : Maîtrise des armures</em></p><p>Lorsque vous laissez votre armure encaisser l’essentiel des dégâts qui vous sont infligés, ceux-ci sont absorbés et vous gagnez +1 continu contre l’attaquant, mais la valeur de votre armure (ou votre bouclier au choix) est réduite de 1. La valeur est réduite chaque fois que vous faites ce choix. A 0, la protection est détruite.</p>"
+    },
+    {
+      "id": "Bend Bars, Lift Gates",
+      "name": "Forcer portes et herses",
+      "description": "<p>Quand vous utilisez la force brute pour détruire un obstacle inanimé, lancez <strong>2d6+FOR</strong>.</p>",
+      "failure": "<p>Parfois la force brute ne suffit pas !</p>",
+      "partial": "<p>Choisissez 2.</p>",
+      "success": "<p>Choisissez 3.</p>",
+      "choices": "<ul><li>Ça ne prend pas longtemps.</li><li>Rien de valeur n’est endommagé.</li><li>Cela ne fait pas un bruit énorme.</li><li>Vous pouvez réparer ça sans trop d’effort.</li></ul>"
+    },
+    {
+      "id": "Blacksmith",
+      "name": "Forgeron",
+      "description": "<p>Si vous avez accès à une forge, vous pouvez conférer les propriétés magiques d’un objet à votre arme fétiche. Cela détruit l’objet magique. Votre arme fétiche reçoit les propriétés magiques de l’objet détruit.</p>"
+    },
+    {
+      "id": "Bloodthirsty",
+      "name": "Sanguinaire",
+      "description": "<p><em>Remplace : Sans pitié</em></p><p>Quand vous infligez des dégâts, ajoutez <strong>+1d8</strong> dégâts.</p>"
+    },
+    {
+      "id": "Evil Eye",
+      "name": "Regard meurtrier",
+      "description": "<p>Quand vous engagez le combat, lancez <strong>2d6+CHA</strong>.</p>",
+      "failure": "Vos ennemis vous considèrent immédiatement comme la plus grande menace.</p>",
+      "partial": "Retenez 1.</p>",
+      "success": "Retenez 2.</p>",
+      "choices": "<p><strong>Dépensez 1</strong> pour accrocher le regard d’un <em>PNJ présent</em>, qui <em>se fige ou flanche</em> et ne peut agir tant que vous le fixez.</p>"
+    },
+    {
+      "id": "Eye For Weaponry",
+      "name": "Jauger l’adversaire",
+      "description": "<p>Lorsque vous examinez l’armement d’un adversaire, demandez à lae MJ les dégâts qu’il inflige.</p>"
+    },
+    {
+      "id": "Heirloom",
+      "name": "Mânes",
+      "description": "<p>Quand vous <em>consultez les esprits qui habitent votre arme fétiche</em>, ceux-ci vous donneront un aperçu de la situation actuelle et pourront vous poser des questions en retour. Lancez <strong>2d6+CHA</strong>.</p>",
+      "failure": "<p>Aucun esprit ne se manifeste.</p>",
+      "partial": "<p>Vous n’aurez qu’une impression.</p>",
+      "success": "<p>Lae MJ vous donnera des détails précis.</p>"
+    },
+    {
+      "id": "Improved Weapon",
+      "name": "Armes améliorées",
+      "description": "<p>Ajoutez une option à votre arme fétiche.</p>"
+    },
+    {
+      "id": "Interrogator",
+      "name": "Interrogatoire",
+      "description": "<p>Quand vous faites usage de menaces physiques alors que vous négociez, lancez<strong> </strong>avec <strong>FOR au lieu de CHA</strong>.</p>"
+    },
+    {
+      "id": "Iron Hide",
+      "name": "Cuir tanné",
+      "description": "<p>Vous bénéficiez de +1 armure.</p>"
+    },
+    {
+      "id": "Merciless",
+      "name": "Sans pitié",
+      "description": "<p>Quand vous infligez des dégâts, ajoutez <strong>+1d4</strong> dégâts.</p>"
+    },
+    {
+      "id": "Multiclass Dabbler",
+      "name": "Multiclasse - Dilettante",
+      "description": "<p>Choisissez une action d’une autre classe. Vous êtes considéré·e comme d’un niveau inférieur lors de votre choix.</p>"
+    },
+    {
+      "id": "Multiclass Initiate",
+      "name": "Multiclasse - Initié",
+      "description": "<p><em>Requiert : Multiclasse - Dilettante</em></p><p>Recevez une action d’une autre classe, suivant les mêmes conditions que Multiclasse - Dilettante.</p>"
+    },
+    {
+      "id": "Scent Of Blood",
+      "name": "Odeur du sang",
+      "description": "<p>Après avoir <em>taillé en pièces</em> un ennemi, votre prochaine attaque contre cet adversaire inflige <strong>+1d4</strong> dégâts.</p>"
+    },
+    {
+      "id": "Seeing Red",
+      "name": "Voir rouge",
+      "description": "<p>Vous avez <strong>+1</strong> quand vous <em>discernez la réalité</em> en plein combat.</p>"
+    },
+    {
+      "id": "Signature Weapon",
+      "name": "Arme fétiche",
+      "description": "<p>C’est votre arme. Beaucoup lui ressemblent, mais celle-là, c’est la vôtre. Votre arme est votre meilleure amie. Votre vie en dépend. Vous en êtes maître au même titre que votre vie. Sans vous, elle est inutile et réciproquement. Vous devez la brandir pour de bon.</p><p>Choisissez une arme - elles pèsent toutes 2 poids :</p><ul><li>Épée</li><li>Hache</li><li>Marteau</li><li>Fléau</li><li>Épieu</li><li>Poings</li></ul><p>Choisissez une portée qui corresponde le mieux :</p><ul><li>Contact</li><li>Proche</li><li>Allonge</li></ul><p>Choisissez deux améliorations :</p><ul><li>Crochets et pointes. <strong>+1 dégâts</strong>, mais +1 poids.</li><li>Acérée. <em>+2 perforant</em>.</li><li>Parfaitement équilibrée. Ajouter <em>précis</em>.</li><li>Dentelée. <strong>+1 dégâts</strong>.</li><li>Brille en présence d’un type de créature de votre choix.</li><li>Énorme. Ajouter dévastateur et puissant.</li><li>Tous usages. Choisissez une portée supplémentaire.</li><li>Excellente facture. -1 Poids</li></ul><p>Choisissez une apparence :</p><ul><li>Ancienne</li><li>Immaculée</li><li>Ouvragée</li><li>Sinistre</li><li>Tachée de sang</li></ul><p>Votre arme fétiche est spéciale. Ce n’est pas un objet ordinaire. A moins que vous n’entrepreniez quelque chose qui lui fasse courir un risque, elle ne vous quittera jamais de façon permanente même si parfois il vous faudra vous écarcasser pour la retrouver.</p>"
+    },
+    {
+      "id": "Steel Hide",
+      "name": "Carapace",
+      "description": "<p><em>Remplace : Cuir tanné</em></p><p>Vous bénéficiez de <strong>+2 armure</strong>.</p>"
+    },
+    {
+      "id": "Superior Warrior",
+      "name": "Vétéran",
+      "description": "<p>Lorsque vous <em>taillez en pièces et</em> que vous obtenez 12+, infligez vos dégâts, esquivez les attaques et impressionnez, démoralisez ou effrayez vos ennemis.</p>"
+    },
+    {
+      "id": "Taste Of Blood",
+      "name": "Sanguinaire",
+      "description": "<p><em>Remplace : Sans pitié</em></p><p>Quand vous infligez des dégâts, ajoutez <strong>+1d8</strong> dégâts.</p>"
+    },
+    {
+      "id": "Through Death’s Eyes",
+      "name": "Fatale prémonition",
+      "description": "<p>Lorsque vous participez à une bataille, lancez <strong>2d6+SAG</strong>.</p>",
+      "failure": "<p>Vous prévoyez votre propre mort ; agissez à <strong>-1 continu</strong> durant toute la bataille.</p>",
+      "partial": "<p>Nommez quelqu’un qui vivra <strong>ou</strong> quelqu’un qui mourra.</p>",
+      "success": "<p>Nommez quelqu’un qui vivra <strong>et</strong> quelqu’un qui mourra.</p>",
+      "choices": "<p>Nommez des PNJ, pas des PJ. Lae MJ exaucera votre vision si elle est un tant soit peu plausible.</p>"
+    }
+  ]
 }

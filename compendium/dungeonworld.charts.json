@@ -1,42 +1,69 @@
 {
-    "label": "Services et biens",
-    "mapping": {
-        "description": "content"
-    },
-    "entries": [{
-            "id": "Bribes",
-            "name": "Gratifications",
-            "description": "<ul>\n<li>Récompenser un·e paysan·ne : 20-Charisme Po</li>\n<li>« Protection » pour un commerce : 100-Charisme Po</li>\n<li>Graisser une patte : 50-Charisme Po</li>\n<li>Pot-de-vin persuasif : 80-Charisme Po</li>\n<li>Ce qu’on ne peut refuser : 500-Charisme Po</li>\n</ul>"
-        },
-        {
-            "id": "Gifts and Finery",
-            "name": "Cadeaux et Parures",
-            "description": "<ul>\n<li>Un cadeau de paysan : 1 Po</li>\n<li>Un beau cadeau : 55 Po</li>\n<li>Un cadeau de noble : 200 Po</li>\n<li>Un anneau ou pendentif : 75 Po<li>Des vêtements élégants : 105 Po</li>\n <li>Une tapisserie raffinée : 350+ Po</li>\n<li>La couronne d'un roi ou d'une reine : 5000 Po</li>\n</ul>"
-        },
-        {
-            "id": "Hoards",
-            "name": "Butin",
-            "description": "<ul>\n<li>Une planque de gobelin : 2 Po</li>\n<li>Babioles d’homme lézard : 5 Po</li>\n<li>Une épée « inestimable » : 80 Po</li>\n<li>La fortune d’un chef de tribu orc : 250 Po</li>\n<li>Le trésor d’un dragon : 130 000 Po</li>\n</ul>"
-        },
-        {
-            "id": "Land and Buildings",
-            "name": "Propriétés et Terres",
-            "description": "<ul>\n<li>Une chaumière : 20 Po</li>\n<li>Une petite maison : 500 Po</li>\n<li>Une maison : 2 500 Po</li>\n<li>Un manoir : 50 000 Po</li>\n<li>Un donjon : 75 000 Po</li>\n<li>Un château : 250 000 Po</li>\n<li>Un grand château : 1 000 000 Po</li>\n<li>Entretien mensuel : 1 % du coût</li>\n</ul>"
-        },
-        {
-            "id": "Meals",
-            "name": "Nourriture",
-            "description": "<ul>\n<li>Un bon repas (par personne) : 1 Po</li>\n<li>Une maigre pitance pour une famille : 1 Po</li>\n<li>Un festin (par personne) : 15 Po</li>\n</ul>"
-        },
-        {
-            "id": "Services",
-            "name": "Services",
-            "description": "<ul>\n<li>Une semaine dans une auberge pour paysans : 14-Charisme Po</li>\n<li>Une semaine dans une auberge civilisée : 30-Charisme Po</li>\n<li>Une semaine dans la meilleure auberge de la ville : 43-Charisme Po</li>\n<li>Une semaine de travail non qualifié : 10 Po</li>\n<li>La solde d’un mois dans l’armée : 30 Po</li>\n<li>Un objet forgé sur mesure : prix de l’objet + 50 Po</li>\n<li>Une nuit de douce compagnie : 20-Charisme Po</li>\n<li>Une soirée de chansons et de danses : 18-Charisme Po</li>\n<li>Une escorte sur une route infestée de bandits (par jour) : 20 Po</li>\n<li>Une escorte sur une route infestée de monstres (par jour) : 54 Po</li>\n<li>Un meurtre banal : 5 Po</li>\n<li>Un assassinat : 120 Po</li>\n<li>Les soins d’un chirurgien : 5 Po</li>\n<li>Un mois de prière pour les disparus : 1 Po</li>\n<li>La réparation d’un objet ordinaire : 25 % du coût de l’objet</li>\n</ul>"
-        },
-        {
-            "id": "Transport",
-            "name": "Transport",
-            "description": "<ul>\n<li>Une charrette et une mule, condamnée à tirer votre fardeau : 50 po, charge : 20 poids</li>\n<li>Cheval : 75Po, charge : 10 poids</li>\n<li>Cheval de guerre : 400 Po, charge : 12 poids</li>\n<li>Chariot : 150 Po, charge : 40 poids</li>\n<li>Barque : 50 Po, charge : 15 poids</li>\n<li>Péniche : 150 Po, charge : 20 poids</li>\n<li>Nef marchande : 5 000 Po, charge : 200 poids</li>\n<li>Navire de guerre : 20 000 Po, charge : 100 poids</li>\n<li>Voyage sur une route sûre : 1 Po</li>\n<li>Voyage sur une route difficile : 10 Po</li>\n<li>Voyage sur une route dangereuse : 100 Po</li>\n</ul>"
+  "label": "Services et biens",
+  "folders": {},
+  "entries": {
+    "Hoards": {
+      "name": "Butin",
+      "pages": {
+        "Hoards": {
+          "name": "Butin",
+          "text": "<ul>\n<li>Une planque de gobelin : 2 Po</li>\n<li>Babioles d’homme-lézard : 5 Po</li>\n<li>Une épée « inestimable » : 80 Po</li>\n<li>La fortune d’un chef de tribu orc : 250 Po</li>\n<li>Le trésor d’un dragon : 130 000 Po</li>\n</ul>"
         }
-    ]
+      }
+    },
+    "Services": {
+      "name": "Services",
+      "pages": {
+        "Services": {
+          "name": "Services",
+          "text": "<ul>\n<li>Une semaine dans une auberge paysanne : 14-Charisme Po</li>\n<li>Une semaine dans une auberge civilisée : 30-Charisme Po</li>\n<li>Une semaine dans la meilleure auberge de la ville : 43-Charisme Po</li>\n<li>Une semaine de travail non qualifié : 10 Po</li>\n<li>La solde d’un mois dans l’armée : 30 Po</li>\n<li>Un objet forgé sur mesure : prix de l’objet + 50 Po</li>\n<li>Une nuit de compagnie : 20-Charisme Po</li>\n<li>Une soirée de chansons et de danses : 18-Charisme Po</li>\n<li>Une escorte (par jour) sur une route infestée de bandits : 20 Po</li>\n<li>Une escorte (par jour) sur une route infestée de monstres : 54 Po</li>\n<li>Un meurtre banal : 5 Po</li>\n<li>Un assassinat : 120 Po</li>\n<li>Les soins d’un chirurgien : 5 Po</li>\n<li>Un mois de prière pour les disparus : 1 Po</li>\n<li>La réparation d’un objet ordinaire : 25 % du coût de l’objet</li>\n</ul>"
+        }
+      }
+    },
+    "Gifts and Finery": {
+      "name": "Cadeaux et Parures",
+      "pages": {
+        "Gifts and Finery": {
+          "name": "Cadeaux et Parures",
+          "text": "<ul>\n<li>Un cadeau de paysan : 1 Po</li>\n<li>Un beau cadeau : 55 Po</li>\n<li>Un cadeau de noble : 200 Po</li>\n<li>Un anneau ou pendentif : 75 Po</li>\n<li>Des vêtements élégants : 105 Po</li>\n<li>Une tapisserie raffinée : 350+ Po</li>\n<li>La couronne d'un roi ou d'une reine : 5 000 Po</li>\n</ul>"
+        }
+      }
+    },
+    "Bribes": {
+      "name": "Gratifications",
+      "pages": {
+        "Bribes": {
+          "name": "Gratifications",
+          "text": "<ul>\n<li>Récompenser un·e paysan·ne : 20-Charisme Po</li>\n<li>« Protection » pour un commerce : 100-Charisme Po</li>\n<li>Graisser une patte : 50-Charisme Po</li>\n<li>Pot-de-vin persuasif : 80-Charisme Po</li>\n<li>Ce qu’on ne peut refuser : 500-Charisme Po</li>\n</ul>"
+        }
+      }
+    },
+    "Land and Buildings": {
+      "name": "Propriétés et Terres",
+      "pages": {
+        "Land and Buildings": {
+          "name": "Propriétés et Terres",
+          "text": "<ul>\n<li>Une chaumière : 20 Po</li>\n<li>Une petite maison : 500 Po</li>\n<li>Une maison : 2 500 Po</li>\n<li>Un manoir : 50 000 Po</li>\n<li>Un donjon : 75 000 Po</li>\n<li>Un château : 250 000 Po</li>\n<li>Un grand château : 1 000 000 Po</li>\n<li>Entretien mensuel : 1 % du coût</li>\n</ul>"
+        }
+      }
+    },
+    "Meals": {
+      "name": "Nourriture",
+      "pages": {
+        "Meals": {
+          "name": "Nourriture",
+          "text": "<ul>\n<li>Un bon repas (par personne) : 1 Po</li>\n<li>Une maigre pitance pour une famille : 1 Po</li>\n<li>Un festin (par personne) : 15 Po</li>\n</ul>"
+        }
+      }
+    },
+    "Transport": {
+      "name": "Transport",
+      "pages": {
+        "Transport": {
+          "name": "Transport",
+          "text": "<ul>\n<li>Charrette et mule (charge : 20) : 50 Po</li>\n<li>Cheval (charge : 10) : 75 Po</li>\n<li>Cheval de guerre (charge : 12) : 400 Po</li>\n<li>Chariot (charge : 40) : 150 Po</li>\n<li>Barque (charge : 15) : 50 Po</li>\n<li>Péniche (charge : 20) : 150 Po</li>\n<li>Nef marchande (charge : 200) : 5 000 Po</li>\n<li>Navire de guerre (charge : 100) : 20 000 Po</li>\n<li>Voyage sur une route sûre : 1 Po</li>\n<li>Voyage sur une route difficile : 10 Po</li>\n<li>Voyage sur une route dangereuse : 100 Po</li>\n</ul>"
+        }
+      }
+    }
+  }
 }

@@ -1,74 +1,74 @@
 {
-	"label": "Équipement (Classe)",
-	"mapping": {
-		"name": "name",
-		"description": "system.description"
-	},
-	"entries": [
-		{
-			"id": "Fiddle",
-			"name": "Violon",
-			"description": "<p>Le violon est un instrument de musique &agrave; cordes frott&eacute;es. Il poss&egrave;de quatre cordes accord&eacute;es g&eacute;n&eacute;ralement &agrave; la quinte, que l'instrumentiste, appel&eacute; violoniste, frotte avec un archet et pince avec l'index ou le pouce.</p><p>Il peut s'agir par exemple d'un <em>violon n'ayant jamais servi</em>.</p>"
-		},
-		{
-			"id": "Horn",
-			"name": "Cor",
-			"description": "<p>Le cor est un instrument de musique compos&eacute;e d'une embouchure et d'une corne ou d'une d&eacute;fense offrant un pavillon largement &eacute;vas&eacute;.</p>"
-		},
-		{
-			"id": "Lute",
-			"name": "Luth",
-			"description": "<p>Le luth est un instrument de musique &agrave; cordes pinc&eacute;es, &agrave; caisse bomb&eacute;e, &agrave; manche court et &agrave; chevillier perpendiculaire au manche.</p>"
-		},
-		{
-			"id": "Mandolin",
-			"name": "Mandoline",
-			"description": "<p>La mandoline est un petit luth &agrave; caisse tr&egrave;s bomb&eacute;e.</p>"
-		},
-		{
-			"id": "Mark of Faith",
-			"name": "Signe de votre foi",
-			"description": "<p>Une marque de votre foi, d&eacute;crivez-la :</p>"
-		},
-		{
-			"id": "Pipes",
-			"name": "Flûte",
-			"description": "<p>La fl&ucirc;te est un instrument de musique &agrave; air, &agrave; tuyau ouvert dans lequel le son est produit par un souffle dirig&eacute; sur une ar&ecirc;te o&ugrave; il se brise, mettant ainsi en vibration l'air du tuyau.</p>"
-		},
-		{
-			"id": "Poison",
-			"name": "Poison",
-			"description": "<p>Une substance qui provoque des blessures, des maladies ou la mort, en particulier par des moyens chimiques.</p>"
-		},
-		{
-			"id": "Signature Weapon",
-			"name": "Arme fétiche",
-			"description": "<p>C&rsquo;est votre arme. Beaucoup lui ressemblent, mais celle-l&agrave;, c&rsquo;est la v&ocirc;tre. Votre arme est votre meilleure amie. Votre vie en d&eacute;pend. Vous en &ecirc;tes ma&icirc;tre&middot;sse au m&ecirc;me titre que votre vie. Sans vous, elle est inutile et r&eacute;ciproquement. Vous devez la brandir pour de bon.</p><p>Choisissez une arme - elles p&egrave;sent toutes 2 poids :</p><ul><li>&Eacute;p&eacute;e</li><li>Hache</li><li>Marteau</li><li>Fl&eacute;au</li><li>&Eacute;pieu</li><li>Poings</li></ul><p>Choisissez une port&eacute;e qui corresponde le mieux :</p><ul><li>Contact</li><li>Proche</li><li>Allonge</li></ul><p>Choisissez deux am&eacute;liorations :</p><ul><li>Crochets et pointes. <strong>+1 d&eacute;g&acirc;ts</strong>, mais <strong>+1 poids</strong>.</li><li>Ac&eacute;r&eacute;e. <strong>+2 perforant</strong>.</li><li>Parfaitement &eacute;quilibr&eacute;e. Ajouter <strong>pr&eacute;cis</strong>.</li><li>Dentel&eacute;e. <strong>+1 d&eacute;g&acirc;ts</strong>.</li><li>Brille en pr&eacute;sence d&rsquo;un type de cr&eacute;ature de votre choix.</li><li>&Eacute;norme. Ajouter <strong>d&eacute;vastateur</strong> et <strong>puissant</strong>.</li><li>Tous usages. Choisissez une port&eacute;e suppl&eacute;mentaire.</li><li>Excellente facture. <strong>-1 Poids</strong>.</li></ul><p>Choisissez une apparence :</p><ul><li>Ancienne</li><li>Immacul&eacute;e</li><li>Ouvrag&eacute;e</li><li>Sinistre</li><li>Tach&eacute;e de sang</li></ul><p>Votre arme f&eacute;tiche est sp&eacute;ciale. Ce n&rsquo;est pas un objet ordinaire. &Agrave; moins que vous n&rsquo;entrepreniez quelque chose qui lui fasse courir un risque, elle ne vous quittera jamais de fa&ccedil;on permanente m&ecirc;me si parfois il vous faudra vous d&eacute;carcasser pour la retrouver.</p>"
-		},
-		{
-			"id": "Songbook",
-			"name": "Livret de chants",
-			"description": "<p>Un livre contenant de nombreuses chansons diff&eacute;rentes collect&eacute;es au fil des ans.</p>"
-		},
-		{
-			"id": "Spellbook",
-			"name": "Grimoire de sorts",
-			"description": "<p>Vous avez appris plusieurs sorts et les avez inscrits dans votre livre de sorts. Vous commencez avec trois sorts de premier niveau, ainsi que tous les sorts mineurs. Chaque fois que vous gagnez un niveau, vous inscrivez un nouveau sort de votre niveau ou d'un niveau inf&eacute;rieur.</p>"
-		},
-		{
-			"id": "Symbol",
-			"name": "Symbole",
-			"description": "<p>Un symbole de vos sacrifices pass&eacute;s, d&eacute;crivez-le :</p>"
-		},
-		{
-			"id": "Symbol of the Devine",
-			"name": "Symbole de votre divinité",
-			"description": "<p>Un symbole sacr&eacute;, d&eacute;crivez-le :</p>"
-		},
-		{
-			"id": "Token",
-			"name": "Souvenir",
-			"description": "<p>Un souvenir de votre voyage, de votre pays d'origine ou de votre patrie.</p>"
-		}
-	]
+  "label": "Équipement (Classe)",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Fiddle",
+      "name": "Violon",
+      "description": "<p>Le violon est un instrument de musique à cordes frottées. Il possède quatre cordes accordées généralement à la quinte, que l'instrumentiste, appelé violoniste, frotte avec un archet et pince avec l'index ou le pouce.</p><p>Il peut s'agir par exemple d'un <em>violon n'ayant jamais servi</em>.</p>"
+    },
+    {
+      "id": "Horn",
+      "name": "Cor",
+      "description": "<p>Le cor est un instrument de musique composée d'une embouchure et d'une corne ou d'une défense offrant un pavillon largement évasé.</p>"
+    },
+    {
+      "id": "Lute",
+      "name": "Luth",
+      "description": "<p>Le luth est un instrument de musique à cordes pincées, à caisse bombée, à manche court et à chevillier perpendiculaire au manche.</p>"
+    },
+    {
+      "id": "Mandolin",
+      "name": "Mandoline",
+      "description": "<p>La mandoline est un petit luth à caisse très bombée.</p>"
+    },
+    {
+      "id": "Mark of Faith",
+      "name": "Signe de votre foi",
+      "description": "<p>Une marque de votre foi, décrivez-la :</p>"
+    },
+    {
+      "id": "Pipes",
+      "name": "Flûte",
+      "description": "<p>La flûte est un instrument de musique à air, à tuyau ouvert dans lequel le son est produit par un souffle dirigé sur une arête où il se brise, mettant ainsi en vibration l'air du tuyau.</p>"
+    },
+    {
+      "id": "Poison",
+      "name": "Poison",
+      "description": "<p>Une substance qui provoque des blessures, des maladies ou la mort, en particulier par des moyens chimiques.</p>"
+    },
+    {
+      "id": "Signature Weapon",
+      "name": "Arme fétiche",
+      "description": "<p>C’est votre arme. Beaucoup lui ressemblent, mais celle-là, c’est la vôtre. Votre arme est votre meilleure amie. Votre vie en dépend. Vous en êtes maître·sse au même titre que votre vie. Sans vous, elle est inutile et réciproquement. Vous devez la brandir pour de bon.</p><p>Choisissez une arme - elles pèsent toutes 2 poids :</p><ul><li>Épée</li><li>Hache</li><li>Marteau</li><li>Fléau</li><li>Épieu</li><li>Poings</li></ul><p>Choisissez une portée qui corresponde le mieux :</p><ul><li>Contact</li><li>Proche</li><li>Allonge</li></ul><p>Choisissez deux améliorations :</p><ul><li>Crochets et pointes. <strong>+1 dégâts</strong>, mais <strong>+1 poids</strong>.</li><li>Acérée. <strong>+2 perforant</strong>.</li><li>Parfaitement équilibrée. Ajouter <strong>précis</strong>.</li><li>Dentelée. <strong>+1 dégâts</strong>.</li><li>Brille en présence d’un type de créature de votre choix.</li><li>Énorme. Ajouter <strong>dévastateur</strong> et <strong>puissant</strong>.</li><li>Tous usages. Choisissez une portée supplémentaire.</li><li>Excellente facture. <strong>-1 Poids</strong>.</li></ul><p>Choisissez une apparence :</p><ul><li>Ancienne</li><li>Immaculée</li><li>Ouvragée</li><li>Sinistre</li><li>Tachée de sang</li></ul><p>Votre arme fétiche est spéciale. Ce n’est pas un objet ordinaire. À moins que vous n’entrepreniez quelque chose qui lui fasse courir un risque, elle ne vous quittera jamais de façon permanente même si parfois il vous faudra vous décarcasser pour la retrouver.</p>"
+    },
+    {
+      "id": "Songbook",
+      "name": "Livret de chants",
+      "description": "<p>Un livre contenant de nombreuses chansons différentes collectées au fil des ans.</p>"
+    },
+    {
+      "id": "Spellbook",
+      "name": "Grimoire de sorts",
+      "description": "<p>Vous avez appris plusieurs sorts et les avez inscrits dans votre livre de sorts. Vous commencez avec trois sorts de premier niveau, ainsi que tous les sorts mineurs. Chaque fois que vous gagnez un niveau, vous inscrivez un nouveau sort de votre niveau ou d'un niveau inférieur.</p>"
+    },
+    {
+      "id": "Symbol",
+      "name": "Symbole",
+      "description": "<p>Un symbole de vos sacrifices passés, décrivez-le :</p>"
+    },
+    {
+      "id": "Symbol of the Devine",
+      "name": "Symbole de votre divinité",
+      "description": "<p>Un symbole sacré, décrivez-le :</p>"
+    },
+    {
+      "id": "Token",
+      "name": "Souvenir",
+      "description": "<p>Un souvenir de votre voyage, de votre pays d'origine ou de votre patrie.</p>"
+    }
+  ]
 }

@@ -1,146 +1,146 @@
 {
-	"label": "Actions du·de la Barde·sse",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "A Little Help From My Friends",
-			"name": "Un petit coup de pouce de mes amis",
-			"description": "<p>Quand vous <em>aidez quelqu&rsquo;un&middot;e</em> avec succ&egrave;s, vous avez <strong>+1 pour votre prochaine action</strong>.</p>"
-		},
-		{
-			"id": "A Port In The Storm",
-			"name": "Un havre dans la tempête",
-			"description": "<p>Lorsque vous revenez dans un lieu civilis&eacute; que vous avez d&eacute;j&agrave; visit&eacute;, indiquez &agrave; lae MJ &agrave; quand remonte votre dernier passage. Iel vous dira en quoi ce lieu a chang&eacute; depuis.</p>"
-		},
-		{
-			"id": "An Ear For Magic",
-			"name": "Oreille magicale",
-			"description": "<p>Lorsque vous entendez un ennemi prononcer une incantation, lae MJ vous r&eacute;v&egrave;lera le nom du sort et ses effets. Vous avez <strong>+1</strong> si vous en tenez compte dans une action.</p>"
-		},
-		{
-			"id": "Arcane Art",
-			"name": "Arts arcaniques",
-			"description": "<p>Quand la magie de votre spectacle se mat&eacute;rialise, choisissez un alli&eacute; et un effet list&eacute; ci-dessous. Puis, lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "<p>Votre repr&eacute;sentation manque clairement de magie.</p>",
-			"partial": "<p>Votre magie fonctionne mais vous attirez une attention malvenue ou votre sort se propage &agrave; d&rsquo;autres cibles (au choix du&middot;de lae MJ) et les affecte &eacute;galement.</p>",
-			"success": "<p>L&rsquo;alli&eacute; b&eacute;n&eacute;ficie de l&rsquo;effet choisi.</p>",
-			"choices": "<ul><li>Soignez <strong>1d8 </strong>d&eacute;g&acirc;ts.</li><li>Ajoutez <strong>1d4 </strong>aux prochains d&eacute;g&acirc;ts qu&rsquo;il inflige.</li><li>Son esprit est lib&eacute;r&eacute; d&rsquo;un enchantement.</li><li>La prochaine fois qu&rsquo;on l&rsquo;<em>aide</em>, il re&ccedil;oit <strong>+2 au lieu de +1</strong>.</li></ul>"
-		},
-		{
-			"id": "Bamboozle",
-			"name": "Baratiner",
-			"description": "<p>Quand vous <em>n&eacute;gociez</em> avec une personne, sur un 7+ vous avez <strong>+1</strong> &agrave; votre prochaine action avec elle.</p>"
-		},
-		{
-			"id": "Bardic Lore",
-			"name": "Légendes des bardes",
-			"description": "<p>Choisissez un domaine de connaissance :</p><ul><li>Sorts &amp; magie</li><li>Morts et morts-vivants</li><li>Grands &eacute;v&egrave;nements du monde connu</li><li>Bestiaire des cr&eacute;atures inhabituelles</li><li>Sph&egrave;res planaires</li><li>L&eacute;gendes des h&eacute;ros du pass&eacute;</li><li>Les dieux et leurs serviteurs</li></ul><p>Lorsque vous d&eacute;couvrez ou rencontrez pour la premi&egrave;re fois un objet, un lieu ou une cr&eacute;ature importants de votre domaine de connaissance, vous pouvez poser une question &agrave; son sujet au&middot;&agrave; lae MJ. Lae MJ r&eacute;pondra sinc&egrave;rement. Il peut alors vous demander dans quel r&eacute;cit, quelle chanson ou l&eacute;gende, vous avez trouv&eacute; cette information.</p>"
-		},
-		{
-			"id": "Charming & Open",
-			"name": "Charmant et sincère",
-			"description": "<p>Quand vous discutez franchement avec quelqu&rsquo;un&middot;e, vous pouvez poser une question de la liste ci-dessous &agrave; saon joueur&middot;euse (MJ compris&middot;e). Iel doit r&eacute;pondre sinc&egrave;rement et peut &agrave; son tour vous poser une question de la liste, &agrave; laquelle vous devez r&eacute;pondre sinc&egrave;rement.</p><ul><li>Qui sers-tu ?</li><li>Que souhaiterais-tu que je fasse ?</li><li>Comment pourrais-je t&rsquo;amener &agrave; (faire) _______ ?</li><li>Que ressens-tu vraiment en ce moment ?</li><li>Que d&eacute;sires-tu le plus ?</li></ul>"
-		},
-		{
-			"id": "Con",
-			"name": "Escroquer",
-			"description": "<p><em>Remplace : Baratiner</em></p><p>Quand vous <em>n&eacute;gociez</em> avec une personne, sur un 7+ vous avez <strong>+1</strong> &agrave; votre prochaine action avec elle et vous pouvez poser &agrave; saon joueur&middot;euse (MJ compris&middot;e) une question &agrave; laquelle iel doit r&eacute;pondre sinc&egrave;rement.</p>"
-		},
-		{
-			"id": "Devious",
-			"name": "Fourbe",
-			"description": "<p>Lorsque vous utilisez <em>Charmant et Sinc&egrave;re</em>, vous pouvez aussi demander &laquo; <strong>Une de tes faiblesses m&rsquo;est-elle profitable et comment ?</strong> &raquo;. Lae PJ ne peut pas poser cette question en retour.</p>"
-		},
-		{
-			"id": "Duelist’s Block",
-			"name": "Garde de duelliste",
-			"description": "<p><em>Remplace : Parade de duelliste</em></p><p>Lorsque vous <em>taillez en pi&egrave;ces</em>, vous avez <strong>+2 armure</strong> pour cette action.</p>"
-		},
-		{
-			"id": "Duelist’s Parry",
-			"name": "Parade de duelliste",
-			"description": "<p><em>Remplace : Parade de duelliste</em></p><p>Lorsque vous <em>taillez en pi&egrave;ces</em>, vous avez <strong>+1 armure</strong> pour cette action.</p>"
-		},
-		{
-			"id": "Eldritch Chord",
-			"name": "Accord étrange",
-			"description": "<p><em>Remplace : Tonalit&eacute;s myst&eacute;rieuses</em></p><p>Lorsque vous faites usage de votre <em>art arcanique</em>, choisissez deux effets. L&rsquo;un de ces effets (au choix) est doubl&eacute;.</p>"
-		},
-		{
-			"id": "Eldritch Tones",
-			"name": "Tonalités mystérieuses",
-			"description": "<p>Votre <em>art arcanique</em> est puissant et vous permet de choisir deux effets au lieu d&rsquo;un.</p>"
-		},
-		{
-			"id": "Healing Chorus",
-			"name": "Chœur de soins",
-			"description": "<p><em>Remplace : Chant de soins</em></p><p>Quand vous soignez avec votre <em>art arcanique</em>, soignez <strong>+2d8</strong> d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Healing Song",
-			"name": "Chant de soins",
-			"description": "<p>Quand vous soignez avec votre <em>art arcanique</em>, soignez <strong>+1d8</strong> d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "It Goes To Eleven",
-			"name": "À pleins tubes",
-			"description": "<p>Quand vous faites un b&oelig;uf d&rsquo;enfer (qui sait, un bon coup de cor, un solo de luth sublime&hellip;), choisissez une cible qui peut vous entendre et tirez <strong>2d6+CHA</strong>.</p>",
-			"failure": "<p>Le son &eacute;mis par votre instrument n'est pas du tout celui que vous esp&eacute;riez.</p>",
-			"partial": "<p>Il attaque son alli&eacute; le plus proche mais vous attirez aussi sa col&egrave;re.</p>",
-			"success": "<p>La cible attaque son alli&eacute; le plus proche.</p>"
-		},
-		{
-			"id": "Metal Hurlant",
-			"name": "Métal hurlant",
-			"description": "<p>Quand vous hurlez ou jouez une note fracassante, vous choisissez une cible et tirez <strong>2d6+CON</strong>.</p>",
-			"failure": "<p>Le son &eacute;mis par votre instrument n'est pas du tout celui que vous esp&eacute;riez.</p>",
-			"partial": "<p>La cible subit <strong>1d10</strong> d&eacute;g&acirc;ts mais vous ne contr&ocirc;lez pas votre puissance : lae MJ choisit une cible suppl&eacute;mentaire &agrave; c&ocirc;t&eacute;.</p>",
-			"success": "<p>La cible subit <strong>1d10</strong> d&eacute;g&acirc;ts et est assourdie durant quelques minutes.</p>"
-		},
-		{
-			"id": "Multiclass Dabbler",
-			"name": "Multiclasse - Dilettante",
-			"description": "<p>Choisissez une action d&rsquo;une autre classe. Vous &ecirc;tes consid&eacute;r&eacute;&middot;e comme d&rsquo;un niveau inf&eacute;rieur lors de votre choix.</p>"
-		},
-		{
-			"id": "Multiclass Initiate",
-			"name": "Multiclasse - Initié·e",
-			"description": "<p>Choisissez une action d&rsquo;une autre classe. Vous &ecirc;tes consid&eacute;r&eacute;&middot;e comme d&rsquo;un niveau inf&eacute;rieur lors de votre choix.</p>"
-		},
-		{
-			"id": "Multiclass Master",
-			"name": "Multiclasse - Maître·sse",
-			"description": "<p>Choisissez une action d&rsquo;une autre classe. Vous &ecirc;tes consid&eacute;r&eacute;&middot;e comme d&rsquo;un niveau inf&eacute;rieur lors de votre choix.</p>"
-		},
-		{
-			"id": "Reputation",
-			"name": "Réputation",
-			"description": "<p>Quand vous rencontrez pour la premi&egrave;re fois une personne qui a entendu des chansons &agrave; votre sujet, lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "<p>Votre r&eacute;putation ne vous pr&eacute;c&egrave;de pas.</p>",
-			"partial": "<p>R&eacute;v&eacute;lez une chose au&middot;&agrave; lae MJ et iel vous en r&eacute;v&egrave;lera une.</p>",
-			"success": "<p>R&eacute;v&eacute;lez au&middot;&agrave; lae MJ deux choses que la personne sait &agrave; votre propos.</p>"
-		},
-		{
-			"id": "Unforgettable Face",
-			"name": "Physionomiste",
-			"description": "<p>Si vous revoyez quelqu&rsquo;un&middot;e que vous avez d&eacute;j&agrave; rencontr&eacute;&middot;e il y a un certain temps, vous avez <strong>+1</strong> &agrave; la prochaine action contre lui.</p>"
-		},
-		{
-			"id": "Vicious Blast",
-			"name": "Éclat violent",
-			"description": "<p><em>Remplace : Cacophonie cruelle</em></p><p>Quand vous ajoutez des d&eacute;g&acirc;ts gr&acirc;ce &agrave; votre art arcanique, ajoutez <strong>+2d4</strong> d&eacute;g&acirc;ts suppl&eacute;mentaires.</p>"
-		},
-		{
-			"id": "Vicious Cacophony",
-			"name": "Cacophonie cruelle",
-			"description": "<p>Quand vous ajoutez des d&eacute;g&acirc;ts gr&acirc;ce &agrave; votre art arcanique, ajoutez <strong>+1d4</strong> d&eacute;g&acirc;ts suppl&eacute;mentaires.</p>"
-		}
-	]
+  "label": "Actions du·de la Barde·sse",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "A Little Help From My Friends",
+      "name": "Un petit coup de pouce de mes amis",
+      "description": "<p>Quand vous <em>aidez quelqu’un·e</em> avec succès, vous avez <strong>+1 pour votre prochaine action</strong>.</p>"
+    },
+    {
+      "id": "A Port In The Storm",
+      "name": "Un havre dans la tempête",
+      "description": "<p>Lorsque vous revenez dans un lieu civilisé que vous avez déjà visité, indiquez à lae MJ à quand remonte votre dernier passage. Iel vous dira en quoi ce lieu a changé depuis.</p>"
+    },
+    {
+      "id": "An Ear For Magic",
+      "name": "Oreille magicale",
+      "description": "<p>Lorsque vous entendez un ennemi prononcer une incantation, lae MJ vous révèlera le nom du sort et ses effets. Vous avez <strong>+1</strong> si vous en tenez compte dans une action.</p>"
+    },
+    {
+      "id": "Arcane Art",
+      "name": "Arts arcaniques",
+      "description": "<p>Quand la magie de votre spectacle se matérialise, choisissez un allié et un effet listé ci-dessous. Puis, lancez <strong>2d6+CHA</strong>.</p>",
+      "failure": "<p>Votre représentation manque clairement de magie.</p>",
+      "partial": "<p>Votre magie fonctionne mais vous attirez une attention malvenue ou votre sort se propage à d’autres cibles (au choix du·de lae MJ) et les affecte également.</p>",
+      "success": "<p>L’allié bénéficie de l’effet choisi.</p>",
+      "choices": "<ul><li>Soignez <strong>1d8 </strong>dégâts.</li><li>Ajoutez <strong>1d4 </strong>aux prochains dégâts qu’il inflige.</li><li>Son esprit est libéré d’un enchantement.</li><li>La prochaine fois qu’on l’<em>aide</em>, il reçoit <strong>+2 au lieu de +1</strong>.</li></ul>"
+    },
+    {
+      "id": "Bamboozle",
+      "name": "Baratiner",
+      "description": "<p>Quand vous <em>négociez</em> avec une personne, sur un 7+ vous avez <strong>+1</strong> à votre prochaine action avec elle.</p>"
+    },
+    {
+      "id": "Bardic Lore",
+      "name": "Légendes des bardes",
+      "description": "<p>Choisissez un domaine de connaissance :</p><ul><li>Sorts & magie</li><li>Morts et morts-vivants</li><li>Grands évènements du monde connu</li><li>Bestiaire des créatures inhabituelles</li><li>Sphères planaires</li><li>Légendes des héros du passé</li><li>Les dieux et leurs serviteurs</li></ul><p>Lorsque vous découvrez ou rencontrez pour la première fois un objet, un lieu ou une créature importants de votre domaine de connaissance, vous pouvez poser une question à son sujet au·à lae MJ. Lae MJ répondra sincèrement. Il peut alors vous demander dans quel récit, quelle chanson ou légende, vous avez trouvé cette information.</p>"
+    },
+    {
+      "id": "Charming & Open",
+      "name": "Charmant et sincère",
+      "description": "<p>Quand vous discutez franchement avec quelqu’un·e, vous pouvez poser une question de la liste ci-dessous à saon joueur·euse (MJ compris·e). Iel doit répondre sincèrement et peut à son tour vous poser une question de la liste, à laquelle vous devez répondre sincèrement.</p><ul><li>Qui sers-tu ?</li><li>Que souhaiterais-tu que je fasse ?</li><li>Comment pourrais-je t’amener à (faire) _______ ?</li><li>Que ressens-tu vraiment en ce moment ?</li><li>Que désires-tu le plus ?</li></ul>"
+    },
+    {
+      "id": "Con",
+      "name": "Escroquer",
+      "description": "<p><em>Remplace : Baratiner</em></p><p>Quand vous <em>négociez</em> avec une personne, sur un 7+ vous avez <strong>+1</strong> à votre prochaine action avec elle et vous pouvez poser à saon joueur·euse (MJ compris·e) une question à laquelle iel doit répondre sincèrement.</p>"
+    },
+    {
+      "id": "Devious",
+      "name": "Fourbe",
+      "description": "<p>Lorsque vous utilisez <em>Charmant et Sincère</em>, vous pouvez aussi demander « <strong>Une de tes faiblesses m’est-elle profitable et comment ?</strong> ». Lae PJ ne peut pas poser cette question en retour.</p>"
+    },
+    {
+      "id": "Duelist’s Block",
+      "name": "Garde de duelliste",
+      "description": "<p><em>Remplace : Parade de duelliste</em></p><p>Lorsque vous <em>taillez en pièces</em>, vous avez <strong>+2 armure</strong> pour cette action.</p>"
+    },
+    {
+      "id": "Duelist’s Parry",
+      "name": "Parade de duelliste",
+      "description": "<p><em>Remplace : Parade de duelliste</em></p><p>Lorsque vous <em>taillez en pièces</em>, vous avez <strong>+1 armure</strong> pour cette action.</p>"
+    },
+    {
+      "id": "Eldritch Chord",
+      "name": "Accord étrange",
+      "description": "<p><em>Remplace : Tonalités mystérieuses</em></p><p>Lorsque vous faites usage de votre <em>art arcanique</em>, choisissez deux effets. L’un de ces effets (au choix) est doublé.</p>"
+    },
+    {
+      "id": "Eldritch Tones",
+      "name": "Tonalités mystérieuses",
+      "description": "<p>Votre <em>art arcanique</em> est puissant et vous permet de choisir deux effets au lieu d’un.</p>"
+    },
+    {
+      "id": "Healing Chorus",
+      "name": "Chœur de soins",
+      "description": "<p><em>Remplace : Chant de soins</em></p><p>Quand vous soignez avec votre <em>art arcanique</em>, soignez <strong>+2d8</strong> dégâts.</p>"
+    },
+    {
+      "id": "Healing Song",
+      "name": "Chant de soins",
+      "description": "<p>Quand vous soignez avec votre <em>art arcanique</em>, soignez <strong>+1d8</strong> dégâts.</p>"
+    },
+    {
+      "id": "It Goes To Eleven",
+      "name": "À pleins tubes",
+      "description": "<p>Quand vous faites un bœuf d’enfer (qui sait, un bon coup de cor, un solo de luth sublime…), choisissez une cible qui peut vous entendre et tirez <strong>2d6+CHA</strong>.</p>",
+      "failure": "<p>Le son émis par votre instrument n'est pas du tout celui que vous espériez.</p>",
+      "partial": "<p>Il attaque son allié le plus proche mais vous attirez aussi sa colère.</p>",
+      "success": "<p>La cible attaque son allié le plus proche.</p>"
+    },
+    {
+      "id": "Metal Hurlant",
+      "name": "Métal hurlant",
+      "description": "<p>Quand vous hurlez ou jouez une note fracassante, vous choisissez une cible et tirez <strong>2d6+CON</strong>.</p>",
+      "failure": "<p>Le son émis par votre instrument n'est pas du tout celui que vous espériez.</p>",
+      "partial": "<p>La cible subit <strong>1d10</strong> dégâts mais vous ne contrôlez pas votre puissance : lae MJ choisit une cible supplémentaire à côté.</p>",
+      "success": "<p>La cible subit <strong>1d10</strong> dégâts et est assourdie durant quelques minutes.</p>"
+    },
+    {
+      "id": "Multiclass Dabbler",
+      "name": "Multiclasse - Dilettante",
+      "description": "<p>Choisissez une action d’une autre classe. Vous êtes considéré·e comme d’un niveau inférieur lors de votre choix.</p>"
+    },
+    {
+      "id": "Multiclass Initiate",
+      "name": "Multiclasse - Initié·e",
+      "description": "<p>Choisissez une action d’une autre classe. Vous êtes considéré·e comme d’un niveau inférieur lors de votre choix.</p>"
+    },
+    {
+      "id": "Multiclass Master",
+      "name": "Multiclasse - Maître·sse",
+      "description": "<p>Choisissez une action d’une autre classe. Vous êtes considéré·e comme d’un niveau inférieur lors de votre choix.</p>"
+    },
+    {
+      "id": "Reputation",
+      "name": "Réputation",
+      "description": "<p>Quand vous rencontrez pour la première fois une personne qui a entendu des chansons à votre sujet, lancez <strong>2d6+CHA</strong>.</p>",
+      "failure": "<p>Votre réputation ne vous précède pas.</p>",
+      "partial": "<p>Révélez une chose au·à lae MJ et iel vous en révèlera une.</p>",
+      "success": "<p>Révélez au·à lae MJ deux choses que la personne sait à votre propos.</p>"
+    },
+    {
+      "id": "Unforgettable Face",
+      "name": "Physionomiste",
+      "description": "<p>Si vous revoyez quelqu’un·e que vous avez déjà rencontré·e il y a un certain temps, vous avez <strong>+1</strong> à la prochaine action contre lui.</p>"
+    },
+    {
+      "id": "Vicious Blast",
+      "name": "Éclat violent",
+      "description": "<p><em>Remplace : Cacophonie cruelle</em></p><p>Quand vous ajoutez des dégâts grâce à votre art arcanique, ajoutez <strong>+2d4</strong> dégâts supplémentaires.</p>"
+    },
+    {
+      "id": "Vicious Cacophony",
+      "name": "Cacophonie cruelle",
+      "description": "<p>Quand vous ajoutez des dégâts grâce à votre art arcanique, ajoutez <strong>+1d4</strong> dégâts supplémentaires.</p>"
+    }
+  ]
 }

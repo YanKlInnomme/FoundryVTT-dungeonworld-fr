@@ -1,164 +1,205 @@
 {
   "label": "E1 - Habitants des Cavernes",
   "mapping": {
+    "imagePath": "img",
+    "tokenPath": "prototypeToken.texture.src",
     "name": "name",
-    "img": "img",
-    "biography": "system.details.biography",
+    "damageModifier": "system.attributes.damage.piercing",
+    "tags": "system.tags",
     "specialQualities": "system.attributes.specialQualities.value",
-    "tags": "system.tags"
+    "description": "system.details.biography"
   },
+  "folders": {},
   "entries": {
+    "Earth Elemental": {
+      "name": "Élémentaire de Terre",
+      "tokenName": "Élémentaire de Terre",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/earth-elemental.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/earth-elemental%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Allonge\"},{\"value\":\"Puissant\"},{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"}]",
+      "specialQualities": "Fait de pierre",
+      "description": "<p>Notre chaman dit que toutes les choses du monde ont un esprit. Les pierres, les arbres, un ruisseau. Après avoir vu la terre s’animer sous mes pieds et des poings de pierre battre à mort mes amis, je crois ce vieux fou. Ce que j’ai vu était immense, grand comme une maison ! Cela a surgi de nulle part, comme un éboulement avec une voix d’avalanche. Depuis, je fais preuve de respect. Vraiment.</p>\n<p>Penchant : Montrer la force de la terre</p>\n<ul>\n<li>Transformer le sol en arme</li>\n<li>Se fondre dans la pierre</li>\n</ul>"
+    },
+    "Rot Grub": {
+      "name": "Asticot Putride",
+      "tokenName": "Asticot Putride",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/rot-grub.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/rot-grub%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Contact\"},{\"value\":\"Horde\"},{\"value\":\"Minuscule\"}]",
+      "specialQualities": "Creuser dans la chair",
+      "description": "<p>Ils vivent dans votre peau. Ou dans vos organes. Ou vos globes oculaires. Ils s’y développent, puis s’en extirpent d’une manière sanglante et horrible.</p>\n<p>Penchant : Infecter</p>\n<ul>\n<li>Creuser dans la chair</li>\n<li>Disséminer des œufs</li>\n<li>Jaillir soudainement d’une créature infectée</li>\n</ul>"
+    },
+    "Fire Beetle": {
+      "name": "Scarabée Incendiaire",
+      "tokenName": "Scarabée Incendiaire",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/fire-beetle.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/fire-beetle%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Courte\"},{\"value\":\"Horde\"},{\"value\":\"Petit\"}]",
+      "specialQualities": "Rempli de flammes",
+      "description": "<p>Scarabaeus pyractomena ! Quelle merveilleuse créature ! Voyez-vous comme sa carapace scintille à la lueur de nos torches ? Ne vous approchez pas trop, ils ont leur caractère, vous savez ! Le feu dans leurs entrailles n’est pas juste métaphorique. Regardez, j’aiguillonne la bête. Ah ! Un jet de flammes ! Inattendu, n’est-ce pas ? Une seule de ces créatures, venue du dessous, peut être une nuisance infernale pour une ferme ou un village. Tout un essaim ? On parle alors d’une conflagration de scarabées incendiaires.</p>\n<p>Penchant : Enflammer</p>\n<ul>\n<li>Creuser le sol</li>\n<li>Jaillir de la terre</li>\n<li>Projeter des flammes devant soi</li>\n</ul>"
+    },
+    "Gelatinous Cube": {
+      "name": "Cube Gélatineux",
+      "tokenName": "Cube Gélatineux",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/gelatinous-cube.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/gelatinous-cube%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Contact\"},{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Furtif\"},{\"value\":\"Informe\"}]",
+      "specialQualities": "Transparent",
+      "description": "<p>Combien d’aventuriers ont eu ces dernières paroles : « Étrange, ce tunnel semble plus propre que les autres… » ? Beaucoup. La faute à ce danger transparent. Une grande masse informe et acide qui s’élargit pour remplir une petite salle ou un corridor, et qui glisse lentement en mangeant tout sur son chemin. Cela ne dissout pas la pierre ou le métal, aussi les voit-on flotter dans sa masse gélatineuse. Beurk.</p>\n<p>Penchant : Nettoyer</p>\n<ul>\n<li>Emplir un espace apparemment vide</li>\n<li>Dissoudre</li>\n</ul>"
+    },
     "Ankheg": {
       "name": "Ankheg",
       "tokenName": "Ankheg",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>A hide like plate armor and great crushing mandibles are problematic. A stomach full of acid that can burn a hole through a stone wall makes them all the worse. They’d be bad enough if they were proper insect-sized, but these things have the gall to be as long as any given horse. It’s just not natural! Good thing they tend to stick to one place? Easy for you to say—you don’t have an ankheg living under your corn field.</p>\n<p>Instinct: To undermine</p>\n<ul>\n<li>Undermine the ground</li>\n<li>Burst from the earth</li>\n<li>Spray forth acid, eating away at metal and flesh</li>\n</ul>",
-      "specialQualities": "Burrowing",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"reach\"},{\"value\":\"group\"},{\"value\":\"large\"}]"
-    },
-    "Cave Rat": {
-      "name": "Cave Rat",
-      "tokenName": "Cave Rat",
-      "img": "systems/dungeonworld/tokens/enemies/Giant_Rat_Small_Beast_01.webp",
-      "biography": "<p>Who hasn’t seen a rat before? It’s like that, but nasty and big and not afraid of you anymore. Maybe this one was a cousin to that one you caught in a trap or the one you killed with a knife in that filthy tavern in Darrow. Maybe he’s looking for a little ratty revenge.</p>\n<p>Instinct: To devour</p>\n<ul>\n<li>Swarm</li>\n<li>Rip something (or someone) apart</li>\n</ul>",
-      "specialQualities": "",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"messy\"},{\"value\":\"horde\"},{\"value\":\"small\"}]"
-    },
-    "Choker": {
-      "name": "Choker",
-      "tokenName": "Choker",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>Some say these things descended from the family of a cruel wizard who forced them to live out their lives underground. They say his experiments led him to fear the sun and ages passed while he descended into unlife, dragging his folk along with him. These things resemble men, in a way. Head, four limbs and all that. Only their skin is wet and rubbery and their arms long and fingers grasping. They hate all life that bears the stink of the sun’s touch, as one might expect. Jealousy, long-instilled, is hard to shake.</p>\n<p>Instinct: To deny light</p>\n<ul>\n<li>Hold someone, wringing the breath from them</li>\n<li>Fling a held creature</li>\n</ul>",
-      "specialQualities": "Flexible",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"reach\"},{\"value\":\"solitary\"},{\"value\":\"stealthy\"},{\"value\":\"intelligent\"}]"
-    },
-    "Cloaker": {
-      "name": "Cloaker",
-      "tokenName": "Cloaker",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>Don’t put on that cloak, Gareth. Don’t. You don’t know where it’s been. I tell you, it’s no good. See! It moved! I’m not mad, Gareth, it moved! Don’t do it! No! GARETH!</p>\n<p>Instinct: To engulf</p>\n<ul>\n<li>Engulf the unsuspecting</li>\n</ul>",
-      "specialQualities": "Looks like a cloak",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"solitary\"},{\"value\":\"stealthy\"}]"
-    },
-    "Dwarven Warrior": {
-      "name": "Dwarven Warrior",
-      "tokenName": "Dwarven Warrior",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>For ages, men believed all dwarves were male and all were of this ilk: stoic and proud warriors. Axe-wielding and plate-wearing. Stout bearded battle-hungry dwarves who would push them, time and time again, back up out of their mines and tunnels with ferocity. It just goes to show how little men know about the elder races. These folk are merely a vanguard, and they bravely do their duty to protect the riches of the Dwarven realm. Earn their trust and you’ve an ally for life. Earn their ire and you’re not likely to regret it very long.</p>\n<p>Instinct: To defend</p>\n<ul>\n<li>Drive them back</li>\n<li>Call up reinforcements</li>\n</ul>",
-      "specialQualities": "",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"horde\"},{\"value\":\"organized\"}]"
-    },
-    "Earth Elemental": {
-      "name": "Earth Elemental",
-      "tokenName": "Earth Elemental",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>Our shaman says that all the things of the world have a spirit. Stones, trees, a stream. Now that I’ve seen the earth roil under my feet and fists of stone beat my friends half to death I’d like to believe that crazy old man. The one I saw was huge—big as a house! It came boiling up from a rockslide out of nowhere and had a voice like an avalanche. I pay my respects, now. Rightly so.</p>\n<p>Instinct: To show the strength of earth</p>\n<ul>\n<li>Turn the ground into a weapon</li>\n<li>Meld into stone</li>\n</ul>",
-      "specialQualities": "Made of stone",
-      "tags": "[{\"value\":\"reach\"},{\"value\":\"forceful\"},{\"value\":\"solitary\"},{\"value\":\"huge\"}]"
-    },
-    "Fire Beetle": {
-      "name": "Fire Beetle",
-      "tokenName": "Fire Beetle",
-      "img": "systems/dungeonworld/tokens/enemies/Giant_Fire_Beetle_Small_Beast_01.webp",
-      "biography": "<p>Scarabaeus pyractomena! What a delightful creature—see how its carapace glitters in the light of our torches? Not too close now, they’re temperamental, you see. The fire in their belly isn’t just metaphorical, no. Watch as I goad the beast. Aha! A spout of flame! Unexpected, isn’t it? One of these creatures alone, if it comes up from below, can be a hellish nuisance to a farmstead or village. A whole swarm? There’s a reason they call it a conflagration of fire beetles.</p>\n<p>Instinct: To enflame</p>\n<ul>\n<li>Undermine the ground</li>\n<li>Burst from the earth</li>\n<li>Spray forth flames</li>\n</ul>",
-      "specialQualities": "Full of flames",
-      "tags": "[{\"value\":\"near\"},{\"value\":\"horde\"},{\"value\":\"small\"}]"
-    },
-    "Gargoyle": {
-      "name": "Gargoyle",
-      "tokenName": "Gargoyle",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>It’s a sad thing, really. Guardians bred by magi of the past with no more castles to guard. Their ancestors’ sacred task bred into their blood leads them to find a place—ruins mostly, but sometimes a cave or hill or mountain cliff—and guard it as though their masters yet lived below. They’re notoriously good at finding valuables buried below the earth, though. Find one of these winged reptiles and you’ll find yourself a treasure nearby. Just be careful, they’re hard to spot and tend to move in packs.</p>\n<p>Instinct: To guard</p>\n<ul>\n<li>Attack with the element of surprise</li>\n<li>Take to the air</li>\n<li>Blend into stonework</li>\n</ul>",
-      "specialQualities": "Wings",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"horde\"},{\"value\":\"hoarder\"}]"
-    },
-    "Gelatinous Cube": {
-      "name": "Gelatinous Cube",
-      "tokenName": "Gelatinous Cube",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>How many adventurers’ last thoughts were “strange, this tunnel seems cleaner than most?” Too many, and all because of this transparent menace. A great acidic blob that expands to fill a small chamber or corridor and then slides, ever so slowly along, eating everything in its path. It cannot eat stone or metal and will often have them floating in its jelly mass. Blech.</p>\n<p>Instinct: To clean</p>\n<ul>\n<li>Fill an apparently empty space</li>\n<li>Dissolve</li>\n</ul>",
-      "specialQualities": "Transparent",
-      "tags": "[{\"value\":\"hand\"},{\"value\":\"solitary\"},{\"value\":\"large\"},{\"value\":\"stealthy\"},{\"value\":\"amorphous\"}]"
-    },
-    "Goblin": {
-      "name": "Goblin",
-      "tokenName": "Goblin",
-      "img": "systems/dungeonworld/tokens/enemies/Goblin_Small_Humanoid_01.webp",
-      "biography": "<p>Nobody seems to know where these things came from. Elves say they’re the dwarves’ fault—dredged up from a hidden place beneath the earth. Dwarves say they’re bad elvish children, taken away at birth and raised in the dark. The truth of the matter is that goblins have always been here and they’ll be here once all the civilized races have fallen and gone away. Goblins never die out. There’s just too damn many of them.</p>\n<p>Instinct: To multiply</p>\n<ul>\n<li>Charge!</li>\n<li>Call more goblins</li>\n<li>Retreat and return with (many) more</li>\n</ul>",
-      "specialQualities": "",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"reach\"},{\"value\":\"horde\"},{\"value\":\"small\"},{\"value\":\"intelligent\"},{\"value\":\"organized\"}]"
-    },
-    "Goblin Orkaster": {
-      "name": "Goblin Orkaster",
-      "tokenName": "Goblin Orkaster",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>Oh lord, who taught them magic?</p>\n<p>Instinct: To tap power beyond their stature</p>\n<ul>\n<li>Unleash a poorly understood spell</li>\n<li>Pour forth magical chaos</li>\n<li>Use other goblins for shields</li>\n</ul>",
-      "specialQualities": "",
-      "tags": "[{\"value\":\"near\"},{\"value\":\"far\"},{\"value\":\"solitary\"},{\"value\":\"small\"},{\"value\":\"magical\"},{\"value\":\"intelligent\"},{\"value\":\"organized\"}]"
-    },
-    "Goliath": {
-      "name": "Goliath",
-      "tokenName": "Goliath",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>They dwell beneath the earth because they do not belong above it any longer. An undying race of mighty titans fled the plains and mountains in ages past—driven out by men and their heroes. Left to bide their time in the dark, hate and anger warmed by the pools of lava deep below. It’s said that an earthquake is a goliath’s birthing cry. Someday they’ll take back what’s theirs.</p>\n<p>Instinct: To retake</p>\n<ul>\n<li>Shake the earth</li>\n<li>Retreat, only to come back stronger</li>\n</ul>",
-      "specialQualities": null,
-      "tags": "[{\"value\":\"reach\"},{\"value\":\"forceful\"},{\"value\":\"group\"},{\"value\":\"huge\"},{\"value\":\"organized\"},{\"value\":\"intelligent\"}]"
-    },
-    "Maggot-Squid": {
-      "name": "Maggot-Squid",
-      "tokenName": "Maggot-Squid",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>The gods that made this thing were playing some sick joke on the civilized folk of the world. The maggot-squid wields a face full of horrible squirming tentacles that, if they touch you, feel like being struck by lightning. They’ll paralyze you and chew you up slowly while you’re helpless. Best to not let it get to that.</p>\n<p>Instinct: To eat</p>\n<ul>\n<li>Paralyze with a touch</li>\n</ul>",
-      "specialQualities": "Amphibious, Paralyzing Tentacles",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"horde\"},{\"value\":\"small\"}]"
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/ankheg.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/ankheg%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Groupe\"},{\"value\":\"Grand\"}]",
+      "specialQualities": "Excavation",
+      "description": "<p>Une peau comme une armure de plates et de puissantes mandibules sont déjà un problème en soi. Un estomac rempli d’un acide qui peut percer un mur de pierre n’arrange pas les choses. Ce serait déjà coton si cela avait la taille d’un insecte, mais ces bestioles ont le culot d’être aussi grandes qu’un cheval. Ce n’est pas naturel ! Heureusement qu’elles sont sédentaires, me direz-vous. On voit que vous n’avez pas un Ankheg qui crèche sous votre champ de maïs…</p>\n<p>Penchant : Miner</p>\n<ul>\n<li>Miner le sol</li>\n<li>Jaillir de la terre</li>\n<li>Cracher un acide qui ronge chair et métal</li>\n</ul>"
     },
     "Otyugh": {
       "name": "Otyugh",
       "tokenName": "Otyugh",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>The mating call of the otyugh is a horrible, blaring cry that sounds like a cross between an elephant dying and an over-eager vulture. The otyugh spends much of its time partly submerged in filthy water and prefers eating garbage over any other food. As a result, it often grows fat and strong on the offal of orcs, goblins and other cave-dwelling sub-humans. Get too close, however, and you’ll have one of its barbed tentacles dragging you into that soggy, razor-toothed maw. If you get away with your life, best get to a doctor, or your victory may be short lived.</p>\n<p>Instinct: To befoul</p>\n<ul>\n<li>Infect someone with filth fever</li>\n<li>Fling someone or something</li>\n</ul>",
-      "specialQualities": "Filth Fever",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"reach\"},{\"value\":\"forceful\"},{\"value\":\"solitary\"},{\"value\":\"large\"}]"
-    },
-    "Purple Worm": {
-      "name": "Purple Worm",
-      "tokenName": "Purple Worm",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>Iä! Iä! The Purple Worm! Blessed is its holy slime! We walk, unworthy, in its miles of massive tunnels. We are but shadows under its violet and all-consuming glory. Mere acolytes, we who hope someday to return to the great embrace of its tooth-ringed maw. Let it consume us! Let it eat our homes and villages so that we might be taken! Iä! Iä! The Purple Worm!</p>\n<p>Instinct: To consume</p>\n<ul>\n<li>Swallow whole</li>\n<li>Tunnel through stone and earth</li>\n</ul>",
-      "specialQualities": "Burrowing",
-      "tags": "[{\"value\":\"reach\"},{\"value\":\"forceful\"},{\"value\":\"solitary\"},{\"value\":\"huge\"}]"
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/otyugh.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/otyugh%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"},{\"value\":\"Solitaire\"},{\"value\":\"Grand\"}]",
+      "specialQualities": "Fièvre de la fange",
+      "description": "<p>Le brame d’un Otyugh est un horrible cri tonitruant, à mi-chemin entre l’éléphant mourant et le vautour impatient. L’Otyugh passe la majeure partie de son temps dans l’eau croupie et préfère les ordures à toute autre nourriture. Il devient ainsi gras et fort, grâce aux déchets des orcs, des gobelins et des autres races souterraines.</p>\n<p>Approchez-vous et un de ses tentacules barbelés vous entraînera dans sa gueule humide et garnie de dents effilées. Si vous vous en échappez vivant, voyez vite un médecin, ou votre victoire tournera court.</p>\n<p>Penchant : Souiller</p>\n<ul>\n<li>Infecter avec la fièvre de la fange</li>\n<li>Projeter quelqu’un ou quelque chose</li>\n</ul>"
     },
     "Roper": {
-      "name": "Roper",
-      "tokenName": "Roper",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>Evolutionary happenstance has created a clever underground predator. Disguised as a rocky formation—most often a stalactite or stalagmite—the roper waits for its prey to wander by. When it does, whether it’s a rat, a goblin or a foolhardy adventurer, a mass of thin, whipping tentacles erupts from the thing’s hide. A hundred lashes in the blink of an eye and the stunned prey is being dragged into the roper’s mouth. Surprisingly effective for a thing that looks like a rock.</p>\n<p>Instinct: To ambush</p>\n<ul>\n<li>Ensnare the unsuspecting</li>\n<li>Disarm a foe</li>\n<li>Chew on someone</li>\n</ul>",
-      "specialQualities": "Rock-like Flesh",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"reach\"},{\"value\":\"solitary\"},{\"value\":\"large\"},{\"value\":\"stealthy\"},{\"value\":\"intelligent\"}]"
+      "name": "Enlaceur",
+      "tokenName": "Enlaceur",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/roper.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/roper%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Furtif\"},{\"value\":\"Intelligent\"}]",
+      "specialQualities": "Chair semblable à la pierre",
+      "description": "<p>Le hasard de l’évolution a créé ce prédateur rusé et souterrain. Ressemblant à une formation rocheuse (souvent une stalactite ou stalagmite) l’Enlaceur attend le passage de sa proie. Quand elle arrive, que ce soit un rat, un gobelin ou un aventurier imprudent, une masse de fins tentacules jaillit de sa peau. En un clin d’œil, la proie étourdie se retrouve dans sa bouche. Sacrément efficace pour une chose qui ressemble à un rocher.</p>\n<p>Penchant : Surprendre</p>\n<ul>\n<li>Piéger ceux qui ne se méfient pas</li>\n<li>Désarmer un ennemi</li>\n<li>Mâcher quelqu’un</li>\n</ul>"
     },
-    "Rot Grub": {
-      "name": "Rot Grub",
-      "tokenName": "Rot Grub",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>They live in your skin. Or your organ meat. Or your eyeballs. They grow there and then, in a bloody and horrific display, burrow their way out. Disgusting.</p>\n<p>Instinct: To infect</p>\n<ul>\n<li>Burrow under flesh</li>\n<li>Lay eggs</li>\n<li>Burst forth from an infected creature</li>\n</ul>",
-      "specialQualities": "Burrow into flesh",
-      "tags": "[{\"value\":\"hand\"},{\"value\":\"horde\"},{\"value\":\"tiny\"}]"
+    "Dwarven Warrior": {
+      "name": "Guerrier Nain",
+      "tokenName": "Guerrier Nain",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/dwarven-warrior.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/dwarven-warrior%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Horde\"},{\"value\":\"Organisés\"}]",
+      "specialQualities": " ",
+      "description": "<p>De tout temps, les hommes ont cru que tous les nains étaient des mâles. Une race de guerriers fiers et stoïques, portant une hache et une armure de plates. De gros nains barbus assoiffés de batailles qui les repoussaient férocement, encore et encore, en dehors de leurs tunnels de mines. Cela démontre le peu de connaissance des hommes sur les races anciennes. Ces gens ne sont qu'une avant-garde, accomplissant bravement leur devoir pour protéger les richesses des royaumes nains. Gagnez leur confiance et vous aurez des alliés pour la vie. Provoquez leur colère et vous n’aurez pas le temps de le regretter.</p>\n<p>Penchant : Défendre</p>\n<ul>\n<li>Les repousser</li>\n<li>Appeler des renforts</li>\n</ul>"
+    },
+    "Maggot-Squid": {
+      "name": "Ver-Pieuvre",
+      "tokenName": "Ver-Pieuvre",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/maggot-squid.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/maggot-squid%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Horde\"},{\"value\":\"Petit\"}]",
+      "specialQualities": "Amphibie, Tentacules paralysants",
+      "description": "<p>Les dieux qui ont créé cette chose ont fait une sale blague aux peuples civilisés. La gueule du Ver-Pieuvre est couverte d’horribles tentacules grouillants, qui, s’ils vous touchent, vous donnent la sensation d’avoir été frappé par la foudre. Ces monstres vous paralysent puis vous mâchent lentement alors que vous êtes sans défense. Mieux vaut ne pas en arriver là.</p>\n<p>Penchant : Manger</p>\n<ul>\n<li>Toucher pour paralyser</li>\n</ul>"
+    },
+    "Goblin Orkaster": {
+      "name": "Sorcier Gobelin",
+      "tokenName": "Sorcier Gobelin",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/goblin-orkaster.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/goblin-orkaster%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Courte\"},{\"value\":\"Longue\"},{\"value\":\"Solitaire\"},{\"value\":\"Petit\"},{\"value\":\"Magique\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"}]",
+      "specialQualities": " ",
+      "description": "<p>Mon dieu, qui leur a appris la magie ?</p>\n<p>Penchant : Utiliser une puissance au-delà de ses capacités</p>\n<ul>\n<li>Lancer un sort pas du tout maîtrisé</li>\n<li>Répandre un chaos magique</li>\n<li>Utiliser d’autres gobelins comme boucliers</li>\n</ul>"
+    },
+    "Goblin": {
+      "name": "Goblin",
+      "tokenName": "Goblin",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/goblin.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/goblin%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Horde\"},{\"value\":\"Petit\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"}]",
+      "specialQualities": " ",
+      "description": "<p>Personne ne semble savoir d'où ils viennent. Les Elfes disent que c'est de la faute des nains, qui les ont extirpés d'une cache sous la terre. Les Nains disent que ce sont de méchants enfants d'elfes, enlevés à la naissance et élevés dans l'obscurité. La vérité, c'est que les Gobelins ont toujours été là, et qu'ils continueront d'exister bien après la chute et la disparition des races civilisées. Les Gobelins ne meurent jamais. Ils sont trop nombreux pour ça.</p>\n<p>Penchant : Se multiplier</p>\n<ul>\n<li>Charger !</li>\n<li>Appeler davantage de gobelins</li>\n<li>Battre en retraite et revenir (bien) plus nombreux</li>\n</ul>"
+    },
+    "Cave Rat": {
+      "name": "Rat des Cavernes",
+      "tokenName": "Rat des Cavernes",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/cave-rat.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/cave-rat%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Dévastateur\"},{\"value\":\"Horde\"},{\"value\":\"Petit\"}]",
+      "specialQualities": " ",
+      "description": "<p>Qui n’a jamais vu de rats ? C’est ça, mais en plus méchant, plus gros et vous ne l’effrayez pas. Peut-être est-ce le cousin de celui que vous avez piégé ou de celui que vous avez transpercé d’un couteau dans cette taverne crasseuse de Darrow. Peut-être cherche-t-il à venger ses semblables ?</p>\n<p>Penchant : Dévorer</p>\n<ul>\n<li>Grouiller</li>\n<li>Déchiqueter quelque chose (ou quelqu’un)</li>\n</ul>"
     },
     "Spiderlord": {
-      "name": "Spiderlord",
-      "tokenName": "Spiderlord",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>Even spiders have their gods, whispered to in webs with little praying arms.</p>\n<p>Instinct: To weave webs (literal and metaphorical)</p>\n<ul>\n<li>Enmesh in webbing</li>\n<li>Put a plot into motion</li>\n</ul>",
-      "specialQualities": "Burrowing",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"reach\"},{\"value\":\"solitary\"},{\"value\":\"large\"},{\"value\":\"devious\"},{\"value\":\"intelligent\"}]"
+      "name": "Seigneur Araignée",
+      "tokenName": "Seigneur Araignée",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/spiderlord.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/spiderlord%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Fourbe\"},{\"value\":\"Intelligent\"}]",
+      "specialQualities": "Creuser",
+      "description": "<p>Même les araignées ont leurs dieux qu’elles prient, les pattes jointes, au cœur de leurs toiles.</p>\n<p>Tisser des toiles (littéralement et métaphoriquement)</p>\n<ul>\n<li>Prendre dans une toile</li>\n<li>Ourdir un complot</li>\n</ul>"
     },
     "Troglodyte": {
       "name": "Troglodyte",
       "tokenName": "Troglodyte",
-      "img": "icons/svg/mystery-man.svg",
-      "biography": "<p>Long-forgotten, our last remaining ancestors dwell in caves in the wild parts of the world. Driven away by our cities and villages, our iron swords and our fire, these ape-men eat their meat raw with sharp-nailed hands and jagged teeth. They strike out at frontier villages wielding clubs and in overwhelming numbers to seize cattle, tools, and poor prisoners to drag into the hills. Known for their viciousness and their stink, they’re an old and dying race we’d all sooner forget existed.</p>\n<p>Instinct: To prey on civilization</p>\n<ul>\n<li>Raid and retreat</li>\n<li>Use scavenged weapons or magic</li>\n</ul>",
-      "specialQualities": "",
-      "tags": "[{\"value\":\"close\"},{\"value\":\"group\"},{\"value\":\"organized\"}]"
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/troglodyte.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/troglodyte%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Groupe\"},{\"value\":\"Organisés\"}]",
+      "specialQualities": " ",
+      "description": "<p>Oubliés depuis des lustres, les derniers vestiges de nos ancêtres errent dans les grottes des régions sauvages. Repoussés par nos cités et nos villages, par nos épées d’acier et notre feu, ces hommes-singes mangent la viande crue avec leurs mains griffues et leurs chicots. Ils frappent les villages frontaliers en brandissant leurs massues, surgissant en nombre pour s’emparer du bétail, d’outils et de pauvres prisonniers qu’ils traînent dans les collines. Connue pour sa brutalité et sa puanteur, c’est une race ancienne et mourante dont nous oublierons bientôt l’existence.</p>\n<p>Penchant : S’attaquer à la civilisation</p>\n<ul>\n<li>Piller et battre en retraite</li>\n<li>Utiliser des armes ou de la magie récupérées</li>\n</ul>"
+    },
+    "Gargoyle": {
+      "name": "Gargouille",
+      "tokenName": "Gargouille",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/gargoyle.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/gargoyle%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Horde\"},{\"value\":\"Thésauriseur\"}]",
+      "specialQualities": "Ailé",
+      "description": "<p>C’est triste, vraiment. Des gardiens créés par les mages de jadis, désormais dépourvus de châteaux à surveiller. La tâche sacrée de leurs ancêtres, inscrite dans leur sang, les pousse à trouver un endroit, souvent une ruine, mais parfois une grotte, une colline, une falaise en montagne, et à y monter la garde, comme si leurs maîtres y vivaient encore. Cela dit, les gargouilles sont notoirement connues pour découvrir les richesses enterrées. Trouvez l’un de ces reptiles ailés et vous dégotterez un trésor non loin. Soyez juste prudent, elles sont difficiles à détecter, et se déplacent en meute.</p>\n<p>Penchant : Garder</p>\n<ul>\n<li>Attaquer par surprise</li>\n<li>Emporter dans les airs</li>\n<li>Se mêler à la pierre</li>\n</ul>"
+    },
+    "Purple Worm": {
+      "name": "Ver Pourpre",
+      "tokenName": "Ver Pourpre",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/purple-worm.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/purple-worm%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Allonge\"},{\"value\":\"Puissant\"},{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"}]",
+      "specialQualities": "Forage",
+      "description": "<p>Iä ! Iä ! Le Ver Pourpre ! Bénie soit sa sainte bave ! Indignes, nous marchons dans ses tunnels grandioses. Nous ne sommes que des ombres de sa gloire violette. Nous, simples acolytes, espérons un jour recevoir de nouveau le magnifique baiser de sa gueule cerclée de dents. Qu’il nous dévore ! Qu’il dévore nos maisons, nos villages et nous emporte. Iä ! Iä ! Le Ver Pourpre !</p>\n<p>Penchant : Dévorer</p>\n<ul>\n<li>Avaler entièrement</li>\n<li>Creuser un tunnel à travers la pierre et la terre</li>\n</ul>"
+    },
+    "Cloaker": {
+      "name": "Manteleur",
+      "tokenName": "Manteleur",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/cloaker.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/cloaker%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Solitaire\"},{\"value\":\"Furtif\"}]",
+      "specialQualities": "Ressemble à un manteau",
+      "description": "<p>Ne mets pas ce manteau, Gareth. Ne fais pas ça. Tu ne sais pas d’où ça vient. Je te le dis, ça ne me dit rien qui vaille. Regarde ! Ça bouge ! Je ne suis pas fou, Gareth, ça a bougé ! Ne le fais pas ! Non ! GARETH !</p>\n<p>Penchant : Engloutir</p>\n<ul>\n<li>Engloutir une victime sans méfiance</li>\n</ul>"
+    },
+    "Goliath": {
+      "name": "Goliath",
+      "tokenName": "Goliath",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/goliath.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/goliath%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Allonge\"},{\"value\":\"Puissant\"},{\"value\":\"Groupe\"},{\"value\":\"Énorme\"},{\"value\":\"Organisés\"},{\"value\":\"Intelligent\"}]",
+      "specialQualities": " ",
+      "description": "<p>Ils habitent sous terre car la surface leur est hostile. Dans les âges anciens, ils furent une race de puissants titans immortels fuyant les plaines et les montagnes, chassés par les hommes et leurs héros. Ils attendent leur heure dans l’obscurité, leur haine et leur colère attisées par les lacs de lave souterrains. On dit qu’un tremblement de terre est le cri de naissance d’un Goliath. Un jour, ils reprendront ce qui est leur.</p>\n<p>Penchant : Reprendre</p>\n<ul>\n<li>Secouer la terre</li>\n<li>Battre en retraite pour revenir plus fort</li>\n</ul>"
+    },
+    "Choker": {
+      "name": "Étrangleur",
+      "tokenName": "Étrangleur",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e1/choker.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e1/choker%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Solitaire\"},{\"value\":\"Furtif\"},{\"value\":\"Intelligent\"}]",
+      "specialQualities": "Flexible",
+      "description": "<p>Certains disent que les étrangleurs descendent de la famille d’un sorcier cruel qui les obligea à vivre sous terre. On dit que ses expériences l’amenèrent à craindre le soleil et qu’il s’enfonça dans la non-vie, entraînant ses proches avec lui. D’une certaine façon, ces créatures ressemblent aux hommes. Une tête, quatre membres, et tout le reste. Mais leur peau est humide et caoutchouteuse, leurs bras longs et leurs doigts avides. Comme on peut s’y attendre, ils détestent toute vie qui porte la marque du soleil. Difficile de surmonter cette jalousie, instillée en eux depuis longtemps.</p>\n<p>Penchant : Priver de lumière</p>\n<ul>\n<li>Maintenir quelqu’un pour l’étouffer</li>\n<li>Projeter une créature</li>\n</ul>"
     }
   }
 }

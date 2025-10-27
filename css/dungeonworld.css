@@ -1,29 +1,23 @@
-#logo {
-  content: url("../assets/logo.webp");
-  width: 175px;
-  height: auto;
-  padding-right: 10px;  
-}
-
 #pause > img {
   content: url("../assets/pause.webp");
   height: 220px;
   width: 220px;
-  top: -22px;
-  left: calc(50% - 110px);
 }
 
-#pause {
-  top: 50%;
-  background: none;
-  font-family: "Alegreya", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 2.5em;
+/* Style pour les marqueurs mis en avant */
+.dw-tag-highlight {
+  color: #2d3748 !important;
+  font-weight: 700;
+  text-shadow: 0 0 6px #5c7194;
 }
 
-#pause > figcaption {
-  text-shadow: 0px 0px 30px brown;
+/* Masque les images IA dans les compendiums et fiches quand IA désactivée */
+body:not(.ai-enabled) .directory .compendium .document img[src*="modules/dungeonworld-fr/assets/npc-e"],
+body:not(.ai-enabled) img[src*="modules/dungeonworld-fr/assets/npc-e"] {
+  opacity: 0 !important;
 }
 
-#ui-top.offset {
-  margin-left: -25px;
+/* Quand IA activée : tout redevient normal */
+body.ai-enabled img[src*="modules/dungeonworld-fr/assets/npc-e"] {
+  opacity: 1 !important;
 }

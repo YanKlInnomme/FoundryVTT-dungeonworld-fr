@@ -1,174 +1,174 @@
 {
-	"label": "Sorts du·de la Clerc",
-	"mapping": {
-		"name": "name",
-		"description": "system.description"
-	},
-	"entries": [
-		{
-			"id": "Animate Dead",
-			"name": "Animer les morts (Continu)",
-			"description": "<p>Vous invoquez un esprit affam&eacute; qui prend possession d&rsquo;un cadavre fra&icirc;chement d&eacute;c&eacute;d&eacute; et suit vos ordres. Cela cr&eacute;e un&middot;e zombie qui suivra vos ordres au mieux de ses faibles capacit&eacute;s. Traitez ce&middot;tte zombie comme un&middot;e PJ mais qui n&rsquo;a acc&egrave;s qu&rsquo;aux actions de base. Iel a un ajustement de <strong>+1</strong> &agrave; toutes ses caract&eacute;ristiques et 1 PV.</p><p>Lae zombie gagne aussi <strong>1d4</strong> options :</p><ul><li>Il est habile. Choisissez-lui une caract&eacute;ristique &agrave; +2.</li><li>Il est costaud. Il re&ccedil;oit +2 PV pour chacun de vos niveaux.</li><li>Il a un cerveau en &eacute;tat de marche et peut ob&eacute;ir &agrave; des ordres complexes.</li><li>Il n&rsquo;a pas l&rsquo;air mort, du moins pas pendant un jour ou deux.</li></ul>"
-		},
-		{
-			"id": "Bless",
-			"name": "Bénédiction (Continu)",
-			"description": "<p>Votre divinit&eacute; se penche sur un&middot;e combattant&middot;e de votre choix : cellui-ci re&ccedil;oit <strong>+1 continu</strong> pour toute la dur&eacute;e du combat tant qu&rsquo;iel y participe. Tant que vous maintenez ce sort, vous recevez <strong>-1</strong> lorsque vous lancez un autre sort.</p>"
-		},
-		{
-			"id": "Cause Fear",
-			"name": "Causer la peur (Continu)",
-			"description": "<p>Choisissez une cible que vous voyez et un objet proche. La cible est effray&eacute;e par l&rsquo;objet tant que vous maintenez le sort. Sa r&eacute;action d&eacute;pend d&rsquo;elle : fuir, paniquer, implorer, combattre. Vous ne pouvez pas affecter des cibles dont l&rsquo;intelligence est inf&eacute;rieure &agrave; celle d&rsquo;un animal (automates, morts-vivants, constructions magiques, etc.). Tant que vous maintenez ce sort, vous recevez <strong>-1</strong> lorsque vous lancez un autre sort.</p>"
-		},
-		{
-			"id": "Consume Unlife",
-			"name": "Consumer la non-vie",
-			"description": "<p>Le mort-vivant sans esprit que vous touchez est d&eacute;truit et son &eacute;nergie mortelle est transf&eacute;r&eacute;e pour vous soigner ou l&rsquo;un des alli&eacute;s que vous touchez. Le nombre de d&eacute;g&acirc;ts soign&eacute;s est &eacute;gal au nombre de PV qu&rsquo;il restait au mort-vivant.</p>"
-		},
-		{
-			"id": "Contagion",
-			"name": "Contagion (Continu)",
-			"description": "<p>Choisissez une cr&eacute;ature que vous voyez. Celle-ci souffre d&rsquo;une maladie de votre choix tant que vous maintenez ce sort. Dans ce cas, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
-		},
-		{
-			"id": "Control Weather",
-			"name": "Contrôle climatique",
-			"description": "<p>Priez pour du soleil, de la pluie, du vent, ou de la neige. D&rsquo;ici un jour ou deux, votre divinit&eacute; r&eacute;pondra. Le temps changera selon vos souhaits et se maintiendra pendant quelques jours.</p>"
-		},
-		{
-			"id": "Cure Critical Wounds",
-			"name": "Soin des blessures critiques",
-			"description": "<p>Soignez un&middot;e alli&eacute;&middot;e que vous touchez de <strong>3d8</strong> d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Cure Light Wounds",
-			"name": "Soin des blessures légères",
-			"description": "<p>Soignez un&middot;e alli&eacute;&middot;e que vous touchez d&rsquo;<strong>1d8</strong> d&eacute;g&acirc;ts. Les blessures se referment et la douleur cesse.</p>"
-		},
-		{
-			"id": "Cure Moderate Wounds",
-			"name": "Soin des blessures moyennes",
-			"description": "<p>Soignez un&middot;e alli&eacute;&middot;e que vous touchez de <strong>2d8</strong> d&eacute;g&acirc;ts. L&rsquo;h&eacute;morragie cesse et les fractures sont r&eacute;duites.</p>"
-		},
-		{
-			"id": "Darkness",
-			"name": "Obscurité (Continu)",
-			"description": "<p>La zone que vous regardez devient miraculeusement obscure. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
-		},
-		{
-			"id": "Detect Alignment",
-			"name": "Percevoir l’alignement",
-			"description": "<p>Quand vous lancez ce sort, choisissez un alignement : Bon, Mauvais, Loyal ou Chaotique. Un de vos sens est bri&egrave;vement capable de sentir cet alignement. Lae MJ vous dira ce qui est li&eacute; &agrave; cet alignement ici.</p>"
-		},
-		{
-			"id": "Divination",
-			"name": "Divination",
-			"description": "<p>Nommez une personne, un lieu ou une chose dont vous voulez apprendre quelque&nbsp;<br>chose. Votre divinit&eacute; vous en donne une vision aussi claire et nette que si vous &eacute;tiez sur place.</p>"
-		},
-		{
-			"id": "Divine Presence",
-			"name": "Présence divine (Continu)",
-			"description": "<p>Toutes les cr&eacute;atures doivent vous demander l&rsquo;autorisation de vous approcher et vous devez leur r&eacute;pondre oralement. Sans votre autorisation, ils encaissent <strong>+1d10</strong> d&eacute;g&acirc;ts &agrave; chaque fois qu&rsquo;ils subissent des d&eacute;g&acirc;ts en votre pr&eacute;sence. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
-		},
-		{
-			"id": "Guidance",
-			"name": "Conseil",
-			"description": "<p>Le symbole de votre divinit&eacute; appara&icirc;t devant vous et vous indique le chemin ou l&rsquo;action que votre divinit&eacute; aimerait vous voir entreprendre, puis dispara&icirc;t. Ce message est exclusivement visuel ; vos moyens de communiquer par cette pri&egrave;re sont extr&ecirc;mement limit&eacute;s.</p>"
-		},
-		{
-			"id": "Harm",
-			"name": "Nuire",
-			"description": "<p>Touchez un&middot;e ennemi&middot;e pour lae frapper de la col&egrave;re divine : infligez-lui <strong>2d8</strong> d&eacute;g&acirc;ts et recevez vous-m&ecirc;me <strong>1d6</strong> d&eacute;g&acirc;ts (les deux ignorent l&rsquo;armure).</p>"
-		},
-		{
-			"id": "Heal",
-			"name": "Soins",
-			"description": "<p>Soignez un&middot;e alli&eacute;&middot;e que vous touchez d&rsquo;un nombre de points de d&eacute;g&acirc;ts &eacute;quivalant &agrave; votre maximum de PV.</p>"
-		},
-		{
-			"id": "Hold Person",
-			"name": "Paralysie",
-			"description": "<p>Choisissez une cible que vous voyez. Elle peut parler mais ne peut agir tant que vous la gardez en vue et que vous ne lancez pas un autre sort. Ce sort s&rsquo;arr&ecirc;te si votre cible subit des d&eacute;g&acirc;ts quelle qu&rsquo;en soit la cause.</p>"
-		},
-		{
-			"id": "Light",
-			"name": "Lumière (Continu)",
-			"description": "<p>Un objet que vous touchez brille d&rsquo;une lumi&egrave;re divine, aussi brillante qu&rsquo;une torche. Cette lumi&egrave;re ne d&eacute;gage ni chaleur ni bruit et ne consomme aucun combustible mais a l&rsquo;allure d&rsquo;une torche ordinaire. Vous d&eacute;cidez librement de la couleur de cette lumi&egrave;re. Tant que ce sort est maintenu, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
-		},
-		{
-			"id": "Magic Weapon",
-			"name": "Arme magique (Continu)",
-			"description": "<p>L&rsquo;arme que vous brandissez quand vous lancez ce sort inflige <strong>+1d4</strong> d&eacute;g&acirc;ts jusqu&rsquo;&agrave; ce que vous r&eacute;voquiez ce sort. Tant que vous maintenez ce sort, vous recevez <strong>-1</strong> pour lancer un autre sort.</p>"
-		},
-		{
-			"id": "Mark of Death",
-			"name": "Marque de la mort",
-			"description": "<p>Choisissez une cr&eacute;ature dont vous connaissez le vrai nom. Ce sort cr&eacute;e des runes permanentes sur une surface choisie qui tueront cette cr&eacute;ature si jamais elle les lit.</p>"
-		},
-		{
-			"id": "Plague",
-			"name": "Plaies (Continu)",
-			"description": "<p>Nommez une cit&eacute;, une ville, un campement ou tout autre endroit o&ugrave; vivent des gens. Tant que vous maintenez ce sort, cet endroit subit une plaie correspondant au domaine de votre divinit&eacute; (sauterelles, mort des premiers n&eacute;s, etc.). Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
-		},
-		{
-			"id": "Repair",
-			"name": "Réparation",
-			"description": "<p>D&eacute;signez un &eacute;v&egrave;nement dans le pass&eacute; de votre cible. Toutes les cons&eacute;quences de cet &eacute;v&egrave;nement, comme les d&eacute;g&acirc;ts, l&rsquo;empoisonnement, la maladie, les effets magiques, s&rsquo;ach&egrave;vent et se r&eacute;parent.</p>"
-		},
-		{
-			"id": "Resurrection",
-			"name": "Résurrection",
-			"description": "<p>Annoncez au&middot;&agrave; lae MJ que vous voulez ressusciter un&middot;e mort&middot;e dont l&rsquo;&acirc;me n&rsquo;a pas encore tout &agrave; fait quitt&eacute; ce monde. La r&eacute;surrection est toujours possible mais lae MJ vous demandera de remplir une ou plusieurs des conditions suivantes :</p><ul><li>&Ccedil;a va prendre des jours/semaines/mois.</li><li>Il te faudra l&rsquo;aide de ________.</li><li>&Ccedil;a demandera beaucoup d&rsquo;argent.</li><li>Tu devras d&rsquo;abord sacrifier ________.</li></ul><p>Selon les circonstances, lae MJ peut vous autoriser &agrave; ressusciter le corps tout de suite d&egrave;s lors que les conditions seront remplies, avant que cela ne devienne d&eacute;finitif, ou vous demander de remplir les conditions au pr&eacute;alable.</p>"
-		},
-		{
-			"id": "Revelation",
-			"name": "Révélation",
-			"description": "<p>Votre divinit&eacute; r&eacute;pond &agrave; vos pri&egrave;res en vous conf&eacute;rant un moment de compr&eacute;hension absolue. Lae MJ vous &eacute;clairera sur la situation actuelle. Si vous tenez compte de cette information pour agir, vous avez <strong>+1</strong> &agrave; cette action.</p>"
-		},
-		{
-			"id": "Sanctify",
-			"name": "Consécration",
-			"description": "<p>La nourriture ou l&rsquo;eau que vous avez en main au moment de la pri&egrave;re est consacr&eacute;e par votre divinit&eacute;. En plus d&rsquo;&ecirc;tre b&eacute;nite ou maudite, la substance est purifi&eacute;e de toute souillure ordinaire.</p>"
-		},
-		{
-			"id": "Sanctuary",
-			"name": "Sanctuaire",
-			"description": "<p>Alors que vous lancez ce sort, vous marchez autour de l&rsquo;endroit que vous consacrez &agrave; votre divinit&eacute;. Tant que vous restez dans cette zone, vous savez quand quelqu&rsquo;un&middot;e agit dans le sanctuaire avec malveillance (y compris y entrer avec des intentions nuisibles). De plus, quiconque re&ccedil;oit des soins dans le sanctuaire r&eacute;cup&egrave;re <strong>+1d4</strong> PV.</p>"
-		},
-		{
-			"id": "Sever",
-			"name": "Amputation (Continu)",
-			"description": "<p>D&eacute;signez un des appendices de la cible, comme un bras, un tentacule ou une aile. Cet appendice tombe sans causer de blessures mais tout en restant tr&egrave;s douloureux. Cette amputation peut, par exemple, emp&ecirc;cher une cr&eacute;ature ail&eacute;e de d&eacute;coller ou un taureau de vous encorner. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
-		},
-		{
-			"id": "Speak With Dead",
-			"name": "Parler aux morts",
-			"description": "<p>Vous pouvez parler bri&egrave;vement avec un cadavre. Il r&eacute;pondra &agrave; trois de vos questions du mieux qu&rsquo;il peut, selon ce qu&rsquo;il a appris de son vivant ou apr&egrave;s sa mort.</p>"
-		},
-		{
-			"id": "Storm Of Vengeance",
-			"name": "Tempête vengeresse",
-			"description": "<p>Votre divinit&eacute; vous envoie une manifestation climatique surnaturelle de votre choix. Une pluie de sang ou d&rsquo;acide, des nuages d&rsquo;&acirc;mes tortur&eacute;es, un vent &agrave; emporter les b&acirc;timents, tout ce que vous pouvez imaginer : demandez-le et cela viendra.</p>"
-		},
-		{
-			"id": "Trap Soul",
-			"name": "Emprisonner l’âme",
-			"description": "<p>Vous emprisonnez l&rsquo;&acirc;me d&rsquo;une cr&eacute;ature mourante dans une gemme. La cr&eacute;ature pi&eacute;g&eacute;e est consciente de son emprisonnement mais vous pouvez n&eacute;gocier ou utiliser des sorts ou d&rsquo;autres effets pour la manipuler. Toutes les actions &agrave; l&rsquo;encontre de la cr&eacute;ature pi&eacute;g&eacute;e se font &agrave; <strong>+1</strong>. Vous pouvez lib&eacute;rer l&rsquo;&acirc;me &agrave; tout moment mais jamais la pi&eacute;ger de nouveau.</p>"
-		},
-		{
-			"id": "True Seeing",
-			"name": "Vision véritable (Continu)",
-			"description": "<p>Vous voyez la v&eacute;ritable nature de toute chose sur laquelle votre regard se pose. Vous percez les illusions et voyez les choses cach&eacute;es. Lae MJ vous d&eacute;crira la zone en ignorant les illusions et tromperies, magiques ou autres. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
-		},
-		{
-			"id": "Word of Recall",
-			"name": "Mot de rappel",
-			"description": "<p>Lancez ce sort en choisissant un mot. La premi&egrave;re fois que vous prononcerez ce mot, vous et tout alli&eacute; qui vous touche serez imm&eacute;diatement renvoy&eacute;s &agrave; l&rsquo;endroit o&ugrave; vous avez choisi le mot. Cela ne peut concerner qu&rsquo;une seule destination &agrave; la fois. <em>Tout nouveau mot de rappel choisi annule aussit&ocirc;t le pr&eacute;c&eacute;dent.</em></p>"
-		},
-		{
-			"id": "Words of the Unspeaking",
-			"name": "Parole des sans voix",
-			"description": "<p>Ce sort vous permet de parler aux esprits qui habitent les objets. Un objet inanim&eacute; que vous touchez de cette fa&ccedil;on r&eacute;pondra &agrave; 3 de vos questions du mieux qu&rsquo;il peut.</p>"
-		}
-	]
+  "label": "Sorts du·de la Clerc",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Animate Dead",
+      "name": "Animer les morts (Continu)",
+      "description": "<p>Vous invoquez un esprit affamé qui prend possession d’un cadavre fraîchement décédé et suit vos ordres. Cela crée un·e zombie qui suivra vos ordres au mieux de ses faibles capacités. Traitez ce·tte zombie comme un·e PJ mais qui n’a accès qu’aux actions de base. Iel a un ajustement de <strong>+1</strong> à toutes ses caractéristiques et 1 PV.</p><p>Lae zombie gagne aussi <strong>1d4</strong> options :</p><ul><li>Il est habile. Choisissez-lui une caractéristique à +2.</li><li>Il est costaud. Il reçoit +2 PV pour chacun de vos niveaux.</li><li>Il a un cerveau en état de marche et peut obéir à des ordres complexes.</li><li>Il n’a pas l’air mort, du moins pas pendant un jour ou deux.</li></ul>"
+    },
+    {
+      "id": "Bless",
+      "name": "Bénédiction (Continu)",
+      "description": "<p>Votre divinité se penche sur un·e combattant·e de votre choix : cellui-ci reçoit <strong>+1 continu</strong> pour toute la durée du combat tant qu’iel y participe. Tant que vous maintenez ce sort, vous recevez <strong>-1</strong> lorsque vous lancez un autre sort.</p>"
+    },
+    {
+      "id": "Cause Fear",
+      "name": "Causer la peur (Continu)",
+      "description": "<p>Choisissez une cible que vous voyez et un objet proche. La cible est effrayée par l’objet tant que vous maintenez le sort. Sa réaction dépend d’elle : fuir, paniquer, implorer, combattre. Vous ne pouvez pas affecter des cibles dont l’intelligence est inférieure à celle d’un animal (automates, morts-vivants, constructions magiques, etc.). Tant que vous maintenez ce sort, vous recevez <strong>-1</strong> lorsque vous lancez un autre sort.</p>"
+    },
+    {
+      "id": "Consume Unlife",
+      "name": "Consumer la non-vie",
+      "description": "<p>Le mort-vivant sans esprit que vous touchez est détruit et son énergie mortelle est transférée pour vous soigner ou l’un des alliés que vous touchez. Le nombre de dégâts soignés est égal au nombre de PV qu’il restait au mort-vivant.</p>"
+    },
+    {
+      "id": "Contagion",
+      "name": "Contagion (Continu)",
+      "description": "<p>Choisissez une créature que vous voyez. Celle-ci souffre d’une maladie de votre choix tant que vous maintenez ce sort. Dans ce cas, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+    },
+    {
+      "id": "Control Weather",
+      "name": "Contrôle climatique",
+      "description": "<p>Priez pour du soleil, de la pluie, du vent, ou de la neige. D’ici un jour ou deux, votre divinité répondra. Le temps changera selon vos souhaits et se maintiendra pendant quelques jours.</p>"
+    },
+    {
+      "id": "Cure Critical Wounds",
+      "name": "Soin des blessures critiques",
+      "description": "<p>Soignez un·e allié·e que vous touchez de <strong>3d8</strong> dégâts.</p>"
+    },
+    {
+      "id": "Cure Light Wounds",
+      "name": "Soin des blessures légères",
+      "description": "<p>Soignez un·e allié·e que vous touchez d’<strong>1d8</strong> dégâts. Les blessures se referment et la douleur cesse.</p>"
+    },
+    {
+      "id": "Cure Moderate Wounds",
+      "name": "Soin des blessures moyennes",
+      "description": "<p>Soignez un·e allié·e que vous touchez de <strong>2d8</strong> dégâts. L’hémorragie cesse et les fractures sont réduites.</p>"
+    },
+    {
+      "id": "Darkness",
+      "name": "Obscurité (Continu)",
+      "description": "<p>La zone que vous regardez devient miraculeusement obscure. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+    },
+    {
+      "id": "Detect Alignment",
+      "name": "Percevoir l’alignement",
+      "description": "<p>Quand vous lancez ce sort, choisissez un alignement : Bon, Mauvais, Loyal ou Chaotique. Un de vos sens est brièvement capable de sentir cet alignement. Lae MJ vous dira ce qui est lié à cet alignement ici.</p>"
+    },
+    {
+      "id": "Divination",
+      "name": "Divination",
+      "description": "<p>Nommez une personne, un lieu ou une chose dont vous voulez apprendre quelque <br>chose. Votre divinité vous en donne une vision aussi claire et nette que si vous étiez sur place.</p>"
+    },
+    {
+      "id": "Divine Presence",
+      "name": "Présence divine (Continu)",
+      "description": "<p>Toutes les créatures doivent vous demander l’autorisation de vous approcher et vous devez leur répondre oralement. Sans votre autorisation, ils encaissent <strong>+1d10</strong> dégâts à chaque fois qu’ils subissent des dégâts en votre présence. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+    },
+    {
+      "id": "Guidance",
+      "name": "Conseil",
+      "description": "<p>Le symbole de votre divinité apparaît devant vous et vous indique le chemin ou l’action que votre divinité aimerait vous voir entreprendre, puis disparaît. Ce message est exclusivement visuel ; vos moyens de communiquer par cette prière sont extrêmement limités.</p>"
+    },
+    {
+      "id": "Harm",
+      "name": "Nuire",
+      "description": "<p>Touchez un·e ennemi·e pour lae frapper de la colère divine : infligez-lui <strong>2d8</strong> dégâts et recevez vous-même <strong>1d6</strong> dégâts (les deux ignorent l’armure).</p>"
+    },
+    {
+      "id": "Heal",
+      "name": "Soins",
+      "description": "<p>Soignez un·e allié·e que vous touchez d’un nombre de points de dégâts équivalant à votre maximum de PV.</p>"
+    },
+    {
+      "id": "Hold Person",
+      "name": "Paralysie",
+      "description": "<p>Choisissez une cible que vous voyez. Elle peut parler mais ne peut agir tant que vous la gardez en vue et que vous ne lancez pas un autre sort. Ce sort s’arrête si votre cible subit des dégâts quelle qu’en soit la cause.</p>"
+    },
+    {
+      "id": "Light",
+      "name": "Lumière (Continu)",
+      "description": "<p>Un objet que vous touchez brille d’une lumière divine, aussi brillante qu’une torche. Cette lumière ne dégage ni chaleur ni bruit et ne consomme aucun combustible mais a l’allure d’une torche ordinaire. Vous décidez librement de la couleur de cette lumière. Tant que ce sort est maintenu, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+    },
+    {
+      "id": "Magic Weapon",
+      "name": "Arme magique (Continu)",
+      "description": "<p>L’arme que vous brandissez quand vous lancez ce sort inflige <strong>+1d4</strong> dégâts jusqu’à ce que vous révoquiez ce sort. Tant que vous maintenez ce sort, vous recevez <strong>-1</strong> pour lancer un autre sort.</p>"
+    },
+    {
+      "id": "Mark of Death",
+      "name": "Marque de la mort",
+      "description": "<p>Choisissez une créature dont vous connaissez le vrai nom. Ce sort crée des runes permanentes sur une surface choisie qui tueront cette créature si jamais elle les lit.</p>"
+    },
+    {
+      "id": "Plague",
+      "name": "Plaies (Continu)",
+      "description": "<p>Nommez une cité, une ville, un campement ou tout autre endroit où vivent des gens. Tant que vous maintenez ce sort, cet endroit subit une plaie correspondant au domaine de votre divinité (sauterelles, mort des premiers nés, etc.). Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+    },
+    {
+      "id": "Repair",
+      "name": "Réparation",
+      "description": "<p>Désignez un évènement dans le passé de votre cible. Toutes les conséquences de cet évènement, comme les dégâts, l’empoisonnement, la maladie, les effets magiques, s’achèvent et se réparent.</p>"
+    },
+    {
+      "id": "Resurrection",
+      "name": "Résurrection",
+      "description": "<p>Annoncez au·à lae MJ que vous voulez ressusciter un·e mort·e dont l’âme n’a pas encore tout à fait quitté ce monde. La résurrection est toujours possible mais lae MJ vous demandera de remplir une ou plusieurs des conditions suivantes :</p><ul><li>Ça va prendre des jours/semaines/mois.</li><li>Il te faudra l’aide de ________.</li><li>Ça demandera beaucoup d’argent.</li><li>Tu devras d’abord sacrifier ________.</li></ul><p>Selon les circonstances, lae MJ peut vous autoriser à ressusciter le corps tout de suite dès lors que les conditions seront remplies, avant que cela ne devienne définitif, ou vous demander de remplir les conditions au préalable.</p>"
+    },
+    {
+      "id": "Revelation",
+      "name": "Révélation",
+      "description": "<p>Votre divinité répond à vos prières en vous conférant un moment de compréhension absolue. Lae MJ vous éclairera sur la situation actuelle. Si vous tenez compte de cette information pour agir, vous avez <strong>+1</strong> à cette action.</p>"
+    },
+    {
+      "id": "Sanctify",
+      "name": "Consécration",
+      "description": "<p>La nourriture ou l’eau que vous avez en main au moment de la prière est consacrée par votre divinité. En plus d’être bénite ou maudite, la substance est purifiée de toute souillure ordinaire.</p>"
+    },
+    {
+      "id": "Sanctuary",
+      "name": "Sanctuaire",
+      "description": "<p>Alors que vous lancez ce sort, vous marchez autour de l’endroit que vous consacrez à votre divinité. Tant que vous restez dans cette zone, vous savez quand quelqu’un·e agit dans le sanctuaire avec malveillance (y compris y entrer avec des intentions nuisibles). De plus, quiconque reçoit des soins dans le sanctuaire récupère <strong>+1d4</strong> PV.</p>"
+    },
+    {
+      "id": "Sever",
+      "name": "Amputation (Continu)",
+      "description": "<p>Désignez un des appendices de la cible, comme un bras, un tentacule ou une aile. Cet appendice tombe sans causer de blessures mais tout en restant très douloureux. Cette amputation peut, par exemple, empêcher une créature ailée de décoller ou un taureau de vous encorner. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+    },
+    {
+      "id": "Speak With Dead",
+      "name": "Parler aux morts",
+      "description": "<p>Vous pouvez parler brièvement avec un cadavre. Il répondra à trois de vos questions du mieux qu’il peut, selon ce qu’il a appris de son vivant ou après sa mort.</p>"
+    },
+    {
+      "id": "Storm Of Vengeance",
+      "name": "Tempête vengeresse",
+      "description": "<p>Votre divinité vous envoie une manifestation climatique surnaturelle de votre choix. Une pluie de sang ou d’acide, des nuages d’âmes torturées, un vent à emporter les bâtiments, tout ce que vous pouvez imaginer : demandez-le et cela viendra.</p>"
+    },
+    {
+      "id": "Trap Soul",
+      "name": "Emprisonner l’âme",
+      "description": "<p>Vous emprisonnez l’âme d’une créature mourante dans une gemme. La créature piégée est consciente de son emprisonnement mais vous pouvez négocier ou utiliser des sorts ou d’autres effets pour la manipuler. Toutes les actions à l’encontre de la créature piégée se font à <strong>+1</strong>. Vous pouvez libérer l’âme à tout moment mais jamais la piéger de nouveau.</p>"
+    },
+    {
+      "id": "True Seeing",
+      "name": "Vision véritable (Continu)",
+      "description": "<p>Vous voyez la véritable nature de toute chose sur laquelle votre regard se pose. Vous percez les illusions et voyez les choses cachées. Lae MJ vous décrira la zone en ignorant les illusions et tromperies, magiques ou autres. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+    },
+    {
+      "id": "Word of Recall",
+      "name": "Mot de rappel",
+      "description": "<p>Lancez ce sort en choisissant un mot. La première fois que vous prononcerez ce mot, vous et tout allié qui vous touche serez immédiatement renvoyés à l’endroit où vous avez choisi le mot. Cela ne peut concerner qu’une seule destination à la fois. <em>Tout nouveau mot de rappel choisi annule aussitôt le précédent.</em></p>"
+    },
+    {
+      "id": "Words of the Unspeaking",
+      "name": "Parole des sans voix",
+      "description": "<p>Ce sort vous permet de parler aux esprits qui habitent les objets. Un objet inanimé que vous touchez de cette façon répondra à 3 de vos questions du mieux qu’il peut.</p>"
+    }
+  ]
 }

@@ -1,0 +1,205 @@
+{
+  "label": "E5 - Hordes Voraces",
+  "mapping": {
+    "imagePath": "img",
+    "tokenPath": "prototypeToken.texture.src",
+    "name": "name",
+    "damageModifier": "system.attributes.damage.piercing",
+    "tags": "system.tags",
+    "specialQualities": "system.attributes.specialQualities.value",
+    "description": "system.details.biography"
+  },
+  "folders": {},
+  "entries": {
+    "Orc Slaver": {
+      "name": "Esclavagiste Orc",
+      "tokenName": "Esclavagiste Orc",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/orc-slaver.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/orc-slaver%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Furtif\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": " ",
+      "description": "<p>Des voiles rouges flottent au vent dans les mers du sud. Des voiles rouges sur des navires faits d’os, de vieux bois et de fer. La flotte de guerre de la horde. Les orcs du sud ont pris la mer, harcelant les villes côtières et les îles isolées, pillant les pêcheurs et leurs familles. On dit que leur coutume est de prendre les gens et de les réduire en esclavage. Ils accomplissent leur tâche tel un devoir sacré, particulièrement s’ils mettent la main sur des elfes. Difficile d’imaginer destin plus tragique que passer sa vie sur une galère orque, le dos courbé sous les coups de fouet.</p>\n<p>Penchant : Capturer</p>\n<ul>\n<li>Capturer quelqu’un</li>\n<li>Piéger quelqu’un dans un filet</li>\n<li>Droguer les captifs</li>\n</ul>"
+    },
+    "Orc Warchief": {
+      "name": "Chef de Guerre Orc",
+      "tokenName": "Chef de Guerre Orc",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/orc-warchief.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/orc-warchief%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Bénédiction des N’a-qu’un-œil, Bénédiction des chamans, Protection divine contre les mortels",
+      "description": "<p>Il y a les chefs et les meneurs des tribus orcs. Il y a ceux qui s’élèvent et acquièrent un grand pouvoir et ceux qui tombent dans les sombres machinations de leurs pairs. Mais il n’y a qu’un seul chef de guerre. Un seul orc dans toute la horde qui surpasse tous les autres, béni à la fois par les chamans et les N’a-qu’un-œil. Un seul qui marche avec les éléments de la Nuit. Un seul qui brandit l’Épée des Âges et porte sur ses épaules l’ancienne rancœur envers les races civilisées. Le chef de guerre doit être respecté, obéi et par, dessus tout, craint. Gloire au chef de guerre !</p>\n<p>Penchant : Gouverner</p>\n<ul>\n<li>Déclarer la guerre</li>\n<li>Faire une démonstration de puissance</li>\n<li>Attiser la rage des tribus</li>\n</ul>"
+    },
+    "Gnoll Tracker": {
+      "name": "Traqueur Gnoll",
+      "tokenName": "Traqueur Gnoll",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/gnoll-tracker.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/gnoll-tracker%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Organisés\"},{\"value\":\"Intelligent\"},{\"value\":\"Courte\"},{\"value\":\"Longue\"}]",
+      "specialQualities": "Flair",
+      "description": "<p>Une fois qu’ils ont flairé l’odeur de votre sang, vous ne pouvez plus leur échapper. Pas sans l’intervention des dieux ou des éclaireurs du Duc, au minimum. Le désert de broussailles est un endroit dangereux pour faire de l’exploration et si vous vous cassez une jambe dans une chute ou que vous mangez le mauvais cactus, estimez-vous heureux si vous mourez de soif avant que les gnolls ne vous trouvent. Ils préfèrent leurs proies vivantes. Sachez que les os craquants sous leurs crocs et les cris d’agonie de leur victime ajoutent de la saveur à leur repas. Des créatures répugnantes, n’est-ce pas ? Ils vous traqueront, lentement mais sûrement, tandis que vous agonisez. Si vous entendez des rires portés par les vents du désert, priez pour que la Mort vous emporte avant eux.</p>\n<p>Penchant : Exploiter les faiblesses</p>\n<ul>\n<li>Traquer une proie</li>\n<li>Frapper dans un moment de faiblesse</li>\n</ul>"
+    },
+    "Orc Breaker": {
+      "name": "Destructeur Orc",
+      "tokenName": "Destructeur Orc",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/orc-breaker.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/orc-breaker%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": " ",
+      "description": "<p>« Avant que vous ne partiez parcourir les terres de la horde, brave seigneur, prêtez l’oreille un moment à l’histoire de Sire Regnus. Regnus était comme vous, sire, un paladin de l’Ordre, tout scintillant dans son armure de plates, avec son bouclier, aussi grand qu’un homme, dont il était fier et qu’il nommait Écu-Miroir. L’histoire raconte qu’il se mit en quête de sauver un prêtre capturé dans une abbaye près de la frontière. Alors qu’il voyageait, Regnus croisa quelques orcs, une douzaine environ, et s’imagina, comme tout un chacun, qu’ils ne feraient pas long feu. Le combat s’engageait plutôt bien jusqu’à ce qu’un orc gigantesque se détache du lot, portant un marteau de guerre si grand qu’aucun homme n’aurait pu le manier. On raconte qu’il ressemblait plus à un ogre ou à un troll qu’à un orc, et d’un coup d’un seul, il aplatit Regnus, bouclier inclus. On raconte qu’il ne s’agissait pas d’un orc ordinaire. Ils ne peuvent fabriquer de telles armures eux-mêmes, vous voyez, aussi la jalousie les pousse peut-être à détruire et mettre en pièces ces choses à leur simple vue. Une stratégie efficace à n’en pas douter. Soyez prudent là-bas. »</p>\n<p>Penchant : Écrabouiller</p>\n<ul>\n<li>Détruire une armure ou une protection</li>\n<li>Démontrer sa supériorité</li>\n</ul>"
+    },
+    "Formian Queen": {
+      "name": "Reine Formienne",
+      "tokenName": "Reine Formienne",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/formian-queen.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/formian-queen%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"},{\"value\":\"Organisés\"},{\"value\":\"Intelligent\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Esprit collectif, Insectoïde",
+      "description": "<p>Dans le cœur d’une ruche, quelle que soit sa taille ou son genre, il y a une reine. Aussi grande que n’importe quel géant, elle trône, protégée par ses gardes, servie par ses ouvriers et contremaîtres avec un seul objectif : étendre son espèce et sa ruche. Faire éclore ses œufs. Couver. Nous ne comprenons pas ces créatures mais nous savons qu’elles peuvent communiquer avec leurs enfants sur de grandes distances et qu’elles commencent à leur enseigner les voies de la pierre, de la terre et de la guerre alors qu’elles ne sont encore qu’à l’état de larves, sans même prononcer un mot. Tuer une reine, c’est répandre le chaos dans la ruche. Sans leur reine, le reste des formiens est réduit à une rage folle et aveugle.</p>\n<p>Penchant : Étendre l’espèce formienne</p>\n<ul>\n<li>Appeler tous les formiens qu’elle a engendrés</li>\n<li>Pondre une larve à moitié formée</li>\n<li>Organiser et donner des ordres</li>\n</ul>"
+    },
+    "Orc Shaman": {
+      "name": "Chaman Orc",
+      "tokenName": "Chaman Orc",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/orc-shaman.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/orc-shaman%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Courte\"},{\"value\":\"Longue\"}]",
+      "specialQualities": "Pouvoir élémentaire",
+      "description": "<p>Les orcs sont une race aussi ancienne que les autres. Ils jetaient déjà des osselets dans la poussière et invoquaient les divinités des arbres et de la pierre alors que les elfes construisaient leurs premières cités. Ils ont mené des guerres, conquis des royaumes, et sombré dans la corruption une éternité avant que les hommes ne rampent dans leurs cavernes et que les nains ne voient leur premier rayon de soleil. Ceci dit, les anciennes traditions ont toujours cours. Ils invoquent les pouvoirs de la terre pour les servir, se battre et protéger leur peuple, comme ils le font depuis la nuit des temps.</p>\n<p>Penchant : Renforcer les orcs</p>\n<ul>\n<li>Donner la protection de la terre</li>\n<li>Donner la puissance du feu</li>\n<li>Donner l’agilité de l’eau</li>\n<li>Donner la clairvoyance de l’air</li>\n</ul>"
+    },
+    "Orc One-Eye": {
+      "name": "Orc n’a-qu’un-œil",
+      "tokenName": "Orc n’a-qu’un-œil",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/orc-one-eye.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/orc-one-eye%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Divin\"},{\"value\":\"Magique\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Courte\"},{\"value\":\"Longue\"}]",
+      "specialQualities": "Borgne",
+      "description": "<p>« Au nom de Celui-dont-la-Vue-est-Déchirée et par le Premier Sacrifice Elfique, nous invoquons les Anciens Pouvoirs. Par le Second Sacrifice, je revendique ce qui est mien, la Sombre Magie de la Nuit. À Son image, je marche vers Gor-sha-thak, la Potence de Fer ! J’en appelle aux runes ! J’en appelle aux nuées du ciel ! Prends cet organe de mortel, mange la chair de nos ennemis et donne-moi ce qui m’appartient ! »</p>\n<p>Penchant : Haïr</p>\n<ol>\n<li>Déchirer la chair à l’aide d’une magie divine</li>\n<li>Arracher un œil</li>\n<li>Faire un sacrifice et gagner en puissance</li>\n</ol>"
+    },
+    "Triton Spy": {
+      "name": "Espion Triton",
+      "tokenName": "Espion Triton",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/triton-spy.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/triton-spy%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Furtif\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Courte\"}]",
+      "specialQualities": "Aquatique",
+      "description": "<p>Un village de pêcheurs en a attrapé un dans ses filets il y a quelques temps. Il était à moitié homme et le reste ressemblait à une créature marine. Il a parlé dans une langue proche du commun, avec les quelques mots qu’il avait pu apprendre en nous espionnant, avant de suffoquer. Il a annoncé aux pêcheurs une marée à venir, une vague de puissance inéluctable d’un quelconque dieu des profondeurs océanes. L’empire triton s’élèverait et plongerait les terres dans l’océan. Cette histoire s’est propagée et maintenant, quand les pêcheurs naviguent dans des eaux agitées, ils regardent par-dessus bord et prient pour que l’histoire du triton captif ne soit qu’un mensonge. Ils prient pour qu’il n’y ait pas de puissances dans les profondeurs qui observent et attendent leur heure. Ils ont peur que cette marée monte vraiment.</p>\n<p>Penchant : Espionner le monde de la surface</p>\n<ul>\n<li>Révéler ses secrets</li>\n<li>Exploiter les faiblesses</li>\n</ul>"
+    },
+    "Formian Centurion": {
+      "name": "Centurion Formien",
+      "tokenName": "Centurion Formien",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/formian-centurion.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/formian-centurion%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Esprit collectif, Insectoïde, Ailé",
+      "description": "<p>Chaque ruche formienne contient un grand nombre de ces dangereux insectoïdes, sous la forme de légionnaires dans l’armée régulière ou de gardes prétoriens de la reine. Ils ont une carapace plus sombre, souvent sillonnée de cicatrices ou de scarifications rituelles qui les différencient de la caste ouvrière. Les centurions formiens en sont le bras armé (et bien armé). Uniquement nés, élevés et vivant pour tuer les ennemis de leur ruche, ils combattent comme un seul esprit avec une centaine d’épées. Jusqu’à présent, le pouvoir de la Loi a jugé bon de nous épargner une grande guerre contre ces créatures, mais nous les avons vus en escarmouche, piquant en vol sur les villes frontalières avec leurs ailes vrombissantes ou surgissant d’un monticule de sable pour nettoyer une mine fraîchement creusée. Ils répandent le sang en bonne et due forme, sans autre plaisir que celui de la tâche accomplie.</p>\n<p>Penchant : Combattre selon les ordres</p>\n<ul>\n<li>Former une phalange</li>\n<li>Appeler des renforts</li>\n<li>Donner sa vie pour la ruche</li>\n</ul>"
+    },
+    "Triton Tidecaller": {
+      "name": "Triton Mande-Marée",
+      "tokenName": "Triton Mande-Marée",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/triton-tidecaller.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/triton-tidecaller%20-%20token.webp",
+      "damageModifier": "ignore l'armure",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Divin\"},{\"value\":\"Magique\"},{\"value\":\"Intelligent\"}]",
+      "specialQualities": "Aquatique, Mutations",
+      "description": "<p>À la fois prêtres et intouchables au sein des leurs, les mandes-marée parlent avec la voix des profondeurs. Ils sont reconnaissables par leurs mutations : une peau transparente peut-être, ou des rangées de dents comme celles des requins. Des yeux ou des extrémités luminescentes pour piéger leurs proies dans l’obscurité des royaumes abyssaux. Ils parlent une langue étrange qui leur permet d’appeler et de commander les créatures de la mer. Ils chevauchent des hippocampes sauvages et incantent d’étranges sortilèges qui font pourrir le bois des bateaux ou les incruste de tant de berniques qu’ils finissent par couler sous leur poids. Les mande-marée retournent à présent dans les cités des tritons, annonciateurs d’une prophétie sur le point de se réaliser. Le monde des hommes sombrera bientôt dans l’eau glacée des océans. Les mandes-marée parlent, et les seigneurs tritons commencent à écouter.</p>\n<p>Penchant : Provoquer l’inondation</p>\n<ul>\n<li>Incanter un sort d’eau et de destruction</li>\n<li>Commander les créatures aquatiques</li>\n<li>Révéler un présage divin</li>\n</ul>"
+    },
+    "Formian Drone": {
+      "name": "Ouvrier Formien",
+      "tokenName": "Ouvrier Formien",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/formian-drone.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/formian-drone%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Organisés\"},{\"value\":\"Prudent\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Esprit collectif, Insectoïde",
+      "description": "<p>On dit, à juste titre, que ces créatures (comme tous les insectes) sont soumises au pouvoir de la Loi. Elles sont l’ordre incarné, une société parfaitement hiérarchisée dans laquelle chaque larve, nouveau-né et adulte connaît sa place dans la grande ruche. Les formiens sont une étrange espèce à mi-chemin entre les hommes et les fourmis. Il paraît qu’il existe, dans le désert de l’ouest, des tribus ailées où ils ressemblent plus à des guêpes et d’autres, dans les forêts de l’est, ayant plus l’apparence de mantes, avec des grands bras tranchants en dents de scie. Grands, avec une solide carapace et une volonté d’autant plus solide, ces formiens sont issus de la caste inférieure. Ils travaillent dans les nids et les collines avec une satisfaction incompréhensible pour un esprit étranger.</p>\n<p>Penchant : Suivre les ordres</p>\n<ul>\n<li>Sonner l’alarme</li>\n<li>Apporter de la valeur à la ruche</li>\n<li>Assimiler</li>\n</ul>"
+    },
+    "Orc Berserker": {
+      "name": "Berserker Orc",
+      "tokenName": "Berserker Orc",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/orc-berserker.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/orc-berserker%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Divin\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Mutations",
+      "description": "<p>Marqués pendant le rituel impie de l’Onction du Sang de la Nuit, certains guerriers de la horde accèdent à une espèce d’ordre de chevalerie monstrueux. Ils renoncent à leur santé mentale pour cela, sombrant dans un monde de folie tourbillonnante. Cela fait d’eux les guerriers les plus puissants de la horde. Cependant, avec le temps qui passe, le chaos s’empare d’eux et les rares berserkers qui vivent plus de quelques années deviennent des horreurs difformes. Ils se voient pousser des cornes ou un bras supplémentaire avec lequel ils manient leur arme favorite en combat, le hachoir.</p>\n<p>Penchant : Entrer en rage</p>\n<ul>\n<li>Se battre avec frénésie</li>\n<li>Répandre le chaos</li>\n</ul>"
+    },
+    "Gnoll Emissary": {
+      "name": "Émissaire Gnoll",
+      "tokenName": "Émissaire Gnoll",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/gnoll-emissary.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/gnoll-emissary%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Divin\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Flair",
+      "description": "<p>Oh ! Un émissaire ! Comme c’est charmant. Je suppose que vous ignoriez que les gnolls avaient des ambassadeurs, n’est-ce pas ? Hé oui, même ces hyènes galeuses ont parfois besoin de se montrer diplomates. Non, non, pas avec nous, ni avec les nains, d’ailleurs. Non, l’émissaire est celui parmi la meute qui entre en contact avec leur maître démoniaque. Effrayant ? Oh, oui. Chaque chien de meute a un maître qui tient la laisse. Ce gnoll entend la voix du maître et y obéit.</p>\n<p>Penchant : Révéler les visions divines</p>\n<ul>\n<li>Transmettre des ordres démoniaques</li>\n<li>Conduire la meute à la ferveur</li>\n</ul>"
+    },
+    "Formian Taskmaster": {
+      "name": "Contremaître Formien",
+      "tokenName": "Contremaître Formien",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/formian-taskmaster.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/formian-taskmaster%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Organisés\"},{\"value\":\"Intelligent\"}]",
+      "specialQualities": "Esprit collectif, Insectoïde",
+      "description": "<p>Il faut les deux mains pour régner sur un empire. Un pour porter le sceptre, l’autre pour faire claquer le fouet. Ces hommes-fourmis sont le fouet. Et par chance, ils ont deux bras supplémentaires. Ça fait beaucoup de fouets à faire claquer. Ils veillent sur le vaste essaim d’ouvriers qui s’emploient à la construction de profondes cavernes et des grandes ziggourats qui signalent les implantations formiennes. Ces brutes ne représentent qu’un pour cent de la population mais sont de 60 à 90 centimètres plus grands que leurs semblables à la peau pâle avec un esprit plus affûté et cruel en comparaison. Ils ignorent le plus souvent les races inférieures (telles que nous) tant que nous n’interférons pas avec leurs projets, mais immiscez-vous dans leur Grand Œuvre et attendez-vous à ce qu’ils vous consacrent toute leur attention. Et vous ne voulez pas attirer leur attention, n’est-ce pas ?</p>\n<p>Penchant : Commander</p>\n<ul>\n<li>Commander des ouvriers dans la bataille</li>\n<li>Mettre de grandes troupes en mouvement</li>\n</ul>"
+    },
+    "Gnoll Alpha": {
+      "name": "Gnoll Alpha",
+      "tokenName": "Gnoll Alpha",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/gnoll-alpha.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/gnoll-alpha%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Flair",
+      "description": "<p>Chaque meute a son chef. Ce serait si simple s’il s’agissait du plus gros. Mais le plus souvent avec ces cabots crasseux, ce n’est pas le plus grand ou celui avec les crocs les plus acérés, mais le plus cruel qui endosse ce rôle. Celui qui tuera ses frères et les mangera devant les autres. Celui qui humiliera la meute pour l’intimider. S’ils sont aussi cruels entre eux, imaginez comment ils nous perçoivent. C’est difficile de n’être qu’un morceau de viande dans une contrée de carnivores.</p>\n<p>Penchant : Mener la meute</p>\n<ul>\n<li>Imposer son autorité</li>\n<li>Envoyer la meute à la chasse</li>\n</ul>"
+    },
+    "Orc Shadowhunter": {
+      "name": "Chasseur de l’Ombre Orc",
+      "tokenName": "Chasseur de l’Ombre Orc",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/orc-shadowhunter.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/orc-shadowhunter%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Furtif\"},{\"value\":\"Magique\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Cape d’ombre",
+      "description": "<p>Toutes les attaques d’orcs ne se résument pas à des incendies, des cris et à l’esclavage. Parmi ceux qui suivent les enseignements de Celui-dont-la-Vue-est-Déchirée, l’empoisonnement et l’assassinat dans l’obscurité sont considérés comme des arts sacrés. Voici les chasseurs de l’ombre. Des orcs sous une cape imprégnée de la Magie de la Nuit qui se faufilent dans les camps, les villes et les temples et mettent fin à la vie de leurs habitants. Ne vous laissez pas distraire par les hurlements des berserkers ou bien vous ne remarquerez même pas le poignard pointé vers votre dos.</p>\n<p>Penchant : Tuer dans l’obscurité</p>\n<ul>\n<li>Empoisonner ses adversaires</li>\n<li>Se fondre dans les ombres</li>\n<li>Se faufiler à travers les ombres</li>\n</ul>"
+    },
+    "Orc Bloodwarrior": {
+      "name": "Guerrier de Sang Orc",
+      "tokenName": "Guerrier de Sang Orc",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/orc-bloodwarrior.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/orc-bloodwarrior%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": " ",
+      "description": "<p>La horde des orcs est un amas de tribus sauvages, haineuses et assoiffées de sang. Les mythes et les contes racontent l’origine de leur rage et parlent de malédiction démoniaque, d’une patrie détruite ou d’une magie elfique qui aurait mal tourné, mais la vérité a été oubliée depuis longtemps.</p>\n<p>Chaque orc, mâle ou femelle, jeune ou vieux, jure fidélité au chef de guerre et à sa tribu et porte l’épée dentelée d’un guerrier de sang. Les mâles sont entraînés à combattre et à tuer. Les orcs sont nés pour ça.</p>\n<p>Penchant : Combattre</p>\n<ul>\n<li>Se battre à corps perdu</li>\n<li>Se délecter de la destruction</li>\n</ul>"
+    },
+    "Triton Noble": {
+      "name": "Noble Triton",
+      "tokenName": "Noble Triton",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/triton-noble.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/triton-noble%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Organisés\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"},{\"value\":\"Courte\"},{\"value\":\"Longue\"}]",
+      "specialQualities": "Aquatique",
+      "description": "<p>On dit que les maisons régentes des tritons ont été choisies à l’aube des temps. Leur domination sur toutes les races aquatiques leur viendrait d’un dieu oublié de tous. Ces lignées existent toujours, transmettant le trône de père en fille et de mère en fils à travers les âges. Chacun d’entre eux gouverne sa cité comme il l’entend : certains seuls, ou avec leur conjoint, d’autres avec un conseil composé de frères et de sœurs. Autrefois, ils étaient connus pour leur sagesse. Leur lignée, qui faisait toujours preuve de la même tempérance, était respectée par-dessus tout. Mais la prophétie des mandes-marée est en train de changer tout ça. Les nobles seraient censés faire preuve de force, pas de sagesse. Les nobles commencent à écouter ces paroles et certains craignent que ces lignées anciennes ne changent leur attitude pour toujours. Il est peut-être déjà trop tard pour faire machine arrière. On n’arrête pas le Temps et la Marée.</p>\n<p>Penchant : Gouverner</p>\n<ul>\n<li>Inciter les tritons à entrer en guerre</li>\n<li>Appeler des renforts</li>\n</ul>"
+    },
+    "Triton Sub-Mariner": {
+      "name": "Sous-Marinier Triton",
+      "tokenName": "Sous-Marinier Triton",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e5/triton-sub-mariner.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e5/triton-sub-mariner%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Proche\"},{\"value\":\"Courte\"},{\"value\":\"Longue\"},{\"value\":\"Groupe\"},{\"value\":\"Organisés\"},{\"value\":\"Intelligent\"}]",
+      "specialQualities": "Aquatique",
+      "description": "<p>Les tritons ne sont pas une race martiale par nature. Ils restent à l’écart des batailles sauf lors des attaques de Sahuagins durant lesquelles ils se contentent de se défendre et de battre en retraite dans les profondeurs où leurs ennemis ne peuvent les suivre. Néanmoins, les choses commencent à changer. Alors que les mande-marée reviennent pour rallier leur peuple, des tritons mâles et femelles prennent les armes. Ils appellent leurs généraux « sous-marinier » et leur façonnent des armures faites de coquilles et de verre. Ils nagent en formation, maniant des piques et des harpons et s’attaquent aux équipages de bateaux qui se risquent à naviguer loin des ports. Surveillez l’horizon et gardez vos navires près des côtes autant que possible si vous voyez l’une de leurs bannières de varech ou si vous entendez l’appel à la bataille d’une conque.</p>\n<p>Penchant : Faire la guerre</p>\n<ul>\n<li>Mener les tritons à la bataille</li>\n<li>Attirer ses adversaires sous l’eau</li>\n</ul>"
+    }
+  }
+}

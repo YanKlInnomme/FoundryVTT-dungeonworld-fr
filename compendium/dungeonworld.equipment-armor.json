@@ -1,44 +1,44 @@
 {
-	"label": "Équipement (Armure)",
-	"mapping": {
-		"name": "name",
-		"description": "system.description"
-	},
-	"entries": [
-		{
-			"id": "Chainmail",
-			"name": "Cotte de Mailles",
-			"description": "<p>Une cotte de mailles est un type d'armure constitu&eacute;e de mailles reli&eacute;es entre elles afin de former une protection individuelle corporelle. Gr&acirc;ce &agrave; ce montage, elle conserve une certaine souplesse. Elle diff&egrave;re de la broigne, dont les mailles sont fix&eacute;es &agrave; un v&ecirc;tement servant de support.&nbsp;</p>"
-		},
-		{
-			"id": "Hide Armor",
-			"name": "Armure de Peaux",
-			"description": "<p>Plus &eacute;paisse et plus lourde qu&rsquo;une armure de cuir, cette armure est d&eacute;coup&eacute;e dans une peau particuli&egrave;rement r&eacute;sistante, comme celle d&rsquo;un ours, d&rsquo;un griffon ou d&rsquo;un dragon. Une armure de peau entrave un peu la pr&eacute;cision des gestes, mais reste assez l&eacute;g&egrave;re pour ne pas g&ecirc;ner les d&eacute;placements.</p>"
-		},
-		{
-			"id": "Leather Armor",
-			"name": "Armure de Cuir",
-			"description": "<p>L'armure de cuir est fabriqu&eacute;e principalement &agrave; partir de cuir durci. Elle a l'avantage d'&ecirc;tre l&eacute;g&egrave;re et peu co&ucirc;teuse, mais offre moins de protection que les armures m&eacute;talliques plus lourdes.&nbsp;</p>"
-		},
-		{
-			"id": "Ostentatious Clothes",
-			"name": "Habits tape-à-l’œil",
-			"description": "<p>Ces v&ecirc;tements sont parfaitement taill&eacute;s et somptueux. Nul doute que vous saurez vous faire remarquer ainsi v&eacute;tu&middot;e.</p>"
-		},
-		{
-			"id": "Plate",
-			"name": "Harnois",
-			"description": "<p>Le harnois, ou armure de plates, est constitu&eacute; de plaques de m&eacute;tal superpos&eacute;es qui couvrent l'ensemble du corps. Techniquement la plus performante des armures, le harnois correspond &agrave; ce qu'&eacute;voque spontan&eacute;ment la figure du chevalier.</p>"
-		},
-		{
-			"id": "Scale Mail",
-			"name": "Armure d'Écailles",
-			"description": "<p>L'armure d&rsquo;&eacute;cailles est constitu&eacute;e de plaques qui se chevauchent. Malgr&eacute; son poids, l&rsquo;armure d&rsquo;&eacute;cailles est &eacute;tonnamment facile &agrave; porter : ses sangles et ses boucles permettent de bien l&rsquo;ajuster au corps et de conserver flexibilit&eacute; et agilit&eacute;.</p>"
-		},
-		{
-			"id": "Shield",
-			"name": "Bouclier",
-			"description": "<p>Il s'agit d'une arme d&eacute;fensive individuelle port&eacute;e au bras pour parer les jets ou les coups.</p>"
-		}
-	]
+  "label": "Équipement (Armure)",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Chainmail",
+      "name": "Cotte de Mailles",
+      "description": "<p>Une cotte de mailles est un type d'armure constituée de mailles reliées entre elles afin de former une protection individuelle corporelle. Grâce à ce montage, elle conserve une certaine souplesse. Elle diffère de la broigne, dont les mailles sont fixées à un vêtement servant de support. </p>"
+    },
+    {
+      "id": "Hide Armor",
+      "name": "Armure de Peaux",
+      "description": "<p>Plus épaisse et plus lourde qu’une armure de cuir, cette armure est découpée dans une peau particulièrement résistante, comme celle d’un ours, d’un griffon ou d’un dragon. Une armure de peau entrave un peu la précision des gestes, mais reste assez légère pour ne pas gêner les déplacements.</p>"
+    },
+    {
+      "id": "Leather Armor",
+      "name": "Armure de Cuir",
+      "description": "<p>L'armure de cuir est fabriquée principalement à partir de cuir durci. Elle a l'avantage d'être légère et peu coûteuse, mais offre moins de protection que les armures métalliques plus lourdes. </p>"
+    },
+    {
+      "id": "Ostentatious Clothes",
+      "name": "Habits tape-à-l’œil",
+      "description": "<p>Ces vêtements sont parfaitement taillés et somptueux. Nul doute que vous saurez vous faire remarquer ainsi vétu·e.</p>"
+    },
+    {
+      "id": "Plate",
+      "name": "Harnois",
+      "description": "<p>Le harnois, ou armure de plates, est constitué de plaques de métal superposées qui couvrent l'ensemble du corps. Techniquement la plus performante des armures, le harnois correspond à ce qu'évoque spontanément la figure du chevalier.</p>"
+    },
+    {
+      "id": "Scale Mail",
+      "name": "Armure d'Écailles",
+      "description": "<p>L'armure d’écailles est constituée de plaques qui se chevauchent. Malgré son poids, l’armure d’écailles est étonnamment facile à porter : ses sangles et ses boucles permettent de bien l’ajuster au corps et de conserver flexibilité et agilité.</p>"
+    },
+    {
+      "id": "Shield",
+      "name": "Bouclier",
+      "description": "<p>Il s'agit d'une arme défensive individuelle portée au bras pour parer les jets ou les coups.</p>"
+    }
+  ]
 }

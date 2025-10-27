@@ -1,146 +1,146 @@
 {
-	"label": "Actions du·de la Magicien·ne",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "Arcane Armor",
-			"name": "Armure arcanique",
-			"description": "<p><em>Remplace : Protection arcanique</em></p><p>Tant que vous avez au moins encore un sort pr&eacute;par&eacute; de niveau 1 ou plus, vous avez <strong>+4</strong> armure.</p>"
-		},
-		{
-			"id": "Arcane Ward",
-			"name": "Protection arcanique",
-			"description": "<p>Tant que vous avez au moins encore un sort pr&eacute;par&eacute; de niveau 1 ou plus, vous avez <strong>+2</strong> armure.</p>"
-		},
-		{
-			"id": "Cast a Spell",
-			"name": "Lancer un sort",
-			"description": "<p>Quand vous lancez un sort que vous avez pr&eacute;par&eacute;, lancez <strong>2d6+INT</strong>.</p>",
-			"failure": "<p>Oups, quelque chose ne s'est pas pass&eacute; comme pr&eacute;vu.</p>",
-			"partial": "<p>Le sort est lanc&eacute; mais choisissez une option.</p>",
-			"success": "<p>Vous lancez le sort avec succ&egrave;s et vous ne l&rsquo;oubliez pas.</p>",
-			"choices": "<ul><li>Vous attirez une attention malvenue ou vous vous exposez (lae MJ vous d&eacute;crira comment).</li><li>Ce sort perturbe le tissu de la r&eacute;alit&eacute; : vous avez <strong>-1</strong> continu pour lancer un sort jusqu&rsquo;&agrave; ce que vous pr&eacute;pariez vos sorts de nouveau.</li><li>Une fois lanc&eacute;, le sort est oubli&eacute;. Vous ne pouvez plus le lancer tant que vous n&rsquo;avez pas pr&eacute;par&eacute; vos sorts &agrave; nouveau.</li></ul>"
-		},
-		{
-			"id": "Counterspell",
-			"name": "Contresort",
-			"description": "<p>Quand vous tentez de contrer un sort d&rsquo;arcane qui devrait normalement vous affecter, misez l&rsquo;un de vos sorts pr&eacute;par&eacute;s et lancez <strong>2d6+INT</strong>.</p>",
-			"failure":"<p>Oups, quelque chose ne s'est pas pass&eacute; comme pr&eacute;vu.</p>",
-			"partial": "<p>L&rsquo;effet est contr&eacute; et vous oubliez le sort que vous avez mis&eacute;. Le contresort ne prot&egrave;ge que vous. Si le sort a d&rsquo;autres cibles, elles restent affect&eacute;es.</p>",
-			"success": "<p>Le sort est contr&eacute; et n&rsquo;a pas d&rsquo;effet sur vous. Le contresort ne prot&egrave;ge que vous. Si le sort a d&rsquo;autres cibles, elles restent affect&eacute;es.</p>"
-		},
-		{
-			"id": "Empowered Magic",
-			"name": "Puissance magique",
-			"description": "<p>Quand vous <em>lancez un sort</em>, sur un <strong>10+</strong> vous pouvez opter pour un effet de la liste 7-9, &agrave; savoir :</p><ul><li>Vous attirez une attention malvenue ou vous vous exposez (lae MJ vous d&eacute;crira comment).</li><li>Ce sort perturbe le tissu de la r&eacute;alit&eacute; : vous avez <strong>-1</strong> continu pour lancer un sort jusqu&rsquo;&agrave; ce que vous pr&eacute;pariez vos sorts de nouveau.</li><li>Une fois lanc&eacute;, le sort est oubli&eacute;. Vous ne pouvez plus le lancer tant que vous n&rsquo;avez pas pr&eacute;par&eacute; vos sorts &agrave; nouveau.</li></ul><p>Si vous le faites, vous pouvez, au choix :</p>",
-			"choices": "<ul><li>Obtenir l&rsquo;effet maximal de votre sort,</li><li>Doubler le nombre de cibles du sort.</li></ul>"
-		},
-		{
-			"id": "Enchanter",
-			"name": "Enchanteur",
-			"description": "<p>Quand vous passez du temps en s&eacute;curit&eacute; avec un objet magique, vous pouvez demander au&middot;&agrave; lae MJ ce que fait cet objet et iel vous r&eacute;pondra sinc&egrave;rement.</p>"
-		},
-		{
-			"id": "Enchanter's Soul",
-			"name": "Âme de l’enchanteur",
-			"description": "<p><em>Requiert : Enchanteur</em></p><p>Quand vous passez du temps en s&eacute;curit&eacute; avec un objet magique dans un lieu de pouvoir, vous pouvez renforcer les effets de sa prochaine utilisation. Lae MJ vous dira exactement comment.</p>"
-		},
-		{
-			"id": "Ethereal Tether",
-			"name": "Lien éthéré",
-			"description": "<p>Lorsque vous passez du temps avec un sujet volontaire ou sans d&eacute;fense, vous pouvez cr&eacute;er un lien &eacute;th&eacute;r&eacute; avec ellui. Vous percevez les choses telles qu&rsquo;iel les per&ccedil;oit et discernez la r&eacute;alit&eacute; de son environnement quelle que soit la distance. Quelqu&rsquo;un&middot;e li&eacute;&middot;e de son plein gr&eacute; peut communiquer avec vous comme s&rsquo;iel &eacute;tait &agrave; vos c&ocirc;t&eacute;s.</p>"
-		},
-		{
-			"id": "Expanded Spellbook",
-			"name": "Codex",
-			"description": "<p>Ajoutez un nouveau sort de n&rsquo;importe quelle classe &agrave; votre grimoire.</p>"
-		},
-		{
-			"id": "Fount of Knowledge",
-			"name": "Puits de science",
-			"description": "<p>Vous avez <strong>+1</strong> lorsque vous <em>&eacute;talez votre science</em> &agrave; propos de quelque chose dont personne d&rsquo;autre n&rsquo;a id&eacute;e.</p>"
-		},
-		{
-			"id": "Greater Empowered Magic",
-			"name": "Surpuissance magique",
-			"description": "<p><em>Requiert : Puissance magique</em></p><p>Quand vous obtenez <strong>12+</strong> en lan&ccedil;ant un sort, vous pouvez doubler les effets ou le nombre de cibles de votre sort.</p>"
-		},
-		{
-			"id": "Highly Logical",
-			"name": "Parfaite logique",
-			"description": "<p>Quand vous utilisez votre seul raisonnement pour analyser les alentours, vous pouvez <em>discerner la r&eacute;alit&eacute;</em> avec <strong>INT</strong> au lieu de <strong>SAG</strong>. Sur un <strong>12+</strong>, vous pouvez poser 3 questions de votre choix, sans vous limiter &agrave; la liste.</p>"
-		},
-		{
-			"id": "Know-It-All",
-			"name": "M. je sais tout",
-			"description": "<p>Quand un&middot;e autre PJ vous demande un conseil et que vous lui indiquez ce qui vous semble la meilleure marche &agrave; suivre, iel a <strong>+1</strong> lorsqu&rsquo;iel accomplit la prochaine action en suivant votre conseil et vous <em>marquez 1 PX</em> s&rsquo;iel le suit.</p>"
-		},
-		{
-			"id": "Logical",
-			"name": "Logique",
-			"description": "<p>Quand vous utilisez votre seul raisonnement pour analyser les alentours, vous pouvez <em>discerner la r&eacute;alit&eacute;</em> avec <strong>INT</strong> au lieu de <strong>SAG</strong>.</p>"
-		},
-		{
-			"id": "Master",
-			"name": "Maître",
-			"description": "<p><em>Requiert : Prodige</em></p><p>Choisissez un sort. Vous pr&eacute;parez ce sort comme s&rsquo;il &eacute;tait d&rsquo;un niveau inf&eacute;rieur.</p>"
-		},
-		{
-			"id": "Mystical Puppet Strings",
-			"name": "Manipulateur mystique",
-			"description": "<p>Quand vous utilisez un sort pour contr&ocirc;ler les actions de quelqu&rsquo;un&middot;e, ce&middot;tte dernier&middot;&egrave;re n&rsquo;en aura aucun souvenir et ne vous en tiendra pas rancune.</p>"
-		},
-		{
-			"id": "Prepare Spells",
-			"name": "Préparer des sorts",
-			"description": "<p>Quand vous consacrez un moment ininterrompu (environ 1 heure) &agrave; l'apprentissage tranquille de votre <em>grimoire</em> :</p><ul><li>Vous perdez tous les sorts que vous aviez pr&eacute;par&eacute;s,</li><li>Vous pr&eacute;parez de nouveaux sorts choisis dans votre grimoire dont le niveau total ne peut pas d&eacute;passer votre propre niveau+1,</li><li>Vous pr&eacute;parez aussi tous vos sorts mineurs qui ne comptent jamais dans la limite de niveau de sorts.</li></ul>"
-		},
-		{
-			"id": "Prodigy",
-			"name": "Prodige",
-			"description": "<p>Choisissez un sort. Vous pr&eacute;parez ce sort comme s&rsquo;il &eacute;tait d&rsquo;un niveau inf&eacute;rieur.</p>"
-		},
-		{
-			"id": "Protective Counter",
-			"name": "Contresort protecteur",
-			"description": "<p><em>Requiert : Contresort</em></p><p>Quand l&rsquo;un&middot;e de vos alli&eacute;&middot;es que vous voyez est affect&eacute;&middot;e par un sort arcanique, vous pouvez contrer celui-ci comme s&rsquo;il vous visait. Si le sort affecte plusieurs alli&eacute;&middot;es, il vous faudra contrer chaque effet s&eacute;par&eacute;ment.</p>"
-		},
-		{
-			"id": "Quick Study",
-			"name": "Étude rapide",
-			"description": "<p>Quand vous observez les effets d&rsquo;un sort arcanique, demandez au&middot;&agrave; lae MJ le nom et les effets de ce sort. Vous avez <strong>+1</strong> si vous agissez en fonction de la r&eacute;ponse.</p>"
-		},
-		{
-			"id": "Ritual",
-			"name": "Rituel",
-			"description": "<p>Quand vous cr&eacute;ez un effet magique &agrave; partir d&rsquo;un lieu de pouvoir, indiquez au&middot;&agrave; lae MJ votre objectif. Les effets du rituel sont toujours possibles mais lae MJ&nbsp;<br>posera une &agrave; quatre des conditions suivantes :</p><ul><li>&Ccedil;a va prendre des jours/semaines/mois,</li><li>D&rsquo;abord, il te faudra ________,</li><li>Tu auras besoin de l&rsquo;aide de ________,</li><li>Cela va co&ucirc;ter beaucoup d&rsquo;argent,</li><li>Tu parviens &agrave; un effet moindre, peu fiable et limit&eacute;,</li><li>Tes alli&eacute;s et toi-m&ecirc;me encourez un risque venant de ________,</li><li>Tu vas devoir d&eacute;senchanter ________ pour le faire.</li></ul>"
-		},
-		{
-			"id": "Self-Powered",
-			"name": "Pouvoir personnel",
-			"description": "<p>Quand vous avez le temps, les mat&eacute;riaux arcaniques et un endroit s&ucirc;r, vous pouvez cr&eacute;er votre propre lieu de pouvoir. D&eacute;crivez au&middot;&agrave; lae MJ de quel pouvoir il s&rsquo;agit et comment vous le liez &agrave; cet endroit. Lae MJ vous indiquera une cr&eacute;ature int&eacute;ress&eacute;e par vos travaux.</p>"
-		},
-		{
-			"id": "Spell Augmentation",
-			"name": "Amplification",
-			"description": "<p>Quand vous infligez des d&eacute;g&acirc;ts &agrave; une cr&eacute;ature, vous pouvez y ajouter l&rsquo;&eacute;nergie d&rsquo;un sort. Interrompez un sort continu et ajoutez son niveau aux d&eacute;g&acirc;ts inflig&eacute;s.</p>"
-		},
-		{
-			"id": "Spell Defense",
-			"name": "Défense magique",
-			"description": "<p>Vous pouvez cesser imm&eacute;diatement un sort continu et utiliser l&rsquo;&eacute;nergie de la dissipation pour d&eacute;tourner une attaque. Le sort s&rsquo;ach&egrave;ve et vous soustrayez son&nbsp;<br>niveau des d&eacute;g&acirc;ts qui vous sont inflig&eacute;s.</p>"
-		},
-		{
-			"id": "Spellbook",
-			"name": "Grimoire",
-			"description": "<p>Vous avez ma&icirc;tris&eacute; plusieurs sorts et les avez inscrits dans votre <em>grimoire</em>. Vous commencez avec 3 sorts de niveau 1 et les sorts mineurs. D&egrave;s que vous montez d&rsquo;un niveau, vous ajoutez un nouveau sort de votre niveau ou moins &agrave; votre&nbsp;<br>grimoire. Votre grimoire p&egrave;se 1 poids.</p>"
-		}
-	]
+  "label": "Actions du·de la Magicien·ne",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Arcane Armor",
+      "name": "Armure arcanique",
+      "description": "<p><em>Remplace : Protection arcanique</em></p><p>Tant que vous avez au moins encore un sort préparé de niveau 1 ou plus, vous avez <strong>+4</strong> armure.</p>"
+    },
+    {
+      "id": "Arcane Ward",
+      "name": "Protection arcanique",
+      "description": "<p>Tant que vous avez au moins encore un sort préparé de niveau 1 ou plus, vous avez <strong>+2</strong> armure.</p>"
+    },
+    {
+      "id": "Cast a Spell",
+      "name": "Lancer un sort",
+      "description": "<p>Quand vous lancez un sort que vous avez préparé, lancez <strong>2d6+INT</strong>.</p>",
+      "failure": "<p>Oups, quelque chose ne s'est pas passé comme prévu.</p>",
+      "partial": "<p>Le sort est lancé mais choisissez une option.</p>",
+      "success": "<p>Vous lancez le sort avec succès et vous ne l’oubliez pas.</p>",
+      "choices": "<ul><li>Vous attirez une attention malvenue ou vous vous exposez (lae MJ vous décrira comment).</li><li>Ce sort perturbe le tissu de la réalité : vous avez <strong>-1</strong> continu pour lancer un sort jusqu’à ce que vous prépariez vos sorts de nouveau.</li><li>Une fois lancé, le sort est oublié. Vous ne pouvez plus le lancer tant que vous n’avez pas préparé vos sorts à nouveau.</li></ul>"
+    },
+    {
+      "id": "Counterspell",
+      "name": "Contresort",
+      "description": "<p>Quand vous tentez de contrer un sort d’arcane qui devrait normalement vous affecter, misez l’un de vos sorts préparés et lancez <strong>2d6+INT</strong>.</p>",
+      "failure": "<p>Oups, quelque chose ne s'est pas passé comme prévu.</p>",
+      "partial": "<p>L’effet est contré et vous oubliez le sort que vous avez misé. Le contresort ne protège que vous. Si le sort a d’autres cibles, elles restent affectées.</p>",
+      "success": "<p>Le sort est contré et n’a pas d’effet sur vous. Le contresort ne protège que vous. Si le sort a d’autres cibles, elles restent affectées.</p>"
+    },
+    {
+      "id": "Empowered Magic",
+      "name": "Puissance magique",
+      "description": "<p>Quand vous <em>lancez un sort</em>, sur un <strong>10+</strong> vous pouvez opter pour un effet de la liste 7-9, à savoir :</p><ul><li>Vous attirez une attention malvenue ou vous vous exposez (lae MJ vous décrira comment).</li><li>Ce sort perturbe le tissu de la réalité : vous avez <strong>-1</strong> continu pour lancer un sort jusqu’à ce que vous prépariez vos sorts de nouveau.</li><li>Une fois lancé, le sort est oublié. Vous ne pouvez plus le lancer tant que vous n’avez pas préparé vos sorts à nouveau.</li></ul><p>Si vous le faites, vous pouvez, au choix :</p>",
+      "choices": "<ul><li>Obtenir l’effet maximal de votre sort,</li><li>Doubler le nombre de cibles du sort.</li></ul>"
+    },
+    {
+      "id": "Enchanter",
+      "name": "Enchanteur",
+      "description": "<p>Quand vous passez du temps en sécurité avec un objet magique, vous pouvez demander au·à lae MJ ce que fait cet objet et iel vous répondra sincèrement.</p>"
+    },
+    {
+      "id": "Enchanter's Soul",
+      "name": "Âme de l’enchanteur",
+      "description": "<p><em>Requiert : Enchanteur</em></p><p>Quand vous passez du temps en sécurité avec un objet magique dans un lieu de pouvoir, vous pouvez renforcer les effets de sa prochaine utilisation. Lae MJ vous dira exactement comment.</p>"
+    },
+    {
+      "id": "Ethereal Tether",
+      "name": "Lien éthéré",
+      "description": "<p>Lorsque vous passez du temps avec un sujet volontaire ou sans défense, vous pouvez créer un lien éthéré avec ellui. Vous percevez les choses telles qu’iel les perçoit et discernez la réalité de son environnement quelle que soit la distance. Quelqu’un·e lié·e de son plein gré peut communiquer avec vous comme s’iel était à vos côtés.</p>"
+    },
+    {
+      "id": "Expanded Spellbook",
+      "name": "Codex",
+      "description": "<p>Ajoutez un nouveau sort de n’importe quelle classe à votre grimoire.</p>"
+    },
+    {
+      "id": "Fount of Knowledge",
+      "name": "Puits de science",
+      "description": "<p>Vous avez <strong>+1</strong> lorsque vous <em>étalez votre science</em> à propos de quelque chose dont personne d’autre n’a idée.</p>"
+    },
+    {
+      "id": "Greater Empowered Magic",
+      "name": "Surpuissance magique",
+      "description": "<p><em>Requiert : Puissance magique</em></p><p>Quand vous obtenez <strong>12+</strong> en lançant un sort, vous pouvez doubler les effets ou le nombre de cibles de votre sort.</p>"
+    },
+    {
+      "id": "Highly Logical",
+      "name": "Parfaite logique",
+      "description": "<p>Quand vous utilisez votre seul raisonnement pour analyser les alentours, vous pouvez <em>discerner la réalité</em> avec <strong>INT</strong> au lieu de <strong>SAG</strong>. Sur un <strong>12+</strong>, vous pouvez poser 3 questions de votre choix, sans vous limiter à la liste.</p>"
+    },
+    {
+      "id": "Know-It-All",
+      "name": "M. je sais tout",
+      "description": "<p>Quand un·e autre PJ vous demande un conseil et que vous lui indiquez ce qui vous semble la meilleure marche à suivre, iel a <strong>+1</strong> lorsqu’iel accomplit la prochaine action en suivant votre conseil et vous <em>marquez 1 PX</em> s’iel le suit.</p>"
+    },
+    {
+      "id": "Logical",
+      "name": "Logique",
+      "description": "<p>Quand vous utilisez votre seul raisonnement pour analyser les alentours, vous pouvez <em>discerner la réalité</em> avec <strong>INT</strong> au lieu de <strong>SAG</strong>.</p>"
+    },
+    {
+      "id": "Master",
+      "name": "Maître",
+      "description": "<p><em>Requiert : Prodige</em></p><p>Choisissez un sort. Vous préparez ce sort comme s’il était d’un niveau inférieur.</p>"
+    },
+    {
+      "id": "Mystical Puppet Strings",
+      "name": "Manipulateur mystique",
+      "description": "<p>Quand vous utilisez un sort pour contrôler les actions de quelqu’un·e, ce·tte dernier·ère n’en aura aucun souvenir et ne vous en tiendra pas rancune.</p>"
+    },
+    {
+      "id": "Prepare Spells",
+      "name": "Préparer des sorts",
+      "description": "<p>Quand vous consacrez un moment ininterrompu (environ 1 heure) à l'apprentissage tranquille de votre <em>grimoire</em> :</p><ul><li>Vous perdez tous les sorts que vous aviez préparés,</li><li>Vous préparez de nouveaux sorts choisis dans votre grimoire dont le niveau total ne peut pas dépasser votre propre niveau+1,</li><li>Vous préparez aussi tous vos sorts mineurs qui ne comptent jamais dans la limite de niveau de sorts.</li></ul>"
+    },
+    {
+      "id": "Prodigy",
+      "name": "Prodige",
+      "description": "<p>Choisissez un sort. Vous préparez ce sort comme s’il était d’un niveau inférieur.</p>"
+    },
+    {
+      "id": "Protective Counter",
+      "name": "Contresort protecteur",
+      "description": "<p><em>Requiert : Contresort</em></p><p>Quand l’un·e de vos allié·es que vous voyez est affecté·e par un sort arcanique, vous pouvez contrer celui-ci comme s’il vous visait. Si le sort affecte plusieurs allié·es, il vous faudra contrer chaque effet séparément.</p>"
+    },
+    {
+      "id": "Quick Study",
+      "name": "Étude rapide",
+      "description": "<p>Quand vous observez les effets d’un sort arcanique, demandez au·à lae MJ le nom et les effets de ce sort. Vous avez <strong>+1</strong> si vous agissez en fonction de la réponse.</p>"
+    },
+    {
+      "id": "Ritual",
+      "name": "Rituel",
+      "description": "<p>Quand vous créez un effet magique à partir d’un lieu de pouvoir, indiquez au·à lae MJ votre objectif. Les effets du rituel sont toujours possibles mais lae MJ <br>posera une à quatre des conditions suivantes :</p><ul><li>Ça va prendre des jours/semaines/mois,</li><li>D’abord, il te faudra ________,</li><li>Tu auras besoin de l’aide de ________,</li><li>Cela va coûter beaucoup d’argent,</li><li>Tu parviens à un effet moindre, peu fiable et limité,</li><li>Tes alliés et toi-même encourez un risque venant de ________,</li><li>Tu vas devoir désenchanter ________ pour le faire.</li></ul>"
+    },
+    {
+      "id": "Self-Powered",
+      "name": "Pouvoir personnel",
+      "description": "<p>Quand vous avez le temps, les matériaux arcaniques et un endroit sûr, vous pouvez créer votre propre lieu de pouvoir. Décrivez au·à lae MJ de quel pouvoir il s’agit et comment vous le liez à cet endroit. Lae MJ vous indiquera une créature intéressée par vos travaux.</p>"
+    },
+    {
+      "id": "Spell Augmentation",
+      "name": "Amplification",
+      "description": "<p>Quand vous infligez des dégâts à une créature, vous pouvez y ajouter l’énergie d’un sort. Interrompez un sort continu et ajoutez son niveau aux dégâts infligés.</p>"
+    },
+    {
+      "id": "Spell Defense",
+      "name": "Défense magique",
+      "description": "<p>Vous pouvez cesser immédiatement un sort continu et utiliser l’énergie de la dissipation pour détourner une attaque. Le sort s’achève et vous soustrayez son <br>niveau des dégâts qui vous sont infligés.</p>"
+    },
+    {
+      "id": "Spellbook",
+      "name": "Grimoire",
+      "description": "<p>Vous avez maîtrisé plusieurs sorts et les avez inscrits dans votre <em>grimoire</em>. Vous commencez avec 3 sorts de niveau 1 et les sorts mineurs. Dès que vous montez d’un niveau, vous ajoutez un nouveau sort de votre niveau ou moins à votre <br>grimoire. Votre grimoire pèse 1 poids.</p>"
+    }
+  ]
 }

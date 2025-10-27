@@ -1,288 +1,308 @@
 {
-	"label": "Marqueurs",
-	"mapping": {
-        "description": "system.description"
+  "label": "Marqueurs",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "-1 forward",
+      "name": "+1/-1 à suivre",
+      "description": "Vous avez un bonus de +1/-1 à votre prochain jet d’action (pas à vos dégâts). Ce bonus peut être supérieur à +1 ou une pénalité de -1. Il peut y avoir également une précision du genre « recevez +1 à suivre lorsque vous taillez en pièces »."
     },
-	"entries": [
-		{
-			"id": "-1 forward",
-			"name": "+1/-1 à suivre",
-			"description": "Vous avez un bonus de +1/-1 à votre prochain jet d’action (pas à vos dégâts). Ce bonus peut être supérieur à +1 ou une pénalité de -1. Il peut y avoir également une précision du genre « recevez +1 à suivre lorsque vous taillez en pièces »."
-		},
-		{
-			"id": "+1 damage",
-			"name": "+1 dégâts",
-			"description": "Cette arme est particulièrement efficace contre vos ennemis. Ajoutez 1 aux dégâts que vous infligez."
-		},
-		{
-			"id": "+1 ongoing",
-			"name": "+1/-1 continu",
-			"description": "Vous avez un bonus de +1/-1 à tous vos prochains jets d’action (pas de dégâts). Ce bonus peut être supérieur à +1 ou une pénalité de -1. Il peut y avoir également une précision du genre « recevez +1 continu à votre salve ». Un bonus continu précise aussi la condition qui y met fin comme « jusqu’à ce que vous dissipiez le sort »"
-		},
-		{
-			"id": "+2 damage",
-			"name": "+2 dégâts",
-			"description": "Cette arme est particulièrement efficace contre vos ennemis. Ajoutez 2 aux dégâts que vous infligez."
-		},
-		{
-			"id": "+3 damage",
-			"name": "+3 dégâts",
-			"description": "Cette arme est particulièrement efficace contre vos ennemis. Ajoutez 3 aux dégâts que vous infligez."
-		},
-		{
-			"id": "1 ammo",
-			"name": "1 munition",
-			"description": "Désigne la quantité de munitions pour l’arme de jet correspondante. Le nombre indiqué ne représente pas un décompte précis de flèches, de carreaux ou de billes de frondes, mais une certaine quantité de projectiles."
-		},
-		{
-			"id": "1 armor",
-			"name": "1 armure",
-			"description": "Quand vous prenez des dégâts, soustrayez 1 du total. Si vous portez plusieurs objets avec n Armure, seul le plus haut chiffre est pris en compte."
-		},
-		{
-			"id": "1 piercing",
-			"name": "1 perforant",
-			"description": "Quand vous infligez des dégâts avec cette arme, soustrayez 1 du montant d’armure de l’ennemi."
-		},
-		{
-			"id": "2 ammo",
-			"name": "2 munitions",
-			"description": "Désigne la quantité de munitions pour l’arme de jet correspondante. Le nombre indiqué ne représente pas un décompte précis de flèches, de carreaux ou de billes de frondes, mais une certaine quantité de projectiles."
-		},
-		{
-			"id": "2 armor",
-			"name": "2 armure",
-			"description": "Quand vous prenez des dégâts, soustrayez 2 du total. Si vous portez plusieurs objets avec n Armure, seul le plus haut chiffre est pris en compte."
-		},
-		{
-			"id": "2 piercing",
-			"name": "2 perforants",
-			"description": "Quand vous infligez des dégâts avec cette arme, soustrayez 2 du montant d’armure de l’ennemi."
-		},
-		{
-			"id": "3 ammo",
-			"name": "3 munitions",
-			"description": "Désigne la quantité de munitions pour l’arme de jet correspondante. Le nombre indiqué ne représente pas un décompte précis de flèches, de carreaux ou de billes de frondes, mais une certaine quantité de projectiles."
-		},
-		{
-			"id": "3 armor",
-			"name": "3 armure",
-			"description": "Quand vous prenez des dégâts, soustrayez 3 du total. Si vous portez plusieurs objets avec n Armure, seul le plus haut chiffre est pris en compte."
-		},
-		{
-			"id": "3 piercing",
-			"name": "3 perforants",
-			"description": "Quand vous infligez des dégâts avec cette arme, soustrayez 3 du montant d’armure de l’ennemi."
-		},
-		{
-			"id": "4 ammo",
-			"name": "4 munitions",
-			"description": "Désigne la quantité de munitions pour l’arme de jet correspondante. Le nombre indiqué ne représente pas un décompte précis de flèches, de carreaux ou de billes de frondes, mais une certaine quantité de projectiles."
-		},
-		{
-			"id": "Amorphous",
-			"name": "Informe",
-			"description": "Son anatomie et ses organes sont bizarres et contre nature."
-		},
-		{
-			"id": "Applied",
-			"name": "Appliquer",
-			"description": "A utiliser précautionneusement sur une personne ou une nourriture / boisson qu’elle absorbe."
-		},
-		{
-			"id": "Awkward",
-			"name": "Maladroit",
-			"description": "Peu maniable et difficile à utiliser."
-		},
-		{
-			"id": "Cautious",
-			"name": "Prudent",
-			"description": " Iel accorde plus de prix à la survie qu’à l’attaque."
-		},
-		{
-			"id": "Close",
-			"name": "Proche",
-			"description": "Une arme pour atteindre ce qui se trouve à portée de bras. "
-		},
-		{
-			"id": "Clumsy",
-			"name": "Encombrant",
-			"description": "Il est difficile de se déplacer avec ça sur le dos. -1 continu aux actions lorsque l’on s’en sert."
-		},
-		{
-			"id": "Construct",
-			"name": "Construction",
-			"description": "Iel n’est pas né·e, iel a été fabriqué·e."
-		},
-		{
-			"id": "Dangerous",
-			"name": "Dangereux",
-			"description": "Il est facile de s’attirer des ennuis avec. Si vous l’utilisez sans les précautions nécessaires, lae MJ est libre de vous faire subir les conséquences de votre imprudence."
-		},
-		{
-			"id": "Devious",
-			"name": "Fourbe",
-			"description": "Iel est dangereux au-delà du simple fracas des armes."
-		},
-		{
-			"id": "Far",
-			"name": "Longue",
-			"description": "Arme efficace tant que votre cible est à portée de voix."
-		},
-		{
-			"id": "Forceful",
-			"name": "Puissant",
-			"description": "Peut repousser quelqu’un, voire lui faire perdre l’équilibre."
-		},
-		{
-			"id": "Group",
-			"name": "Groupe",
-			"description": "Habituellement rencontré·e·s en petit nombre, 3-6 ou plus."
-		},
-		{
-			"id": "Hand",
-			"name": "Contact",
-			"description": "L’arme sert pour le combat au corps à corps, les empoignades, pas plus."
-		},
-		{
-			"id": "Hoarder",
-			"name": "Thésauriseur",
-			"description": "Iel a presque certainement un trésor."
-		},
-		{
-			"id": "Horde",
-			"name": "Horde",
-			"description": "Là où il y en a un, il y en a plus. Beaucoup plus."
-		},
-		{
-			"id": "Huge",
-			"name": "Énorme",
-			"description": "Iel est gros comme une petite maison voire plus."
-		},
-		{
-			"id": "Ignores Armor",
-			"name": "Ignore l’armure",
-			"description": "Ne soustrayez pas l’armure des dégâts infligés."
-		},
-		{
-			"id": "Intelligent",
-			"name": "Intelligent",
-			"description": " Iel est suffisamment malin pour acquérir d’autres compétences. Lae MJ peut adapter le monstre en ajoutant des marqueurs pour tenir compte d’une pratique spécifique, comme un mage ou un guerrier."
-		},
-		{
-			"id": "Large",
-			"name": "Grand",
-			"description": "Iel est beaucoup plus grand qu’un homme, à peu près aussi gros qu’une charrette."
-		},
-		{
-			"id": "Magical",
-			"name": "Magique",
-			"description": "Iel est magique par nature."
-		},
-		{
-			"id": "Messy",
-			"name": "Dévastateur",
-			"description": "L’arme inflige des dégâts particulièrement spectaculaires. Êtres vivants ou objets sont déchiquetés."
-		},
-		{
-			"id": "Near",
-			"name": "Courte",
-			"description": "Arme efficace tant que vous voyez votre cible dans le blanc de l’œil."
-		},
-		{
-			"id": "Organized",
-			"name": "Organisés",
-			"description": "Iels disposent d’une structure de groupe qui favorise leur survie. Vaincre l’un·e d’entre eux provoque la colère des autres. L’un·e d’eux peut déclencher une alarme."
-		},
-		{
-			"id": "Planar",
-			"name": "Planaire",
-			"description": "Iel vient d’au-delà du monde."
-		},
-		{
-			"id": "Precise",
-			"name": "Précis",
-			"description": "Cette arme favorise la finesse et utilise DEX au lieu de FOR pour tailler en pièces."
-		},
-		{
-			"id": "Ration",
-			"name": "Ration",
-			"description": "Ca se mange, plus ou moins"
-		},
-		{
-			"id": "Reach",
-			"name": "Allonge",
-			"description": "Arme qui permet d’atteindre ce qui se trouve à quelques pas de soi. Il s’agit généralement des armes à deux mains et des armes d’hast."
-		},
-		{
-			"id": "Reload",
-			"name": "Recharge",
-			"description": "Après une attaque, il faut du temps avant de s’en resservir."
-		},
-		{
-			"id": "Requires",
-			"name": "Requiert",
-			"description": "Ce n’est utilisable que par certaines personnes. Si vous ne remplissez pas les conditions ça ne fonctionne pas ou alors mal."
-		},
-		{
-			"id": "Requires Dwarf",
-			"name": "Requiert : nain",
-			"description": "Ce n’est utilisable que par les nains. Si vous ne remplissez pas les conditions ça ne fonctionne pas ou alors mal."
-		},
-		{
-			"id": "Slow",
-			"name": "Lent",
-			"description": "Cela met quelques minutes, voire plus, à utiliser"
-		},
-		{
-			"id": "Small",
-			"name": "Petit",
-			"description": "Iel est de la taille d’un halfelin"
-		},
-		{
-			"id": "Solitary",
-			"name": "Solitaire",
-			"description": " Iel vit et se bat seul"
-		},
-		{
-			"id": "Stealthy",
-			"name": "Furtif",
-			"description": "Iel peut éviter la détection et préfère attaquer par surprise."
-		},
-		{
-			"id": "Stun",
-			"name": "Assomme",
-			"description": "Provoque des étourdissements au lieu de dégâts normaux."
-		},
-		{
-			"id": "Terrifying",
-			"name": "Terrifiant",
-			"description": "Sa présence et son apparence provoquent la peur."
-		},
-		{
-			"id": "Thrown",
-			"name": "Lancé",
-			"description": "Projeté pour blesser quelqu’un. A usage unique. Un 7-9 sur une <em>salve</em> avec cette arme ne permet pas de supprimer une munition."
-		},
-		{
-			"id": "Tiny",
-			"name": "Minuscule",
-			"description": "Iel est beaucoup plus petit qu’un halfelin."
-		},
-		{
-			"id": "Touch",
-			"name": "Toucher",
-			"description": "Par contact avec la peau de la cible."
-		},
-		{
-			"id": "Two-handed",
-			"name": "2 mains",
-			"description": "Il faut les deux mains pour s’en servir efficacement."
-		},
-		{
-			"id": "Worn",
-			"name": "Porté",
-			"description": "Vous devez le porter pour vous en servir."	
-		}
-	]
+    {
+      "id": "+1 damage",
+      "name": "+1 dégâts",
+      "description": "Cette arme est particulièrement efficace contre vos ennemis. Ajoutez 1 aux dégâts que vous infligez."
+    },
+    {
+      "id": "+1 ongoing",
+      "name": "+1/-1 continu",
+      "description": "Vous avez un bonus de +1/-1 à tous vos prochains jets d’action (pas de dégâts). Ce bonus peut être supérieur à +1 ou une pénalité de -1. Il peut y avoir également une précision du genre « recevez +1 continu à votre salve ». Un bonus continu précise aussi la condition qui y met fin comme « jusqu’à ce que vous dissipiez le sort »"
+    },
+    {
+      "id": "+2 damage",
+      "name": "+2 dégâts",
+      "description": "Cette arme est particulièrement efficace contre vos ennemis. Ajoutez 2 aux dégâts que vous infligez."
+    },
+    {
+      "id": "+3 damage",
+      "name": "+3 dégâts",
+      "description": "Cette arme est particulièrement efficace contre vos ennemis. Ajoutez 3 aux dégâts que vous infligez."
+    },
+    {
+      "id": "1 ammo",
+      "name": "1 munition",
+      "description": "Désigne la quantité de munitions pour l’arme de jet correspondante. Le nombre indiqué ne représente pas un décompte précis de flèches, de carreaux ou de billes de frondes, mais une certaine quantité de projectiles."
+    },
+    {
+      "id": "1 armor",
+      "name": "1 armure",
+      "description": "Quand vous prenez des dégâts, soustrayez 1 du total. Si vous portez plusieurs objets avec n Armure, seul le plus haut chiffre est pris en compte."
+    },
+    {
+      "id": "1 piercing",
+      "name": "1 perforant",
+      "description": "Quand vous infligez des dégâts avec cette arme, soustrayez 1 du montant d’armure de l’ennemi."
+    },
+    {
+      "id": "2 ammo",
+      "name": "2 munitions",
+      "description": "Désigne la quantité de munitions pour l’arme de jet correspondante. Le nombre indiqué ne représente pas un décompte précis de flèches, de carreaux ou de billes de frondes, mais une certaine quantité de projectiles."
+    },
+    {
+      "id": "2 armor",
+      "name": "2 armure",
+      "description": "Quand vous prenez des dégâts, soustrayez 2 du total. Si vous portez plusieurs objets avec n Armure, seul le plus haut chiffre est pris en compte."
+    },
+    {
+      "id": "2 piercing",
+      "name": "2 perforants",
+      "description": "Quand vous infligez des dégâts avec cette arme, soustrayez 2 du montant d’armure de l’ennemi."
+    },
+    {
+      "id": "3 ammo",
+      "name": "3 munitions",
+      "description": "Désigne la quantité de munitions pour l’arme de jet correspondante. Le nombre indiqué ne représente pas un décompte précis de flèches, de carreaux ou de billes de frondes, mais une certaine quantité de projectiles."
+    },
+    {
+      "id": "3 armor",
+      "name": "3 armure",
+      "description": "Quand vous prenez des dégâts, soustrayez 3 du total. Si vous portez plusieurs objets avec n Armure, seul le plus haut chiffre est pris en compte."
+    },
+    {
+      "id": "3 piercing",
+      "name": "3 perforants",
+      "description": "Quand vous infligez des dégâts avec cette arme, soustrayez 3 du montant d’armure de l’ennemi."
+    },
+    {
+      "id": "4 ammo",
+      "name": "4 munitions",
+      "description": "Désigne la quantité de munitions pour l’arme de jet correspondante. Le nombre indiqué ne représente pas un décompte précis de flèches, de carreaux ou de billes de frondes, mais une certaine quantité de projectiles."
+    },
+    {
+      "id": "Amorphous",
+      "name": "Informe",
+      "description": "Son anatomie et ses organes sont bizarres et contre nature."
+    },
+    {
+      "id": "Ancient and Noteworthy",
+      "name": "Ancien et remarquable",
+      "description": "Iel est très vieux·eille, unique ou célèbre parmi les siens. Lorsqu’iel est vaincu·e, ajoutez +1d4 au jet de dé de trésor."
+    },
+    {
+      "id": "Applied",
+      "name": "Appliquer",
+      "description": "A utiliser précautionneusement sur une personne ou une nourriture / boisson qu’elle absorbe."
+    },
+    {
+      "id": "Awkward",
+      "name": "Maladroit",
+      "description": "Peu maniable et difficile à utiliser."
+    },
+    {
+      "id": "Cautious",
+      "name": "Prudent",
+      "description": " Iel accorde plus de prix à la survie qu’à l’attaque."
+    },
+    {
+      "id": "Close",
+      "name": "Proche",
+      "description": "Une arme pour atteindre ce qui se trouve à portée de bras. "
+    },
+    {
+      "id": "Clumsy",
+      "name": "Encombrant",
+      "description": "Il est difficile de se déplacer avec ça sur le dos. -1 continu aux actions lorsque l’on s’en sert."
+    },
+    {
+      "id": "Construct",
+      "name": "Construction",
+      "description": "Iel n’est pas né·e, iel a été fabriqué·e."
+    },
+    {
+      "id": "Dangerous",
+      "name": "Dangereux",
+      "description": "Il est facile de s’attirer des ennuis avec. Si vous l’utilisez sans les précautions nécessaires, lae MJ est libre de vous faire subir les conséquences de votre imprudence."
+    },
+    {
+      "id": "Devious",
+      "name": "Fourbe",
+      "description": "Iel est dangereux au-delà du simple fracas des armes."
+    },
+    {
+      "id": "Divine",
+      "name": "Divin",
+      "description": "Iel est lié·e à une puissance céleste ou sacrée. Son trésor contient souvent le symbole ou la relique d’une divinité."
+    },
+    {
+      "id": "Far",
+      "name": "Longue",
+      "description": "Arme efficace tant que votre cible est à portée de voix."
+    },
+    {
+      "id": "Far from Home",
+      "name": "Loin de chez lui",
+      "description": "Iel n’est pas dans son environnement naturel ou son domaine habituel. Son trésor contient souvent une ration ou un bien de subsistance."
+    },
+    {
+      "id": "Forceful",
+      "name": "Puissant",
+      "description": "Peut repousser quelqu’un, voire lui faire perdre l’équilibre."
+    },
+    {
+      "id": "Group",
+      "name": "Groupe",
+      "description": "Habituellement rencontré·e·s en petit nombre, 3-6 ou plus."
+    },
+    {
+      "id": "Hand",
+      "name": "Contact",
+      "description": "L’arme sert pour le combat au corps à corps, les empoignades, pas plus."
+    },
+    {
+      "id": "Hoarder",
+      "name": "Thésauriseur",
+      "description": "Iel a presque certainement un trésor. Pour déterminer celui-ci, lancez le dé de dégâts deux fois et gardez le plus élevé."
+    },
+    {
+      "id": "Horde",
+      "name": "Horde",
+      "description": "Là où il y en a un, il y en a plus. Beaucoup plus."
+    },
+    {
+      "id": "Huge",
+      "name": "Énorme",
+      "description": "Iel est gros comme une petite maison voire plus."
+    },
+    {
+      "id": "Ignores Armor",
+      "name": "Ignore l’armure",
+      "description": "Ne soustrayez pas l’armure des dégâts infligés."
+    },
+    {
+      "id": "Intelligent",
+      "name": "Intelligent",
+      "description": " Iel est suffisamment malin pour acquérir d’autres compétences. Lae MJ peut adapter le monstre en ajoutant des marqueurs pour tenir compte d’une pratique spécifique, comme un mage ou un guerrier."
+    },
+    {
+      "id": "Large",
+      "name": "Grand",
+      "description": "Iel est beaucoup plus grand qu’un homme, à peu près aussi gros qu’une charrette."
+    },
+    {
+      "id": "Lord over Others",
+      "name": "Seigneur parmi les siens",
+      "description": "Iel est une figure dominante dans son espèce ou son groupe. Lorsqu’iel est vaincu·e, ajoutez +1d4 au jet de dé de trésor."
+    },
+    {
+      "id": "Magical",
+      "name": "Magique",
+      "description": "Iel est magique par nature. Son trésor peut contenir un objet étrange ou enchanté."
+    },
+    {
+      "id": "Messy",
+      "name": "Dévastateur",
+      "description": "L’arme inflige des dégâts particulièrement spectaculaires. Êtres vivants ou objets sont déchiquetés."
+    },
+    {
+      "id": "Near",
+      "name": "Courte",
+      "description": "Arme efficace tant que vous voyez votre cible dans le blanc de l’œil."
+    },
+    {
+      "id": "Organized",
+      "name": "Organisés",
+      "description": "Iels disposent d’une structure de groupe qui favorise leur survie. Vaincre l’un·e d’entre eux provoque la colère des autres. L’un·e d’eux peut déclencher une alarme."
+    },
+    {
+      "id": "Planar",
+      "name": "Planaire",
+      "description": "Iel vient d’au-delà du monde. Son trésor comprend quelque chose d’étranger à cette terre."
+    },
+    {
+      "id": "Precise",
+      "name": "Précis",
+      "description": "Cette arme favorise la finesse et utilise DEX au lieu de FOR pour tailler en pièces."
+    },
+    {
+      "id": "Ration",
+      "name": "Ration",
+      "description": "Ça se mange, plus ou moins"
+    },
+    {
+      "id": "Reach",
+      "name": "Allonge",
+      "description": "Arme qui permet d’atteindre ce qui se trouve à quelques pas de soi. Il s’agit généralement des armes à deux mains et des armes d’hast."
+    },
+    {
+      "id": "Reload",
+      "name": "Recharge",
+      "description": "Après une attaque, il faut du temps avant de s’en resservir."
+    },
+    {
+      "id": "Requires",
+      "name": "Requiert",
+      "description": "Ce n’est utilisable que par certaines personnes. Si vous ne remplissez pas les conditions ça ne fonctionne pas ou alors mal."
+    },
+    {
+      "id": "Requires Dwarf",
+      "name": "Requiert : nain",
+      "description": "Ce n’est utilisable que par les nains. Si vous ne remplissez pas les conditions ça ne fonctionne pas ou alors mal."
+    },
+    {
+      "id": "Slow",
+      "name": "Lent",
+      "description": "Cela met quelques minutes, voire plus, à utiliser"
+    },
+    {
+      "id": "Small",
+      "name": "Petit",
+      "description": "Iel est de la taille d’un halfelin"
+    },
+    {
+      "id": "Solitary",
+      "name": "Solitaire",
+      "description": " Iel vit et se bat seul"
+    },
+    {
+      "id": "Stealthy",
+      "name": "Furtif",
+      "description": "Iel peut éviter la détection et préfère attaquer par surprise."
+    },
+    {
+      "id": "Stun",
+      "name": "Assomme",
+      "description": "Provoque des étourdissements au lieu de dégâts normaux."
+    },
+    {
+      "id": "Terrifying",
+      "name": "Terrifiant",
+      "description": "Sa présence et son apparence provoquent la peur."
+    },
+    {
+      "id": "Thrown",
+      "name": "Lancé",
+      "description": "Projeté pour blesser quelqu’un. A usage unique. Un 7-9 sur une <em>salve</em> avec cette arme ne permet pas de supprimer une munition."
+    },
+    {
+      "id": "Tiny",
+      "name": "Minuscule",
+      "description": "Iel est beaucoup plus petit qu’un halfelin."
+    },
+    {
+      "id": "Touch",
+      "name": "Toucher",
+      "description": "Par contact avec la peau de la cible."
+    },
+    {
+      "id": "Two-handed",
+      "name": "2 mains",
+      "description": "Il faut les deux mains pour s’en servir efficacement."
+    },
+    {
+      "id": "Worn",
+      "name": "Porté",
+      "description": "Vous devez le porter pour vous en servir."
+    }
+  ]
 }

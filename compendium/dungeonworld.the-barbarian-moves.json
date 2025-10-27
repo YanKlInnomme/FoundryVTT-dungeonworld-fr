@@ -1,155 +1,153 @@
 {
-	"label": "Actions du·de la Barbare",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "A Good Day To Die",
-			"name": "Un bon jour pour mourir",
-			"description": "<p>Vous avez <strong>+1 continu</strong> tant que vos PV sont inf&eacute;rieurs &agrave; votre <strong>CON</strong> <em>(ou 1, prenez le plus &eacute;lev&eacute; des deux)</em>.</p>"
-
-		},
-		{
-			"id": "Appetite For Destruction",
-			"name": "Avide de destruction",
-			"description": "<p>Choisissez une action de la liste du guerrier, du barde ou du voleur. Vous ne pouvez pas prendre l&rsquo;action multiclasse.</p>"
-		},
-		{
-			"id": "Eye for Weakness",
-			"name": "Trouver la faille",
-			"description": "<p>Quand vous <em>discernez la r&eacute;alit&eacute;</em>, vous pouvez ajouter &laquo; <strong>Qu&rsquo;est ce qui est faible ou vuln&eacute;rable ici ?</strong> &raquo; &agrave; la liste des questions que vous pouvez poser.</p>"
-		},
-		{
-			"id": "For The Blood God",
-			"name": "Pour le dieu sanglant",
-			"description": "<p>Vous &ecirc;tes initi&eacute;&middot;e aux anciens rites sacrificiels. D&eacute;signez ce &agrave; quoi vos dieux (ou esprits ancestraux, votre totem, etc.) attachent de la valeur : de l&rsquo;or, du sang, des os ou quelque chose du m&ecirc;me genre.</p><p>Lorsque vous sacrifiez cela selon le rituel, lancez <strong>2d6+SAG</strong>.</p>",
-			"failure": "<p>Vous vous attirez la col&egrave;re des esprits capricieux.</p>",
-			"partial": "<p>Vos dieux vous accordent une vision ou une b&eacute;n&eacute;diction mais le sacrifice n&rsquo;&eacute;tait pas suffisant : ils ont pris aussi de votre chair.</p>",
-			"success": "<p>Lae MJ vous accorde une vision &agrave; propos de vos probl&egrave;mes actuels ou une b&eacute;n&eacute;diction qui vous viendra en aide.</p>"
-		},
-		{
-			"id": "Full Plate and Packing Steel",
-			"name": "Bardé d’acier",
-			"description": "<p>Ignorez le marqueur encombrant de l&rsquo;armure que vous portez.</p>"
-		},
-		{
-			"id": "Healthy Distrust",
-			"name": "Une saine méfiance",
-			"description": "<p>Chaque fois que la magie malsaine des hommes vous oblige &agrave; d&eacute;fier le danger, traitez tout r&eacute;sultat de <strong>6-</strong> comme un <strong>7-9</strong>.</p>"
-		},
-		{
-			"id": "Herculean Appetites",
-			"name": "Appétits herculéens",
-			"description": "<p>Les autres peuvent se contenter d&rsquo;une gorg&eacute;e de vin ou d&rsquo;un ou deux esclaves &agrave; leur service, mais il vous en faut plus !</p><p>Choisissez deux ambitions ci-dessous. Lorsque vous poursuivez l&rsquo;une de vos ambitions, si vous deviez lancer <strong>2d6</strong> pour une action, lancez un <strong>d6</strong> et un <strong>d8</strong> &agrave; la place. Si le r&eacute;sultat du d6 est sup&eacute;rieur &agrave; celui du d8, lae MJ peut introduire une complication ou un danger provoqu&eacute; par votre avidit&eacute;.</p><ul><li>Destruction pure</li><li>Pouvoir sur autrui</li><li>Plaisirs terrestres</li><li>Conqu&ecirc;te</li><li>Richesses et possessions</li><li>Gloire et renomm&eacute;e</li></ul>"
-		},
-		{
-			"id": "Indestructible Hunger",
-			"name": "Faim insatiable",
-			"description": "<p>Lorsque vous subissez des d&eacute;g&acirc;ts, vous pouvez choisir de les ignorer en prenant <strong>-1 continu</strong> jusqu&rsquo;&agrave; ce que vous ayez satisfait l&rsquo;une de vos ambitions.</p>"
-		},
-		{
-			"id": "Khan Of Khans",
-			"name": "Khan des Khans",
-			"description": "<p>Vos recrues acceptent toujours l&rsquo;accomplissement de l&rsquo;une de vos ambitions comme paiement.</p>"
-
-		},
-		{
-			"id": "Kill 'Em All",
-			"name": "Tuez-les tous !",
-			"description": "<p><em>Requiert : Avide de destruction</em></p><p>Prenez une autre action de guerrier, barde ou de voleur. Vous ne pouvez pas prendre l&rsquo;action multiclasse.</p>"
-		},
-		{
-			"id": "Mark Of Might",
-			"name": "Symbole du pouvoir",
-			"description": "<p>Lorsque vous choisissez cette action et que vous m&eacute;ditez sans interruption votre gloire pass&eacute;e, vous pouvez arborer un symbole de votre pouvoir (une longue natte tress&eacute;e de clochettes, des cicatrices rituelles, des tatouages, etc.). &Agrave; sa simple vue, toute cr&eacute;ature mortelle dou&eacute;e d&rsquo;intelligence sait instinctivement qu&rsquo;elle a affaire &agrave; une puissance non n&eacute;gligeable et vous traite en cons&eacute;quence.</p>"
-		},
-		{
-			"id": "More! Always More!",
-			"name": "Toujours plus !",
-			"description": "<p>Quand vous poussez l&rsquo;une de vos ambitions &agrave; l&rsquo;extr&ecirc;me (en d&eacute;truisant quelque chose d&rsquo;unique et d&rsquo;important, en acc&eacute;dant &agrave; une prodigieuse renomm&eacute;e, richesse, puissance, etc.), vous pouvez d&eacute;cider de mettre fin &agrave; cette ambition. Rayez-l&agrave; de votre liste et marquez un PX. Bien que vous puissiez poursuivre de nouveau cette ambition, vous ne ressentez plus ce besoin imp&eacute;rieux de le faire. &Agrave; sa place, choisissez une nouvelle ambition de la liste ou cr&eacute;ez-en une.</p>"
-		},
-		{
-			"id": "Musclebound",
-			"name": "Costaud",
-			"description": "<p>Lorsque vous portez une arme, celle-ci gagne les marqueurs <em>puissant</em> et <em>d&eacute;vastateur</em>.</p>"
-		},
-		{
-			"id": "My Love For You Is Like A Truck",
-			"name": "Berserker !",
-			"description": "<p>Lorsque vous accomplissez une prouesse physique, nommez une personne pr&eacute;sente que vous avez impressionn&eacute;e et vous avez <strong>+1 &agrave; suivre</strong> pour <em>n&eacute;gocier</em> avec elle.</p>"
-		},
-		{
-			"id": "On The Move",
-			"name": "Mobilité",
-			"description": "<p>Vous avez <strong>+1</strong> lorsque vous <em>d&eacute;fiez le danger</em> lors d&rsquo;un mouvement (comme tomber d&rsquo;un pont &eacute;troit ou forcer un barrage de gardes en courant).</p>"
-		},
-		{
-			"id": "Samson",
-			"name": "Samson",
-			"description": "<p>Vous pouvez cocher un <em>handicap</em> pour vous lib&eacute;rer instantan&eacute;ment d&rsquo;une entrave physique ou mentale.</p>"
-		},
-		{
-			"id": "Smash!",
-			"name": "Blam !",
-			"description": "<p>Lorsque vous <em>taillez en pi&egrave;ces</em>, sur <strong>12+</strong> infligez vos d&eacute;g&acirc;ts et choisissez quelque chose de mat&eacute;riel que perd votre adversaire (une arme, sa position, un membre).</p>"
-		},
-		{
-			"id": "Still Hungry",
-			"name": "Toujours affamé",
-			"description": "<p>Choisissez une ambition suppl&eacute;mentaire.</p>"
-		},
-		{
-			"id": "The One Who Knocks",
-			"name": "C’est moi le danger",
-			"description": "<p>Lorsque vous <em>d&eacute;fiez le danger</em>, sur <strong>12+</strong> vous renvoyez le danger d&rsquo;o&ugrave; il vient, lae MJ vous dira comment.</p>"
-		},
-		{
-			"id": "The Upper Hand",
-			"name": "Garder la main",
-			"description": "<p>Vous avez <strong>+1 continu</strong> sur votre <em>dernier soupir</em>. Lorsque vous rendez votre dernier soupir, sur un 7-9 faites une offre &agrave; la Mort en &eacute;change de votre vie. Si la Mort accepte, elle vous rend la vie, sinon vous tr&eacute;passez.</p>"
-		},
-		{
-			"id": "Unencumbered, Unharmed",
-			"name": "À poil et indemne",
-			"description": "<p>Tant que vous transportez moins que votre poids maximum et que vous ne portez ni armure ni bouclier, gagnez <strong>+1 armure</strong>.</p>"
-		},
-		{
-			"id": "Usurper",
-			"name": "Usurpateur",
-			"description": "<p>Lorsque vous d&eacute;montrez votre sup&eacute;riorit&eacute; sur un&middot;e puissant&middot;e de ce monde, vous avez <strong>+1 &agrave; suivre</strong> envers ses serviteur&middot;ante&middot;s, ses hommes ou femmes de main et ses courtisan&middot;e&middot;s.</p>"
-		},
-		{
-			"id": "War Cry",
-			"name": "Cri de guerre",
-			"description": "<p>Lorsque vous vous invitez dans la bataille par une d&eacute;monstration de force (un hurlement, un cri de ralliement, une danse de guerre), lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "<p>Votre d&eacute;monstration n'a pas l'effet escompt&eacute;.</p>",
-			"partial": "<p>L'un des effets suivants s&rsquo;appliquent.</p>",
-			"success": "<p>Les deux effets suivants s&rsquo;appliquent.</p>",
-			"choices": "<ul><li>Vos alli&eacute;s se rallient et ont +1 &agrave; suivre.</li><li>Vos ennemis prennent peur et agissent en fonction (ils vous &eacute;vitent, se cachent, attaquent sous l&rsquo;effet de la terreur).</li></ul>"
-		},
-		{
-			"id": "What Are You Waiting For?",
-			"name": "Qu’est-ce que t’attends ?",
-			"description": "<p>Quand vous hurlez un d&eacute;fi &agrave; vos ennemis, lancez <strong>2d6+CON</strong>.</p>",
-			"failure": "<p>Votre provocation n'a pas l'effet voulu.</p>",
-			"partial": "<p>Seuls quelques-un&middot;e&middot;s (les plus faibles ou les plus t&eacute;m&eacute;raires) succombent &agrave; vos provocations.</p>",
-			"success": "<p>Iels vous consid&egrave;rent comme la menace la plus importante &agrave; affronter et ignorent vos compagnons. Gagnez <strong>+2 d&eacute;g&acirc;ts continu</strong> contre eux.</p>"
-		},
-		{
-			"id": "What Is Best In Life",
-			"name": "Qu’y a-t-il de mieux dans la vie ?",
-			"description": "<p>&Agrave; la fin d&rsquo;une session, si au cours de celle-ci vous avez &eacute;cras&eacute; vos ennemi&middot;e&middot;s, les avez vu mourir devant vous ou avez entendu les lamentations de leurs proches, marquez <strong>1 PX</strong>.</p>"
-		},
-		{
-			"id": "Wide-Wanderer",
-			"name": "Grand voyageur",
-			"description": "<p>Vous avez bourlingu&eacute; &agrave; travers le monde. Lorsque vous arrivez quelque part, demandez au&middot;&agrave; lae MJ quelles sont les traditions importantes, les rituels, etc. Iel vous dira ce que vous avez besoin de savoir.</p>"
-		}
-	]
+  "label": "Actions du·de la Barbare",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "A Good Day To Die",
+      "name": "Un bon jour pour mourir",
+      "description": "<p>Vous avez <strong>+1 continu</strong> tant que vos PV sont inférieurs à votre <strong>CON</strong> <em>(ou 1, prenez le plus élevé des deux)</em>.</p>"
+    },
+    {
+      "id": "Appetite For Destruction",
+      "name": "Avide de destruction",
+      "description": "<p>Choisissez une action de la liste du guerrier, du barde ou du voleur. Vous ne pouvez pas prendre l’action multiclasse.</p>"
+    },
+    {
+      "id": "Eye for Weakness",
+      "name": "Trouver la faille",
+      "description": "<p>Quand vous <em>discernez la réalité</em>, vous pouvez ajouter « <strong>Qu’est ce qui est faible ou vulnérable ici ?</strong> » à la liste des questions que vous pouvez poser.</p>"
+    },
+    {
+      "id": "For The Blood God",
+      "name": "Pour le dieu sanglant",
+      "description": "<p>Vous êtes initié·e aux anciens rites sacrificiels. Désignez ce à quoi vos dieux (ou esprits ancestraux, votre totem, etc.) attachent de la valeur : de l’or, du sang, des os ou quelque chose du même genre.</p><p>Lorsque vous sacrifiez cela selon le rituel, lancez <strong>2d6+SAG</strong>.</p>",
+      "failure": "<p>Vous vous attirez la colère des esprits capricieux.</p>",
+      "partial": "<p>Vos dieux vous accordent une vision ou une bénédiction mais le sacrifice n’était pas suffisant : ils ont pris aussi de votre chair.</p>",
+      "success": "<p>Lae MJ vous accorde une vision à propos de vos problèmes actuels ou une bénédiction qui vous viendra en aide.</p>"
+    },
+    {
+      "id": "Full Plate and Packing Steel",
+      "name": "Bardé d’acier",
+      "description": "<p>Ignorez le marqueur encombrant de l’armure que vous portez.</p>"
+    },
+    {
+      "id": "Healthy Distrust",
+      "name": "Une saine méfiance",
+      "description": "<p>Chaque fois que la magie malsaine des hommes vous oblige à défier le danger, traitez tout résultat de <strong>6-</strong> comme un <strong>7-9</strong>.</p>"
+    },
+    {
+      "id": "Herculean Appetites",
+      "name": "Appétits herculéens",
+      "description": "<p>Les autres peuvent se contenter d’une gorgée de vin ou d’un ou deux esclaves à leur service, mais il vous en faut plus !</p><p>Choisissez deux ambitions ci-dessous. Lorsque vous poursuivez l’une de vos ambitions, si vous deviez lancer <strong>2d6</strong> pour une action, lancez un <strong>d6</strong> et un <strong>d8</strong> à la place. Si le résultat du d6 est supérieur à celui du d8, lae MJ peut introduire une complication ou un danger provoqué par votre avidité.</p><ul><li>Destruction pure</li><li>Pouvoir sur autrui</li><li>Plaisirs terrestres</li><li>Conquête</li><li>Richesses et possessions</li><li>Gloire et renommée</li></ul>"
+    },
+    {
+      "id": "Indestructible Hunger",
+      "name": "Faim insatiable",
+      "description": "<p>Lorsque vous subissez des dégâts, vous pouvez choisir de les ignorer en prenant <strong>-1 continu</strong> jusqu’à ce que vous ayez satisfait l’une de vos ambitions.</p>"
+    },
+    {
+      "id": "Khan Of Khans",
+      "name": "Khan des Khans",
+      "description": "<p>Vos recrues acceptent toujours l’accomplissement de l’une de vos ambitions comme paiement.</p>"
+    },
+    {
+      "id": "Kill 'Em All",
+      "name": "Tuez-les tous !",
+      "description": "<p><em>Requiert : Avide de destruction</em></p><p>Prenez une autre action de guerrier, barde ou de voleur. Vous ne pouvez pas prendre l’action multiclasse.</p>"
+    },
+    {
+      "id": "Mark Of Might",
+      "name": "Symbole du pouvoir",
+      "description": "<p>Lorsque vous choisissez cette action et que vous méditez sans interruption votre gloire passée, vous pouvez arborer un symbole de votre pouvoir (une longue natte tressée de clochettes, des cicatrices rituelles, des tatouages, etc.). À sa simple vue, toute créature mortelle douée d’intelligence sait instinctivement qu’elle a affaire à une puissance non négligeable et vous traite en conséquence.</p>"
+    },
+    {
+      "id": "More! Always More!",
+      "name": "Toujours plus !",
+      "description": "<p>Quand vous poussez l’une de vos ambitions à l’extrême (en détruisant quelque chose d’unique et d’important, en accédant à une prodigieuse renommée, richesse, puissance, etc.), vous pouvez décider de mettre fin à cette ambition. Rayez-là de votre liste et marquez un PX. Bien que vous puissiez poursuivre de nouveau cette ambition, vous ne ressentez plus ce besoin impérieux de le faire. À sa place, choisissez une nouvelle ambition de la liste ou créez-en une.</p>"
+    },
+    {
+      "id": "Musclebound",
+      "name": "Costaud",
+      "description": "<p>Lorsque vous portez une arme, celle-ci gagne les marqueurs <em>puissant</em> et <em>dévastateur</em>.</p>"
+    },
+    {
+      "id": "My Love For You Is Like A Truck",
+      "name": "Berserker !",
+      "description": "<p>Lorsque vous accomplissez une prouesse physique, nommez une personne présente que vous avez impressionnée et vous avez <strong>+1 à suivre</strong> pour <em>négocier</em> avec elle.</p>"
+    },
+    {
+      "id": "On The Move",
+      "name": "Mobilité",
+      "description": "<p>Vous avez <strong>+1</strong> lorsque vous <em>défiez le danger</em> lors d’un mouvement (comme tomber d’un pont étroit ou forcer un barrage de gardes en courant).</p>"
+    },
+    {
+      "id": "Samson",
+      "name": "Samson",
+      "description": "<p>Vous pouvez cocher un <em>handicap</em> pour vous libérer instantanément d’une entrave physique ou mentale.</p>"
+    },
+    {
+      "id": "Smash!",
+      "name": "Blam !",
+      "description": "<p>Lorsque vous <em>taillez en pièces</em>, sur <strong>12+</strong> infligez vos dégâts et choisissez quelque chose de matériel que perd votre adversaire (une arme, sa position, un membre).</p>"
+    },
+    {
+      "id": "Still Hungry",
+      "name": "Toujours affamé",
+      "description": "<p>Choisissez une ambition supplémentaire.</p>"
+    },
+    {
+      "id": "The One Who Knocks",
+      "name": "C’est moi le danger",
+      "description": "<p>Lorsque vous <em>défiez le danger</em>, sur <strong>12+</strong> vous renvoyez le danger d’où il vient, lae MJ vous dira comment.</p>"
+    },
+    {
+      "id": "The Upper Hand",
+      "name": "Garder la main",
+      "description": "<p>Vous avez <strong>+1 continu</strong> sur votre <em>dernier soupir</em>. Lorsque vous rendez votre dernier soupir, sur un 7-9 faites une offre à la Mort en échange de votre vie. Si la Mort accepte, elle vous rend la vie, sinon vous trépassez.</p>"
+    },
+    {
+      "id": "Unencumbered, Unharmed",
+      "name": "À poil et indemne",
+      "description": "<p>Tant que vous transportez moins que votre poids maximum et que vous ne portez ni armure ni bouclier, gagnez <strong>+1 armure</strong>.</p>"
+    },
+    {
+      "id": "Usurper",
+      "name": "Usurpateur",
+      "description": "<p>Lorsque vous démontrez votre supériorité sur un·e puissant·e de ce monde, vous avez <strong>+1 à suivre</strong> envers ses serviteur·ante·s, ses hommes ou femmes de main et ses courtisan·e·s.</p>"
+    },
+    {
+      "id": "War Cry",
+      "name": "Cri de guerre",
+      "description": "<p>Lorsque vous vous invitez dans la bataille par une démonstration de force (un hurlement, un cri de ralliement, une danse de guerre), lancez <strong>2d6+CHA</strong>.</p>",
+      "failure": "<p>Votre démonstration n'a pas l'effet escompté.</p>",
+      "partial": "<p>L'un des effets suivants s’appliquent.</p>",
+      "success": "<p>Les deux effets suivants s’appliquent.</p>",
+      "choices": "<ul><li>Vos alliés se rallient et ont +1 à suivre.</li><li>Vos ennemis prennent peur et agissent en fonction (ils vous évitent, se cachent, attaquent sous l’effet de la terreur).</li></ul>"
+    },
+    {
+      "id": "What Are You Waiting For?",
+      "name": "Qu’est-ce que t’attends ?",
+      "description": "<p>Quand vous hurlez un défi à vos ennemis, lancez <strong>2d6+CON</strong>.</p>",
+      "failure": "<p>Votre provocation n'a pas l'effet voulu.</p>",
+      "partial": "<p>Seuls quelques-un·e·s (les plus faibles ou les plus téméraires) succombent à vos provocations.</p>",
+      "success": "<p>Iels vous considèrent comme la menace la plus importante à affronter et ignorent vos compagnons. Gagnez <strong>+2 dégâts continu</strong> contre eux.</p>"
+    },
+    {
+      "id": "What Is Best In Life",
+      "name": "Qu’y a-t-il de mieux dans la vie ?",
+      "description": "<p>À la fin d’une session, si au cours de celle-ci vous avez écrasé vos ennemi·e·s, les avez vu mourir devant vous ou avez entendu les lamentations de leurs proches, marquez <strong>1 PX</strong>.</p>"
+    },
+    {
+      "id": "Wide-Wanderer",
+      "name": "Grand voyageur",
+      "description": "<p>Vous avez bourlingué à travers le monde. Lorsque vous arrivez quelque part, demandez au·à lae MJ quelles sont les traditions importantes, les rituels, etc. Iel vous dira ce que vous avez besoin de savoir.</p>"
+    }
+  ]
 }

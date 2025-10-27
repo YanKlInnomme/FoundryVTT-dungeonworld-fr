@@ -1,0 +1,205 @@
+{
+  "label": "E9 - Gens du Royaume",
+  "mapping": {
+    "imagePath": "img",
+    "tokenPath": "prototypeToken.texture.src",
+    "name": "name",
+    "damageModifier": "system.attributes.damage.piercing",
+    "tags": "system.tags",
+    "specialQualities": "system.attributes.specialQualities.value",
+    "description": "system.details.biography",
+    "damage": "system.attributes.damage.value"
+  },
+  "folders": {},
+  "entries": {
+    "Hedge Wizard": {
+      "name": "Ermite Magicien",
+      "tokenName": "Ermite Magicien",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/hedge-wizard.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/hedge-wizard%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Magique\"}]",
+      "specialQualities": " ",
+      "description": "<p>Tous ceux qui manipulent les arts ésotériques ne sont pas des aventuriers. Ni des nécromanciens dans des mausolées ou des sorciers de haute lignée. Certains sont justes de vieux hommes ou femmes, assez intelligents pour avoir découvert un tour ou deux. Ça a pu les rendre un peu cinglés, mais si vous avez une malédiction à lever ou un amour à sonder, ils feront sans doute l’affaire si vous pouvez trouver leur cabane moisie au fond du marais et si vous payez ce qu’ils réclament.</p>\n<p>Penchant : Apprendre</p>\n<ul>\n<li>Lancer presque le bon sort (à un certain prix)</li>\n<li>Passer des accords qui les dépassent</li>\n</ul>",
+      "damage": " "
+    },
+    "Guardsman": {
+      "name": "Garde",
+      "tokenName": "Garde",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/guardsman.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/guardsman%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": " ",
+      "description": "<p>Noble protecteur ou pochetron, ça ne fait souvent aucune différence, tous sont des chevaliers ratés. Malgré tout, la garde de la ville est une ancienne profession. Les membres de cette force de police arborent généralement les couleurs de leur seigneur (quand on arrive à les distinguer sous la boue), et suivant la richesse de ce dernier, peuvent même porter une arme décente et une armure à leur taille. Ceux-là sont les plus chanceux. Quoi qu’il en soit, il faut bien quelqu’un pour garder un œil sur la porte alors que les Cavaliers Noirs ont été aperçus dans les bois. Beaucoup d’entre nous doivent leur vie à ces protecteurs. Souvenez-vous en la prochaine fois que l’un d’entre eux insultera votre mère sous l’effet de la boisson, hein…</p>\n<p>Penchant : Suivre les ordres</p>\n<ul>\n<li>Faire respecter la loi</li>\n<li>En tirer bénéfice</li>\n</ul>"
+    },
+    "Noble": {
+      "name": "Noble",
+      "tokenName": "Noble",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/noble.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/noble%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": " ",
+      "specialQualities": " ",
+      "description": "<p>Leur place en ce monde est-il un cadeau des dieux ? Est-ce la raison pour laquelle ils peuvent se transmettre la richesse et le pouvoir par la naissance ? Un enchantement ou un truc dans le sang, peut-être ? Le paysan ploie le genou et mène une vie de dur labeur pour s’en sortir tandis que le noble porte des beaux vêtements brodés à ses armes. Chacun son fardeau, comme dirait l’autre. Il me semble que le fardeau de certains est en pierre alors que d’autres portent leur poids en or. Chienne de vie.</p>\n<p>Penchant : Commander</p>\n<ul>\n<li>Donner un ordre</li>\n<li>Récompenser</li>\n</ul>",
+      "damage": " "
+    },
+    "Rebel": {
+      "name": "Rebelle",
+      "tokenName": "Rebelle",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/rebel.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/rebel%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Ceux qu’on appelle hors-la-loi hors des villes sont chassés ou tués. Mais la cité est pleine de cachettes. Des sous-sols humides où l’on examine des cartes et où l’on complote contre le système corrompu. Comme des rats, ils rongent l’ordre établi pour en imposer un autre, ou tout simplement pour l’affaiblir. La limite entre le changement et le chaos et très mince. Certains rebelles la franchissent tandis que d’autres veulent juste tout voir brûler. Un déguisement, un couteau dissimulé ou une torche lancée au bon moment sont les outils des rebelles. La marque brûlante de l’anarchie est une peur commune à tous les nobles de Dungeon World. Ces hommes et ces femmes en sont la raison.</p>\n<p>Penchant : Bouleverser l’ordre établi</p>\n<ul>\n<li>Mourir pour une cause</li>\n<li>Inspirer les autres</li>\n</ul>"
+    },
+    "Peasant": {
+      "name": "Paysan",
+      "tokenName": "Paysan",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/peasant.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/peasant%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": " ",
+      "specialQualities": " ",
+      "description": "<p>Nous piétinons ces gens qui font pousser notre nourriture dans leurs fermes, couverts de boue et relégués au bas de l’échelle sociale. Certains paysans sont plus doués que d’autres mais aucun ne verra une pièce d’or de sa vie. La nuit, ils rêvent qu’un jour ou l’autre ils combattront un dragon et sauveront une princesse. Aventurier, ne faites pas comme si vous n’aviez jamais été l’un d’entre eux avant de perdre tout sens commun.</p>\n<p>Penchant : Être dépouillé</p>\n<ul>\n<li>Mendier de l’aide</li>\n<li>Offrir une maigre récompense et sa gratitude</li>\n</ul>",
+      "damage": " "
+    },
+    "Spy": {
+      "name": "Espion",
+      "tokenName": "Espion",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/spy.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/spy%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": " ",
+      "specialQualities": " ",
+      "description": "<p>Les rois les adorent mais ne leur accordent jamais leur confiance. Mystérieuse, secrète et séduisante, la vie d’espion n’est, à écouter les gens du peuple, qu’intrigues et romances. Un couteau dans l’ombre et une paire d’yeux attentifs. Il peut être votre meilleur ami, votre compagnon ou le vieux que vous voyez tous les jours sur le marché. On ne sait jamais. Mince, vous pourriez être un espion, on raconte qu’un sort permet de manipuler votre esprit sans que vous vous en rendiez compte. Comment peut-on vous faire confiance ?</p>\n<p>Penchant : S’infiltrer</p>\n<ul>\n<li>Rapporter la vérité</li>\n<li>Trahir</li>\n</ul>",
+      "damage": " "
+    },
+    "Tinkerer": {
+      "name": "Marchand Ambulant",
+      "tokenName": "Marchand Ambulant",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/tinkerer.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/tinkerer%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": " ",
+      "specialQualities": " ",
+      "description": "<p>On raconte que si vous croisez un de ces marchands ambulants sur la route et que vous ne lui offrez pas une lampée de bière ou un peu de votre nourriture, il vous lance une malédiction en retour. Ce sont des gens curieux. Ils voyagent de ville en ville avec leurs mules, leurs roulottes remplies de bric-à-brac, leurs chiens miteux et toujours une histoire à raconter. Parfois même avec du courrier si vous êtes chanceux et que vous vivez dans un endroit où la poste royale ne s’aventure pas. Si vous êtes assez aimable, peut-être vous vendront-ils une rose qui ne fane jamais, ou une horloge qui sonne avec des rires de fées. Parfois ce ne sont que des colporteurs marginaux. Qui sait ?</p>\n<p>Penchant : Créer</p>\n<ul>\n<li>Échanger une rareté à un certain prix</li>\n<li>Raconter des histoires de périls et de trésors dans des pays lointains</li>\n</ul>",
+      "damage": " "
+    },
+    "Halfling Thief": {
+      "name": "Voleur Halfelin",
+      "tokenName": "Voleur Halfelin",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/halfling-thief.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/halfling-thief%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Petit\"},{\"value\":\"Intelligent\"},{\"value\":\"Furtif\"},{\"value\":\"Fourbe\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Ce serait imprudent de tirer des conclusions hâtives sur les membres d’un peuple seulement parce qu’ils ont tendance à être doués dans un domaine ou un autre. Cela dit, les faits sont là, n’est-ce pas ? Ou alors, tous les bons et gentils halfelins on le bon goût de rester chez eux dans leurs maisons sous les collines à l’inverse de ceux que vous croisez dans les bidonvilles et les tavernes des villes humaines. Peut-être qu’ils vous volent votre bourse juste pour les avoir appelés « halfelins ». Tout le monde ne prend pas forcément bien le surnom dont on l’affuble. Ou bien ils jouent la comédie et se font passer pour de pauvres enfants mendiant une aumône. Votre œil blasé ne voit même pas la supercherie avant qu’il ne soit trop tard. C’est sans importance, dans tous les cas, ils seront partis avec votre or avant que vous ne vous rendiez compte que vous l’avez bien mérité.</p>\n<p>Penchant : Mener une vie de luxueuses rapines</p>\n<ul>\n<li>Voler</li>\n<li>Avoir l’air amical</li>\n</ul>"
+    },
+    "Hunter": {
+      "name": "Chasseur",
+      "tokenName": "Chasseur",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/hunter.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/hunter%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Intelligent\"},{\"value\":\"Courte\"},{\"value\":\"Longue\"}]",
+      "specialQualities": " ",
+      "description": "<p>La nature n’est pas qu’un havre pour les bêtes à cornes et à écailles. Il y a des hommes et des femmes là-dehors aussi, ceux-là même qui reniflent le sang dans l’air et qui chassent, vêtus des peaux de leurs proies. Qu’ils aient un arc de bonne facture acheté lors d’une des rares visites en ville, ou un couteau fait d’os et de tendons, ces gens ont plus en commun avec les choses qu’ils traquent et mangent qu’avec leurs congénères. Sombres, graves et calmes, ils trouvent une sorte de paix dans la nature.</p>\n<p>Penchant : Survivre</p>\n<ul>\n<li>Rapporter des nouvelles des étendues sauvages</li>\n<li>Tuer une bête</li>\n</ul>"
+    },
+    "Acolyte": {
+      "name": "Acolyte",
+      "tokenName": "Acolyte",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/acolyte.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/acolyte%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": " ",
+      "specialQualities": " ",
+      "description": "<p>« On peut pas tous être Haut Prêtre, qu’ils disaient. On peut pas tous porter la Pointe Blanche, qu’ils disaient. Nettoie le sol, qu’ils m’ont dit. Le Suzerain Chthonien ne veut pas d’un sol crasseux, n’est-ce pas ? Vous verrez les illuminations et la magie qu’ils disaient. Bah ! Tout ce que j’ai, ce sont des genoux calleux et les mains gercées. Si seulement j’avais pu être un clerc… »</p>\n<p>Penchant : Servir consciencieusement</p>\n<ul>\n<li>Suivre les dogmes</li>\n<li>Offrir une récompense éternelle aux agissements terrestres</li>\n</ul>",
+      "damage": " "
+    },
+    "Adventurer": {
+      "name": "Aventurier",
+      "tokenName": "Aventurier",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/adventurer.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/adventurer%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Enthousiasme inépuisable",
+      "description": "<p>« Ce sont les rebuts de la société. Une bande d’hommes et de femmes en armure se pavanant en ville en exhibant, sait-on jamais, assez de puissance, magique ou non, pour raser l’endroit. Traînant derrière eux des sacs et des sacs remplis d’un butin encore dégoulinant du sang des pauvres couillons qu’ils ont massacrés pour ça. Une inflation est à prévoir, si vous voulez mon avis. Tout le système est en train de partir en vrille à cause de ces tarés de tueurs en vadrouille. Attendez, vous êtes un aventurier ? Je retire tout ce que je viens de dire. »</p>\n<p>Penchant : Tenter l’aventure ou mourir en essayant</p>\n<ul>\n<li>Entreprendre des projets insensés</li>\n<li>Agir impulsivement</li>\n<li>Partager des récits de leurs prouesses passées</li>\n</ul>"
+    },
+    "Fool": {
+      "name": "Fou",
+      "tokenName": "Fou",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/fool.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/fool%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": " ",
+      "specialQualities": " ",
+      "description": "<p>Une seule personne est autorisée à dire la vérité à la cour du roi. La vraie et franche vérité sur toute chose. Le fou raconte tout en gesticulations, clochettes et visage peinturluré comme lui seul sait le faire devant un roi. Vous pouvez toujours compter sur un fou pour vous faire honte devant tout le monde et vous donner l’irrépressible envie de le noyer dans une fosse d’aisance.</p>\n<p>Penchant : Se moquer</p>\n<ul>\n<li>Montrer les injustices</li>\n<li>Jouer un tour</li>\n</ul>",
+      "damage": " "
+    },
+    "Bandit": {
+      "name": "Bandit",
+      "tokenName": "Bandit",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/bandit.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/bandit%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Désespoir est le mot d’ordre du banditisme. Quand les temps sont durs, que faire si ce n’est se saisir d’une arme et rejoindre un clan d’hommes et de femmes peu ragoûtants ? Bandits de grands chemins, braconniers, escrocs de toutes sortes et immondes assassins. Qui pourrait les blâmer ? On a tous besoin de manger. Cependant, on ne peut nier que le mal s’est emparé du cœur de certains et que le désespoir peut être un prétexte à l’assouvissement des pulsions les plus viles. De toute manière, c’est ça ou la faim la plupart du temps.</p>\n<p>Penchant : Voler</p>\n<ul>\n<li>Voler quelque chose</li>\n<li>La bourse ou la vie !</li>\n</ul>"
+    },
+    "Soldier": {
+      "name": "Soldat",
+      "tokenName": "Soldat",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/soldier.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/soldier%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": " ",
+      "description": "<p>Parfois, pour un roturier robuste, c’est ça ou être bandit. C’est porter les couleurs, enfiler une armure mal ajustée et marcher vers l’inconnu aux côtés de milliers d’hommes et de femmes tout aussi effrayés, enrôlés pour combattre dans les guerres de notre temps. Ils auraient pu se cacher dans les bois, braconnant des élans tout en évitant la garde du roi. Plutôt risquer sa vie pour une cause, se lancer courageusement dans la mêlée aux côtés de compagnons en espérant en ressortir en un seul morceau. Et puis les nobles ont besoin d’hommes et de femmes robustes. Que disent-ils déjà ? Une poignée de soldats vaut mieux que de longs discours.</p>\n<p>Penchant : Se battre</p>\n<ul>\n<li>Aller en guerre</li>\n<li>Combattre de concert</li>\n</ul>"
+    },
+    "Bandit King": {
+      "name": "Roi-Bandit",
+      "tokenName": "Roi-Bandit",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/bandit-king.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/bandit-king%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Mieux vaut régner en enfer que servir au paradis.</p>\n<p>Penchant : Commander</p>\n<ul>\n<li>Rançonner</li>\n<li>Extorquer</li>\n<li>Renverser le pouvoir</li>\n</ul>"
+    },
+    "Knight": {
+      "name": "Chevalier",
+      "tokenName": "Chevalier",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/knight.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/knight%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Prudent\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Quel enfant ne s’est jamais agrippé à la lice lors des joutes, aveuglé par le soleil sur les armures étincelantes, rêvant d’être l’un de ces cavaliers bardé d’acier chevauchant pour divertir le roi et la reine ? Quel jeune paysan n’a jamais souhaité échanger son seul bien, une truie boiteuse et une miche de pain, contre une lance et un étendard ? Un chevalier est beaucoup de choses, un guerrier saint, un protecteur vertueux, un félon parfois, mais un chevalier est toujours un symbole aux yeux de ceux qui le voient. Un chevalier est un symbole.</p>\n<p>Penchant : Vivre suivant un code</p>\n<ul>\n<li>Prendre une position éthique</li>\n<li>Mener les soldats à la bataille</li>\n</ul>"
+    },
+    "High Priest": {
+      "name": "Haut-Prêtre",
+      "tokenName": "Haut-Prêtre",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/high-priest.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/high-priest%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": " ",
+      "specialQualities": " ",
+      "description": "<p>Respectés par tous ceux qui les contemplent, les hauts prêtres et abbesses de Dungeon World sont traités avec révérence. Qu’ils rendent hommage à Ur-thuu-hak, Dieu des Lames, ou qu’ils murmurent des prières silencieuses à Namiah, précieuse fille de la paix, ils savent une chose ou deux que nous ne connaîtrons jamais. Les dieux s’adressent à eux comme un colporteur nous parle au marché. Pour tout cela, les secrets bien gardés et la connaissance, nous nous inclinons quand ils passent avec leurs robes éclatantes.</p>\n<p>Penchant : Mener</p>\n<ul>\n<li>Imposer la loi divine</li>\n<li>Révéler des secrets divins</li>\n<li>Se charger d’une mission divine</li>\n</ul>",
+      "damage": " "
+    },
+    "Merchant": {
+      "name": "Marchand",
+      "tokenName": "Marchand",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e9/merchant.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e9/merchant%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": " ",
+      "specialQualities": " ",
+      "description": "« Des perches de dix pieds ! Venez acheter vos perches ici ! Et des torches qui brillent et qui chauffent bien ! Des mules, aussi. Un peu têtues mais bien élevées ! Besoin d’un sac de toile, peut-être ? Voilà… Venez acheter vos perches de dix pieds ! »</p>\n<p>Penchant : Faire des bénéfices</p>\n<ul>\n<li>Monter une affaire avec les aventuriers</li>\n<li>Proposer un « marché »</li>\n</ul>",
+      "damage": " "
+    }
+  }
+}

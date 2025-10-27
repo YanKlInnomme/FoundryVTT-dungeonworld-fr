@@ -17,6 +17,33 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
 
+## Version 3.0.0
+ * Mise à jour suite au passage à la version 13 du système Dungeon World d'Asacolips
+ * Traduction des compendiums "Actor" (9/9 soit 100%) :
+    - E1 - Habitants des Cavernes (dungeonworld.monsters-01-cavern-dwellers.json)
+    - E2 - Habitants des Marais (dungeonworld.monsters-02-swamp-denizens.json)
+    - E3 - Légion des Morts-vivants (dungeonworld.monsters-03-undead-legions.json)
+    - E4 - Bois sombres (dungeonworld.the-barbarian-moves.json)
+    - E5 - Hordes Voraces (dungeonworld.monsters-05-ravenous-hordes.json)
+    - E6 - Expériences contre Nature (dungeonworld.monsters-06-twisted-experiments.json)
+    - E7 - Tréfonds (dungeonworld.monsters-07-lower-depths.json)
+    - E8 - Forces Planaires (dungeonworld.monsters-08-planar-powers.json)
+    - E9 - Gens du Royaume (dungeonworld.monsters-09-folk-of-the-realm.json)
+ * Mise à jour des compendiums "JournalEntry" (3/3 soit 100%) :
+    - Actions et Principes du·de la MJ (dungeonworld.gm-movesprincipals.json)
+    - Écran du·de la MJ (dungeonworld.gm-screen.json)
+    - Services et biens (dungeonworld.charts.json)
+ * Mise à jour des liens Boutique, Dépot et Donation dans l'onglet 'Paramètres'
+ * Mise en place du logo "Dungeon World" sélectif en fonction du thème (sombre/clair)
+ * Gestion automatique des images de tokens en fonction de la présence du mot "Token" dans le nom du fichier image
+ * Ajout d'une fonction d'affichage du portrait de l'acteur actif par un simple clic droit sur l'image afin d'en faciliter le partage
+ * Ajout d'info-bulles sur les marqueurs afin d'en faciliter la compréhension, y compris mise en évidence des marqueurs liés aux combats
+ * Ajout d'une fonction de correction automatique des dégâts vides pour certains monstres importés (post-Babele)
+ * Ajout d'illutrations IA aux compendiums "Actor" pour une meilleure immersion visuelle :
+     - Désactivée par défaut (peut être activée/désactivée dans les paramètres du module)
+     - Avancement 24/154 soit ~16%
+ * Mise à jour du fichier de traduction (fr.json) avec les nouvelles variables ajoutées dans la version 13
+
 ## Version 2.1.1
  * Correction mineure de l'archive
 

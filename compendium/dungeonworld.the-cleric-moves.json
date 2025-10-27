@@ -1,149 +1,149 @@
 {
-	"label": "Actions du·de la Clerc",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "Anointed",
-			"name": "Onction",
-			"description": "<p><em>Requiert : L&rsquo;&Eacute;lu&middot;e</em></p><p>Choisissez un sort. Vous pouvez recevoir ce sort comme s&rsquo;il &eacute;tait d&rsquo;un niveau inf&eacute;rieur, en plus de celui d&eacute;j&agrave; choisi pour l&rsquo;&Eacute;lu&middot;e.</p>"
-		},
-		{
-			"id": "Apotheosis",
-			"name": "Apotheosis",
-			"description": "<p>Apr&egrave;s avoir choisi cette action et la premi&egrave;re fois que vous vous retirez en pri&egrave;re (conform&eacute;ment &agrave; votre liturgie), choisissez un attribut associ&eacute; &agrave; votre dieu (des griffes aiguis&eacute;es, des ailes en saphir, un troisi&egrave;me &oelig;il extra-lucide...). Quand vous &eacute;mergez de votre pri&egrave;re, vous &ecirc;tes d&eacute;finitivement dot&eacute;&middot;e de cet attribut.</p>"
-		},
-		{
-			"id": "Cast A Spell",
-			"name": "Lancer un sort",
-			"description": "<p>Quand vous lancez un sort que votre divinit&eacute; vous a accord&eacute; (pri&egrave;res comprises), lancez <strong>2d6+SAG</strong>.</p><p>&Agrave; noter que maintenir des sorts et leurs effets peut parfois entra&icirc;ner une p&eacute;nalit&eacute; pour lancer un autre sort.</p>",
-			"failure": "<p>Le sort a &eacute;chou&eacute;.</p>",
-			"partial": "<p>Le sort est lanc&eacute; mais choisissez une option :</p><ul><li>Vous attirez une attention malvenue ou vous vous exposez (lae MJ vous d&eacute;crira comment).</li><li>Vous vous &eacute;loignez de votre divinit&eacute; : vous avez <strong>-1 continu</strong> pour lancer un sort jusqu&rsquo;&agrave; ce que vous communiiez de nouveau.</li><li>Une fois lanc&eacute;, le sort est r&eacute;voqu&eacute; par votre divinit&eacute;. Vous ne pouvez plus le lancer tant que vous n&rsquo;avez pas communi&eacute; et re&ccedil;u ce sort &agrave; nouveau.</li></ul>",
-			"success": "<p>Le sort est lanc&eacute; avec succ&egrave;s et votre divinit&eacute; ne vous le retire pas. Vous pouvez le lancer &agrave; nouveau.</p>"
-		},
-		{
-			"id": "Chosen One",
-			"name": "L’élu·e",
-			"description": "<p>Choisissez un sort. Il vous est accord&eacute; comme s&rsquo;il &eacute;tait d&rsquo;un niveau inf&eacute;rieur.</p>"
-		},
-		{
-			"id": "Commune",
-			"name": "Communier",
-			"description": "<p>Quand vous consacrez un moment ininterrompu (environ 1 heure) en communion tranquille :</p><ul><li>Vous perdez tous les sorts qu&rsquo;il vous reste,</li><li>Vous recevez de nouveaux sorts de votre choix dont le niveau ne d&eacute;passe pas le v&ocirc;tre et dont les niveaux additionn&eacute;s ne d&eacute;passent pas votre niveau+1,</li><li>Vos pri&egrave;res sont &agrave; nouveau toutes disponibles, elles ne comptent pas dans la limite de niveau.</li></ul>"
-		},
-		{
-			"id": "Deity",
-			"name": "Divinité",
-			"description": "<p>Vous servez et adorez une divinit&eacute; ou puissance qui vous accorde des sorts. Donnez un nom &agrave; votre divinit&eacute; (par exemple, Helferth, Sucrellus, Zorica ou Krugon le Lugubre) et choisissez son domaine :</p><ul><li>Soins et gu&eacute;rison</li><li>Conqu&ecirc;te sanglante</li><li>Civilisation</li><li>Savoir et myst&egrave;res</li><li>Les opprim&eacute;s et les oubli&eacute;s</li><li>Ce qui est en-dessous</li></ul><p>Choisissez un <em>pr&eacute;cepte </em>pour votre religion :</p><ul><li>Votre religion pr&ecirc;che la souffrance purificatrice.<br><em>Ajoutez une supplique : souffrance</em></li><li>Votre religion est sectaire et isol&eacute;e.<br><em>Ajoutez une supplique : acc&eacute;der &agrave; des secrets</em></li><li>Votre religion a d&rsquo;importants rites sacrificiels.<br><em>Ajoutez une supplique : offrande</em></li><li>Votre religion croit &agrave; l&rsquo;&eacute;preuve du combat.<br><em>Ajoutez une supplique : victoire personnelle</em></li></ul>"
-		},
-		{
-			"id": "Devoted Healer",
-			"name": "Soigneur·euse dévoué·e",
-			"description": "<p>Quand vous soignez les blessures de quelqu&rsquo;un d&rsquo;autre, ajoutez votre niveau au montant soign&eacute;.</p>"
-		},
-		{
-			"id": "Divine Armor",
-			"name": "Armure divine",
-			"description": "<p><em>Remplace : Protection divine</em></p><p>Quand vous ne portez ni armure ni bouclier, vous avez <strong>3 armure</strong>.</p>"
-		},
-		{
-			"id": "Divine Guidance",
-			"name": "Inspiration divine",
-			"description": "<p>Quand vous adressez une <em>supplique</em> &agrave; votre divinit&eacute; conform&eacute;ment au <em>pr&eacute;cepte</em> de votre religion, vous recevez une inspiration utile ou une b&eacute;n&eacute;diction en rapport avec le domaine de votre divinit&eacute;. Lae MJ vous dira de quoi il s&rsquo;agit.</p>"
-		},
-		{
-			"id": "Divine Intervention",
-			"name": "Intervention divine",
-			"description": "<p>Quand vous <em>communiez</em>, <strong>retenez 1</strong> et perdez ce que vous reteniez. D&eacute;pensez 1 quand un&middot;e alli&eacute;&middot;e ou vous-m&ecirc;me subissez des d&eacute;g&acirc;ts au nom de votre divinit&eacute; et celle-ci intervient par une manifestation appropri&eacute;e (un souffle de vent soudain, une chute providentielle, un &eacute;clair de lumi&egrave;re) et annule les d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Divine Invincibility",
-			"name": "Invincibilité",
-			"description": "<p><em>Remplace : Intervention divine</em></p><p>Quand vous <em>communiez</em>, <strong>retenez 2</strong> et perdez ce que vous reteniez. D&eacute;pensez 1 quand un&middot;e alli&eacute;&middot;e ou vous-m&ecirc;me encaissez des d&eacute;g&acirc;ts au nom de votre divinit&eacute; et celle-ci intervient par une manifestation appropri&eacute;e (un souffle de vent soudain, une chute providentielle, un &eacute;clair de lumi&egrave;re) et annule les d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Divine Protection",
-			"name": "Protection divine",
-			"description": "<p>Quand vous ne portez ni armure ni bouclier, vous avez <strong>2 armure</strong>.</p>"
-		},
-		{
-			"id": "Empower",
-			"name": "Pouvoir",
-			"description": "<p>Quand vous <em>lancez un sort</em>, sur un <strong>10+</strong> vous pouvez opter pour un effet de la liste 7-9. Si vous le faites, vous pouvez doubler l&rsquo;effet ou le nombre de cibles du sort.</p>"
-		},
-		{
-			"id": "First Aid",
-			"name": "Premiers soins",
-			"description": "<p>Le sort <em>Soins des Blessures L&eacute;g&egrave;res</em> est dor&eacute;navant une pri&egrave;re et ne compte plus dans la limite de niveaux.</p>"
-		},
-		{
-			"id": "Greater Empower",
-			"name": "Pleins pouvoirs",
-			"description": "<p><em>Requiert : Pouvoir</em></p><p>Quand vous obtenez <em>12+</em> en lan&ccedil;ant un sort, vous pouvez doubler les effets ou le nombre de cibles de votre sort.</p>"
-		},
-		{
-			"id": "Greater First Aid",
-			"name": "Soins supérieurs",
-			"description": "<p><em>Requiert : Premiers soins</em></p><p>Le sort <strong>Soins des Blessures Moyennes</strong> est dor&eacute;navant une pri&egrave;re et ne compte plus dans la limite de niveaux.</p>"
-		},
-		{
-			"id": "Invigorate",
-			"name": "Revigorer",
-			"description": "<p>Quand vous soignez quelqu&rsquo;un&middot;e, iel re&ccedil;oit <strong>+2</strong> &agrave; son prochain jet de d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Martyr",
-			"name": "Martyr·e",
-			"description": "<p><em>Remplace : P&eacute;nitent&middot;e</em></p><p>Quand vous encaissez des d&eacute;g&acirc;ts et supportez la douleur, vous pouvez choisir de subir <strong>+1d4</strong> d&eacute;g&acirc;ts (ignorez l&rsquo;armure). Si vous le faites, vous avez <strong>+1</strong> la prochaine fois que vous lancez un sort et vous ajoutez votre niveau aux d&eacute;g&acirc;ts que ce sort soigne ou inflige.</p>"
-		},
-		{
-			"id": "Multiclass Dabbler",
-			"name": "Multiclasse - Dilettante",
-			"description": "<p>Choisissez une action d&rsquo;une autre classe. Vous &ecirc;tes consid&eacute;r&eacute;&middot;e comme d&rsquo;un niveau inf&eacute;rieur lors de votre choix.</p>"
-		},
-		{
-			"id": "Orison For Guidance",
-			"name": "Guide spirituel",
-			"description": "<p>Quand vous sacrifiez quelque chose de valeur &agrave; votre divinit&eacute; et que vous priez pour un conseil, votre divinit&eacute; vous dit ce qu&rsquo;elle aurait souhait&eacute; vous voir faire. Si vous le faites, marquez <strong>1 PX</strong>.</p>"
-		},
-		{
-			"id": "Penitent",
-			"name": "Pénitent·e",
-			"description": "<p>Quand vous <em>encaissez des d&eacute;g&acirc;ts</em> et supportez la douleur, vous pouvez choisir de subir <strong>+1d4 d&eacute;g&acirc;ts</strong> (ignorez l&rsquo;armure). Si vous le faites, vous avez <strong>+1</strong> la prochaine fois que vous lancez un sort.</p>"
-		},
-		{
-			"id": "Providence",
-			"name": "Providence",
-			"description": "<p><em>Remplace : S&eacute;r&eacute;nit&eacute;</em></p><p>Vous ignorez la p&eacute;nalit&eacute; de <strong>-1</strong> pour deux sorts que vous maintenez.</p>"
-		},
-		{
-			"id": "Reaper",
-			"name": "Le faucheur",
-			"description": "<p>Apr&egrave;s un combat, lorsque vous prenez le temps de d&eacute;dier votre victoire &agrave; votre divinit&eacute; et de consacrer les morts, vous avez <strong>+1</strong> &agrave; votre prochain jet.</p>"
-		},
-		{
-			"id": "Serenity",
-			"name": "Sérénité",
-			"description": "<p>Quand vous lancez un sort, vous ignorez la premi&egrave;re p&eacute;nalit&eacute; de <strong>-1</strong> d&rsquo;autres sorts continus en cours.</p>"
-		},
-		{
-			"id": "The Scales Of Life And Death",
-			"name": "Pesée de l’âme",
-			"description": "<p>Quand quelqu&rsquo;un&middot;e pousse son <em>dernier soupir</em> en votre pr&eacute;sence, il ajoute <strong>+1</strong> &agrave; son jet de d&eacute;s.</p>"
-		},
-		{
-			"id": "Turn Undead",
-			"name": "Repousser les morts-vivants",
-			"description": "<p>Quand vous brandissez votre symbole sacr&eacute; et invoquez la protection de votre divinit&eacute;, lancez <strong>2d6+SAG</strong>.</p>",
-			"failure": "<p>Votre pri&egrave;re ne semble pas avoir &eacute;t&eacute; entendue.</p>",
-			"partial": "<p>Les morts-vivants demeurent hors de port&eacute;e de vous tant que vous priez dans cette posture.</p>",
-			"success": "<p>Vous &eacute;tourdissez momentan&eacute;ment les morts vivants intelligents et provoquez la fuite des autres.</p><p>La moindre agression brise cet effet et ils peuvent alors agir normalement. Les morts vivants intelligents peuvent toujours trouver moyen de vous nuire &agrave; distance. Ils sont malins vous savez !</p>"
-		}
-	]
+  "label": "Actions du·de la Clerc",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Anointed",
+      "name": "Onction",
+      "description": "<p><em>Requiert : L’Élu·e</em></p><p>Choisissez un sort. Vous pouvez recevoir ce sort comme s’il était d’un niveau inférieur, en plus de celui déjà choisi pour l’Élu·e.</p>"
+    },
+    {
+      "id": "Apotheosis",
+      "name": "Apotheosis",
+      "description": "<p>Après avoir choisi cette action et la première fois que vous vous retirez en prière (conformément à votre liturgie), choisissez un attribut associé à votre dieu (des griffes aiguisées, des ailes en saphir, un troisième œil extra-lucide...). Quand vous émergez de votre prière, vous êtes définitivement doté·e de cet attribut.</p>"
+    },
+    {
+      "id": "Cast A Spell",
+      "name": "Lancer un sort",
+      "description": "<p>Quand vous lancez un sort que votre divinité vous a accordé (prières comprises), lancez <strong>2d6+SAG</strong>.</p><p>À noter que maintenir des sorts et leurs effets peut parfois entraîner une pénalité pour lancer un autre sort.</p>",
+      "failure": "<p>Le sort a échoué.</p>",
+      "partial": "<p>Le sort est lancé mais choisissez une option :</p><ul><li>Vous attirez une attention malvenue ou vous vous exposez (lae MJ vous décrira comment).</li><li>Vous vous éloignez de votre divinité : vous avez <strong>-1 continu</strong> pour lancer un sort jusqu’à ce que vous communiiez de nouveau.</li><li>Une fois lancé, le sort est révoqué par votre divinité. Vous ne pouvez plus le lancer tant que vous n’avez pas communié et reçu ce sort à nouveau.</li></ul>",
+      "success": "<p>Le sort est lancé avec succès et votre divinité ne vous le retire pas. Vous pouvez le lancer à nouveau.</p>"
+    },
+    {
+      "id": "Chosen One",
+      "name": "L’élu·e",
+      "description": "<p>Choisissez un sort. Il vous est accordé comme s’il était d’un niveau inférieur.</p>"
+    },
+    {
+      "id": "Commune",
+      "name": "Communier",
+      "description": "<p>Quand vous consacrez un moment ininterrompu (environ 1 heure) en communion tranquille :</p><ul><li>Vous perdez tous les sorts qu’il vous reste,</li><li>Vous recevez de nouveaux sorts de votre choix dont le niveau ne dépasse pas le vôtre et dont les niveaux additionnés ne dépassent pas votre niveau+1,</li><li>Vos prières sont à nouveau toutes disponibles, elles ne comptent pas dans la limite de niveau.</li></ul>"
+    },
+    {
+      "id": "Deity",
+      "name": "Divinité",
+      "description": "<p>Vous servez et adorez une divinité ou puissance qui vous accorde des sorts. Donnez un nom à votre divinité (par exemple, Helferth, Sucrellus, Zorica ou Krugon le Lugubre) et choisissez son domaine :</p><ul><li>Soins et guérison</li><li>Conquête sanglante</li><li>Civilisation</li><li>Savoir et mystères</li><li>Les opprimés et les oubliés</li><li>Ce qui est en-dessous</li></ul><p>Choisissez un <em>précepte </em>pour votre religion :</p><ul><li>Votre religion prêche la souffrance purificatrice.<br><em>Ajoutez une supplique : souffrance</em></li><li>Votre religion est sectaire et isolée.<br><em>Ajoutez une supplique : accéder à des secrets</em></li><li>Votre religion a d’importants rites sacrificiels.<br><em>Ajoutez une supplique : offrande</em></li><li>Votre religion croit à l’épreuve du combat.<br><em>Ajoutez une supplique : victoire personnelle</em></li></ul>"
+    },
+    {
+      "id": "Devoted Healer",
+      "name": "Soigneur·euse dévoué·e",
+      "description": "<p>Quand vous soignez les blessures de quelqu’un d’autre, ajoutez votre niveau au montant soigné.</p>"
+    },
+    {
+      "id": "Divine Armor",
+      "name": "Armure divine",
+      "description": "<p><em>Remplace : Protection divine</em></p><p>Quand vous ne portez ni armure ni bouclier, vous avez <strong>3 armure</strong>.</p>"
+    },
+    {
+      "id": "Divine Guidance",
+      "name": "Inspiration divine",
+      "description": "<p>Quand vous adressez une <em>supplique</em> à votre divinité conformément au <em>précepte</em> de votre religion, vous recevez une inspiration utile ou une bénédiction en rapport avec le domaine de votre divinité. Lae MJ vous dira de quoi il s’agit.</p>"
+    },
+    {
+      "id": "Divine Intervention",
+      "name": "Intervention divine",
+      "description": "<p>Quand vous <em>communiez</em>, <strong>retenez 1</strong> et perdez ce que vous reteniez. Dépensez 1 quand un·e allié·e ou vous-même subissez des dégâts au nom de votre divinité et celle-ci intervient par une manifestation appropriée (un souffle de vent soudain, une chute providentielle, un éclair de lumière) et annule les dégâts.</p>"
+    },
+    {
+      "id": "Divine Invincibility",
+      "name": "Invincibilité",
+      "description": "<p><em>Remplace : Intervention divine</em></p><p>Quand vous <em>communiez</em>, <strong>retenez 2</strong> et perdez ce que vous reteniez. Dépensez 1 quand un·e allié·e ou vous-même encaissez des dégâts au nom de votre divinité et celle-ci intervient par une manifestation appropriée (un souffle de vent soudain, une chute providentielle, un éclair de lumière) et annule les dégâts.</p>"
+    },
+    {
+      "id": "Divine Protection",
+      "name": "Protection divine",
+      "description": "<p>Quand vous ne portez ni armure ni bouclier, vous avez <strong>2 armure</strong>.</p>"
+    },
+    {
+      "id": "Empower",
+      "name": "Pouvoir",
+      "description": "<p>Quand vous <em>lancez un sort</em>, sur un <strong>10+</strong> vous pouvez opter pour un effet de la liste 7-9. Si vous le faites, vous pouvez doubler l’effet ou le nombre de cibles du sort.</p>"
+    },
+    {
+      "id": "First Aid",
+      "name": "Premiers soins",
+      "description": "<p>Le sort <em>Soins des Blessures Légères</em> est dorénavant une prière et ne compte plus dans la limite de niveaux.</p>"
+    },
+    {
+      "id": "Greater Empower",
+      "name": "Pleins pouvoirs",
+      "description": "<p><em>Requiert : Pouvoir</em></p><p>Quand vous obtenez <em>12+</em> en lançant un sort, vous pouvez doubler les effets ou le nombre de cibles de votre sort.</p>"
+    },
+    {
+      "id": "Greater First Aid",
+      "name": "Soins supérieurs",
+      "description": "<p><em>Requiert : Premiers soins</em></p><p>Le sort <strong>Soins des Blessures Moyennes</strong> est dorénavant une prière et ne compte plus dans la limite de niveaux.</p>"
+    },
+    {
+      "id": "Invigorate",
+      "name": "Revigorer",
+      "description": "<p>Quand vous soignez quelqu’un·e, iel reçoit <strong>+2</strong> à son prochain jet de dégâts.</p>"
+    },
+    {
+      "id": "Martyr",
+      "name": "Martyr·e",
+      "description": "<p><em>Remplace : Pénitent·e</em></p><p>Quand vous encaissez des dégâts et supportez la douleur, vous pouvez choisir de subir <strong>+1d4</strong> dégâts (ignorez l’armure). Si vous le faites, vous avez <strong>+1</strong> la prochaine fois que vous lancez un sort et vous ajoutez votre niveau aux dégâts que ce sort soigne ou inflige.</p>"
+    },
+    {
+      "id": "Multiclass Dabbler",
+      "name": "Multiclasse - Dilettante",
+      "description": "<p>Choisissez une action d’une autre classe. Vous êtes considéré·e comme d’un niveau inférieur lors de votre choix.</p>"
+    },
+    {
+      "id": "Orison For Guidance",
+      "name": "Guide spirituel",
+      "description": "<p>Quand vous sacrifiez quelque chose de valeur à votre divinité et que vous priez pour un conseil, votre divinité vous dit ce qu’elle aurait souhaité vous voir faire. Si vous le faites, marquez <strong>1 PX</strong>.</p>"
+    },
+    {
+      "id": "Penitent",
+      "name": "Pénitent·e",
+      "description": "<p>Quand vous <em>encaissez des dégâts</em> et supportez la douleur, vous pouvez choisir de subir <strong>+1d4 dégâts</strong> (ignorez l’armure). Si vous le faites, vous avez <strong>+1</strong> la prochaine fois que vous lancez un sort.</p>"
+    },
+    {
+      "id": "Providence",
+      "name": "Providence",
+      "description": "<p><em>Remplace : Sérénité</em></p><p>Vous ignorez la pénalité de <strong>-1</strong> pour deux sorts que vous maintenez.</p>"
+    },
+    {
+      "id": "Reaper",
+      "name": "Le faucheur",
+      "description": "<p>Après un combat, lorsque vous prenez le temps de dédier votre victoire à votre divinité et de consacrer les morts, vous avez <strong>+1</strong> à votre prochain jet.</p>"
+    },
+    {
+      "id": "Serenity",
+      "name": "Sérénité",
+      "description": "<p>Quand vous lancez un sort, vous ignorez la première pénalité de <strong>-1</strong> d’autres sorts continus en cours.</p>"
+    },
+    {
+      "id": "The Scales Of Life And Death",
+      "name": "Pesée de l’âme",
+      "description": "<p>Quand quelqu’un·e pousse son <em>dernier soupir</em> en votre présence, il ajoute <strong>+1</strong> à son jet de dés.</p>"
+    },
+    {
+      "id": "Turn Undead",
+      "name": "Repousser les morts-vivants",
+      "description": "<p>Quand vous brandissez votre symbole sacré et invoquez la protection de votre divinité, lancez <strong>2d6+SAG</strong>.</p>",
+      "failure": "<p>Votre prière ne semble pas avoir été entendue.</p>",
+      "partial": "<p>Les morts-vivants demeurent hors de portée de vous tant que vous priez dans cette posture.</p>",
+      "success": "<p>Vous étourdissez momentanément les morts vivants intelligents et provoquez la fuite des autres.</p><p>La moindre agression brise cet effet et ils peuvent alors agir normalement. Les morts vivants intelligents peuvent toujours trouver moyen de vous nuire à distance. Ils sont malins vous savez !</p>"
+    }
+  ]
 }

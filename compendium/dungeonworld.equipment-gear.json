@@ -1,69 +1,69 @@
 {
-	"label": "Équipement (Matériel)",
-	"mapping": {
-		"name": "name",
-		"description": "system.description"
-	},
-	"entries": [
-		{
-			"id": "Adventuring Gear",
-			"name": "Sac d’aventurier",
-			"description": "<p>Le mat&eacute;riel d&rsquo;aventurier regroupe des objets pratiques courants comme de la craie, des perches, des pitons, des cordes, etc. Quand vous farfouillez dans votre sac d&rsquo;aventurier &agrave; la recherche d&rsquo;un objet ordinaire vous le trouvez et vous cochez une utilisation.</p>"
-		},
-		{
-			"id": "Anti-Toxin",
-			"name": "Antidote",
-			"description": "<p>Quand buvez l&rsquo;antidote, vous &ecirc;tes gu&eacute;ri&middot;e d&rsquo;un poison.</p>"
-		},
-		{
-			"id": "Bag of Books",
-			"name": "Sac de bouquins",
-			"description": "<p>Quand votre sac de bouquins contient celui qui vous permet d&rsquo;<em>&eacute;taler votre science</em> sur un sujet, cochez une utilisation et gagnez <strong>+1</strong> &agrave; votre jet.</p>"
-		},
-		{
-			"id": "Bandages",
-			"name": "Bandages",
-			"description": "<p>Quand vous avez quelques minutes pour panser les plaies de quelqu&rsquo;un&middot;e d&rsquo;autre, cochez une utilisation et iel r&eacute;cup&egrave;re <strong>4 PV</strong>.</p>"
-		},
-		{
-			"id": "Dungeon Rations",
-			"name": "Rations",
-			"description": "<p>Ni bonnes, ni mauvaises.</p>"
-		},
-		{
-			"id": "Dwarven Hardtack",
-			"name": "Pain de route nain",
-			"description": "<p>Les nain&middot;e&middot;s disent que &ccedil;a leur rappelle la maison. Celleux qui vivent dans une porcherie aussi.</p>"
-		},
-		{
-			"id": "Elven Bread",
-			"name": "Pain elfe",
-			"description": "<p>Seuls les plus fid&egrave;les ami&middot;e&middot;s des elfes sont r&eacute;compens&eacute;&middot;e&middot;s d&rsquo;une telle merveille.</p>"
-		},
-		{
-			"id": "Halfling Pipeleaf",
-			"name": "Herbe à pipe des halfelins",
-			"description": "<p>Quand vous partagez de l&rsquo;herbe avec une personne, cochez deux utilisations, et vous avez <strong>+1</strong> pour n&eacute;gocier avec elle.</p>"
-		},
-		{
-			"id": "Healing Potion",
-			"name": "Potion de soins",
-			"description": "<p>Quand vous buvez la potion enti&egrave;re, vous r&eacute;cup&eacute;rerez <strong>10 PV</strong> ou soignez un handicap au choix.</p>"
-		},
-		{
-			"id": "Keg of Dwarven Stout",
-			"name": "Tonnelet de bière naine",
-			"description": "<p>Quand vous mettez en perce un tonnelet de bi&egrave;re naine pour l&rsquo;assistance, ajoutez <strong>+1</strong> au jet de <em>ripailler</em>. Si vous buvez un tonnelet &agrave; vous seul&middot;e, vous &ecirc;tes fin saoul&middot;e.</p>"
-		},
-		{
-			"id": "Personal Feast",
-			"name": "Festin personnel",
-			"description": "<p>Un peu m&rsquo;as-tu-vu.</p>"
-		},
-		{
-			"id": "Poultices and Herbs",
-			"name": "Cataplasmes et herbes",
-			"description": "<p>Quand vous prenez soin des blessures de quelqu&rsquo;un&middot;e d&rsquo;autre avec des cataplasmes et des herbes, cochez une utilisation et iel r&eacute;cup&egrave;re <strong>7 PV</strong>.</p>"
-		}
-	]
+  "label": "Équipement (Matériel)",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Adventuring Gear",
+      "name": "Sac d’aventurier",
+      "description": "<p>Le matériel d’aventurier regroupe des objets pratiques courants comme de la craie, des perches, des pitons, des cordes, etc. Quand vous farfouillez dans votre sac d’aventurier à la recherche d’un objet ordinaire vous le trouvez et vous cochez une utilisation.</p>"
+    },
+    {
+      "id": "Anti-Toxin",
+      "name": "Antidote",
+      "description": "<p>Quand buvez l’antidote, vous êtes guéri·e d’un poison.</p>"
+    },
+    {
+      "id": "Bag of Books",
+      "name": "Sac de bouquins",
+      "description": "<p>Quand votre sac de bouquins contient celui qui vous permet d’<em>étaler votre science</em> sur un sujet, cochez une utilisation et gagnez <strong>+1</strong> à votre jet.</p>"
+    },
+    {
+      "id": "Bandages",
+      "name": "Bandages",
+      "description": "<p>Quand vous avez quelques minutes pour panser les plaies de quelqu’un·e d’autre, cochez une utilisation et iel récupère <strong>4 PV</strong>.</p>"
+    },
+    {
+      "id": "Dungeon Rations",
+      "name": "Rations",
+      "description": "<p>Ni bonnes, ni mauvaises.</p>"
+    },
+    {
+      "id": "Dwarven Hardtack",
+      "name": "Pain de route nain",
+      "description": "<p>Les nain·e·s disent que ça leur rappelle la maison. Celleux qui vivent dans une porcherie aussi.</p>"
+    },
+    {
+      "id": "Elven Bread",
+      "name": "Pain elfe",
+      "description": "<p>Seuls les plus fidèles ami·e·s des elfes sont récompensé·e·s d’une telle merveille.</p>"
+    },
+    {
+      "id": "Halfling Pipeleaf",
+      "name": "Herbe à pipe des halfelins",
+      "description": "<p>Quand vous partagez de l’herbe avec une personne, cochez deux utilisations, et vous avez <strong>+1</strong> pour négocier avec elle.</p>"
+    },
+    {
+      "id": "Healing Potion",
+      "name": "Potion de soins",
+      "description": "<p>Quand vous buvez la potion entière, vous récupérerez <strong>10 PV</strong> ou soignez un handicap au choix.</p>"
+    },
+    {
+      "id": "Keg of Dwarven Stout",
+      "name": "Tonnelet de bière naine",
+      "description": "<p>Quand vous mettez en perce un tonnelet de bière naine pour l’assistance, ajoutez <strong>+1</strong> au jet de <em>ripailler</em>. Si vous buvez un tonnelet à vous seul·e, vous êtes fin saoul·e.</p>"
+    },
+    {
+      "id": "Personal Feast",
+      "name": "Festin personnel",
+      "description": "<p>Un peu m’as-tu-vu.</p>"
+    },
+    {
+      "id": "Poultices and Herbs",
+      "name": "Cataplasmes et herbes",
+      "description": "<p>Quand vous prenez soin des blessures de quelqu’un·e d’autre avec des cataplasmes et des herbes, cochez une utilisation et iel récupère <strong>7 PV</strong>.</p>"
+    }
+  ]
 }

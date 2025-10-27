@@ -1,158 +1,158 @@
 {
-	"label": "Sorts du·de la Magicien·ne",
-	"mapping": {
-		"name": "name",
-		"description": "system.description"
-	},
-	"entries": [
-		{
-			"id": "Alarm",
-			"name": "Alarme",
-			"description": "<p>Lancez ce sort tout en marchant en un large cercle. Tant que vous ne pr&eacute;parez pas de nouveaux sorts, vous &ecirc;tes pr&eacute;venu&middot;e magiquement d&egrave;s qu&rsquo;une cr&eacute;ature franchit ce cercle. Le sort vous r&eacute;veille m&ecirc;me si vous &ecirc;tes endormi&middot;e profond&eacute;ment.</p>"
-		},
-		{
-			"id": "Alert",
-			"name": "Alerte (Divination)",
-			"description": "<p>D&eacute;crivez un &eacute;v&egrave;nement. Lae MJ vous avertira quand il survient, quels qu&rsquo;en soient le lieu et la distance. Si vous le souhaitez, vous pouvez m&ecirc;me voir l&rsquo;&eacute;v&egrave;nement comme si vous y &eacute;tiez. Vous ne pouvez avoir qu&rsquo;une alerte active &agrave; la fois.</p>"
-		},
-		{
-			"id": "Antipathy",
-			"name": "Antipathie (Enchantement, Continu)",
-			"description": "<p>D&eacute;signez une cible et d&eacute;crivez un type de cr&eacute;ature ou un alignement. Les cr&eacute;atures de ce type ou de cet alignement ne peuvent s&rsquo;approcher de la cible. Si une cr&eacute;ature de ce type se trouve dans le champ de vision de la cible, elle fuira imm&eacute;diatement. Le sort se poursuit tant que vous restez en pr&eacute;sence de la cible et que vous ne l&rsquo;interrompez pas. Tant que vous maintenez ce sort, vous avez -1 pour lancer un autre sort.</p>"
-		},
-		{
-			"id": "Cage",
-			"name": "Cage (Évocation, Continu)",
-			"description": "<p>La cible est retenue dans une cage de force magique. Rien ne peut entrer ou sortir de la cage. La cage demeure jusqu&rsquo;&agrave; ce que vous lanciez un autre sort ou que vous la r&eacute;voquiez. Tant que ce sort est actif, la cr&eacute;ature emprisonn&eacute;e peut lire vos pens&eacute;es et vous ne pouvez pas quitter la cage des yeux.</p>"
-		},
-		{
-			"id": "Charm Person",
-			"name": "Charme personne (Enchantement)",
-			"description": "<p>La personne (ni animal, ni monstre) que vous touchez pendant l&rsquo;ex&eacute;cution du sort vous consid&egrave;re comme un&middot;e ami&middot;e jusqu&rsquo;&agrave; ce qu&rsquo;elle subisse des d&eacute;g&acirc;ts ou que vous lui prouviez le contraire.</p>"
-		},
-		{
-			"id": "Cloudkill",
-			"name": "Nuage mortel (Invocation, Continu)",
-			"description": "<p>Un brouillard s&rsquo;&eacute;chappe du Sombre Portail du Royaume des Morts, envahissant une zone proche. Lorsqu&rsquo;une cr&eacute;ature prend des d&eacute;g&acirc;ts dans cette zone, elle subit <strong>1d6</strong> d&eacute;g&acirc;ts suppl&eacute;mentaires qui ignorent l&rsquo;armure. Le sort dure tant que vous pouvez voir la zone affect&eacute;e et que vous ne le r&eacute;voquez pas.</p>"
-		},
-		{
-			"id": "Contact Other Plane",
-			"name": "Contacter un autre plan (Divination)",
-			"description": "<p>Vous envoyez une requ&ecirc;te vers un autre plan. Pr&eacute;cisez qui ou ce que vous voulez contacter en indiquant sa situation, le type de cr&eacute;ature, nom ou titre. Vous cr&eacute;ez une communication avec cette cr&eacute;ature que vous ou la cr&eacute;ature pouvez interrompre &agrave; tout moment.</p>"
-		},
-		{
-			"id": "Contact Spirits",
-			"name": "Contacter les esprits (Invocation)",
-			"description": "<p>Nommez l&rsquo;esprit que vous voulez contacter (ou laissez le choix au&middot;&agrave; lae MJ). Vous amenez cette cr&eacute;ature &agrave; travers les plans suffisamment pr&egrave;s pour qu&rsquo;elle puisse vous parler. Elle doit r&eacute;pondre &agrave; une question du mieux qu&rsquo;elle peut.</p>"
-		},
-		{
-			"id": "Contingency",
-			"name": "Prévoyance (Évocation)",
-			"description": "<p>Choisissez un de vos sorts de niveau 5 ou moins. D&eacute;crivez une condition de d&eacute;clenchement dont le nombre de mots ne d&eacute;passe pas votre niveau. Ce sort est conserv&eacute; en r&eacute;serve tant que vous ne le lancez pas ou que la condition n&rsquo;est pas remplie. Vous n&rsquo;avez pas &agrave; lancer de d&eacute;s, le sort se d&eacute;clenche, c&rsquo;est tout. Vous ne pouvez avoir qu&rsquo;un seul sort en r&eacute;serve &agrave; la fois. Si vous relancez le sort de pr&eacute;voyance, le nouveau sort en r&eacute;serve remplace l&rsquo;ancien s&rsquo;il y en avait un d&eacute;j&agrave; en r&eacute;serve.</p>"
-		},
-		{
-			"id": "Detect Magic",
-			"name": "Détecter la magie (Divination)",
-			"description": "<p>Un de vos sens s&rsquo;accorde bri&egrave;vement &agrave; la magie. Lae MJ vous dira ce qui est magique ici.</p>"
-		},
-		{
-			"id": "Dispel Magic",
-			"name": "Dissiper la magie",
-			"description": "<p>Choisissez un sort ou un effet magique en votre pr&eacute;sence : votre sort le disperse. Les sorts faibles sont annul&eacute;s, la magie puissante est juste r&eacute;duite ou &eacute;touff&eacute;e tant que vous restez &agrave; proximit&eacute;.</p>"
-		},
-		{
-			"id": "Dominate",
-			"name": "Domination (Enchantement, Continu)",
-			"description": "<p>Lorsque vous touchez quelqu&rsquo;un&middot;e, vous projetez votre esprit dans le sien. Retenez <strong>1d4</strong>. D&eacute;pensez 1 pour que votre cible accomplisse l&rsquo;une de ces actions :</p><ul><li>Dire quelques mots de votre choix,</li><li>Vous donner ce qu&rsquo;elle porte,</li><li>Attaquer une cible de votre choix,</li><li>R&eacute;pondre sinc&egrave;rement &agrave; une question.</li></ul><p>Le sort cesse lorsque vous venez &agrave; bout de vos points retenus. Si la cible prend des d&eacute;g&acirc;ts, perdez un point de retenue. Tant que ce sort est continu, vous ne pouvez pas lancer d&rsquo;autre sort.</p>"
-		},
-		{
-			"id": "Fireball",
-			"name": "Boule de feu (Évocation)",
-			"description": "<p>Vous &eacute;voquez une &eacute;norme boule de flammes qui enveloppe votre cible et tous ceux autour, ignore l&rsquo;armure et inflige <strong>2d6</strong> d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Invisibility",
-			"name": "Invisibilité (Illusion, Continu)",
-			"description": "<p>Touchez un&middot;e alli&eacute;&middot;e : personne ne peut le voir. Iel est invisible ! Le sort persiste tant que la cible n&rsquo;attaque pas ou que vous ne le dissipez pas. Tant que ce sort est actif, vous ne pouvez pas lancer d&rsquo;autre sort.</p>"
-		},
-		{
-			"id": "Light",
-			"name": "Lumière",
-			"description": "<p>Un objet que vous touchez brille d&rsquo;une lumi&egrave;re arcanique, &agrave; peu pr&egrave;s aussi brillante qu&rsquo;une torche. Cette lumi&egrave;re ne d&eacute;gage ni chaleur ni bruit et ne consomme aucun combustible mais a l&rsquo;allure d&rsquo;une torche ordinaire. Vous d&eacute;cidez librement de la couleur de cette lumi&egrave;re. Ce sort dure tant que vous &ecirc;tes en pr&eacute;sence de l&rsquo;objet.</p>"
-		},
-		{
-			"id": "Magic Missile",
-			"name": "Projectile magique (Évocation)",
-			"description": "<p>Des projectiles de pure magie jaillissent de vos doigts. Infligez <strong>2d4</strong> d&eacute;g&acirc;ts &agrave; une cible.</p>"
-		},
-		{
-			"id": "Mimic",
-			"name": "Imiter (Continu)",
-			"description": "<p>Vous prenez la forme de quelqu&rsquo;un&middot;e que vous touchez en lan&ccedil;ant le sort. Vos caract&eacute;ristiques physiques sont identiques mais peut-&ecirc;tre pas votre comportement. Le sort dure jusqu&rsquo;&agrave; ce que vous subissiez des d&eacute;g&acirc;ts ou que vous repreniez votre forme. Pendant que ce sort est actif, vous ne pouvez plus entreprendre une action de Magicien.</p>"
-		},
-		{
-			"id": "Mirror Image",
-			"name": "Image miroir (Illusion)"
-		},
-		{
-			"id": "Perfect Summons",
-			"name": "Invocation parfaite (Invocation)",
-			"description": "<p>Vous t&eacute;l&eacute;portez une cr&eacute;ature jusqu&rsquo;&agrave; vous. Nommez une cr&eacute;ature ou donnez-en une br&egrave;ve description. Si vous avez nomm&eacute; la cr&eacute;ature, celle-ci appara&icirc;t devant vous. Si vous avez d&eacute;crit un type de cr&eacute;ature, une cr&eacute;ature de ce type appara&icirc;t devant vous.</p>"
-		},
-		{
-			"id": "Polymorph",
-			"name": "Polymorphie (Enchantement)",
-			"description": "<p>Votre toucher transforme enti&egrave;rement le corps d&rsquo;une cr&eacute;ature qui restera sous cette forme tant que vous ne lancez pas de nouveau sort. D&eacute;crivez la nouvelle forme que vous cr&eacute;ez, les changements de caract&eacute;ristiques, ses modifications significatives ou ses faiblesses majeures. Lae MJ choisira ensuite une ou plusieurs de ces options :</p><ul><li>La forme est instable et temporaire.</li><li>L&rsquo;esprit de la cr&eacute;ature est &eacute;galement alt&eacute;r&eacute;.</li><li>La forme a un avantage ou un point faible impr&eacute;vu.</li></ul>"
-		},
-		{
-			"id": "Prestidigitation",
-			"name": "Prestidigitation",
-			"description": "<p>Vous faites un petit tour de vraie magie. Si vous touchez un objet pendant l&rsquo;ex&eacute;cution du sort, vous pouvez le changer superficiellement : le nettoyer, le salir, le refroidir, le r&eacute;chauffer, le parfumer ou changer sa couleur. Au lieu de cela, si vous lancez ce sort sans toucher d&rsquo;objet, vous pouvez cr&eacute;er une illusion mineure, pas plus grande que vous-m&ecirc;me.</p><p>Les illusions ainsi cr&eacute;&eacute;es sont grossi&egrave;res et manifestement illusoires. Elles ne tromperont personne mais pourront en amuser certains.</p>"
-		},
-		{
-			"id": "Shadow Walk",
-			"name": "Marche de l’ombre (Illusion)",
-			"description": "<p>L&rsquo;ombre que vous d&eacute;signez devient un portail pour vous et vos ami&middot;e&middot;s. Nommez un lieu en le d&eacute;crivant avec un nombre de mots &eacute;gal &agrave; votre niveau. Franchissez ce portail pour &ecirc;tre transport&eacute;&middot;e, avec les alli&eacute;&middot;e&middot;s pr&eacute;sent&middot;e&middot;s au moment o&ugrave; vous lancez le sort, vers le lieu que vous avez d&eacute;crit. Le portail ne peut &ecirc;tre utilis&eacute; qu&rsquo;une fois par chaque alli&eacute;&middot;e.</p>"
-		},
-		{
-			"id": "Shelter",
-			"name": "Abri (Évocation, Continu)",
-			"description": "<p>Vous cr&eacute;ez une structure faite de pure magie qui peut &ecirc;tre aussi grande qu&rsquo;un ch&acirc;teau ou aussi petite qu&rsquo;une hutte. Elle est insensible &agrave; tout d&eacute;g&acirc;t non-magique. La structure persiste jusqu&rsquo;&agrave; ce que vous la quittiez ou que vous arr&ecirc;tiez le sort.</p>"
-		},
-		{
-			"id": "Sleep",
-			"name": "Sommeil (Enchantement)",
-			"description": "<p><strong>1d4</strong> ennemi&middot;e&middot;s parmi celleux que vous voyez s&rsquo;endorment (au choix du&middot;de lae MJ). Seules les cr&eacute;atures capables de sommeil sont affect&eacute;es. Iels se r&eacute;veillent normalement en cas de bruit fort, de secousses ou de douleur.</p>"
-		},
-		{
-			"id": "Soul Gem",
-			"name": "Gemme d’âme",
-			"description": "<p>Vous emprisonnez l&rsquo;&acirc;me d&rsquo;une cr&eacute;ature mourante dans une gemme. La victime est consciente de sa d&eacute;tention mais vous pouvez n&eacute;gocier ou utiliser des sorts ou d&rsquo;autres effets pour la manipuler. Toutes les actions &agrave; l&rsquo;encontre de la cr&eacute;ature pi&eacute;g&eacute;e se font &agrave; <strong>+1</strong>. Vous pouvez lib&eacute;rer l&rsquo;&acirc;me &agrave; tout moment mais une fois lib&eacute;r&eacute;e, elle ne peut plus &ecirc;tre captur&eacute;e de nouveau.</p>"
-		},
-		{
-			"id": "Summon Monster",
-			"name": "Invoquer un monstre (Invocation, Continu)",
-			"description": "<p>Un monstre appara&icirc;t et vous aide du mieux qu&rsquo;il peut. Jouez ce monstre comme si c&rsquo;&eacute;tait votre personnage, mais il n&rsquo;a acc&egrave;s qu&rsquo;aux actions de base. Toutes ses caract&eacute;ristiques ont un ajustement de +1, il a 1PV et inflige votre d&eacute; de d&eacute;g&acirc;ts. Vous avez &eacute;galement le choix d&rsquo;<strong>1d6</strong> attributs ci-dessous :</p><ul><li>Il a un ajustement de +2 au lieu de +1 &agrave; une de ses caract&eacute;ristiques.</li><li>Il n&rsquo;est pas t&eacute;m&eacute;raire.</li><li>Il inflige 1d8 d&eacute;g&acirc;ts.</li><li>Ses liens avec votre plan sont forts : +2PV pour chacun de vos niveaux.</li><li>Il a une capacit&eacute; utile.</li></ul><p>Lae MJ vous dira quel monstre correspond aux traits que vous avez choisis. Cette cr&eacute;ature reste sur ce plan jusqu&rsquo;&agrave; ce qu&rsquo;elle meure ou que vous la r&eacute;voquiez. Tant que vous maintenez ce sort, vous avez -1 pour lancer un autre sort.</p>"
-		},
-		{
-			"id": "Telepathy",
-			"name": "Télépathie (Divination, Continu)",
-			"description": "<p>Vous formez un lien t&eacute;l&eacute;pathique vous permettant de discuter par la pens&eacute;e avec une personne que vous touchez. Vous ne pouvez avoir qu&rsquo;un seul lien t&eacute;l&eacute;pathique &agrave; la fois.</p>"
-		},
-		{
-			"id": "True Seeing",
-			"name": "Vraie vision (Divination, Continu)",
-			"description": "<p>Vous voyez les choses telles qu&rsquo;elles sont vraiment. Le sort s&rsquo;interrompt si vous mentez ou si vous le d&eacute;cidez. Tant que vous maintenez ce sort, vous avez -1 pour lancer un autre sort.</p>"
-		},
-		{
-			"id": "Unseen Servant",
-			"name": "Serviteur invisible (Continu)",
-			"description": "<p>Vous invoquez un automate invisible qui ne peut que porter vos affaires. Il porte tout ce que vous lui donnez dans la limite de 3 poids. Il ne peut ramasser tout seul des objets et ne peut porter que ceux que vous lui confiez. Les objets port&eacute;s par un servant invisible semblent flotter dans les airs quelques pas derri&egrave;re vous. Un servant invisible qui prend des d&eacute;g&acirc;ts ou quitte votre pr&eacute;sence est imm&eacute;diatement r&eacute;voqu&eacute;.</p>"
-		},
-		{
-			"id": "Visions Through Time",
-			"name": "Clairvoyance (Divination)",
-			"description": "<p>Lancez ce sort et fixez une surface r&eacute;fl&eacute;chissante pour voir dans les profondeurs du temps. Lae MJ vous r&eacute;v&egrave;lera les d&eacute;tails d&rsquo;un sombre pr&eacute;sage - un &eacute;v&egrave;nement sinistre qui se r&eacute;alisera si vous n&rsquo;intervenez pas. La vision vous r&eacute;v&egrave;lera quelque chose d&rsquo;utile pour vous mettre en travers de cette triste perspective. Rare est le pr&eacute;sage o&ugrave; &laquo; Vous vivrez heureux et aurez beaucoup d&rsquo;enfants &raquo;. D&eacute;sol&eacute;.</p>"
-		}
-	]
+  "label": "Sorts du·de la Magicien·ne",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Alarm",
+      "name": "Alarme",
+      "description": "<p>Lancez ce sort tout en marchant en un large cercle. Tant que vous ne préparez pas de nouveaux sorts, vous êtes prévenu·e magiquement dès qu’une créature franchit ce cercle. Le sort vous réveille même si vous êtes endormi·e profondément.</p>"
+    },
+    {
+      "id": "Alert",
+      "name": "Alerte (Divination)",
+      "description": "<p>Décrivez un évènement. Lae MJ vous avertira quand il survient, quels qu’en soient le lieu et la distance. Si vous le souhaitez, vous pouvez même voir l’évènement comme si vous y étiez. Vous ne pouvez avoir qu’une alerte active à la fois.</p>"
+    },
+    {
+      "id": "Antipathy",
+      "name": "Antipathie (Enchantement, Continu)",
+      "description": "<p>Désignez une cible et décrivez un type de créature ou un alignement. Les créatures de ce type ou de cet alignement ne peuvent s’approcher de la cible. Si une créature de ce type se trouve dans le champ de vision de la cible, elle fuira immédiatement. Le sort se poursuit tant que vous restez en présence de la cible et que vous ne l’interrompez pas. Tant que vous maintenez ce sort, vous avez -1 pour lancer un autre sort.</p>"
+    },
+    {
+      "id": "Cage",
+      "name": "Cage (Évocation, Continu)",
+      "description": "<p>La cible est retenue dans une cage de force magique. Rien ne peut entrer ou sortir de la cage. La cage demeure jusqu’à ce que vous lanciez un autre sort ou que vous la révoquiez. Tant que ce sort est actif, la créature emprisonnée peut lire vos pensées et vous ne pouvez pas quitter la cage des yeux.</p>"
+    },
+    {
+      "id": "Charm Person",
+      "name": "Charme personne (Enchantement)",
+      "description": "<p>La personne (ni animal, ni monstre) que vous touchez pendant l’exécution du sort vous considère comme un·e ami·e jusqu’à ce qu’elle subisse des dégâts ou que vous lui prouviez le contraire.</p>"
+    },
+    {
+      "id": "Cloudkill",
+      "name": "Nuage mortel (Invocation, Continu)",
+      "description": "<p>Un brouillard s’échappe du Sombre Portail du Royaume des Morts, envahissant une zone proche. Lorsqu’une créature prend des dégâts dans cette zone, elle subit <strong>1d6</strong> dégâts supplémentaires qui ignorent l’armure. Le sort dure tant que vous pouvez voir la zone affectée et que vous ne le révoquez pas.</p>"
+    },
+    {
+      "id": "Contact Other Plane",
+      "name": "Contacter un autre plan (Divination)",
+      "description": "<p>Vous envoyez une requête vers un autre plan. Précisez qui ou ce que vous voulez contacter en indiquant sa situation, le type de créature, nom ou titre. Vous créez une communication avec cette créature que vous ou la créature pouvez interrompre à tout moment.</p>"
+    },
+    {
+      "id": "Contact Spirits",
+      "name": "Contacter les esprits (Invocation)",
+      "description": "<p>Nommez l’esprit que vous voulez contacter (ou laissez le choix au·à lae MJ). Vous amenez cette créature à travers les plans suffisamment près pour qu’elle puisse vous parler. Elle doit répondre à une question du mieux qu’elle peut.</p>"
+    },
+    {
+      "id": "Contingency",
+      "name": "Prévoyance (Évocation)",
+      "description": "<p>Choisissez un de vos sorts de niveau 5 ou moins. Décrivez une condition de déclenchement dont le nombre de mots ne dépasse pas votre niveau. Ce sort est conservé en réserve tant que vous ne le lancez pas ou que la condition n’est pas remplie. Vous n’avez pas à lancer de dés, le sort se déclenche, c’est tout. Vous ne pouvez avoir qu’un seul sort en réserve à la fois. Si vous relancez le sort de prévoyance, le nouveau sort en réserve remplace l’ancien s’il y en avait un déjà en réserve.</p>"
+    },
+    {
+      "id": "Detect Magic",
+      "name": "Détecter la magie (Divination)",
+      "description": "<p>Un de vos sens s’accorde brièvement à la magie. Lae MJ vous dira ce qui est magique ici.</p>"
+    },
+    {
+      "id": "Dispel Magic",
+      "name": "Dissiper la magie",
+      "description": "<p>Choisissez un sort ou un effet magique en votre présence : votre sort le disperse. Les sorts faibles sont annulés, la magie puissante est juste réduite ou étouffée tant que vous restez à proximité.</p>"
+    },
+    {
+      "id": "Dominate",
+      "name": "Domination (Enchantement, Continu)",
+      "description": "<p>Lorsque vous touchez quelqu’un·e, vous projetez votre esprit dans le sien. Retenez <strong>1d4</strong>. Dépensez 1 pour que votre cible accomplisse l’une de ces actions :</p><ul><li>Dire quelques mots de votre choix,</li><li>Vous donner ce qu’elle porte,</li><li>Attaquer une cible de votre choix,</li><li>Répondre sincèrement à une question.</li></ul><p>Le sort cesse lorsque vous venez à bout de vos points retenus. Si la cible prend des dégâts, perdez un point de retenue. Tant que ce sort est continu, vous ne pouvez pas lancer d’autre sort.</p>"
+    },
+    {
+      "id": "Fireball",
+      "name": "Boule de feu (Évocation)",
+      "description": "<p>Vous évoquez une énorme boule de flammes qui enveloppe votre cible et tous ceux autour, ignore l’armure et inflige <strong>2d6</strong> dégâts.</p>"
+    },
+    {
+      "id": "Invisibility",
+      "name": "Invisibilité (Illusion, Continu)",
+      "description": "<p>Touchez un·e allié·e : personne ne peut le voir. Iel est invisible ! Le sort persiste tant que la cible n’attaque pas ou que vous ne le dissipez pas. Tant que ce sort est actif, vous ne pouvez pas lancer d’autre sort.</p>"
+    },
+    {
+      "id": "Light",
+      "name": "Lumière",
+      "description": "<p>Un objet que vous touchez brille d’une lumière arcanique, à peu près aussi brillante qu’une torche. Cette lumière ne dégage ni chaleur ni bruit et ne consomme aucun combustible mais a l’allure d’une torche ordinaire. Vous décidez librement de la couleur de cette lumière. Ce sort dure tant que vous êtes en présence de l’objet.</p>"
+    },
+    {
+      "id": "Magic Missile",
+      "name": "Projectile magique (Évocation)",
+      "description": "<p>Des projectiles de pure magie jaillissent de vos doigts. Infligez <strong>2d4</strong> dégâts à une cible.</p>"
+    },
+    {
+      "id": "Mimic",
+      "name": "Imiter (Continu)",
+      "description": "<p>Vous prenez la forme de quelqu’un·e que vous touchez en lançant le sort. Vos caractéristiques physiques sont identiques mais peut-être pas votre comportement. Le sort dure jusqu’à ce que vous subissiez des dégâts ou que vous repreniez votre forme. Pendant que ce sort est actif, vous ne pouvez plus entreprendre une action de Magicien.</p>"
+    },
+    {
+      "id": "Mirror Image",
+      "name": "Image miroir (Illusion)"
+    },
+    {
+      "id": "Perfect Summons",
+      "name": "Invocation parfaite (Invocation)",
+      "description": "<p>Vous téléportez une créature jusqu’à vous. Nommez une créature ou donnez-en une brève description. Si vous avez nommé la créature, celle-ci apparaît devant vous. Si vous avez décrit un type de créature, une créature de ce type apparaît devant vous.</p>"
+    },
+    {
+      "id": "Polymorph",
+      "name": "Polymorphie (Enchantement)",
+      "description": "<p>Votre toucher transforme entièrement le corps d’une créature qui restera sous cette forme tant que vous ne lancez pas de nouveau sort. Décrivez la nouvelle forme que vous créez, les changements de caractéristiques, ses modifications significatives ou ses faiblesses majeures. Lae MJ choisira ensuite une ou plusieurs de ces options :</p><ul><li>La forme est instable et temporaire.</li><li>L’esprit de la créature est également altéré.</li><li>La forme a un avantage ou un point faible imprévu.</li></ul>"
+    },
+    {
+      "id": "Prestidigitation",
+      "name": "Prestidigitation",
+      "description": "<p>Vous faites un petit tour de vraie magie. Si vous touchez un objet pendant l’exécution du sort, vous pouvez le changer superficiellement : le nettoyer, le salir, le refroidir, le réchauffer, le parfumer ou changer sa couleur. Au lieu de cela, si vous lancez ce sort sans toucher d’objet, vous pouvez créer une illusion mineure, pas plus grande que vous-même.</p><p>Les illusions ainsi créées sont grossières et manifestement illusoires. Elles ne tromperont personne mais pourront en amuser certains.</p>"
+    },
+    {
+      "id": "Shadow Walk",
+      "name": "Marche de l’ombre (Illusion)",
+      "description": "<p>L’ombre que vous désignez devient un portail pour vous et vos ami·e·s. Nommez un lieu en le décrivant avec un nombre de mots égal à votre niveau. Franchissez ce portail pour être transporté·e, avec les allié·e·s présent·e·s au moment où vous lancez le sort, vers le lieu que vous avez décrit. Le portail ne peut être utilisé qu’une fois par chaque allié·e.</p>"
+    },
+    {
+      "id": "Shelter",
+      "name": "Abri (Évocation, Continu)",
+      "description": "<p>Vous créez une structure faite de pure magie qui peut être aussi grande qu’un château ou aussi petite qu’une hutte. Elle est insensible à tout dégât non-magique. La structure persiste jusqu’à ce que vous la quittiez ou que vous arrêtiez le sort.</p>"
+    },
+    {
+      "id": "Sleep",
+      "name": "Sommeil (Enchantement)",
+      "description": "<p><strong>1d4</strong> ennemi·e·s parmi celleux que vous voyez s’endorment (au choix du·de lae MJ). Seules les créatures capables de sommeil sont affectées. Iels se réveillent normalement en cas de bruit fort, de secousses ou de douleur.</p>"
+    },
+    {
+      "id": "Soul Gem",
+      "name": "Gemme d’âme",
+      "description": "<p>Vous emprisonnez l’âme d’une créature mourante dans une gemme. La victime est consciente de sa détention mais vous pouvez négocier ou utiliser des sorts ou d’autres effets pour la manipuler. Toutes les actions à l’encontre de la créature piégée se font à <strong>+1</strong>. Vous pouvez libérer l’âme à tout moment mais une fois libérée, elle ne peut plus être capturée de nouveau.</p>"
+    },
+    {
+      "id": "Summon Monster",
+      "name": "Invoquer un monstre (Invocation, Continu)",
+      "description": "<p>Un monstre apparaît et vous aide du mieux qu’il peut. Jouez ce monstre comme si c’était votre personnage, mais il n’a accès qu’aux actions de base. Toutes ses caractéristiques ont un ajustement de +1, il a 1PV et inflige votre dé de dégâts. Vous avez également le choix d’<strong>1d6</strong> attributs ci-dessous :</p><ul><li>Il a un ajustement de +2 au lieu de +1 à une de ses caractéristiques.</li><li>Il n’est pas téméraire.</li><li>Il inflige 1d8 dégâts.</li><li>Ses liens avec votre plan sont forts : +2PV pour chacun de vos niveaux.</li><li>Il a une capacité utile.</li></ul><p>Lae MJ vous dira quel monstre correspond aux traits que vous avez choisis. Cette créature reste sur ce plan jusqu’à ce qu’elle meure ou que vous la révoquiez. Tant que vous maintenez ce sort, vous avez -1 pour lancer un autre sort.</p>"
+    },
+    {
+      "id": "Telepathy",
+      "name": "Télépathie (Divination, Continu)",
+      "description": "<p>Vous formez un lien télépathique vous permettant de discuter par la pensée avec une personne que vous touchez. Vous ne pouvez avoir qu’un seul lien télépathique à la fois.</p>"
+    },
+    {
+      "id": "True Seeing",
+      "name": "Vraie vision (Divination, Continu)",
+      "description": "<p>Vous voyez les choses telles qu’elles sont vraiment. Le sort s’interrompt si vous mentez ou si vous le décidez. Tant que vous maintenez ce sort, vous avez -1 pour lancer un autre sort.</p>"
+    },
+    {
+      "id": "Unseen Servant",
+      "name": "Serviteur invisible (Continu)",
+      "description": "<p>Vous invoquez un automate invisible qui ne peut que porter vos affaires. Il porte tout ce que vous lui donnez dans la limite de 3 poids. Il ne peut ramasser tout seul des objets et ne peut porter que ceux que vous lui confiez. Les objets portés par un servant invisible semblent flotter dans les airs quelques pas derrière vous. Un servant invisible qui prend des dégâts ou quitte votre présence est immédiatement révoqué.</p>"
+    },
+    {
+      "id": "Visions Through Time",
+      "name": "Clairvoyance (Divination)",
+      "description": "<p>Lancez ce sort et fixez une surface réfléchissante pour voir dans les profondeurs du temps. Lae MJ vous révèlera les détails d’un sombre présage - un évènement sinistre qui se réalisera si vous n’intervenez pas. La vision vous révèlera quelque chose d’utile pour vous mettre en travers de cette triste perspective. Rare est le présage où « Vous vivrez heureux et aurez beaucoup d’enfants ». Désolé.</p>"
+    }
+  ]
 }

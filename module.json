@@ -2,17 +2,17 @@
   "id": "dungeonworld-fr",
   "title": "Dungeon World Complete French Translation",
   "description": "Full VF translation module for Asacolips' system Dungeon World",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "license": "LICENSE",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12.331",
-    "maximum": "13"
+    "minimum": "13",
+    "verified": "13.350",
+    "maximum": "14"
   },
   "authors": [
     {
       "name": "YanK",
-      "url": "yank-solutions.fr",
+      "url": "yanklinnomme.fr",
       "email": "yanklinnomme@gmail.com",
       "discord": "yanklinnomme"
     },

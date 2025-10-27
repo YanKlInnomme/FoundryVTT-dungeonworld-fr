@@ -1,0 +1,155 @@
+{
+  "label": "E8 - Forces Planaires",
+  "mapping": {
+    "imagePath": "img",
+    "tokenPath": "prototypeToken.texture.src",
+    "name": "name",
+    "damageModifier": "system.attributes.damage.piercing",
+    "tags": "system.tags",
+    "specialQualities": "system.attributes.specialQualities.value",
+    "description": "system.details.biography"
+  },
+  "folders": {},
+  "entries": {
+    "Concept Elemental": {
+      "name": "Élémentaire Conceptuel",
+      "tokenName": "Élémentaire Conceptuel",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/concept-elemental.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/concept-elemental%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Fourbe\"},{\"value\":\"Planaire\"},{\"value\":\"Informe\"}]",
+      "specialQualities": "Forme idéale",
+      "description": "<p>Les plans d’existence ne sont pas tous aussi concrets que notre monde. Dans le chaos élémentaire, il existe des lieux avec des concepts bien plus étranges que l’air ou l’eau. Là-bas, on peut trouver des rivières de temps qui érodent des rivages de peur cristallisée. De mornes tempêtes de cauchemars dans des cieux de rires lumineux. Parfois, ces esprits peuvent être attirés dans notre monde. Dans tous les cas, ils sont infiniment plus étranges et imprévisibles que le simple feu ou la terre. Il est également plus facile de se tromper. On pourrait essayer d’invoquer un élémentaire de fortune et être surpris de voir apparaître un élémentaire de meurtre.</p>\n<p>Penchant : Perfectionner son concept</p>\n<ul>\n<li>Faire une démonstration de son concept dans sa forme la plus pure</li>\n</ul>"
+    },
+    "Imp": {
+      "name": "Diablotin",
+      "tokenName": "Diablotin",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/imp.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/imp%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Planaire\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Courte\"},{\"value\":\"Longue\"}]",
+      "specialQualities": " ",
+      "description": "<p>Ces petits démons servent souvent d’exercice d’invocation aux démonistes novices. Ils infestent aussi le repaire des cabales ésotériques, buvant des potions quand personne ne regarde, harcelant les animaux familiers ou les serviteurs avec de petites fourches. Ils sont une caricature de démons. Fort heureusement, ces petites créatures sont faciles à soumettre ou à détruire.</p>\n<p>Penchant : Harceler</p>\n<ul>\n<li>Envoyer des informations aux enfers</li>\n<li>Semer la zizanie</li>\n</ul>"
+    },
+    "Quasit": {
+      "name": "Quasit",
+      "tokenName": "Quasit",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/quasit.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/quasit%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Planaire\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Forme variable",
+      "description": "<p>Un quasit est une sorte de diablotin avec un peu d’ambition : un troupier des royaumes démoniaques, une racaille armée de crocs, de griffes, d’ailes, ou de toute autre chose qui lui donne un avantage sur ses pairs infernaux.</p>\n<p>Communément invoqués par les sorciers pour porter de lourdes charges, construire des ponts ou veiller sur leurs étranges tours, les quasits peuvent prendre de nombreuses formes, mais aucune n’est plaisante.</p>\n<p>Penchant : Servir son maître</p>\n<ul>\n<li>Attaquer à corps perdu</li>\n<li>Faire souffrir</li>\n</ul>"
+    },
+    "Chain Devil": {
+      "name": "Diable à Chaînes",
+      "tokenName": "Diable à Chaînes",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/chain-devil.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/chain-devil%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Planaire\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": " ",
+      "description": "<p>Vous pensez que l’expression « traînez-le jusqu’en enfer » ne veut rien dire ? Malheureusement, dans le cas du diable à chaînes, c’est à prendre au sens littéral. Apparaissant sous une forme différente pour chaque victime, cette créature invoquée n’a qu’un seul but : ligoter sa victime et l’emmener dans un lieu de tourment. Parfois, il apparaît sous la forme d’une masse de fer rouillé à forme humaine, entortillé dans des chaînes de toutes sortes auxquelles pendent des crochets. D’autres fois, il s’agit d’un enchevêtrement de cordes, de varech ou de draps sanglants. Dans tous les cas, le résultat est le même.</p>\n<p>Penchant : Capturer</p>\n<ul>\n<li>Capturer quelqu’un</li>\n<li>Retourner d’où il est venu</li>\n<li>Torturer avec joie</li>\n</ul>"
+    },
+    "Djinn": {
+      "name": "Djinn",
+      "tokenName": "Djinn",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/djinn.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/djinn%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Grand\"},{\"value\":\"Magique\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Fait de flammes",
+      "description": "<p>« Arrête de frotter cette lampe, abruti. Je me fiche de ce que tu as pu lire dans les livres, ça ne réalisera pas tes vœux. Je t’ai emmené ici pour te montrer quelque chose de réel, quelque chose de véritable. Tu vois cette fresque ? Ça raconte l’histoire de l’ancienne cité. La vraie cité qui fut jadis. Elle s’appelait Majilis et fut construite entièrement en bronze par les esprits. Ses habitants avaient des serviteurs golems et des courtisanes. À cette époque, on racontait qu’il était possible d’échanger une année de vie contre une de leurs faveurs.</p>\n<p>Ce soir, nous ne sommes pas ici pour amasser des trésors, pauvre fou, nous sommes ici pour apprendre. Les djinns viennent encore ici parfois, et tu dois comprendre leur histoire si tu veux savoir comment te comporter devant l’un d’entre eux. Ils sont puissants, ils sont mauvais, ils sont fiers, et tu dois les connaître si tu veux avoir un espoir de survivre à une invocation. Maintenant, pose ta lampe ici, nous allons l’allumer, il commence à faire très sombre, et ces ruines sont dangereuses la nuit. »</p>\n<p>Penchant : Brûler pour l’éternité</p>\n<ul>\n<li>Accorder un pouvoir à un coût</li>\n<li>Invoquer les forces de la Cité de Bronze</li>\n</ul>"
+    },
+    "Word Demon": {
+      "name": "Démon du Mot",
+      "tokenName": "Démon du Mot",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/word-demon.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/word-demon%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Planaire\"},{\"value\":\"Magique\"}]",
+      "specialQualities": " ",
+      "description": "<p>Tout type de magie mortelle est fait de mots. Les sorts sont des prières, des formules récitées, des runes lancées ou des cantiques chantés. Des lettres, des mots, des phrases, tous reliés dans une syntaxe que le monde lui-même peut comprendre. Grâce aux mots, nous pouvons faire pleurer de chagrin ou de joie, dépeindre des scènes ou murmurer nos désirs aux dieux. Il n’est donc pas surprenant qu’un tel pouvoir attire l’attention, que chaque mot prononcé, s’il est répété et chargé d’émotion ou de sens, puisse atteindre des oreilles mal intentionnées. Les démons des mots sont invoqués par accident, font leur apparition aléatoirement et la plupart du temps pour une courte durée. Mais ils viennent pour donner vie à un mot en particulier. Capricieux, imprévisibles et dangereux, c’est certain, mais parfois utiles. Tout dépend du mot.</p>\n<p>Penchant : Faire valoir son mot</p>\n<ul>\n<li>Lancer un sort en rapport avec son mot</li>\n<li>Donner de l’ampleur à son mot</li>\n</ul>"
+    },
+    "Hell Hound": {
+      "name": "Molosse Infernal",
+      "tokenName": "Molosse Infernal",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/hell-hound.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/hell-hound%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Planaire\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Pelage d’ombre",
+      "description": "<p>Quand quelqu’un n’honore pas ses engagements, le créancier ne réclame-t-il pas son paiement ? N’envoie-t-il pas quelqu’un pour collecter son dû ? C’est également ainsi que fonctionnent les Puissances Infernales. Elles veulent seulement récupérer ce qui est leur. Une meute d’ombres hurlantes, de flammes et d’os dentelés, menées par le cor de chasse. Ils ne s’arrêtent jamais, on ne peut leur échapper.</p>\n<p>Penchant : Poursuivre sans relâche</p>\n<ul>\n<li>Poursuivre sa cible en dépit de tous les obstacles</li>\n<li>Cracher du feu</li>\n<li>Invoquer les forces des enfers sur ses cibles</li>\n</ul>"
+    },
+    "Barbed Devil": {
+      "name": "Diable Barbelé",
+      "tokenName": "Diable Barbelé",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/barbed-devil.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/barbed-devil%20-%20token.webp",
+      "damageModifier": "3 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Planaire\"},{\"value\":\"Terrifiant\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": "Épines",
+      "description": "<p>Il existe un millier de formes de diables, peut-être davantage. Certaines communes, d’autres uniques. À chaque fois que les Inquisiteurs découvrent une nouvelle forme, ils l’inscrivent dans le Codex des Tourmenteurs et ce savoir est partagé dans les abbayes dans l’espoir que des atrocités de cette forme particulière ne trouvent jamais leur chemin vers notre monde. Le diable barbelé est connu depuis longtemps par les frères et les sœurs de l’Inquisition. Il apparaît uniquement sur les lieux d’une terrible violence où lorsqu’il est invoqué par un mage apostat. Recouvert de longues épines, ce démon se délecte des effusions de sang, soit en empalant ses victimes peu à peu soit d’un seul coup mais en les laissant mourir lentement. Cruel mais assez inefficace en dehors de cela, il représente une menace de second plan pour l’Inquisition.</p>\n<p>Penchant : Déchirer la chair et faire couler le sang</p>\n<ul>\n<li>Empaler quelqu’un</li>\n<li>Tuer sans distinction</li>\n</ul>"
+    },
+    "Larvae": {
+      "name": "Larve",
+      "tokenName": "Larve",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/larvae.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/larvae%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Fourbe\"},{\"value\":\"Planaire\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Ceux qui ont eu un aperçu des plans infernaux et s’en sont tirés avec une santé mentale à peu près intacte parlent d’une masse grouillante de ces choses misérables. Des larves aux visages d’hommes et de femmes, implorant leur salut dans un étau de flammes. Parfois, ils peuvent être poussés, se tordant de souffrance, à passer dans notre monde par une faille de la membrane planaire.</p>\n<p>Une fois là et parvenus à leur stade adulte, ils répandent l’affliction et la maladie avant de mourir en une bouillie sanglante.</p>\n<p>Tout compte fait, c’est un excellent encouragement à accomplir de bonnes actions dans la vie.</p>\n<p>Penchant : Souffrir</p>\n<ul>\n<li>Désespérer autrui</li>\n<li>Implorer la clémence</li>\n<li>Attirer une attention malveillante</li>\n</ul>"
+    },
+    "Nightmare": {
+      "name": "Cauchemar",
+      "tokenName": "Cauchemar",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/nightmare.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/nightmare%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Grand\"},{\"value\":\"Magique\"},{\"value\":\"Terrifiant\"},{\"value\":\"Planaire\"}]",
+      "specialQualities": "Flammes et ténèbres",
+      "description": "<p>Un pacte, signé à une époque où les hommes peuplaient encore les Terres Foudroyées, serait à l’origine de cette harde. Les seigneurs des chevaux arpentaient ces plaines. On raconte qu’ils naissaient en selle. L’un d’entre eux, dans un désir de dominer les autres, signa un sombre contrat et céda ses plus belles montures à une puissance infernale. Il a obtenu le pouvoir, évidemment. Mais à quoi bon une dynastie millénaire lorsque la vie est si courte ? À présent, les démons des enfers chevauchent des coursiers fabuleux à la robe brillante, comme huilée, et à la crinière enflammée. Ce sont les montures de la cavalerie des enfers.</p>\n<p>Penchant : Servir de monture</p>\n<ul>\n<li>Porter un cavalier dans des flammes infernales</li>\n<li>Emporter quelqu’un</li>\n</ul>"
+    },
+    "The Tarrasque": {
+      "name": "La Tarasque",
+      "tokenName": "La Tarasque",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/the-tarrasque.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/the-tarrasque%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"},{\"value\":\"Planaire\"}]",
+      "specialQualities": "Invulnérable",
+      "description": "<p>La Tarasque. Le légendaire et invincible mastodonte, avaleur de cités, dévoreur de bateaux, chevaux et chevaliers. Une créature qu’on n’a pas vue depuis des millénaires mais sur laquelle on raconte toutes sortes d’histoires. Une seule vérité est commune à toutes ces histoires : on ne peut la tuer. Aucune épée ne peut percer sa carapace, aucun sort ne peut traverser la barrière qui semble la protéger. Les histoires racontent que seule une âme pure peut la plonger dans le sommeil, bien que seuls les dieux sachent où trouver une telle chose et ce que cela veut dire. Prions de ne jamais avoir à l’apprendre.</p>\n<p>Elle sommeille. Quelque part aux frontières de notre plan. Pour le moment.</p>\n<p>Penchant : Consumer</p>\n<ul>\n<li>Avaler quelqu’un, un groupe ou un lieu entier</li>\n<li>Recracher un bout de lieu englouti il y a des millénaires</li>\n</ul>"
+    },
+    "Corrupter": {
+      "name": "Corrupteur",
+      "tokenName": "Corrupteur",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/corrupter.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/corrupter%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Fourbe\"},{\"value\":\"Planaire\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>« Vous savez certainement pourquoi je suis ici, brave homme. Vous devez savoir qui je suis. Vous avez prononcé la formule, vous avez répandu le sang et suivi les instructions quasi à la lettre. Votre prononciation n’était pas parfaite, mais bon, c’était à prévoir. Je suis venu vous donner ce dont vous avez toujours rêvé, mon ami. La gloire, l’amour, l’argent ? Des broutilles s’il faut rôtir en enfer en contrepartie. Ne prenez pas cet air choqué, vous saviez bien de quoi il s’agissait. Vous avez quelque chose que nous désirons. Promettez-le nous et vous offrirons le monde. Faites-moi confiance. »</p>\n<p>Penchant : Marchander</p>\n<ul>\n<li>Proposer un pacte aux conséquences horribles</li>\n<li>Peupler les enfers à force de marchandages</li>\n<li>Faire une démonstration de puissance</li>\n</ul>"
+    },
+    "Inevitable": {
+      "name": "l’Inéluctable",
+      "tokenName": "l’Inéluctable",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/inevitable.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/inevitable%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Grand\"},{\"value\":\"Magique\"},{\"value\":\"Prudent\"},{\"value\":\"Informe\"},{\"value\":\"Planaire\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "L’Ordre incarné",
+      "description": "<p>Toute chose a une fin. La réalité saigne par la blessure du couteau de l’entropie. Sur le fil du temps lui-même réside l’Inéluctable. Massif, puissant et apparemment sculpté dans les étoiles elles-mêmes, l’Inéluctable intervient quand la magie ou une calamité ont défait l’écheveau de la destinée. Quand les puissants et les arrogants distillent l’essence du destin et tentent de sonder les fondements de la réalité, l’Inéluctable arrive pour ramener les choses dans le droit chemin. Immuable, apparemment insensible aux atteintes des mortels et absolument énigmatique, on raconte que l’Inéluctable est tout ce qui restera de l’univers quand le temps sera complètement écoulé.</p>\n<p>Penchant : Préserver l’Ordre des choses</p>\n<ul>\n<li>Dissiper un sort ou un effet</li>\n<li>Faire respecter une loi de la nature ou de l’homme</li>\n<li>Donner un aperçu de la destinée</li>\n</ul>"
+    },
+    "Angel": {
+      "name": "Ange",
+      "tokenName": "Ange",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e8/angel.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e8/angel%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Terrifiant\"},{\"value\":\"Divin\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Ailé",
+      "description": "<p>« Ainsi était-il écrit que les cieux s’adresseraient à Avra’hal. Un ange traversa les nuages pour lui parler. Il lui apparut sous les traits de sa fille aînée : belle, avec une peau d’ébène et des yeux dorés, et Avra’hal pleura à sa vue. « N’aie crainte », lui commanda l’ange. « Rends-toi au village que je t’ai montré dans tes rêves, et transmets à ses habitants le message que j’ai gravé dans ton âme. » Avra’hal pleura toutes les larmes de son corps puis accepta la tâche qui lui fut confiée. Elle emporta son épée, son grimoire et se rendit vers le village avec une soif de sang insatiable, car le message gravé dans l’âme d’Avra’hal était « Mort ». »</p>\n<p>Penchant : Transmettre la volonté divine</p>\n<ul>\n<li>Transmettre des visions prophétiques</li>\n<li>Inciter les mortels à agir</li>\n<li>Mettre à jour les péchés et les injustices</li>\n</ul>"
+    }
+  }
+}

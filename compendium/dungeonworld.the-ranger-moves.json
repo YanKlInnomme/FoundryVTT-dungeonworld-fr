@@ -1,143 +1,142 @@
 {
-	"label": "Actions de l'Éclaireur·euse",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "A Safe Place",
-			"name": "Un endroit sûr",
-			"description": "<p>Quand vous mettez en place des <em>tours de garde</em>, chacun&middot;e gagne <strong>+1</strong> durant sa veille.</p>"
-		},
-		{
-			"id": "A Safer Place",
-			"name": "Un endroit plus sûr",
-			"description": "<p><em>Remplace : Un endroit s&ucirc;r</em></p><p>Quand vous mettez en place des <em>tours de garde</em>, chacun&middot;e gagne <strong>+1</strong> durant sa veille. Apr&egrave;s une nuit de campement durant laquelle vous avez mis en place les <em>tours de garde</em>, chacun&middot;e obtient <strong>+1</strong> &agrave; sa prochaine action.</p>"
-		},
-		{
-			"id": "Animal Companion",
-			"name": "Animal familier",
-			"description": "<p>Vous avez un lien surnaturel avec un animal loyal. Vous ne pouvez pas lui parler v&eacute;ritablement mais il agit comme vous le souhaitez. Nommez votre animal familier et choisissez une esp&egrave;ce : loup, puma, ours, aigle, chien, faucon, chat,&nbsp;<br>chouette, pigeon, rat, mule.</p><p>Choisissez une base :</p><ul><li>F&eacute;rocit&eacute; +2, Ruse +1, Armure 1, Instinct +1</li><li>F&eacute;rocit&eacute; +2, Ruse +2, Armure 0, Instinct +1</li><li>F&eacute;rocit&eacute; +1, Ruse +2, Armure 1, Instinct +1</li><li>F&eacute;rocit&eacute; +3, Ruse +1, Armure 1, Instinct +2</li></ul><p>Choisissez autant de qualit&eacute;s que sa <em>f&eacute;rocit&eacute; </em>: rapide, costaud, gros, calme, polyvalent, r&eacute;flexes rapides, infatigable, camouflage, f&eacute;roce, intimidant, sens d&eacute;velopp&eacute;s, discret.</p><p>Votre animal familier est dress&eacute; &agrave; attaquer des humano&iuml;des. Choisissez autant de dressages suppl&eacute;mentaires que sa <em>ruse </em>: chasser, chercher, explorer, garder, combattre les monstres, jouer un spectacle, travailler, voyager.</p><p>Choisissez autant de faiblesses que son <em>instinct </em>: inconstant, sauvage, lent, soumis, effray&eacute;, &eacute;tourdi, born&eacute;, faible.</p>"
-		},
-		{
-			"id": "Blot Out The Sun",
-			"name": "Noircir le ciel",
-			"description": "<p>Quand vous tirez une <em>salve</em>, vous pouvez d&eacute;penser des munitions suppl&eacute;mentaires avant de jeter les d&eacute;s. Pour chaque point de munition ainsi d&eacute;pens&eacute; vous pouvez choisir une cible suppl&eacute;mentaire. Lancez une seule fois les d&eacute;s et infligez les d&eacute;g&acirc;ts &agrave; toutes les cibles.</p>"
-		},
-		{
-			"id": "Called Shot",
-			"name": "Tir précis",
-			"description": "<p>Quand vous attaquez &agrave; distance un&middot;e ennemi&middot;e surpris&middot;e ou sans d&eacute;fense, vous pouvez choisir d&rsquo;infliger vos d&eacute;g&acirc;ts ou de choisir votre cible et tirer <strong>2d6+DEX</strong>.</p>",
-			"failure": "<p>Vous n'atteignez pas la cible escompt&eacute;e.</p>",
-			"partial": "<p>Choisissez une localisation.</p>",
-			"success": "<p>Choisissez une localisation et infligez vos d&eacute;g&acirc;ts.</p>",
-			"choices": "<ul><li><em>T&ecirc;te </em>: l&rsquo;ennemi reste debout sans rien faire sauf baver quelques instants.</li><li><em>Bras </em>: l&rsquo;ennemi l&acirc;che tout ce qu&rsquo;il portait.</li><li><em>Jambes </em>: l&rsquo;ennemi est ralenti et boite.</li></ul>"
-		},
-		{
-			"id": "Camouflage",
-			"name": "Camouflage",
-			"description": "<p>Quand vous restez immobile dans un environnement naturel, les ennemis ne vous voient que si vous bougez.</p>"
-		},
-		{
-			"id": "Command",
-			"name": "Ordonner",
-			"description": "<p>Lorsque vous accomplissez une action pour laquelle votre <em>animal familier</em> est dress&eacute; et que :</p><ul><li>Vous <em>attaquez </em>la m&ecirc;me cible, ajoutez sa <strong>f&eacute;rocit&eacute; </strong>&agrave; vos d&eacute;g&acirc;ts.</li><li>Vous <em>pistez</em>, ajoutez sa <strong>ruse </strong>&agrave; votre jet.</li><li>Vous subissez des d&eacute;g&acirc;ts, ajoutez son armure &agrave; la v&ocirc;tre.</li><li>Vous <em>discernez la r&eacute;alit&eacute;</em>, ajoutez sa <strong>ruse </strong>&agrave; votre jet.</li><li>Vous <em>n&eacute;gociez</em>, ajoutez sa <strong>ruse </strong>&agrave; votre jet.</li><li>Quelqu&rsquo;un cherche &agrave; vous <em>g&ecirc;ner</em>, ajoutez son <strong>instinct </strong>&agrave; son jet.</li></ul>"
-		},
-		{
-			"id": "Familiar Prey",
-			"name": "Proie familière",
-			"description": "<p>Quand vous <em>&eacute;talez votre science</em> &agrave; propos d&rsquo;un monstre, utilisez <strong>SAG </strong>au lieu d&rsquo;<strong>INT</strong>.</p>"
-		},
-		{
-			"id": "Follow Me",
-			"name": "Suivez-moi",
-			"description": "<p>Lorsque vous entreprenez un <em>voyage p&eacute;rilleux</em>, vous pouvez choisir deux r&ocirc;les. Vous faites un jet de d&eacute;s s&eacute;par&eacute;s pour chacun d&rsquo;eux.</p>"
-		},
-		{
-			"id": "God Amidst The Wastes",
-			"name": "Prêcher dans le désert",
-			"description": "<p>Consacrez-vous &agrave; une divinit&eacute; (nommez-en une ou choisissez-en une d&eacute;j&agrave; &eacute;tablie). Vous gagnez la facult&eacute; de <em>communier </em>et de <em>lancer des sorts</em> comme un clerc. Quand vous choisissez cette action, consid&eacute;rez-vous comme un clerc de niveau 1 pour lancer un sort. Par la suite, chaque fois que vous gagnez un niveau, vous augmentez votre niveau de clerc de 1.</p>"
-		},
-		{
-			"id": "Half-elven",
-			"name": "Demi-elfe",
-			"description": "<p><strong>Vous ne pouvez prendre cette action que si c&rsquo;est votre premi&egrave;re action avanc&eacute;e.</strong></p><p>Votre ascendance est m&eacute;tiss&eacute;e et cela commence &agrave; se faire sentir. Vous gagnez l&rsquo;action de d&eacute;part de l&rsquo;elfe si vous aviez choisi humain &agrave; la cr&eacute;ation de votre personnage et vice-versa.</p>"
-		},
-		{
-			"id": "Hunt & Track",
-			"name": "Chasser et pister",
-			"description": "<p>Quand vous suivez une piste d&rsquo;indices laiss&eacute;s par le passage de cr&eacute;atures, lancez <strong>2d6+SAG</strong>.</p>",
-			"failure": "<p>Vous faites fausse piste.</p>",
-			"partial": "<p>Vous suivez la piste de la cr&eacute;ature jusqu&rsquo;&agrave; ce qu&rsquo;un changement significatif dans sa direction ou son moyen de d&eacute;placement ne survienne.</p>",
-			"success": "<p>Vous suivez la piste de la cr&eacute;ature jusqu&rsquo;&agrave; ce qu&rsquo;un changement significatif dans sa direction ou son moyen de d&eacute;placement ne survienne. Vous choisissez aussi une option.</p>",
-			"choices": "<ul><li>Vous recevez une information utile sur votre proie. Lae MJ vous dira quoi.</li><li>Vous d&eacute;terminez ce qui a interrompu la piste.</li></ul>"
-		},
-		{
-			"id": "Hunter’s Prey",
-			"name": "Proie du chasseur",
-			"description": "<p><em>Remplace : Proie famili&egrave;re</em></p><p>Quand vous <em>&eacute;talez votre science</em> &agrave; propos d&rsquo;un monstre, utilisez <strong>SAG </strong>au lieu d&rsquo;<strong>INT</strong>. Sur <strong>12+</strong>, en plus des effets normaux, vous pouvez poser une question au&middot;&agrave; lae MJ sur ce sujet.</p>"
-		},
-		{
-			"id": "Man’s Best Friend",
-			"name": "Le meilleur ami de l’homme",
-			"description": "<p>Quand vous laissez votre <em>animal familier</em> prendre un coup &agrave; votre place, vous ne subissez pas de d&eacute;g&acirc;ts et la <strong>f&eacute;rocit&eacute; </strong>de votre animal tombe &agrave; 0. Si cette caract&eacute;ristique est d&eacute;j&agrave; &agrave; 0, vous ne pouvez pas utiliser cette action. Quelques heures de repos en compagnie de votre animal lui restaurent sa f&eacute;rocit&eacute;.</p>"
-		},
-		{
-			"id": "Observant",
-			"name": "Observateur",
-			"description": "<p>Quand vous <em>chassez et pistez</em>, sur <strong>7+</strong> vous pouvez &eacute;galement poser gratuitement une question de la liste de &laquo; <em>discerner la r&eacute;alit&eacute;</em> &raquo; &agrave; propos de la cr&eacute;ature que vous traquez.</p>",
-			"choices": "<ul><li>Que s&rsquo;est-il pass&eacute; ici r&eacute;cemment ?</li><li>Que va-t-il se passer ?</li><li>&Agrave; quoi dois-je &ecirc;tre attentif ?</li><li>Qu&rsquo;est-ce qui pourrait m&rsquo;&ecirc;tre utile ou pr&eacute;cieux ici ?</li><li>Qui est vraiment ma&icirc;tre de la situation ici ?</li><li>Qu&rsquo;est-ce qui n&rsquo;est pas ce qu&rsquo;il para&icirc;t &ecirc;tre ici ?</li></ul>"
-
-		},
-		{
-			"id": "Smaug’s Belly",
-			"name": "Le ventre de Smaug",
-			"description": "<p>Quand vous connaissez le point faible de votre cible, vos fl&egrave;ches sont perforantes &agrave; 2.</p>"
-		},
-		{
-			"id": "Special Trick",
-			"name": "Dressage spécial",
-			"description": "<p>Choisissez une action d&rsquo;une autre classe. Cette action est possible aussi longtemps que vous agissez avec votre <em>animal familier</em>.</p>"
-		},
-		{
-			"id": "Strider",
-			"name": "Grand-Pas",
-			"description": "<p><em>Remplace : Suivez-moi</em></p><p>Lorsque vous entreprenez un <em>voyage p&eacute;rilleux</em>, vous pouvez choisir deux r&ocirc;les. Lancez deux fois les d&eacute;s. Appliquez le meilleur r&eacute;sultat pour les deux r&ocirc;les.</p>"
-		},
-		{
-			"id": "Unnatural Ally",
-			"name": "Allié surnaturel",
-			"description": "<p>Votre <em>animal familier</em> n&rsquo;est pas un animal mais un monstre. D&eacute;crivez-le. Il a +2 F&eacute;rocit&eacute; et +1 Instinct et un entra&icirc;nement suppl&eacute;mentaire.</p>"
-		},
-		{
-			"id": "Viper’s Fangs",
-			"name": "Crochets de la vipère",
-			"description": "<p><em>Remplace : Morsure de la vip&egrave;re</em></p><p>Quand vous frappez un ennemi avec une arme dans chaque main, ajoutez <strong>+1d8</strong> d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Viper’s Strike",
-			"name": "Morsure de la vipère",
-			"description": "<p>Quand vous frappez un ennemi avec une arme dans chaque main, ajoutez <strong>+1d4</strong> d&eacute;g&acirc;ts.</p>"
-		},
-		{
-			"id": "Well-trained",
-			"name": "Surentraîné",
-			"description": "<p>Choisissez un entra&icirc;nement suppl&eacute;mentaire pour votre <em>animal familier</em>.</p>"
-		},
-		{
-			"id": "Wild Empathy",
-			"name": "Empathie sauvage",
-			"description": "<p>Vous pouvez parler aux animaux et les comprendre.</p>"
-		},
-		{
-			"id": "Wild Speech",
-			"name": "Langage sauvage",
-			"description": "<p><em>Remplace : Empathie sauvage</em></p><p>Vous pouvez parler avec toute cr&eacute;ature non magique et non-planaire et la comprendre.</p>"
-		}
-	]
+  "label": "Actions de l'Éclaireur·euse",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "A Safe Place",
+      "name": "Un endroit sûr",
+      "description": "<p>Quand vous mettez en place des <em>tours de garde</em>, chacun·e gagne <strong>+1</strong> durant sa veille.</p>"
+    },
+    {
+      "id": "A Safer Place",
+      "name": "Un endroit plus sûr",
+      "description": "<p><em>Remplace : Un endroit sûr</em></p><p>Quand vous mettez en place des <em>tours de garde</em>, chacun·e gagne <strong>+1</strong> durant sa veille. Après une nuit de campement durant laquelle vous avez mis en place les <em>tours de garde</em>, chacun·e obtient <strong>+1</strong> à sa prochaine action.</p>"
+    },
+    {
+      "id": "Animal Companion",
+      "name": "Animal familier",
+      "description": "<p>Vous avez un lien surnaturel avec un animal loyal. Vous ne pouvez pas lui parler véritablement mais il agit comme vous le souhaitez. Nommez votre animal familier et choisissez une espèce : loup, puma, ours, aigle, chien, faucon, chat, <br>chouette, pigeon, rat, mule.</p><p>Choisissez une base :</p><ul><li>Férocité +2, Ruse +1, Armure 1, Instinct +1</li><li>Férocité +2, Ruse +2, Armure 0, Instinct +1</li><li>Férocité +1, Ruse +2, Armure 1, Instinct +1</li><li>Férocité +3, Ruse +1, Armure 1, Instinct +2</li></ul><p>Choisissez autant de qualités que sa <em>férocité </em>: rapide, costaud, gros, calme, polyvalent, réflexes rapides, infatigable, camouflage, féroce, intimidant, sens développés, discret.</p><p>Votre animal familier est dressé à attaquer des humanoïdes. Choisissez autant de dressages supplémentaires que sa <em>ruse </em>: chasser, chercher, explorer, garder, combattre les monstres, jouer un spectacle, travailler, voyager.</p><p>Choisissez autant de faiblesses que son <em>instinct </em>: inconstant, sauvage, lent, soumis, effrayé, étourdi, borné, faible.</p>"
+    },
+    {
+      "id": "Blot Out The Sun",
+      "name": "Noircir le ciel",
+      "description": "<p>Quand vous tirez une <em>salve</em>, vous pouvez dépenser des munitions supplémentaires avant de jeter les dés. Pour chaque point de munition ainsi dépensé vous pouvez choisir une cible supplémentaire. Lancez une seule fois les dés et infligez les dégâts à toutes les cibles.</p>"
+    },
+    {
+      "id": "Called Shot",
+      "name": "Tir précis",
+      "description": "<p>Quand vous attaquez à distance un·e ennemi·e surpris·e ou sans défense, vous pouvez choisir d’infliger vos dégâts ou de choisir votre cible et tirer <strong>2d6+DEX</strong>.</p>",
+      "failure": "<p>Vous n'atteignez pas la cible escomptée.</p>",
+      "partial": "<p>Choisissez une localisation.</p>",
+      "success": "<p>Choisissez une localisation et infligez vos dégâts.</p>",
+      "choices": "<ul><li><em>Tête </em>: l’ennemi reste debout sans rien faire sauf baver quelques instants.</li><li><em>Bras </em>: l’ennemi lâche tout ce qu’il portait.</li><li><em>Jambes </em>: l’ennemi est ralenti et boite.</li></ul>"
+    },
+    {
+      "id": "Camouflage",
+      "name": "Camouflage",
+      "description": "<p>Quand vous restez immobile dans un environnement naturel, les ennemis ne vous voient que si vous bougez.</p>"
+    },
+    {
+      "id": "Command",
+      "name": "Ordonner",
+      "description": "<p>Lorsque vous accomplissez une action pour laquelle votre <em>animal familier</em> est dressé et que :</p><ul><li>Vous <em>attaquez </em>la même cible, ajoutez sa <strong>férocité </strong>à vos dégâts.</li><li>Vous <em>pistez</em>, ajoutez sa <strong>ruse </strong>à votre jet.</li><li>Vous subissez des dégâts, ajoutez son armure à la vôtre.</li><li>Vous <em>discernez la réalité</em>, ajoutez sa <strong>ruse </strong>à votre jet.</li><li>Vous <em>négociez</em>, ajoutez sa <strong>ruse </strong>à votre jet.</li><li>Quelqu’un cherche à vous <em>gêner</em>, ajoutez son <strong>instinct </strong>à son jet.</li></ul>"
+    },
+    {
+      "id": "Familiar Prey",
+      "name": "Proie familière",
+      "description": "<p>Quand vous <em>étalez votre science</em> à propos d’un monstre, utilisez <strong>SAG </strong>au lieu d’<strong>INT</strong>.</p>"
+    },
+    {
+      "id": "Follow Me",
+      "name": "Suivez-moi",
+      "description": "<p>Lorsque vous entreprenez un <em>voyage périlleux</em>, vous pouvez choisir deux rôles. Vous faites un jet de dés séparés pour chacun d’eux.</p>"
+    },
+    {
+      "id": "God Amidst The Wastes",
+      "name": "Prêcher dans le désert",
+      "description": "<p>Consacrez-vous à une divinité (nommez-en une ou choisissez-en une déjà établie). Vous gagnez la faculté de <em>communier </em>et de <em>lancer des sorts</em> comme un clerc. Quand vous choisissez cette action, considérez-vous comme un clerc de niveau 1 pour lancer un sort. Par la suite, chaque fois que vous gagnez un niveau, vous augmentez votre niveau de clerc de 1.</p>"
+    },
+    {
+      "id": "Half-elven",
+      "name": "Demi-elfe",
+      "description": "<p><strong>Vous ne pouvez prendre cette action que si c’est votre première action avancée.</strong></p><p>Votre ascendance est métissée et cela commence à se faire sentir. Vous gagnez l’action de départ de l’elfe si vous aviez choisi humain à la création de votre personnage et vice-versa.</p>"
+    },
+    {
+      "id": "Hunt & Track",
+      "name": "Chasser et pister",
+      "description": "<p>Quand vous suivez une piste d’indices laissés par le passage de créatures, lancez <strong>2d6+SAG</strong>.</p>",
+      "failure": "<p>Vous faites fausse piste.</p>",
+      "partial": "<p>Vous suivez la piste de la créature jusqu’à ce qu’un changement significatif dans sa direction ou son moyen de déplacement ne survienne.</p>",
+      "success": "<p>Vous suivez la piste de la créature jusqu’à ce qu’un changement significatif dans sa direction ou son moyen de déplacement ne survienne. Vous choisissez aussi une option.</p>",
+      "choices": "<ul><li>Vous recevez une information utile sur votre proie. Lae MJ vous dira quoi.</li><li>Vous déterminez ce qui a interrompu la piste.</li></ul>"
+    },
+    {
+      "id": "Hunter’s Prey",
+      "name": "Proie du chasseur",
+      "description": "<p><em>Remplace : Proie familière</em></p><p>Quand vous <em>étalez votre science</em> à propos d’un monstre, utilisez <strong>SAG </strong>au lieu d’<strong>INT</strong>. Sur <strong>12+</strong>, en plus des effets normaux, vous pouvez poser une question au·à lae MJ sur ce sujet.</p>"
+    },
+    {
+      "id": "Man’s Best Friend",
+      "name": "Le meilleur ami de l’homme",
+      "description": "<p>Quand vous laissez votre <em>animal familier</em> prendre un coup à votre place, vous ne subissez pas de dégâts et la <strong>férocité </strong>de votre animal tombe à 0. Si cette caractéristique est déjà à 0, vous ne pouvez pas utiliser cette action. Quelques heures de repos en compagnie de votre animal lui restaurent sa férocité.</p>"
+    },
+    {
+      "id": "Observant",
+      "name": "Observateur",
+      "description": "<p>Quand vous <em>chassez et pistez</em>, sur <strong>7+</strong> vous pouvez également poser gratuitement une question de la liste de « <em>discerner la réalité</em> » à propos de la créature que vous traquez.</p>",
+      "choices": "<ul><li>Que s’est-il passé ici récemment ?</li><li>Que va-t-il se passer ?</li><li>À quoi dois-je être attentif ?</li><li>Qu’est-ce qui pourrait m’être utile ou précieux ici ?</li><li>Qui est vraiment maître de la situation ici ?</li><li>Qu’est-ce qui n’est pas ce qu’il paraît être ici ?</li></ul>"
+    },
+    {
+      "id": "Smaug’s Belly",
+      "name": "Le ventre de Smaug",
+      "description": "<p>Quand vous connaissez le point faible de votre cible, vos flèches sont perforantes à 2.</p>"
+    },
+    {
+      "id": "Special Trick",
+      "name": "Dressage spécial",
+      "description": "<p>Choisissez une action d’une autre classe. Cette action est possible aussi longtemps que vous agissez avec votre <em>animal familier</em>.</p>"
+    },
+    {
+      "id": "Strider",
+      "name": "Grand-Pas",
+      "description": "<p><em>Remplace : Suivez-moi</em></p><p>Lorsque vous entreprenez un <em>voyage périlleux</em>, vous pouvez choisir deux rôles. Lancez deux fois les dés. Appliquez le meilleur résultat pour les deux rôles.</p>"
+    },
+    {
+      "id": "Unnatural Ally",
+      "name": "Allié surnaturel",
+      "description": "<p>Votre <em>animal familier</em> n’est pas un animal mais un monstre. Décrivez-le. Il a +2 Férocité et +1 Instinct et un entraînement supplémentaire.</p>"
+    },
+    {
+      "id": "Viper’s Fangs",
+      "name": "Crochets de la vipère",
+      "description": "<p><em>Remplace : Morsure de la vipère</em></p><p>Quand vous frappez un ennemi avec une arme dans chaque main, ajoutez <strong>+1d8</strong> dégâts.</p>"
+    },
+    {
+      "id": "Viper’s Strike",
+      "name": "Morsure de la vipère",
+      "description": "<p>Quand vous frappez un ennemi avec une arme dans chaque main, ajoutez <strong>+1d4</strong> dégâts.</p>"
+    },
+    {
+      "id": "Well-trained",
+      "name": "Surentraîné",
+      "description": "<p>Choisissez un entraînement supplémentaire pour votre <em>animal familier</em>.</p>"
+    },
+    {
+      "id": "Wild Empathy",
+      "name": "Empathie sauvage",
+      "description": "<p>Vous pouvez parler aux animaux et les comprendre.</p>"
+    },
+    {
+      "id": "Wild Speech",
+      "name": "Langage sauvage",
+      "description": "<p><em>Remplace : Empathie sauvage</em></p><p>Vous pouvez parler avec toute créature non magique et non-planaire et la comprendre.</p>"
+    }
+  ]
 }

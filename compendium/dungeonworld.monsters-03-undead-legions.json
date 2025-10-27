@@ -1,0 +1,195 @@
+{
+  "label": "E3 - Légion des Morts-vivants",
+  "mapping": {
+    "imagePath": "img",
+    "tokenPath": "prototypeToken.texture.src",
+    "name": "name",
+    "damageModifier": "system.attributes.damage.piercing",
+    "tags": "system.tags",
+    "specialQualities": "system.attributes.specialQualities.value",
+    "description": "system.details.biography"
+  },
+  "folders": {},
+  "entries": {
+    "Nightwing": {
+      "name": "Aile-De-Nuit",
+      "tokenName": "Aile-De-Nuit",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/nightwing.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/nightwing%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Furtif\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Ailé",
+      "description": "<p>Les érudits versés dans les arts nécromantiques vous diront que le terme « mort-vivant » ne s’applique pas uniquement à ceux qui ont vécu, sont morts et ont été ramenés à une sorte de semi-vie. C’est aussi l’appellation appropriée pour toutes les créatures qui vivent par-delà le Sombre Portail. Les humains nomment ces créatures, ailes-de-nuit. Elles tirent leur puissance de l’énergie négative du domaine de la Mort. Prenant la forme de créatures ailées, massives et silencieuses (certaines proches de la chauve-souris, d’autres du vautour, d’autres encore de choses plus anciennes, au cuir sombre et épais), les ailes-de-nuit voyagent en nuées prédatrices, plongeant soudainement pour dépecer le bétail, les chevaux ou les paysans malchanceux, restés dehors malgré le couvre-feu.</p>\n<p>Guettez le ciel nocturne à l’affût de leurs yeux rouges. Tendez l’oreille pour entendre leur hululement strident. Et priez les Dieux d’avoir un abri sous lequel vous cacher jusqu’à ce qu’elles soient au loin.</p>\n<p>Penchant : Chasser</p>\n<ul>\n<li>Attaquer depuis les airs sous le ciel nocturne</li>\n<li>S’enfuir avec sa proie dans un battement d’ailes</li>\n</ul>"
+    },
+    "Vampire": {
+      "name": "Vampire",
+      "tokenName": "Vampire",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/vampire.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/vampire%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Furtif\"},{\"value\":\"Organisés\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Changer de forme, Esprit ancien",
+      "description": "<p>Nous les craignons car ils nous attirent. Si proches de nous, ou de ce que nous aimerions être : beaux, passionnés et puissants. Ils sont attirés par nous pour ce qu’ils ne sont pas : chauds, aimables et vivants.</p>\n<p>Ces âmes tourmentées ne peuvent espérer, au mieux, que partager leur malédiction. À chaque fois qu’ils se nourrissent, ils prennent le risque de passer cette torture éternelle à un autre. En chaque vampire survit l’étincelle viciée de son créateur. Les vampires engendrent des vampires, la souffrance engendre la souffrance.</p>\n<p>Ne soyez pas séduits ou vous pourriez vous voir offrir un cadeau : une couronne d’ombres et les chaînes pesantes d’un deuil éternel.</p>\n<p>Penchant : Manipuler</p>\n<ul>\n<li>Charmer quelqu’un</li>\n<li>Se repaître de son sang</li>\n<li>Battre en retraite pour mieux planifier</li>\n</ul>"
+    },
+    "Devourer": {
+      "name": "Dévoreur",
+      "tokenName": "Dévoreur",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/devourer.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/devourer%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Intelligent\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": " ",
+      "description": "<p>La plupart des gens savent que les morts-vivants se nourrissent de chair qui, tout comme la chaleur et le sang épais, prolonge leur existence maudite. C’est vrai pour la plupart des morts sans esprit, animés par la magie noire. Mais pas vraiment pour le dévoreur d’âme.</p>\n<p>Quand une personne particulièrement mauvaise (souvent un manipulateur de foules, un prêtre impie ou autre…) trépasse d’une manière singulièrement atroce, les sombres forces de notre univers peuvent les ramener à un semblant de vie. Le dévoreur, cependant, ne se nourrit pas de la chair vivante des hommes ou des elfes, mais d’âmes. Seuls des médiums peuvent ressentir le plaisir qu’il prend à tuer. Au moment où sa victime rend son dernier soupir, le dévoreur l’absorbe, ainsi que son âme, comme un homme qui se noie inspire sa dernière goulée d’air.</p>\n<p>Que devient l’âme lorsqu’elle est absorbée par ces créatures ? Personne n’ose poser la question de peur de trouver la réponse.</p>\n<p>Penchant : Se régaler d’âmes</p>\n<ul>\n<li>Dévorer ou emprisonner une âme mourante</li>\n<li>Marchander le retour d’une âme captive</li>\n</ul>"
+    },
+    "Abomination": {
+      "name": "Abomination",
+      "tokenName": "Abomination",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/abomination.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/abomination%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Construction\"},{\"value\":\"Terrifiant\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "De nombreux membres, têtes, et autres appendices",
+      "description": "<p>Des corps cousus à d’autres corps forment la majeure partie de ces masses titubantes saturées de magie noire. La plupart des morts-vivants sont créés dans le but d’être contrôlés, avec un objectif, comme construire une tour ou encore servir de gardiens.</p>\n<p>Pas les Abominations. Le dernier stade du rituel, destiné à enflammer leurs membres infernaux, fait appel à une haine si puissante que les Abominations n’ont plus qu’un seul but : démanteler et détruire la seule chose qu’ils ne pourront jamais avoir : la vie.</p>\n<p>De nombreux étudiants en magie noire l’apprennent à leurs dépens et à leur grand désarroi, la principale caractéristique de ces colosses étant qu’ils ne connaissent pas de maître.</p>\n<p>Penchant : Mettre fin à toute vie</p>\n<ul>\n<li>Lacérer la chair</li>\n<li>Vomir leurs tripes putréfiées</li>\n</ul>"
+    },
+    "Sigben": {
+      "name": "Sigben",
+      "tokenName": "Sigben",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/sigben.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/sigben%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Grand\"},{\"value\":\"Construction\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Mignon vampirique",
+      "description": "<p>Chiens-goules à queue de fouet au service des vampires, ces horribles créatures ont une gueule semblable à celle d’un rat ou d’un crocodile avec de la fourrure et des dents aiguisées. Ils ont des ailes atrophiées qu’ils ne peuvent utiliser, deux jambes difformes et une longue queue en forme de fouet, garnie de protubérances empoisonnées. Stupides, rancuniers et retors, ils répandent le chaos autour d’eux, une fois libérés des étranges jarres en argile dans lesquelles ils naissent. Seul un vampire pourrait éprouver de l’amour pour une de ces créatures damnées.</p>\n<p>Penchant : Déranger</p>\n<ul>\n<li>Empoisonner</li>\n<li>Accomplir la volonté d’un vampire</li>\n</ul>"
+    },
+    "Mohrg": {
+      "name": "Mohrg",
+      "tokenName": "Mohrg",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/mohrg.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/mohrg%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Vous ne réussirez jamais à vous en sortir après un meurtre. Vous échapperez peut-être à la loi des hommes, à votre propre conscience et mourrez, grassouillet et heureux, dans une villa.</p>\n<p>Mais quand les Dieux eux-mêmes s’aperçoivent de vos méfaits, c’est là que votre chance tourne court et qu’un Mohrg naît. Les Mohrgs sont des squelettes. Leur chair, leur peau et leurs cheveux ont pourri et ne sont plus. À vrai dire, tout sauf leurs tripes. Elles sont nouées, tordues et s’échappent toujours de leur abdomen, préservées par magie et souvent enroulées, telles une étrange écharpe, autour de leur cou. Ils ne pensent pas à proprement parler, mais ils souffrent. Ils tuent, se déchaînent contre ce qui les entoure, et leur âme ne connaît jamais le repos. Tel est le châtiment conçu par les Dieux pour l’assassin lui-même, mais aussi pour le reste d’une humanité qui se trucide à qui mieux-mieux. Les Dieux sont justes et sévères.</p>\n<p>Penchant : Causer des ravages</p>\n<ul>\n<li>Laisser libre cours à sa rage</li>\n<li>Agrandir sa collection de tripes</li>\n</ul>"
+    },
+    "Spectre": {
+      "name": "Spectre",
+      "tokenName": "Spectre",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/spectre.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/spectre%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Immatériel",
+      "description": "<p>La Mort elle-même ne peut empêcher certaines personnes de conserver prise avec l’endroit qu’elles aiment par-dessus tout.</p>\n<p>Le prêtre dont la dévotion pour son lieu de culte est plus grande que celle pour son Dieu. Le trésorier d’une guilde commerçante qui ne peut se défaire de son coffre-fort. Un ivrogne et sa taverne favorite. Ils font tous d’excellents spectres. Leur motivation n’est pas la faim habituelle qui pousse les morts-vivants, mais la jalousie. La peur que d’autres se prennent à aimer leur foyer comme eux seuls le font et les mettent à la porte. Ces lieux leur appartiennent et ces esprits invisibles tueront plutôt que de laisser quelqu’un les expédier à leur repos final.</p>\n<p>Penchant : Chasser la vie d’un lieu</p>\n<ul>\n<li>Tourner le lieu qu’il hante contre une créature</li>\n<li>Donner vie à son environnement</li>\n</ul>"
+    },
+    "Lich": {
+      "name": "Liche",
+      "tokenName": "Liche",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/lich.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/lich%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Magique\"},{\"value\":\"Intelligent\"},{\"value\":\"Prudent\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Construction\"},{\"value\":\"Courte\"},{\"value\":\"Longue\"}]",
+      "specialQualities": " ",
+      "description": "« À la fin, ils vous donnent un parchemin et une médaille sertie de pierres précieuses pour commémorer vos prouesses. Mon titre à l’époque était Grand Maître de l’Abjuration, si je me souviens bien. J’étais vieux, faible, rabougri et juste un peu trop sénile pour eux, ces crétins jaloux. À peine des apprentis qui se faisaient déjà appeler « Le Nouveau Conseil ». Ça me rend malade… enfin… ça me rendrait malade si c’était encore possible. Ils m’ont dit que c’était un honneur et qu’on se rappellerait de moi à jamais. C’était comme écouter sa propre oraison funèbre. Plutôt approprié, d’une certaine façon, vous ne trouvez pas ?</p>\n<p>Ça m’a pris une dizaine d’années pour apprendre les bons rituels, encore quatre autres pour réunir les composants nécessaires et vous avez devant vous le fruit de mon labeur. Je perdure, je vis. Je verrai la fin de cet âge et le commencement d’un nouveau. Cela me peine beaucoup d’avoir à faire ça mais, voyez-vous, je ne peux pas vous permettre de mettre en danger toutes ces années de recherche. Quand vous rencontrerez la Mort, passez-lui le bonjour de ma part. »</p>\n<p>Penchant : Poursuivre son existence contre nature</p>\n<ul>\n<li>Incanter un sortilège supérieur de mort ou de destruction</li>\n<li>Activer un rituel ou un plan grandiose</li>\n<li>Révéler des préparatifs ou un stratagème déjà accompli</li>\n</ul>"
+    },
+    "Ghoul": {
+      "name": "Goule",
+      "tokenName": "Goule",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/ghoul.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/ghoul%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Proche\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": " ",
+      "description": "<p>Faim. Faim, faim, faim. Ventre vide. Désespérément. La faim abyssale.</p>\n<p>Des griffes aiguisées pour lacérer la chair, des dents pour déchirer, briser les os, et sucer la moelle juteuse à l’intérieur. Vomir sa haine et hurler sa jalousie enragée tout en chargeant sur deux jambes difformes, effrayer les vivants et parfumer leur chair de l’odeur de la peur. Festoyer. Paysan, chevalier, sorcier, sage, prince ou prêtre font de si délicieux repas !</p>\n<p>Penchant : Manger</p>\n<ul>\n<li>Dévorer un membre</li>\n<li>Absorber les souvenirs de la viande ingérée</li>\n</ul>"
+    },
+    "Mummy": {
+      "name": "Momie",
+      "tokenName": "Momie",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/mummy.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/mummy%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Divin\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Il existe des cultures qui révèrent leurs morts. Ils ne les enterrent pas dans la terre glaciale en pleurant leur trépas. Ces gens passent des semaines entières à préparer le corps sacré du disparu pour son repos éternel. Des temples, des pyramides et de grands caveaux de pierre sont construits pour abriter leur dépouille et sont emplis d’esclaves, d’animaux et d’or. Il vaut mieux vivre couvert de richesses une fois franchi le Sombre Portail, non ?</p>\n<p>Oh, je connais trop bien ce regard avide, mais surtout ne vous laissez pas tenter par les richesses de ces tombeaux. Tenez compte de mon avertissement ou subissez un destin terrible, car les morts n’aiment pas être dérangés. Le pillage et le vol ne feront qu’éveiller leur colère. Et ne dites pas que je ne vous ai pas prévenu !</p>\n<p>Penchant : Profiter du repos éternel</p>\n<ul>\n<li>Maudire</li>\n<li>Emprisonner dans des bandages</li>\n<li>Se relever à nouveau d’entre les morts</li>\n</ul>"
+    },
+    "Zombie": {
+      "name": "Zombie",
+      "tokenName": "Zombie",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/zombie.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/zombie%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Quand il n’y a plus de place en enfer…</p>\n<p>Penchant : Cerveaaaaaauuuuuuux !!!</p>\n<ul>\n<li>Attaquer en surnombre</li>\n<li>Acculer</li>\n<li>Tirer sa force des morts, créer plus de zombies</li>\n</ul>"
+    },
+    "Skeleton": {
+      "name": "Squelette",
+      "tokenName": "Squelette",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/skeleton.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/skeleton%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Ces os, ces os, ces os secs.</p>\n<p>Penchant : Prendre l’apparence de la vie</p>\n<ul>\n<li>Reproduire les gestes de leur vie passée</li>\n<li>Éteindre la flamme de la vie</li>\n<li>Se reconstruire à partir de multiples ossements</li>\n</ul>"
+    },
+    "Dragonbone": {
+      "name": "Dragon-Squelette",
+      "tokenName": "Dragon-Squelette",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/dragonbone.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/dragonbone%20-%20token.webp",
+      "damageModifier": "3 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"},{\"value\":\"Allonge\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": " ",
+      "description": "<p>Il existe un débat parmi les sorciers : cette créature est-elle vraiment un mort-vivant ou bien un golem fait d’un matériau aussi rare qu’impie ? Les os, tendons et écailles d’un dragon mort sont les composants de ce sombre automate. Ailé mais incapable de voler, à l’image des dragons mais sans le feu qui anime ces bêtes majestueuses, le dragon-squelette sert son maître avec un dévouement bizarre. Il est souvent lancé à l’assaut des fortifications d’un nécromancien rival. Il faut être particulièrement maléfique pour déformer et dénaturer de la sorte les restes d’un dragon.</p>\n<p>Penchant : Servir</p>\n<ul>\n<li>Attaquer sans relâche</li>\n</ul>"
+    },
+    "Draugr": {
+      "name": "Draugr",
+      "tokenName": "Draugr",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/draugr.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/draugr%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Toucher glacial",
+      "description": "<p>Dans le Noremark, les hommes et les femmes racontent, dans leurs grandes maisons de bois, la légende de cet endroit où vont les héros tombés au combat. Un grand hall au sommet de la montagne où l’hydromel coule à flots et où les valeureux attendent la bataille finale pour la domination du monde. C’est un endroit magnifique où les guerriers espèrent aller après leur trépas. Mais qu’advient-il des morts sans honneur et sans gloire, tout guerriers qu’ils soient, qui succombent au poison ou à la traîtrise ? Le hall des festins leur est fermé et certains reviennent dans le monde des vivants, gelés, déformés et emplis d’une jalousie destructrice.</p>\n<p>Leur rage infinie ne s’abat pas contre les géants et les trolls, mais contre les cités et les villages des hommes qu’ils ont connus autrefois.</p>\n<p>Penchant : Prendre aux vivants</p>\n<ul>\n<li>Glacer la chair</li>\n<li>Faire appel aux morts déshonorés</li>\n</ul>"
+    },
+    "Shadow": {
+      "name": "Ombre",
+      "tokenName": "Ombre",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/shadow.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/shadow%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Grand\"},{\"value\":\"Magique\"},{\"value\":\"Construction\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": " Forme d’ombre",
+      "description": "<p>Nous invoquons les éléments. Nous invoquons le feu, brûlant à jamais. Nous invoquons l’eau, source de vie. Nous invoquons la terre, stable et solide. Nous invoquons l’air, éternellement changeant. Nous reconnaissons la valeur de ces éléments et les remercions mais, ce soir, il n’est pas besoin d’eux. Ce soir nous invoquons la Nuit. Ombre, nous t’appelons. Messager de la Mort et noir assassin, nous faisons de toi un des nôtres. Accepte notre sacrifice, et accomplis notre volonté jusqu’aux premières lueurs de l’aube.</p>\n<p>Penchant : Assombrir</p>\n<ul>\n<li>Étouffer la lumière</li>\n<li>Invoquer une nouvelle ombre depuis un cadavre</li>\n</ul>"
+    },
+    "Wight-wolf": {
+      "name": "Loup-Nécrophage",
+      "tokenName": "Loup-Nécrophage",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/wight-wolf.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/wight-wolf%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Organisés\"},{\"value\":\"Intelligent\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Forme d’ombre",
+      "description": "<p>Comme les ailes-de-nuit, le loup-nécrophage n’est pas originaire de notre monde. Se faufilant, on ne sait comment, à travers le Sombre Portail, ces esprits prennent la forme de chiens massifs ou de loups sombres qui chassent les vivants pour le sport. Ils voyagent en meute, guidés par un imposant mâle alpha, mais partagent une intelligence que ne possèdent pas leurs équivalents canins. Leurs chasses nocturnes attirent parfois l’attention des morts-vivants capables d’intelligence (liches, vampires et autres) qui forment parfois des pactes avec l’alpha et travaillent ensemble à l’accomplissement d’un noir dessein. Écoutez le cri de ralliement des chiens de la Mort et priez pour que ce hurlement ne vous soit pas destiné.</p>\n<p>Penchant : Chasser</p>\n<ul>\n<li>Encercler leur proie</li>\n<li>Rassembler la meute</li>\n</ul>"
+    },
+    "Banshee": {
+      "name": "Banshee",
+      "tokenName": "Banshee",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/banshee.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/banshee%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Magique\"},{\"value\":\"Intelligent\"},{\"value\":\"Courte\"}]",
+      "specialQualities": "Immatériel",
+      "description": "<p>Si vous vous tirez d’une rencontre avec l’un de ces esprits vengeurs affligé d’une simple surdité, estimez-vous chanceux de pouvoir vivre le reste de votre silencieuse existence. Souvent confondue au premier regard avec un fantôme ou autre esprit errant, la Banshee révèle un bien dangereux don pour l’agression auditive lorsqu’elle est provoquée. Et il ne faut pas grand-chose pour éveiller sa colère. Victime d’une trahison (souvent par un être aimé), la Banshee communique son amertume par une plainte ou un hurlement qui peut putréfier les chairs et détruire les sens. Si vous parvenez à l’aider à se venger, elle pourrait bien vous récompenser. Reste à savoir si l’affection d’un esprit éconduit est particulièrement souhaitable…</p>\n<p>Penchant : Obtenir sa revanche</p>\n<ul>\n<li>Noyer tout autre son dans un hurlement incessant</li>\n<li>Pousser un cri capable de fendre un crâne en deux</li>\n<li>Disparaître dans la brume</li>\n</ul>"
+    },
+    "Ghost": {
+      "name": "Fantôme",
+      "tokenName": "Fantôme",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e3/ghost.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e3/ghost%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Fourbe\"},{\"value\":\"Terrifiant\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Immatériel",
+      "description": "<p>Toutes les cultures vous disent la même chose. Vous vivez, vous aimez ou vous haïssez, vous gagnez ou perdez, vous mourez d’une manière que vous n’appréciez pas vraiment, et hop, vous voilà fantôme, plein d’amertume, de ressentiment et que sais-je encore.</p>\n<p>Quelques personnes le prennent à cœur, de braves gens au fond généreux qui cherchent les esprits tourmentés pour leur accorder le repos qu’ils méritent. Vous pouvez les trouver dans une taverne, la plupart du temps, noyant leurs cauchemars dans l’alcool, ou bien marmonnant et bavant dans la cellule capitonnée d’un asile. La mort prend son dû sur les vivants, peu importe la manière.</p>\n<p>Penchant : Hanter</p>\n<ul>\n<li>Révéler la terrifiante nature de la mort</li>\n<li>Hanter un lieu symbolique</li>\n<li>Offrir une information venant de l’au-delà, à un certain prix</li>\n</ul>"
+    }
+  }
+}

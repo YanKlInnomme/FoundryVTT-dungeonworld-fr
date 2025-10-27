@@ -6,7 +6,7 @@
   "TYPES.Item.equipment": "Équipement",
   "TYPES.Item.spell": "Sort",
   "TYPES.Item.bond": "Lien",
-  "TYPES.Item.tag": "Balise",
+  "TYPES.Item.tag": "Marqueur",
   "TYPES.Item.class": "Classe",
   "Dungeon World": "Dungeon World",
   "DW.title": "Dungeon World",
@@ -156,9 +156,9 @@
   "DW.characters": "PJs",
   "DW.npc": "PNJ",
   "DW.npcs": "PNJs",
-  "DW.Forward": "Suivre",
+  "DW.Forward": "Ponctuel",
   "DW.Ongoing": "Continu",
-  "DW.Hold": "Retenir",
+  "DW.Hold": "Retenu",
   "DW.RollMode": "Type de Jet",
   "DW.Normal": "Normal",
   "DW.Advantage": "Meilleur",
@@ -212,8 +212,6 @@
   "DW.the-ranger.Bond4": "_______________ ne comprend pas la vie dans la nature, alors je vais leur apprendre.",
   "DW.Settings.itemIcons.name": "Activer les icônes des Objets",
   "DW.Settings.itemIcons.hint": "Activer des icônes pour les Actions, les Sorts et l'Équipement dans les feuilles de personnage (nécessite un rechargement du navigateur).",
-  "DW.Settings.nightmode.name": "Activer le mode nuit",
-  "DW.Settings.nightmode.hint": "Activer le mode nuit/obscurité pour les feuilles de personnage (par utilisateur).",
   "DW.Settings.enableDamageButtons.name": "Activer le bouton de Dégâts",
   "DW.Settings.enableDamageButtons.hint": "Activer le bouton de Dégâts sur les encarts de discussion pour lea MJ. Les dégâts seront appliqués aux jetons sélectionnés (pas aux jetons ciblés) et seront réduits par les valeurs d'armure et de perforation selon les règles de base. Nécessite le rechargement du navigateur pour prendre effet.",
   "DW.Settings.xpFormula.name": "Formule XP",
@@ -266,5 +264,20 @@
   "DW.Dialog.bondContent": "Entrez un modificateur pour cette action <strong>{name}</strong>.",
   "DW.Notifications.noClassWarning": "Vous devez choisir une classe valide avant de pouvoir monter de niveau.",
   "DW.Scrolling.armorReduced": "{reduced} Armure appliquée",
-  "DW.Scrolling.armorPiercing": "{piercing} Armure ignorée"
+  "DW.Scrolling.armorPiercing": "{piercing} Armure ignorée",
+  "DW-FR": {
+    "Links": {
+      "Title": "Jeu Propulsé",
+      "ShopTitle": "500 Nuances de Geek",
+      "ShopURL": "https://www.500nuancesdegeek.fr/boutique/7-dungeon-world",
+      "GitTitle": "Dépôt du module FR",
+      "GitURL": "https://github.com/YanKlInnomme/FoundryVTT-dungeonworld-fr",
+      "DonationTitle": "Offre-moi un café",
+      "DonationURL": "https://www.buymeacoffee.com/yank"
+    },
+    "Settings": {
+      "useAdditionalContentName": "Utiliser le contenu additionnel IA",
+      "useAdditionalContentHint": "Activez cette option pour afficher les images générées par une intelligence artificielle, conçues pour enrichir l’expérience de jeu. Ces visuels ont pour but d’inspirer et d’immerger les joueurs dans l’univers de Dungeon World. Ils sont proposés à titre gracieux et peuvent ne pas toujours correspondre parfaitement au contexte ou aux attentes. Utilisez-les librement et à votre discrétion pour donner plus de vie à vos parties."
+    }
+  }
 }

@@ -1,0 +1,145 @@
+{
+  "label": "E7 - Tréfonds",
+  "mapping": {
+    "imagePath": "img",
+    "tokenPath": "prototypeToken.texture.src",
+    "name": "name",
+    "damageModifier": "system.attributes.damage.piercing",
+    "tags": "system.tags",
+    "specialQualities": "system.attributes.specialQualities.value",
+    "description": "system.details.biography"
+  },
+  "folders": {},
+  "entries": {
+    "Naga": {
+      "name": "Naga",
+      "tokenName": "Naga",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/naga.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/naga%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Magique\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": " ",
+      "description": "<p>Les nagas sont ambitieux et territoriaux par-dessus tout. On les trouve fréquemment associés à une secte, infiltrée et bien implantée, qui voue un culte à leur personne.</p>\n<p>Vous le verrez dans beaucoup de villages de montagne : un sceau serpentin griffonné sur le mur d’une taverne ou d’une église, brûlées jusqu’aux fondations. Des gens qui disparaissent dans les mines. Des hommes et des femmes arborant la marque du serpent.</p>\n<p>Autant de signes qui vous mèneront à une seule chose : un naga, une ancienne race déchue, avec une tête d’homme à l’extrémité d’un corps sinueux de serpent. Il existe des variantes de cette créature, suivant sa lignée ou son but originel, mais elles maîtrisent toutes l’art de la manipulation et des pouvoirs magiques dont il faut se méfier.</p>\n<p>Penchant : Commander</p>\n<ul>\n<li>Envoyer un fidèle à la mort</li>\n<li>Utiliser une ancienne magie</li>\n<li>Proposer un marché ou négocier</li>\n</ul>"
+    },
+    "Aboleth": {
+      "name": "Aboleth",
+      "tokenName": "Aboleth",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/aboleth.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/aboleth%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Énorme\"},{\"value\":\"Intelligent\"}]",
+      "specialQualities": "Télépathie",
+      "description": "<p>Bien au-dessous de la surface de notre monde, dans des mers d’eau douce qui n’ont jamais vu le soleil, résident les Aboleths. Des poissons de la taille d’une baleine avec d’étranges excroissances tentaculaires gélatineuses pour sonder d’obscurs rivages. Ils sont servis par des esclaves : des victimes albinos et aveugles de toutes races, assez malchanceuses pour croiser leur route, vidées de leur esprit et de leur vitalité par les pouvoirs mentaux des Aboleths. Dans les profondeurs, ils complotent les uns contre les autres, progressant vers la surface pour un jour la conquérir. Pour l’heure, ils dorment, rêvent, et dirigent les serviteurs blêmes qui accomplissent leur volonté.</p>\n<p>Penchant : Commander</p>\n<ul>\n<li>Pénétrer un esprit</li>\n<li>Envoyer ses serviteurs sur ses ennemis</li>\n<li>Mettre un plan à exécution</li>\n</ul>"
+    },
+    "Gray Render": {
+      "name": "Ravageur Gris",
+      "tokenName": "Ravageur Gris",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/gray-render.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/gray-render%20-%20token.webp",
+      "damageModifier": "3 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": " ",
+      "description": "<p>De nature, le ravageur gris est une force de destruction brute. Énorme et résistant, doté d’une mâchoire remplie de crocs incassables et des griffes qui vont avec, le ravageur se consacre quasi exclusivement à réduire les choses en pièces. Pierre, acier ou chair, peu importe. Cependant, les ravageurs gris sont rarement seuls. Ils se lient à d’autres créatures. Certains à la naissance, d’autre à l’âge adulte, ils suivent leur maître où qu’il aille, lui apportant des offrandes (la plupart du temps de la viande) et le protégeant dans son sommeil. Trouvez un ravageur sans maître et vous pourrez en tirer un bon prix, si toutefois vous survivez jusqu’à la vente.</p>\n<p>Penchant : Servir son maître</p>\n<ul>\n<li>Déchiqueter quelque chose</li>\n</ul>"
+    },
+    "Minotaur": {
+      "name": "Minotaure",
+      "tokenName": "Minotaure",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/minotaur.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/minotaur%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Sens de l’orientation infaillible",
+      "description": "<p>« Une tête d’homme et un corps de taureau. Non, attends. C’est l’inverse. C’est une tête de taureau et un corps d’homme. Des sabots peut-être ? C’est ça ? Je me souviens que ce vieux roi avait dit quelque chose à propose d’un labyrinthe, non ? Bon sang ! Tu sais que je suis incapable de réfléchir dans ces conditions. Qu’est-ce que c’était ? Oh, par les dieux, je crois qu’il arrive… »</p>\n<p>Penchant : Piéger les aventuriers</p>\n<ul>\n<li>Déboussoler ses adversaires</li>\n<li>Perdre ses adversaires dans son labyrinthe</li>\n</ul>"
+    },
+    "Chaos Spawn": {
+      "name": "Engeance du Chaos",
+      "tokenName": "Engeance du Chaos",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/chaos-spawn.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/chaos-spawn%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Informe\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Forme chaotique",
+      "description": "<p>Rejeté de la cité, un adorateur du chaos trouve refuge dans les villes et les villages. Percé à jour, il fuit vers les collines et grave son credo sur les murs d’une caverne. De nouveau découvert, il est chassé par le fer et les flammes vers les profondeurs, rampant toujours plus bas, jusqu’à ce qu’il perde son chemin dans les tréfonds. D’abord, il oublie son nom, puis son apparence. Les dieux du chaos, qu’il adore tant, finissent par le bénir d’une nouvelle forme.</p>\n<p>Penchant : Détruire l’ordre établi de l’intérieur</p>\n<ul>\n<li>Réécrire la réalité</li>\n<li>Libérer le chaos de sa prison</li>\n</ul>"
+    },
+    "Dragon": {
+      "name": "Dragon",
+      "tokenName": "Dragon",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/dragon.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/dragon%20-%20token.webp",
+      "damageModifier": "4 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"},{\"value\":\"Terrifiant\"},{\"value\":\"Prudent\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Allonge\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": "Elemental blood, Wings",
+      "description": "<p>Ils seront toujours les créatures les plus grandes et les plus terribles que ce monde pourra nous offrir.</p>\n<p>Penchant : Régner</p>\n<ul>\n<li>Lier un élément à sa volonté</li>\n<li>Exiger un tribut</li>\n<li>Agir avec dédain</li>\n</ul>"
+    },
+    "Deep Elf Priest": {
+      "name": "Prêtre Elfe des Profondeurs",
+      "tokenName": "Prêtre Elfe des Profondeurs",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/deep-elf-priest.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/deep-elf-priest%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Divin\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Lien divin",
+      "description": "<p>Les esprits de la forêt et du soleil sont loin, loin des ténèbres dans lesquelles les elfes des profondeurs résident. Ils ont trouvé de nouveaux dieux ici, des dieux qui attendaient le retour des enfants prodigues. Les dieux des araignées, des forêts de champignons et de toutes les choses qui murmurent dans les grottes oubliées. Les elfes des profondeurs, toujours en harmonie avec leur environnement, ont écouté attentivement avec toute leur haine, ont entendu leurs nouveaux dieux et trouvé une nouvelle source de pouvoir. La haine appelle la haine et de sombres alliances se sont nouées. Même à travers toute cette rancœur, la dévotion trouve un moyen de s’exprimer.</p>\n<p>Penchant : Apporter la vengeance divine</p>\n<ul>\n<li>Tisser des sorts de haine et de malveillance</li>\n<li>Rallier les elfes des profondeurs</li>\n<li>Transmettre le savoir divin</li>\n</ul>"
+    },
+    "Salamander": {
+      "name": "Salamandre",
+      "tokenName": "Salamandre",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/salamander.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/salamander%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Grand\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Planaire\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Courte\"}]",
+      "specialQualities": "Excavation",
+      "description": "<p>« Les rapports disent que les fouilles ont révélé ce qui semble être un portail de basalte. Une pierre noire gravée de runes en fusion. Alors qu’ils creusaient, le mage a assuré qu’il était inerte, mais un certain nombre d’indices montre qu’il se trompait. L’équipe entière a disparu et quand nous sommes arrivés, la porte rougeoyait. Sa lueur éclairait toute la grotte. Nous pouvions voir, par l’ouverture, que l’endroit était rempli de créatures semblables à des hommes à la peau rouge et orange, grandes comme des ogres, avec une queue de serpent à la place des jambes. Elles étaient équipées aussi. Certaines avaient une armure de verre noir. Elles se parlaient entre elles dans une langue qui faisait penser à de la graisse crépitant sur un feu. Je voulais m’enfuir, mais le sergent ne voulait pas écouter. Vous avez déjà lu ce qui s’est passé ensuite, capitaine. Je sais que je suis le seul à en avoir réchappé, mais ce que je vous raconte est la vérité. La porte est ouverte, maintenant. Ce n’est que le commencement ! »</p>\n<p>Penchant : Consumer dans les flammes</p>\n<ul>\n<li>Invoquer un élémentaire de feu</li>\n<li>Dissiper les artifices</li>\n</ul>"
+    },
+    "Apocalypse Dragon": {
+      "name": "Dragon de l’Apocalypse",
+      "tokenName": "Dragon de l’Apocalypse",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/apocalypse-dragon.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/apocalypse-dragon%20-%20token.webp",
+      "damageModifier": "4 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"},{\"value\":\"Magique\"},{\"value\":\"Divin\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": "Peau de métal impénétrable, Savoir surnaturel, Ailé",
+      "description": "<p>À la fin de toute chose, les arbres, la terre et même l’air brûleront.</p>\n<p>La fin qui viendra à bout des montagnes et des plaines ne surgira pas de l’au-delà, mais de l’intérieur de ce monde. Né des entrailles de la terre viendra le Dragon-qui-Mettra-Fin-au-Monde.</p>\n<p>Sur son passage, il changera toute chose en poussière et fumée et le monde en une chose agonisante, à la dérive entre des plans dépourvus de vie. On dit que vénérer le Dragon de l’Apocalypse est une invitation à la folie. On dit que l’aimer c’est connaître le néant. Son réveil approche.</p>\n<p>Penchant : Mettre fin au monde</p>\n<ul>\n<li>Provoquer un désastre</li>\n<li>Souffle élémentaire</li>\n<li>Agir toujours avec une longueur d’avance</li>\n</ul>"
+    },
+    "Magmin": {
+      "name": "Azer",
+      "tokenName": "Azer",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/magmin.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/magmin%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Thésauriseur\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Sang de feu",
+      "description": "<p>Travailleurs taillés comme des nains, les Azers sont parmi les plus profonds habitants de ce monde. On les trouve dans des cités de bronze et d’obsidienne construites près du noyau en fusion de la planète. Les Azers vouent leur existence à l’artisanat, en particulier tout ce qui se rapporte au feu et aux objets magiques utilisant cet élément. Bourrus et réservés, ils n’ont pas pour habitude d’accorder leurs faveurs au premier quémandeur frappant à leur porte, même s’il a montré une aptitude quelconque à supporter la chaleur infernale de leur environnement. Malgré tout, ils respectent le travail bien fait. Apprendre la forge auprès d’un artisan Azer, c’est avoir accès à des secrets ignorés des forgerons de la surface. Comme pour beaucoup d’autres choses, rendre une visite aux Azers est un jeu risqué mais qui peut en valoir la chandelle.</p>\n<p>Penchant : Confectionner des objets ouvragés</p>\n<ul>\n<li>Proposer un échange ou un marché</li>\n<li>Frapper avec le feu ou la magie</li>\n<li>Fournir exactement l’objet recherché, à un certain coût</li>\n</ul>"
+    },
+    "Deep Elf Swordmaster": {
+      "name": "Maître-Lame Elfe des Profondeurs",
+      "tokenName": "Maître-Lame Elfe des Profondeurs",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/deep-elf-swordmaster.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/deep-elf-swordmaster%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Il y a des siècles, les elfes des profondeurs ont oublié la douceur et la gentillesse de leurs joyeux cousins de la surface, mais ils en ont gardé leur grâce. Ils combattent avec une vélocité et une beauté à tirer une larme de n’importe quel guerrier. Ils se sont entraînés dans les ténèbres. Leur escrime est empreinte de cruauté et leur perversité est manifeste. Les lames dentelées et les fouets ont remplacé les lances-étendard chatoyantes des elfes de la surface. Les maîtres-lame ne cherchent pas simplement à tuer, mais aussi à infliger un châtiment à chaque coup porté par leur épée. La souffrance et la cruauté sont leur devise.</p>\n<p>Penchant : Punir les incroyants</p>\n<ul>\n<li>Faire souffrir outre mesure</li>\n<li>Utiliser l’obscurité à son avantage</li>\n</ul>"
+    },
+    "Chuul": {
+      "name": "Chuul",
+      "tokenName": "Chuul",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/chuul.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/chuul%20-%20token.webp",
+      "damageModifier": "3 perforant",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Grand\"},{\"value\":\"Prudent\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": "Amphibie",
+      "description": "<p>Votre phobie des fruits de mer prend vie. Imaginez un être vicieux, mi-homme, mi-homard, maudit d’une intelligence primitive et béni d’une paire de pinces coupantes comme des rasoirs. Des créatures bizarres se cachent dans les bassins puants de grottes que l’on ferait mieux d’oublier. Le chuul est l’une d’elles. Si vous en croisez un, votre meilleur espoir est d’avoir un énorme maillet pour briser sa carapace et peut-être un peu de beurre à l’ail. Mmmm.</p>\n<p>Penchant : Découper</p>\n<ul>\n<li>Couper quelque chose en deux avec ses pinces puissantes</li>\n<li>Battre en retraite dans son bassin</li>\n</ul>"
+    },
+    "Deep Elf Assassin": {
+      "name": "Assassin Elfe des Profondeurs",
+      "tokenName": "Assassin Elfe des Profondeurs",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e7/deep-elf-assassin.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e7/deep-elf-assassin%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Ce n’est pas une querelle entre reines ni une chose aussi simple qu’une guerre territoriale ou de religion qui a conduit à la grande séparation des elfes. C’est la tristesse. C’est la déchéance du monde causée par les races inférieures. Alors que la gloire de tout ce que les elfes avaient bâti se fissurait, certains choisirent de quitter ce monde. Le cœur lourd, ils tournèrent le dos aux hommes et aux nains. D’autres, encore, furent envahis d’un sentiment nouveau qu’aucun elfe n’avait éprouvé auparavant : la rancune. Emplis de haine, ils s’en sont pris à leurs cousins plus faibles. Certains, malgré tout, sont restés après le grand exode vers l’en-dessous. Ils se cachent parmi nous avec des lames trempées dans du venin d’araignée, infligeant le plus incongru des châtiments : la vengeance elfique.</p>\n<p>Penchant : Se venger des habitants de la surface</p>\n<ul>\n<li>Empoisonner ses adversaires</li>\n<li>Lancer un sort ancien</li>\n<li>Appeler des renforts</li>\n</ul>"
+    }
+  }
+}

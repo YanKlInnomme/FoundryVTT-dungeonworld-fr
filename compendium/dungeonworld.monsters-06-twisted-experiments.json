@@ -1,0 +1,165 @@
+{
+  "label": "E6 - Expériences contre Nature",
+  "mapping": {
+    "imagePath": "img",
+    "tokenPath": "prototypeToken.texture.src",
+    "name": "name",
+    "damageModifier": "system.attributes.damage.piercing",
+    "tags": "system.tags",
+    "specialQualities": "system.attributes.specialQualities.value",
+    "description": "system.details.biography"
+  },
+  "folders": {},
+  "entries": {
+    "Rust Monster": {
+      "name": "Oxydeur",
+      "tokenName": "Oxydeur",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/rust-monster.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/rust-monster%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Construction\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Toucher corrosif",
+      "description": "<p>Une créature très particulière. On dirait un criquet rouge. En tout cas, ça a des pattes de criquet. Et c’est aveugle à ce qu’il semble, ça se repère grâce à de grandes antennes de papillon. Ça se nourrit en triant des bouts de métal à la recherche d’un morceau de choix. Il mange tout type de métal. Son simple contact transforme les objets métalliques en confettis rouillés. Les objets magiques résistent plus longtemps, mais, face à un Oxydeur, ce n’est qu’une question de temps. Seuls les dieux savent d’où ils viennent, mais c’est une plaie pour peu que vous teniez à votre équipement.</p>\n<p>Penchant : Désintégrer le métal</p>\n<ul>\n<li>Faire rouiller le métal</li>\n<li>Gagner en force en absorbant le métal</li>\n</ul>"
+    },
+    "Digester": {
+      "name": "Engloutisseur",
+      "tokenName": "Engloutisseur",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/digester.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/digester%20-%20token.webp",
+      "damageModifier": "ignore l’armure",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Construction\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Sécrète de l’acide gastrique",
+      "description": "<p>« Je dois l’admettre, les expériences magiques ne sont pas une science exacte. Pour chaque pégase merveilleux, il y a une créature à moitié finie qui n’allait pas comme il faut. Nous l’avons bien compris. Ce concept d’éléphant-gobelin que vous trouviez génial ou encore le drake gélatineux. Ce ne sont que des exemples, je ne juge pas. Bref, nous avons quelque chose pour ça, on l’appelle l’engloutisseur. Il a la gueule de l’emploi. C’est bizarre et ça ne sent pas très bon, mais cette chose mange la magie comme Svenloff le Fier boit sa bière. La prochaine fois qu’un incident malheureux de ce genre se produit, vous n’aurez qu’à l’apporter à l’engloutisseur et tous vos soucis seront absorbés. Il faut juste le surveiller, cette sale bête a avalé ma baguette magique la semaine dernière. »</p>\n<p>Penchant : Digérer</p>\n<ul>\n<li>Manger quelque chose</li>\n<li>En tirer sa subsistance</li>\n</ul>"
+    },
+    "Manticore": {
+      "name": "Manticore",
+      "tokenName": "Mainticore",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/manticore.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/manticore%20-%20token.webp",
+      "damageModifier": "1 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Construction\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Dévastateur\"}]",
+      "specialQualities": "Ailé",
+      "description": "<p>Si la chimère est un premier pas sur le chemin des ténèbres, la Manticore est une porte qui ne peut être refermée une fois ouverte. Un lion, un scorpion, des ailes de dragon. Toutes ces parties sont difficile à obtenir, mais pas impossible ; ce ne sont quand même que des animaux. La dernière partie de cette bête, un visage sifflant de haine, est l’ingrédient qui rend la Manticore si cruelle. Jeune ou âgé, homme ou femme, ça n’a pas d’importance, du moment que ce sont des êtres humains vivants qui sont liés à cette créature par une magie obscure. L’essence de ce qu’ils sont est perdue, et c’est peut-être une bénédiction, mais cette bête est née de la souffrance humaine. Pas étonnant qu’elle aime tant tuer.</p>\n<p>Penchant : Tuer</p>\n<ul>\n<li>Empoisonner ses adversaires</li>\n<li>Mettre quelque chose en pièces</li>\n</ul>"
+    },
+    "Ettin": {
+      "name": "Ettin",
+      "tokenName": "Ettin",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/ettin.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/ettin%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Construction\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Deux têtes",
+      "description": "<p>Qu’est-ce qui est plus dangereux qu’un géant des collines abruti et furieux ? Le même géant avec deux têtes. Une idée géniale, vraiment. Le fin du fin.</p>\n<p>Penchant : Écraser</p>\n<ul>\n<li>Attaquer deux ennemis à la fois</li>\n<li>Défendre son créateur</li>\n</ul>"
+    },
+    "Ethereal Filcher": {
+      "name": "Chapardeur Éthéré",
+      "tokenName": "Chapardeur Éthéré",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/ethereal-filcher.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/ethereal-filcher%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Fourbe\"},{\"value\":\"Planaire\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Excavation",
+      "description": "<p>Des choses disparaissent. Une chaussette, une cuillère en argent, les os de feu votre mère. On accuse la femme de ménage, la malchance ou juste un moment d’inattention et puis on passe à autre chose. On ne met jamais le doigt sur la véritable cause de toutes ces disparitions. Cette chose arachnéenne avec des mains humaines et des yeux brillants est aussi bleue que le plan éthéré d’où elle est originaire. On ne voit jamais la toile qu’elle se tisse à partir de sa soie astrale argentée, ni tous les objets volés, agencés en une folle géométrie. On ne la voit jamais ranger sa collection de phalanges de halfelins, subtilisées à leurs propriétaires endormis. On a de la chance, d’une certaine façon.</p>\n<p>Penchant : Dérober des objets</p>\n<ul>\n<li>Emporter quelque chose de valeur dans son repaire planaire</li>\n<li>Battre en retraite dans le plan éthéré</li>\n<li>Utiliser un objet de son repaire</li>\n</ul>"
+    },
+    "Owlbear": {
+      "name": "Hibours",
+      "tokenName": "Hibours",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/owlbear.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/owlbear%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Construction\"},{\"value\":\"Proche\"}]",
+      "specialQualities": " ",
+      "description": "<p>Le corps d’un ours, les plumes d’un hibou. Un bec, des griffes et une excellente vision nocturne. Que rêver de mieux ?</p>\n<p>Penchant : Chasser</p>\n<ul>\n<li>Frapper dans l’ombre</li>\n</ul>"
+    },
+    "Chimera": {
+      "name": "Chimère",
+      "tokenName": "Chimère",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/chimera.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/chimera%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Construction\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": " ",
+      "description": "<p>Bien connue et classée dans tous les bestiaires, que ce soit le codex de la Guilde des Mages ou du Compendium des Créatures de Cullaina, il n’y a aucune doute sur ce qu’est une chimère : une créature perfectionnée. Deux tiers lion, un tiers serpent, une tête de chèvre et toute la magie vicieuse qu’on peut y ajouter. Le rituel de création peut varier sur un détail ou deux, suivant la créativité du sorcier (qui pourrait échanger un souffle de feu contre un souffle d’acide, par exemple). Utilisée comme sentinelle, assassin, ou, qui sait, comme simple instrument du chaos déchaîné, la chimère est la pire forme d’abomination, une insulte délibérée à tout ce qui est naturel.</p>\n<p>Penchant : Exécuter les ordres qu’on lui a confiés</p>\n<ul>\n<li>Souffler du feu</li>\n<li>Piétiner</li>\n<li>Empoisonner ses adversaires</li>\n</ul>"
+    },
+    "Derro": {
+      "name": "Derro",
+      "tokenName": "Derro",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/derro.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/derro%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Fourbe\"},{\"value\":\"Intelligent\"},{\"value\":\"Organisés\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Télépathie",
+      "description": "<p>On pense toujours que les infâmes monstres magiques créés dans ce monde sont le résultat d’expériences menées par des sorciers, des magiciens ou des types dans ce genre ; que les académies et les tours sont des laboratoires qui accueillent des expériences malsaines. Des bourdes sont commises aussi dans les profondeurs de la terre. Les Derros sont le résultat des erreurs d’un alchimiste nain depuis longtemps oublié. Cependant, les Derros n’oublient pas. Difformes et haineux, on les reconnaît à leur crâne surdéveloppé en raison d’un cerveau trop grand. Ils communiquent exclusivement par la pensée et complotent dans le silence des ténèbres pour prendre leur revanche : celle des créatures sur leurs créateurs.</p>\n<p>Penchant : Remplacer les nains</p>\n<ul>\n<li>Envahir un esprit de pensées étrangères</li>\n<li>Prendre le contrôle de l’esprit d’une bête</li>\n</ul>"
+    },
+    "Xorn": {
+      "name": "Xorn",
+      "tokenName": "Xorn",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/xorn.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/xorn%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Grand\"},{\"value\":\"Construction\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"}]",
+      "specialQualities": "Excavation",
+      "description": "<p>Un broyeur d’ordures élémentaire créé par les nains. Il ressemble à une poubelle avec des bras tout autour, prêts à agripper les pierres et les rochers pour les fourrer dans sa gueule béante. Il mange des pierres qu’il transforme en lumière et chaleur. Pratique pour creuser des mines ou des carrières. Mais si l’un d’entre eux se retrouve perdu dans les égouts d’une cité ou dans les sous-sols d’un château, alors vous êtes dans les ennuis jusqu’au cou. Ils mangent encore et encore jusqu’à ce qu’il ne reste rien et que tout s’écroule. Et puis ils vont ailleurs. Demandez à Burrin, fils de Fjornvald, banni par son clan. Je vous parie qu’il aurait une bonne histoire à vous raconter à propos d’un Xorn.</p>\n<p>Penchant : Manger</p>\n<ul>\n<li>Avaler la pierre</li>\n<li>Envoyer un rayon de lumière et de chaleur</li>\n</ul>"
+    },
+    "Pegasus": {
+      "name": "Pégase",
+      "tokenName": "Pégase",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/pegasus.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/pegasus%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Construction\"},{\"value\":\"Proche\"}]",
+      "specialQualities": "Ailé",
+      "description": "<p>N’allez pas croire que toutes les créatures nées artificiellement sont d’horribles abominations. Ne croyez pas une seconde que toutes les créatures ne sont que tentacules, cris, sang ou quoi que ce soit d’autre. Prenez cette noble bête, par exemple. Créature adorable, n’est-ce pas ? Un magnifique cheval blanc avec des ailes de cygne. On ne croirait pas qu’elle puisse voler et pourtant, elle y parvient. Les elfes font des miracles à leur manière. Et ils peuvent se reproduire grâce à la pureté de la magie elfique. Les pégases naissent dans de petits œufs de cristal et sont liés à leur cavalier pour la vie. Il y a encore de la beauté en ce monde, je vous le dis !</p>\n<p>Instinct : Porter un cavalier dans les airs</p>\n<ul>\n<li>Donner un avantage à son cavalier</li>\n</ul>"
+    },
+    "Kraken": {
+      "name": "Kraken",
+      "tokenName": "Kraken",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/kraken.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/kraken%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Aquatique",
+      "description": "<p>« Un céphalo-quoi ? Non, p’tit. Pas « un kraken » mais « Le Kraken ». J’sais pas c’qu’y-t-ont raconté à l’école d’où tu dis v’nir, mais ici, on respecte l’Affameur. Hé ouais, c’est comme ça qu’on l’appelle. L’Affameur des Profondeurs pour être plus exact. C’est pas un dieu, mais c’est tout comme. C’est un calamar ! Un cal’mar géant avec des tentacules plus épais qu’un baril et des yeux aussi grands qu’une pleine lune. Il est malin, aussi c’t’Affameur. Il sait quand attaquer, quand t’es trop bourré ou trop claqué, ou quand t’es à court d’eau potable, c’est là qu’il vient t’attraper. Nan, j’l’ai jamais vu. J’suis encore en vie, pas vrai ? »</p>\n<p>Penchant : Régner sur les océans</p>\n<ul>\n<li>Entraîner quelqu’un ou un bateau dans les profondeurs</li>\n<li>Enserrer ses victimes avec ses tentacules</li>\n</ul>"
+    },
+    "Girallon": {
+      "name": "Girallon",
+      "tokenName": "Girallon",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/girallon.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/girallon%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "De nombreux bras",
+      "description": "<p>Les battements de tambour dans la jungle l’appellent, tout comme le morceau de viande déposé sur la pierre sacrificielle pour l’attirer. Ce singe géant s’appelle Girallon, nom venu d’une ancienne langue morte, celle des rois qui ont élevé la bête. Certains disent qu’il serait plus grand qu’une tour. Une fourrure couleur ivoire et des canines comme des cimeterres. Quatre bras ? Six ? Les rumeurs sont difficilement vérifiables. C’est tous les ans la même histoire : des explorateurs visitent les villages de la jungle en quête du grand singe et reviennent bredouilles, mais plus tout à fait les mêmes. Les battements de tambour continuent.</p>\n<p>Penchant : Régner sur la jungle</p>\n<ul>\n<li>Répondre à l’appel du sacrifice</li>\n<li>Expulser les intrus de la jungle</li>\n<li>Jeter quelqu’un</li>\n</ul>"
+    },
+    "Iron Golem": {
+      "name": "Golem de Fer",
+      "tokenName": "Golem de Fer",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/iron-golem.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/iron-golem%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Groupe\"},{\"value\":\"Grand\"},{\"value\":\"Construction\"},{\"value\":\"Proche\"},{\"value\":\"Allonge\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Métallique",
+      "description": "<p>La base de l’art de l’enchantement. Chaque forgesort ou méchano-thaumaturge du royaume le sait : golem de fer n’est pas un nom approprié. En effet, ces gardiens sont constitués de plusieurs métaux : acier, cuivre, ou même d’or dans de rares cas. Il s’agit plus d’un art que d’une science, et la construction d’un golem ouvragé est aussi respectée dans le royaume que celle d’un nouveau pont ou d’un château sur une montagne. Sentinelle infaillible, pilier défenseur, le golem vit pour servir, selon les ordres, éternellement. Tout enchanteur qui gagne sa vie peut s’en fabriquer un s’il a les moyens d’acheter le matériel.</p>\n<p>Penchant : Servir</p>\n<ul>\n<li>Suivre les ordres implacablement</li>\n<li>Utiliser un équipement spécial intégré</li>\n</ul>"
+    },
+    "Bulette": {
+      "name": "Bulette",
+      "tokenName": "Bulette",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/bulette.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/bulette%20-%20token.webp",
+      "damageModifier": "3 perforant",
+      "tags": "[{\"value\":\"Solitaire\"},{\"value\":\"Énorme\"},{\"value\":\"Construction\"},{\"value\":\"Proche\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "Excavation",
+      "description": "<p>Un garde de caravane expérimenté sait écouter les alertes des éclaireurs et des sentinelles avec une oreille attentive. Lorsque l’alerte est donnée, réagir immédiatement est une question de vie ou de mort. Différents appels correspondent à différents dangers. Ainsi, « orcs ! » veut dire « dégainez vos épées et préparez-vous à vous battre » tandis que « brigands ! » veut dire « préparez-vous à négocier ». Parmi les alertes des éclaireurs, une seule veut toujours dire « pliez bagages, éperonnez votre cheval et galopez vers les collines » et c’est « REQUIN DE TERRE ! »</p>\n<p>Penchant : Dévorer</p>\n<ul>\n<li>Traîner ses proies dans des tunnels</li>\n<li>Surgir sous vos pieds</li>\n<li>Avaler quelque chose (ou quelqu’un) tout entier</li>\n</ul>"
+    },
+    "Flesh Golem": {
+      "name": "Golem de Chair",
+      "tokenName": "Golem de Chair",
+      "imagePath": "modules/dungeonworld-fr/assets/npc-e6/flesh-golem.webp",
+      "tokenPath": "modules/dungeonworld-fr/assets/npc-e6/flesh-golem%20-%20token.webp",
+      "damageModifier": " ",
+      "tags": "[{\"value\":\"Horde\"},{\"value\":\"Proche\"},{\"value\":\"Puissant\"}]",
+      "specialQualities": "De nombreux morceaux de cadavres",
+      "description": "<p>« Des morceaux de cadavres volés dans la nuit. Des cimetières discrètement retournés et, peut-être, un bras, une jambe, ou une nouvelle tête (la dernière s’est détachée trop vite). Même le plus humble apprenti-enchanteur peut réaliser quelque chose avec trois fois rien. Avec un peu de créativité, hé bien, il n’y a pas que l’Académie qui peut créer la vie, hein ? On va leur montrer. »</p>\n<p>Penchant : Vivre</p>\n<ul>\n<li>Suivre les ordres</li>\n<li>Détacher un morceau de son corps</li>\n</ul>"
+    }
+  }
+}

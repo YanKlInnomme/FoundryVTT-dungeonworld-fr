@@ -1,166 +1,166 @@
 {
-	"label": "Actions",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "Aid or Interfere",
-			"name": "Aider ou Gêner",
-			"description": "<p>Quand vous <em>aidez ou g&ecirc;nez</em> quelqu&rsquo;un&middot;e avec qui vous avez un lien, lancez <strong>2d6+LIEN</strong>.</p>",
-			"failure": "<p>Votre aide ou g&ecirc;ne est vaine.</p>",
-			"partial": "<p>La personne re&ccedil;oit, selon votre choix, <em>+1 ou -2 &agrave; son prochain jet</em> mais vous&nbsp;vous exposez &eacute;galement au danger, &agrave; une riposte ou &agrave; un co&ucirc;t.</p>",
-			"success": "<p>La personne re&ccedil;oit, selon votre choix, <em>+1 ou -2 &agrave; son prochain jet</em>.</p>"
-		},
-		{
-			"id": "Bolster",
-			"name": "Préparation",
-			"description": "<p>Lorsque vous <em>passez votre temps libre &agrave; l&rsquo;&eacute;tude, la m&eacute;ditation ou &agrave; un entra&icirc;nement intensif</em>, vous gagnez de la <em>pr&eacute;paration</em>. Si vous vous pr&eacute;parez pendant une semaine ou plus, gagnez 1 pr&eacute;paration. Si vous vous pr&eacute;parez pendant un mois ou plus, gagnez-en 3. Lorsque votre entra&icirc;nement se r&eacute;v&egrave;le payant, d&eacute;pensez 1 pr&eacute;paration pour ajouter +1 &agrave; un jet de d&eacute;s. Vous ne pouvez d&eacute;penser qu&rsquo;une pr&eacute;paration par jet.</p>"
-		},
-		{
-			"id": "Carouse",
-			"name": "Ripailler",
-			"description": "<p>Quand vous revenez triomphants et <em>organisez une grande f&ecirc;te</em>, d&eacute;pensez au moins 100 Po et lancez <strong>2d6</strong> (+1 par tranche de 100 Po suppl&eacute;mentaires).</p>",
-			"failure": "<p>Choisissez 1 mais les choses d&eacute;rapent franchement (lae MJ vous dira comment).</p>",
-			"partial": "<p>Choisissez 1.</p>",
-			"success": "<p>Choisissez 3.</p>",
-			"choices": "<ul><li>Vous vous liez d&rsquo;amiti&eacute; avec un PNJ utile.</li><li>Vous apprenez des rumeurs sur une opportunit&eacute;.</li><li>Vous recevez des informations utiles.</li><li>Vous ne vous faites pas embrouiller, ensorceler ou duper.</li></ul>"
-		},
-		{
-			"id": "Defend",
-			"name": "Défendre",
-			"description": "<p>Quand vous <em>d&eacute;fendez une personne, un objet ou un endroit</em> d&rsquo;une attaque, lancez <strong>2d6+CON</strong>.</p>",
-			"failure": "<p>Votre d&eacute;fense est un &eacute;chec.</p>",
-			"partial": "<p>Retenez 1.</p>",
-			"success": "<p>Retenez 3.</p>",
-			"choices": "<p>Aussi longtemps que vous d&eacute;fendez, d&egrave;s lors que vous (ou ce que vous prot&eacute;gez) subissez une attaque, vous pouvez <strong>d&eacute;penser 1</strong> pour choisir l&rsquo;une des options suivantes :</p><ul><li>Rediriger vers vous l&rsquo;attaque ennemie.</li><li>Diminuer de moiti&eacute; l&rsquo;effet ou les d&eacute;g&acirc;ts de l&rsquo;attaque.</li><li>Offrir &agrave; un alli&eacute; un avantage de +1 sur sa prochaine action envers l&rsquo;attaquant.</li><li>Infliger autant de d&eacute;g&acirc;ts que votre niveau &agrave; l&rsquo;adversaire.</li></ul>"
-		},
-		{
-			"id": "Defy Danger",
-			"name": "Défier le Danger",
-			"description": "<p>Quand vous <em>agissez malgr&eacute; une menace imminente ou que vous subissez une catastrophe</em>, d&eacute;crivez la fa&ccedil;on de vous y prendre et lancez <strong>2d6</strong>&hellip;</p><ul><li><strong>+FOR</strong> si vous passez en force.</li><li><strong>+DEX</strong> si vous agissez rapidement ou &eacute;vitez le danger.</li><li><strong>+CON</strong> si vous endurez ce qui vous arrive.</li><li><strong>+INT</strong> si vous faites preuve d&rsquo;ing&eacute;niosit&eacute;.</li><li><strong>+SAG</strong> si vous usez de patience ou de volont&eacute;.</li><li><strong>+CHA</strong> si vous usez de vos charmes ou d&rsquo;un talent de soci&eacute;t&eacute;.</li></ul>",
-			"failure": "<p>Vous &eacute;chouez : lae MJ vous expose les cons&eacute;quences de cet &eacute;chec.</p>",
-			"partial": "<p>Vous tr&eacute;buchez, h&eacute;sitez ou flanchez : lae MJ vous pr&eacute;sente une situation qui empire, un march&eacute; p&eacute;nible ou un choix d&eacute;sagr&eacute;able.</p>",
-			"success": "<p>Vous parvenez &agrave; vos fins sans subir le danger.</p>"
-		},
-		{
-			"id": "Discern Realities",
-			"name": "Discerner la Réalité",
-			"description": "<p>Lorsque vous <em>observez attentivement une situation ou une personne</em>, lancez <strong>2d6+SAG</strong>.</p>",
-			"failure": "<p>Vous &eacute;chouez : lae MJ vous expose les cons&eacute;quences de cet &eacute;chec.</p>",
-			"partial": "<p>Posez une question de la liste ci-dessous. Vous avez +1 &agrave; la prochaine action qui tient compte de la r&eacute;ponse.</p>",
-			"success": "<p>Posez 3 questions de la liste ci-dessous. Vous avez +1 &agrave; la prochaine action qui tient compte de la r&eacute;ponse.</p>",
-			"choices": "<ul><li>Que s&rsquo;est-il pass&eacute; ici r&eacute;cemment ?</li><li>Que va-t-il se passer ?</li><li>&Agrave; quoi dois-je &ecirc;tre attentif ?</li><li>Qu&rsquo;est-ce qui pourrait m&rsquo;&ecirc;tre utile ou pr&eacute;cieux ici ?</li><li>Qui est vraiment ma&icirc;tre de la situation ici ?</li><li>Qu&rsquo;est-ce qui n&rsquo;est pas ce qu&rsquo;il para&icirc;t &ecirc;tre ici ?</li></ul>"
-		},
-		{
-			"id": "Encumbrance",
-			"name": "Encombrement",
-			"description": "<p>Quand vous <em>tentez une action en portant une charge</em>, vous risquez d&rsquo;&ecirc;tre encombr&eacute;. Si le Poids que vous portez est :</p><ul><li><strong>&eacute;gal ou inf&eacute;rieur &agrave; votre charge</strong>, vous n&rsquo;&ecirc;tes <em>pas p&eacute;nalis&eacute;</em>,</li><li><strong>&eacute;gal ou inf&eacute;rieur &agrave; votre charge +2</strong>, vous subissez une <em>p&eacute;nalit&eacute; de -1</em> tant que vous ne vous &ecirc;tes pas all&eacute;g&eacute;,</li><li><strong>sup&eacute;rieur &agrave; votre charge +2</strong>, all&eacute;gez-vous d&rsquo;au moins 1 poids et agissez &agrave; -1 ou <em>&eacute;chouez automatiquement</em>.</li></ul>"
-		},
-		{
-			"id": "End of Session",
-			"name": "Fin de Session",
-			"description": "<p>Quand vous <em>finissez une session</em> (soir&eacute;e) de jeu, si vous pensez qu&rsquo;un de vos liens est r&eacute;solu (vous en avez fait le tour, il n&rsquo;est plus pertinent, ou autre), demandez au·à la joueur·euse du PJ li&eacute; au v&ocirc;tre s&rsquo;il pense de m&ecirc;me. Si c&rsquo;est le cas, marquez 1 PX et cr&eacute;ez un nouveau lien avec qui vous voulez, si vous le voulez. Une fois tous vos liens pass&eacute;s en revue, v&eacute;rifiez si vous avez agi en fonction de votre alignement au moins une fois dans la session. Si c&rsquo;est le cas, marquez 1 PX.</p><p>Ensuite, le groupe doit r&eacute;pondre &agrave; ces trois questions :</p><ul><li>Avons-nous appris quelque chose de nouveau et d&rsquo;important sur le monde ?</li><li>Avons-nous vaincu un ennemi ou un monstre remarquable ?</li><li>Avons-nous trouv&eacute; un tr&eacute;sor m&eacute;morable ?</li></ul><p>Pour chaque oui, chaque PJ marque 1 PX.</p>"
-		},
-		{
-			"id": "Hack & Slash",
-			"name": "Tailler en Pièces",
-			"description": "<p>Quand vous <em>attaquez un ennemi en m&ecirc;l&eacute;e</em>, jetez <strong>2d6+FOR</strong>.</p>",
-			"failure": "<p>Vous n'atteignez pas la cible escompt&eacute;e.</p>",
-			"partial": "<p>Vous infligez vos d&eacute;g&acirc;ts &agrave; l&rsquo;ennemi mais vous subissez une riposte.</p>",
-			"success": "<p>Vous infligez vos d&eacute;g&acirc;ts &agrave; l&rsquo;ennemi et &eacute;vitez son attaque. Vous pouvez choisir d&rsquo;infliger <strong>+1d6</strong> d&eacute;g&acirc;ts en <em>vous exposant &agrave; l&rsquo;attaque ennemie</em>.</p>"
-		},
-		{
-			"id": "Last Breath",
-			"name": "Dernier soupir",
-			"description": "<p>Quand vous rendez votre <em>dernier soupir</em>, vous avez un bref aper&ccedil;u de ce qui vous attend derri&egrave;re le Sombre Portail du Royaume des Morts (lae MJ vous dira quoi). Puis lancez <strong>2d6+</strong> rien (oui, rien, la mort se moque de savoir si vous &ecirc;tes baraqu&eacute; ou sympa).</p>",
-			"failure": "<p>Votre funeste sort est in&eacute;vitable et vous franchirez sous peu le Sombre Portail. Lae MJ vous dira quand.</p>",
-			"partial": "<p>La Mort elle-m&ecirc;me vous propose un march&eacute;. Acceptez et vous &ecirc;tes stabilis&eacute;&middot;e ou refusez et rejoignez ce qui vous attend derri&egrave;re le Sombre Portail.</p>",
-			"success": "<p>Vous &eacute;chappez &agrave; la Mort. Vous &ecirc;tes en mauvaise posture mais encore vivant.</p>"
-		},
-		{
-			"id": "Level Up",
-			"name": "Monter de niveau",
-			"description": "<p>Quand vous avez du temps libre devant vous (heures ou jours) et que le nombre de vos PX est &eacute;gal ou sup&eacute;rieur &agrave; votre niveau +7, vous tirez les le&ccedil;ons de vos aventures et <em>am&eacute;liorez vos talents</em> :</p><ul><li>soustrayez votre niveau +7 de vos PX,</li><li>augmentez votre niveau de 1,</li><li>choisissez une nouvelle action avanc&eacute;e de votre classe,</li><li>si vous &ecirc;tes Magicien&middot;ne, ajoutez un sort &agrave; votre grimoire,</li><li>augmentez d&rsquo;un point l&rsquo;une de vos caract&eacute;ristiques et augmentez son ajustement si n&eacute;cessaire. Augmenter le score de <strong>CON</strong> augmente aussi le nombre de points de vie. Aucune caract&eacute;ristique ne peut d&eacute;passer 18.</li></ul>"
-		},
-		{
-			"id": "Make Camp",
-			"name": "Monter un Camp",
-			"description": "<p>Quand vous <em>vous installez pour vous reposer</em>, d&eacute;pensez une ration. Si vous &ecirc;tes dans un endroit dangereux, attribuez des <em>tours de garde</em>. Si vous avez assez de points d&rsquo;exp&eacute;rience, vous pouvez <em>monter de niveau</em>. Lorsque vous vous r&eacute;veillez apr&egrave;s quelques heures de sommeil ininterrompu, r&eacute;cup&eacute;rez la moiti&eacute; de votre maximum de PV.</p>"
-		},
-		{
-			"id": "Outstanding Warrants",
-			"name": "Avis de Recherche",
-			"description": "<p>Lorsque vous <em>revenez dans un endroit civilis&eacute; o&ugrave; vous avez caus&eacute; des ennuis</em> auparavant, lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "<p>Le r&eacute;cit de vos &laquo; exploits &raquo; s&rsquo;est r&eacute;pandu et tout le monde vous reconna&icirc;t. Lae MJ choisit une complication imm&eacute;diate.</p>",
-			"partial": "<p>Le r&eacute;cit de vos &laquo; exploits &raquo; s&rsquo;est r&eacute;pandu et tout le monde vous reconna&icirc;t. Lae MJ choisit une complication :</p><ul><li>La police locale a lanc&eacute; un avis de recherche &agrave; votre encontre.</li><li>Une personne a mis votre t&ecirc;te &agrave; prix.</li><li>Une personne qui compte pour vous a &eacute;t&eacute; inqui&eacute;t&eacute;e &agrave; la suite de vos actions.</li></ul>",
-			"success": "<p>Vos actions pass&eacute;es n'ont pas marqu&eacute; les esprits et personne ne vous reconna&icirc;t.</p>"
-		},
-		{
-			"id": "Parley",
-			"name": "Négocier",
-			"description": "<p>Quand vous <em>n&eacute;gociez avec un PNJ</em> et que vous avez une monnaie d&rsquo;&eacute;change, lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "<p>La n&eacute;gociation &eacute;choue : lae MJ vous expose les cons&eacute;quences de cet &eacute;chec.</p>",
-			"partial": "<p>La personne fera ce que vous demandez si vous apportez imm&eacute;diatement la preuve que vous tiendrez parole.</p>",
-			"success": "<p>La personne fera ce que vous demandez &agrave; condition que vous promettiez d&rsquo;abord de faire ce qu&rsquo;il d&eacute;sire.</p>"
-		},
-		{
-			"id": "Recover",
-			"name": "Récupérer",
-			"description": "<p>Vous <em>r&eacute;cup&eacute;rez tous vos PV</em> au bout d&rsquo;un jour &agrave; vous reposer confortablement en s&eacute;curit&eacute;. Apr&egrave;s trois jours, vous retirez un handicap de votre choix. Si l&rsquo;on vous prodigue des soins (magiques ou non) durant ce repos, vous retirez un handicap tous les deux jours au lieu de trois.</p>"
-		},
-		{
-			"id": "Recruit",
-			"name": "Recruter",
-			"description": "<p>Quand vous faites savoir que vous <em>cherchez &agrave; embaucher</em> du renfort, lancez <strong>2d6</strong> :</p><ul><li>+1 si vous annoncez que le salaire est g&eacute;n&eacute;reux,</li><li>+1 si vous faites conna&icirc;tre vos projets,</li><li>+1 si vous faites savoir que vous distribuerez une part de ce que vous trouverez,</li><li>+1 si vous avez une bonne r&eacute;putation dans le coin.</li></ul>",
-			"failure": "<p>Quelqu&rsquo;un d&rsquo;influent et d&rsquo;inapte d&eacute;clare qu&rsquo;il aimerait venir (par exemple : une jeune t&ecirc;te br&ucirc;l&eacute;e, un boulet, ou un ennemi d&eacute;guis&eacute;). Embauchez-le et acceptez-en les cons&eacute;quences ou refusez la candidature.</p><p>Si vous refusez une ou plusieurs candidatures, vous avez -1 &agrave; suivre pour recruter de nouveau.</p>",
-			"partial": "<p>Il faudra vous contenter d&rsquo;un profil proche de celui que vous recherchez ou refuser la candidature.</p>",
-			"success": "<p>Vous avez le choix parmi plusieurs candidats qualifi&eacute;s et vous ne souffrez d&rsquo;aucune p&eacute;nalit&eacute; pour ceux que vous n&rsquo;embauchez pas.</p>"
-		},
-		{
-			"id": "Spout Lore",
-			"name": "Étaler sa Science",
-			"description": "<p>Quand vous <em>faites appel &agrave; votre savoir</em> concernant quelque chose, lancez <strong>2d6+INT</strong>.</p>",
-			"failure": "<p>Le trou de m&eacute;moire. Vous ne vous souvenez de rien.</p>",
-			"partial": "<p>Lae MJ vous indiquera juste quelque chose d&rsquo;int&eacute;ressant ; &agrave; vous de le rendre utile.</p><p>Lae MJ peut vous demander &laquo; comment le sais-tu ? &raquo;. Dites-lui tout de suite la v&eacute;rit&eacute;.</p>",
-			"success": "<p>Lae MJ vous dira quelque chose d&rsquo;int&eacute;ressant et d&rsquo;utile &agrave; ce sujet.</p><p>Lae MJ peut vous demander &laquo; comment le sais-tu ? &raquo;. Dites-lui tout de suite la v&eacute;rit&eacute;.</p>"
-		},
-		{
-			"id": "Supply",
-			"name": "Achats",
-			"description": "<p>Lorsque vous allez <em>acheter quelque chose</em> avec la bourse pleine, vous pouvez l&rsquo;obtenir au prix du march&eacute;, si c&rsquo;est habituellement vendu l&agrave; o&ugrave; vous vous trouvez.</p><p>Si c&rsquo;est quelque chose de sp&eacute;cial, d&rsquo;inhabituel ou au-del&agrave; de ce qui est normalement disponible, lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "<p>Votre recherche est vaine.</p>",
-			"partial": "<p>Vous aurez &agrave; payer plus ou &agrave; vous contenter de quelque chose qui n&rsquo;est pas exactement ce que vous d&eacute;siriez. Lae MJ vous dira quelles sont vos options.</p>",
-			"success": "<p>Vous trouvez ce que vous cherchez &agrave; un bon prix.</p>"
-		},
-		{
-			"id": "Take Watch",
-			"name": "Tour de Garde",
-			"description": "<p>Quand c&rsquo;est votre <em>tour de garde</em> et que quelque chose approche du camp, lancez <strong>2d6+SAG</strong>.</p>",
-			"failure": "<p>Ce qui s&rsquo;est gliss&eacute; furtivement jusqu&rsquo;&agrave; la lumi&egrave;re du feu de camp vous tombe dessus.</p>",
-			"partial": "<p>Votre r&eacute;action est un peu tardive. Vos compagnons sont r&eacute;veill&eacute;s, mais n&rsquo;ont pas eu le temps de se pr&eacute;parer. Ils ont enfil&eacute; rapidement une armure et saisi leur arme, c&rsquo;est tout.</p>",
-			"success": "<p>Vous r&eacute;veillez tout le monde et parvenez &agrave; prendre des mesures de d&eacute;fense ; chacun gagne <em>+1 sur sa prochaine action</em>.</p>"
-		},
-		{
-			"id": "Undertake A Perilous Journey",
-			"name": "Entreprendre un Voyage périlleux",
-			"description": "<p>Quand vous <em>voyagez &agrave; travers un territoire hostile</em>, d&eacute;signez un&middot;e &eacute;claireur&middot;euse,&nbsp;<br>un&middot;e serre-file et un&middot;e intendant&middot;e. Chacun&middot;e d&rsquo;entre elleux lance <strong>2d6+SAG</strong>.</p><p>Si vous n&rsquo;attribuez pas un ou plusieurs de ces r&ocirc;les, cela vaut comme si vous aviez fait 6-.</p>",
-			"failure": "<p>Le trajet consomme plus de rations que d&rsquo;ordinaire, il est plus long que pr&eacute;vu ou ce qui vous attendait sur le chemin vous tombe dessus sans crier gare.</p>",
-			"partial": "<p>Chacun&middot;e assure son r&ocirc;le comme esp&eacute;r&eacute; : le nombre normal de rations est consomm&eacute;, le trajet prend le temps escompt&eacute; et personne ne vous surprend (vous ne prenez personne par surprise non plus).</p>",
-			"success": "<ul><li>l&rsquo;intendant&middot;e r&eacute;duit le nombre de rations n&eacute;cessaires de 1,</li><li>lae serre-file r&eacute;duit le temps n&eacute;cessaire pour parvenir &agrave; destination (lae MJ vous dira de combien),</li><li>l&rsquo;&eacute;claireur&middot;euse rep&egrave;re les dangers &eacute;ventuels suffisamment t&ocirc;t pour vous donner l&rsquo;avantage.</li></ul>"
-		},
-		{
-			"id": "Volley",
-			"name": "Salve",
-			"description": "<p>Quand vous <em>visez et tirez sur un ennemi &agrave; distance</em>, lancez <strong>2d6+DEX</strong>.</p>",
-			"failure": "<p>Vous n'atteignez pas la cible escompt&eacute;e.</p>",
-			"partial": "<p>Infligez vos d&eacute;g&acirc;ts et choisissez une option :</p><ul><li>Vous vous <em>exposez au danger</em> pour tirer (au choix du&middot;de lae MJ).</li><li>Vous tirez au jug&eacute; : <strong>-1d6</strong> d&eacute;g&acirc;ts.</li><li>Vous devez vous y reprendre &agrave; plusieurs fois : <em>&eacute;puisez 1 munition.</em></li></ul>",
-			"success": "<p>C&rsquo;est un coup au but, infligez vos d&eacute;g&acirc;ts.</p>"
-		}
-	]
+  "label": "Actions",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Aid or Interfere",
+      "name": "Aider ou Gêner",
+      "description": "<p>Quand vous <em>aidez ou gênez</em> quelqu’un·e avec qui vous avez un lien, lancez <strong>2d6+LIEN</strong>.</p>",
+      "failure": "<p>Votre aide ou gêne est vaine.</p>",
+      "partial": "<p>La personne reçoit, selon votre choix, <em>+1 ou -2 à son prochain jet</em> mais vous vous exposez également au danger, à une riposte ou à un coût.</p>",
+      "success": "<p>La personne reçoit, selon votre choix, <em>+1 ou -2 à son prochain jet</em>.</p>"
+    },
+    {
+      "id": "Bolster",
+      "name": "Préparation",
+      "description": "<p>Lorsque vous <em>passez votre temps libre à l’étude, la méditation ou à un entraînement intensif</em>, vous gagnez de la <em>préparation</em>. Si vous vous préparez pendant une semaine ou plus, gagnez 1 préparation. Si vous vous préparez pendant un mois ou plus, gagnez-en 3. Lorsque votre entraînement se révèle payant, dépensez 1 préparation pour ajouter +1 à un jet de dés. Vous ne pouvez dépenser qu’une préparation par jet.</p>"
+    },
+    {
+      "id": "Carouse",
+      "name": "Ripailler",
+      "description": "<p>Quand vous revenez triomphants et <em>organisez une grande fête</em>, dépensez au moins 100 Po et lancez <strong>2d6</strong> (+1 par tranche de 100 Po supplémentaires).</p>",
+      "failure": "<p>Choisissez 1 mais les choses dérapent franchement (lae MJ vous dira comment).</p>",
+      "partial": "<p>Choisissez 1.</p>",
+      "success": "<p>Choisissez 3.</p>",
+      "choices": "<ul><li>Vous vous liez d’amitié avec un PNJ utile.</li><li>Vous apprenez des rumeurs sur une opportunité.</li><li>Vous recevez des informations utiles.</li><li>Vous ne vous faites pas embrouiller, ensorceler ou duper.</li></ul>"
+    },
+    {
+      "id": "Defend",
+      "name": "Défendre",
+      "description": "<p>Quand vous <em>défendez une personne, un objet ou un endroit</em> d’une attaque, lancez <strong>2d6+CON</strong>.</p>",
+      "failure": "<p>Votre défense est un échec.</p>",
+      "partial": "<p>Retenez 1.</p>",
+      "success": "<p>Retenez 3.</p>",
+      "choices": "<p>Aussi longtemps que vous défendez, dès lors que vous (ou ce que vous protégez) subissez une attaque, vous pouvez <strong>dépenser 1</strong> pour choisir l’une des options suivantes :</p><ul><li>Rediriger vers vous l’attaque ennemie.</li><li>Diminuer de moitié l’effet ou les dégâts de l’attaque.</li><li>Offrir à un allié un avantage de +1 sur sa prochaine action envers l’attaquant.</li><li>Infliger autant de dégâts que votre niveau à l’adversaire.</li></ul>"
+    },
+    {
+      "id": "Defy Danger",
+      "name": "Défier le Danger",
+      "description": "<p>Quand vous <em>agissez malgré une menace imminente ou que vous subissez une catastrophe</em>, décrivez la façon de vous y prendre et lancez <strong>2d6</strong>…</p><ul><li><strong>+FOR</strong> si vous passez en force.</li><li><strong>+DEX</strong> si vous agissez rapidement ou évitez le danger.</li><li><strong>+CON</strong> si vous endurez ce qui vous arrive.</li><li><strong>+INT</strong> si vous faites preuve d’ingéniosité.</li><li><strong>+SAG</strong> si vous usez de patience ou de volonté.</li><li><strong>+CHA</strong> si vous usez de vos charmes ou d’un talent de société.</li></ul>",
+      "failure": "<p>Vous échouez : lae MJ vous expose les conséquences de cet échec.</p>",
+      "partial": "<p>Vous trébuchez, hésitez ou flanchez : lae MJ vous présente une situation qui empire, un marché pénible ou un choix désagréable.</p>",
+      "success": "<p>Vous parvenez à vos fins sans subir le danger.</p>"
+    },
+    {
+      "id": "Discern Realities",
+      "name": "Discerner la Réalité",
+      "description": "<p>Lorsque vous <em>observez attentivement une situation ou une personne</em>, lancez <strong>2d6+SAG</strong>.</p>",
+      "failure": "<p>Vous échouez : lae MJ vous expose les conséquences de cet échec.</p>",
+      "partial": "<p>Posez une question de la liste ci-dessous. Vous avez +1 à la prochaine action qui tient compte de la réponse.</p>",
+      "success": "<p>Posez 3 questions de la liste ci-dessous. Vous avez +1 à la prochaine action qui tient compte de la réponse.</p>",
+      "choices": "<ul><li>Que s’est-il passé ici récemment ?</li><li>Que va-t-il se passer ?</li><li>À quoi dois-je être attentif ?</li><li>Qu’est-ce qui pourrait m’être utile ou précieux ici ?</li><li>Qui est vraiment maître de la situation ici ?</li><li>Qu’est-ce qui n’est pas ce qu’il paraît être ici ?</li></ul>"
+    },
+    {
+      "id": "Encumbrance",
+      "name": "Encombrement",
+      "description": "<p>Quand vous <em>tentez une action en portant une charge</em>, vous risquez d’être encombré. Si le Poids que vous portez est :</p><ul><li><strong>égal ou inférieur à votre charge</strong>, vous n’êtes <em>pas pénalisé</em>,</li><li><strong>égal ou inférieur à votre charge +2</strong>, vous subissez une <em>pénalité de -1</em> tant que vous ne vous êtes pas allégé,</li><li><strong>supérieur à votre charge +2</strong>, allégez-vous d’au moins 1 poids et agissez à -1 ou <em>échouez automatiquement</em>.</li></ul>"
+    },
+    {
+      "id": "End of Session",
+      "name": "Fin de Session",
+      "description": "<p>Quand vous <em>finissez une session</em> (soirée) de jeu, si vous pensez qu’un de vos liens est résolu (vous en avez fait le tour, il n’est plus pertinent, ou autre), demandez au·à la joueur·euse du PJ lié au vôtre s’il pense de même. Si c’est le cas, marquez 1 PX et créez un nouveau lien avec qui vous voulez, si vous le voulez. Une fois tous vos liens passés en revue, vérifiez si vous avez agi en fonction de votre alignement au moins une fois dans la session. Si c’est le cas, marquez 1 PX.</p><p>Ensuite, le groupe doit répondre à ces trois questions :</p><ul><li>Avons-nous appris quelque chose de nouveau et d’important sur le monde ?</li><li>Avons-nous vaincu un ennemi ou un monstre remarquable ?</li><li>Avons-nous trouvé un trésor mémorable ?</li></ul><p>Pour chaque oui, chaque PJ marque 1 PX.</p>"
+    },
+    {
+      "id": "Hack & Slash",
+      "name": "Tailler en Pièces",
+      "description": "<p>Quand vous <em>attaquez un ennemi en mêlée</em>, jetez <strong>2d6+FOR</strong>.</p>",
+      "failure": "<p>Vous n'atteignez pas la cible escomptée.</p>",
+      "partial": "<p>Vous infligez vos dégâts à l’ennemi mais vous subissez une riposte.</p>",
+      "success": "<p>Vous infligez vos dégâts à l’ennemi et évitez son attaque. Vous pouvez choisir d’infliger <strong>+1d6</strong> dégâts en <em>vous exposant à l’attaque ennemie</em>.</p>"
+    },
+    {
+      "id": "Last Breath",
+      "name": "Dernier soupir",
+      "description": "<p>Quand vous rendez votre <em>dernier soupir</em>, vous avez un bref aperçu de ce qui vous attend derrière le Sombre Portail du Royaume des Morts (lae MJ vous dira quoi). Puis lancez <strong>2d6+</strong> rien (oui, rien, la mort se moque de savoir si vous êtes baraqué ou sympa).</p>",
+      "failure": "<p>Votre funeste sort est inévitable et vous franchirez sous peu le Sombre Portail. Lae MJ vous dira quand.</p>",
+      "partial": "<p>La Mort elle-même vous propose un marché. Acceptez et vous êtes stabilisé·e ou refusez et rejoignez ce qui vous attend derrière le Sombre Portail.</p>",
+      "success": "<p>Vous échappez à la Mort. Vous êtes en mauvaise posture mais encore vivant.</p>"
+    },
+    {
+      "id": "Level Up",
+      "name": "Monter de niveau",
+      "description": "<p>Quand vous avez du temps libre devant vous (heures ou jours) et que le nombre de vos PX est égal ou supérieur à votre niveau +7, vous tirez les leçons de vos aventures et <em>améliorez vos talents</em> :</p><ul><li>soustrayez votre niveau +7 de vos PX,</li><li>augmentez votre niveau de 1,</li><li>choisissez une nouvelle action avancée de votre classe,</li><li>si vous êtes Magicien·ne, ajoutez un sort à votre grimoire,</li><li>augmentez d’un point l’une de vos caractéristiques et augmentez son ajustement si nécessaire. Augmenter le score de <strong>CON</strong> augmente aussi le nombre de points de vie. Aucune caractéristique ne peut dépasser 18.</li></ul>"
+    },
+    {
+      "id": "Make Camp",
+      "name": "Monter un Camp",
+      "description": "<p>Quand vous <em>vous installez pour vous reposer</em>, dépensez une ration. Si vous êtes dans un endroit dangereux, attribuez des <em>tours de garde</em>. Si vous avez assez de points d’expérience, vous pouvez <em>monter de niveau</em>. Lorsque vous vous réveillez après quelques heures de sommeil ininterrompu, récupérez la moitié de votre maximum de PV.</p>"
+    },
+    {
+      "id": "Outstanding Warrants",
+      "name": "Avis de Recherche",
+      "description": "<p>Lorsque vous <em>revenez dans un endroit civilisé où vous avez causé des ennuis</em> auparavant, lancez <strong>2d6+CHA</strong>.</p>",
+      "failure": "<p>Le récit de vos « exploits » s’est répandu et tout le monde vous reconnaît. Lae MJ choisit une complication immédiate.</p>",
+      "partial": "<p>Le récit de vos « exploits » s’est répandu et tout le monde vous reconnaît. Lae MJ choisit une complication :</p><ul><li>La police locale a lancé un avis de recherche à votre encontre.</li><li>Une personne a mis votre tête à prix.</li><li>Une personne qui compte pour vous a été inquiétée à la suite de vos actions.</li></ul>",
+      "success": "<p>Vos actions passées n'ont pas marqué les esprits et personne ne vous reconnaît.</p>"
+    },
+    {
+      "id": "Parley",
+      "name": "Négocier",
+      "description": "<p>Quand vous <em>négociez avec un PNJ</em> et que vous avez une monnaie d’échange, lancez <strong>2d6+CHA</strong>.</p>",
+      "failure": "<p>La négociation échoue : lae MJ vous expose les conséquences de cet échec.</p>",
+      "partial": "<p>La personne fera ce que vous demandez si vous apportez immédiatement la preuve que vous tiendrez parole.</p>",
+      "success": "<p>La personne fera ce que vous demandez à condition que vous promettiez d’abord de faire ce qu’il désire.</p>"
+    },
+    {
+      "id": "Recover",
+      "name": "Récupérer",
+      "description": "<p>Vous <em>récupérez tous vos PV</em> au bout d’un jour à vous reposer confortablement en sécurité. Après trois jours, vous retirez un handicap de votre choix. Si l’on vous prodigue des soins (magiques ou non) durant ce repos, vous retirez un handicap tous les deux jours au lieu de trois.</p>"
+    },
+    {
+      "id": "Recruit",
+      "name": "Recruter",
+      "description": "<p>Quand vous faites savoir que vous <em>cherchez à embaucher</em> du renfort, lancez <strong>2d6</strong> :</p><ul><li>+1 si vous annoncez que le salaire est généreux,</li><li>+1 si vous faites connaître vos projets,</li><li>+1 si vous faites savoir que vous distribuerez une part de ce que vous trouverez,</li><li>+1 si vous avez une bonne réputation dans le coin.</li></ul>",
+      "failure": "<p>Quelqu’un d’influent et d’inapte déclare qu’il aimerait venir (par exemple : une jeune tête brûlée, un boulet, ou un ennemi déguisé). Embauchez-le et acceptez-en les conséquences ou refusez la candidature.</p><p>Si vous refusez une ou plusieurs candidatures, vous avez -1 à suivre pour recruter de nouveau.</p>",
+      "partial": "<p>Il faudra vous contenter d’un profil proche de celui que vous recherchez ou refuser la candidature.</p>",
+      "success": "<p>Vous avez le choix parmi plusieurs candidats qualifiés et vous ne souffrez d’aucune pénalité pour ceux que vous n’embauchez pas.</p>"
+    },
+    {
+      "id": "Spout Lore",
+      "name": "Étaler sa Science",
+      "description": "<p>Quand vous <em>faites appel à votre savoir</em> concernant quelque chose, lancez <strong>2d6+INT</strong>.</p>",
+      "failure": "<p>Le trou de mémoire. Vous ne vous souvenez de rien.</p>",
+      "partial": "<p>Lae MJ vous indiquera juste quelque chose d’intéressant ; à vous de le rendre utile.</p><p>Lae MJ peut vous demander « comment le sais-tu ? ». Dites-lui tout de suite la vérité.</p>",
+      "success": "<p>Lae MJ vous dira quelque chose d’intéressant et d’utile à ce sujet.</p><p>Lae MJ peut vous demander « comment le sais-tu ? ». Dites-lui tout de suite la vérité.</p>"
+    },
+    {
+      "id": "Supply",
+      "name": "Achats",
+      "description": "<p>Lorsque vous allez <em>acheter quelque chose</em> avec la bourse pleine, vous pouvez l’obtenir au prix du marché, si c’est habituellement vendu là où vous vous trouvez.</p><p>Si c’est quelque chose de spécial, d’inhabituel ou au-delà de ce qui est normalement disponible, lancez <strong>2d6+CHA</strong>.</p>",
+      "failure": "<p>Votre recherche est vaine.</p>",
+      "partial": "<p>Vous aurez à payer plus ou à vous contenter de quelque chose qui n’est pas exactement ce que vous désiriez. Lae MJ vous dira quelles sont vos options.</p>",
+      "success": "<p>Vous trouvez ce que vous cherchez à un bon prix.</p>"
+    },
+    {
+      "id": "Take Watch",
+      "name": "Tour de Garde",
+      "description": "<p>Quand c’est votre <em>tour de garde</em> et que quelque chose approche du camp, lancez <strong>2d6+SAG</strong>.</p>",
+      "failure": "<p>Ce qui s’est glissé furtivement jusqu’à la lumière du feu de camp vous tombe dessus.</p>",
+      "partial": "<p>Votre réaction est un peu tardive. Vos compagnons sont réveillés, mais n’ont pas eu le temps de se préparer. Ils ont enfilé rapidement une armure et saisi leur arme, c’est tout.</p>",
+      "success": "<p>Vous réveillez tout le monde et parvenez à prendre des mesures de défense ; chacun gagne <em>+1 sur sa prochaine action</em>.</p>"
+    },
+    {
+      "id": "Undertake A Perilous Journey",
+      "name": "Entreprendre un Voyage périlleux",
+      "description": "<p>Quand vous <em>voyagez à travers un territoire hostile</em>, désignez un·e éclaireur·euse, <br>un·e serre-file et un·e intendant·e. Chacun·e d’entre elleux lance <strong>2d6+SAG</strong>.</p><p>Si vous n’attribuez pas un ou plusieurs de ces rôles, cela vaut comme si vous aviez fait 6-.</p>",
+      "failure": "<p>Le trajet consomme plus de rations que d’ordinaire, il est plus long que prévu ou ce qui vous attendait sur le chemin vous tombe dessus sans crier gare.</p>",
+      "partial": "<p>Chacun·e assure son rôle comme espéré : le nombre normal de rations est consommé, le trajet prend le temps escompté et personne ne vous surprend (vous ne prenez personne par surprise non plus).</p>",
+      "success": "<ul><li>l’intendant·e réduit le nombre de rations nécessaires de 1,</li><li>lae serre-file réduit le temps nécessaire pour parvenir à destination (lae MJ vous dira de combien),</li><li>l’éclaireur·euse repère les dangers éventuels suffisamment tôt pour vous donner l’avantage.</li></ul>"
+    },
+    {
+      "id": "Volley",
+      "name": "Salve",
+      "description": "<p>Quand vous <em>visez et tirez sur un ennemi à distance</em>, lancez <strong>2d6+DEX</strong>.</p>",
+      "failure": "<p>Vous n'atteignez pas la cible escomptée.</p>",
+      "partial": "<p>Infligez vos dégâts et choisissez une option :</p><ul><li>Vous vous <em>exposez au danger</em> pour tirer (au choix du·de lae MJ).</li><li>Vous tirez au jugé : <strong>-1d6</strong> dégâts.</li><li>Vous devez vous y reprendre à plusieurs fois : <em>épuisez 1 munition.</em></li></ul>",
+      "success": "<p>C’est un coup au but, infligez vos dégâts.</p>"
+    }
+  ]
 }
