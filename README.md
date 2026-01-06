@@ -1,6 +1,6 @@
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-dungeonworld-fr%2Fmaster%2Fmodule.json&query=%24.compatibility.verified&label=foundry%20vtt&color=%23ee9b3a) ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-dungeonworld-fr%2Fmaster%2Fmodule.json&query=%24.version&label=version&color=%230f2f2b) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/YanKlInnomme/FoundryVTT-dungeonworld-fr/total) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-raw/YanKlInnomme/FoundryVTT-dungeonworld-fr) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed-raw/YanKlInnomme/FoundryVTT-dungeonworld-fr) ![GitHub forks](https://img.shields.io/github/forks/YanKlInnomme/FoundryVTT-dungeonworld-fr) ![GitHub Repo stars](https://img.shields.io/github/stars/YanKlInnomme/FoundryVTT-dungeonworld-fr) <a href="https://www.buymeacoffee.com/yank">![Static Badge](https://img.shields.io/badge/buy_me_a_coffee-FFDD00?logo=Buy%20Me%20A%20Coffee&logoColor=black)</a>
 
-**See below for the English version**
+[**See below for the English version**](#dungeonworld-fr-module-for-foundry-vtt)
 
 # Module dungeonworld-fr pour Foundry VTT
 Améliorer votre expérience de jeu avec ce module de traduction intégrale VF pour la version Dungeon World d'Asacolips pour Foundry VTT.
@@ -21,6 +21,11 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le système Dungeon World d'Asacolips
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
+
+## Version 3.1.0
+ * Ajout d'illutrations IA aux compendiums "Actor" pour une meilleure immersion visuelle :
+     - Avancement 82/154 soit ~53%
+ * Correction et optimisation du script du module (dungeonworld-fr.js)
 
 ## Version 3.0.0
  * Mise à jour suite au passage à la version 13 du système Dungeon World d'Asacolips
@@ -102,6 +107,7 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Traduction des compendiums "Actor" (Monstres 1 à 9)
 
 ---------------------------------------------------------------------
+# dungeonworld-fr module for Foundry VTT
 
 Enhance your gaming experience with this full VF translation module for the Dungeon World version of Asacolips for Foundry VTT.
 
@@ -113,6 +119,11 @@ In order to work this module requires the following prerequisites:
  * The Dungeon World system from Asacolips
  * The Babele module (essential for translation)
  * The Lib-wrapper module (Required by Babele)
+
+## Version 3.1.0
+ * Addition of AI illustrations to the "Actor" compendiums for better visual immersion:
+    - Progress 82/154 or ~53%
+ * Correction and optimization of the module script (dungeonworld-fr.js)
 
 ## Version 3.0.0
  * Update following the switch to version 13 of the Dungeon World system from Asacolips
